@@ -3,7 +3,6 @@ import json
 from collections import Counter
 import matplotlib.pyplot as plt
 
-
 def extract_requests_and_cookies(data):
     requests = []
     # Access requests from the 'data' field

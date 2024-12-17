@@ -1,0 +1,3001 @@
+{
+  "initialUrl": "http://venturebeat.com/",
+  "finalUrl": "https://venturebeat.com/",
+  "timeout": false,
+  "testStarted": 1734032944842,
+  "testFinished": 1734032953676,
+  "data": {
+    "requests": [
+      {
+        "url": "http://venturebeat.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "192.0.66.2",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Thu, 12 Dec 2024 19:49:05 GMT",
+          "content-type": "text/html",
+          "content-length": "162",
+          "connection": "keep-alive",
+          "location": "https://venturebeat.com/",
+          "x-rq": "mdw1"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://venturebeat.com/",
+        "initiators": [],
+        "time": 0.07726699998602271
+      },
+      {
+        "url": "https://venturebeat.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 26694,
+        "remoteIPAddress": "192.0.66.2",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Thu, 12 Dec 2024 19:49:05 GMT",
+          "content-type": "text/html; charset=UTF-8",
+          "vary": "Accept-Encoding",
+          "x-hacker": "If you're reading this, you should visit wpvip.com/careers and apply to join the fun, mention this header.",
+          "x-powered-by": "WordPress VIP <https://wpvip.com>",
+          "host-header": "a9130478a60e5f9135f765b23f26593b",
+          "content-encoding": "br",
+          "strict-transport-security": "max-age=31536000",
+          "x-rq": "mdw1 96 185 443",
+          "accept-ranges": "bytes",
+          "cache-control": "max-age=1800",
+          "x-cache": "MISS"
+        },
+        "responseBodyHash": "709827d7958595b64c9a1e93c6ad6dd4a705e0f7a69a1ae804ec6a4fe2d07a86",
+        "redirectedFrom": "http://venturebeat.com/",
+        "initiators": [],
+        "time": 0.2956049998756498
+      },
+      {
+        "url": "https://venturebeat.com/_static/??/wp-content/mu-plugins/jetpack-14.0/modules/infinite-scroll/infinity.css,/wp-content/themes/vb-news/dist/css/home.css?m=1734028574",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 9195,
+        "remoteIPAddress": "192.0.66.2",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Thu, 12 Dec 2024 19:49:05 GMT",
+          "content-type": "text/css;charset=utf-8",
+          "vary": "Accept-Encoding",
+          "last-modified": "Thu, 12 Dec 2024 18:36:14 GMT",
+          "content-encoding": "br",
+          "strict-transport-security": "max-age=31536000",
+          "x-rq": "mdw1 96 184 443",
+          "accept-ranges": "bytes",
+          "cache-control": "max-age=31536000",
+          "x-cache": "HIT"
+        },
+        "responseBodyHash": "5d201210313903b6d738ea4639e05bf6394f86768384bbe7572e3071e0610632",
+        "initiators": [
+          "https://venturebeat.com/"
+        ],
+        "time": 0.020994000136852264
+      },
+      {
+        "url": "https://venturebeat.com/wp-content/themes/vb-news/fonts/roboto-v20-latin/roboto-v20-latin-regular.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 16036,
+        "remoteIPAddress": "192.0.66.2",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Thu, 12 Dec 2024 19:49:05 GMT",
+          "content-type": "application/font-woff2",
+          "content-length": "15736",
+          "last-modified": "Fri, 15 Nov 2024 17:25:42 GMT",
+          "etag": "\"67378416-3d78\"",
+          "strict-transport-security": "max-age=31536000",
+          "x-rq": "mdw1 96 184 443",
+          "cache-control": "max-age=300, must-revalidate",
+          "x-cache": "HIT",
+          "access-control-allow-methods": "GET, HEAD",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes"
+        },
+        "responseBodyHash": "10f497496bb9bd7159c5e4c46b0ddcd21dacbbb0d552ba9a046bdd90d60fcff9",
+        "initiators": [
+          "https://venturebeat.com/"
+        ],
+        "time": 0.02453700010664761
+      },
+      {
+        "url": "https://venturebeat.com/wp-content/uploads/2024/12/nuneybits_Vector_art_of_a_robot_with_Google_logo_on_its_chest_w_1957dae4-6b81-444d-abac-1d8becc1306a.webp?w=1024",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 363902,
+        "remoteIPAddress": "192.0.66.2",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Thu, 12 Dec 2024 19:49:06 GMT",
+          "content-type": "image/webp",
+          "content-length": "363256",
+          "last-modified": "Wed, 11 Dec 2024 16:42:14 GMT",
+          "etag": "\"a5d4274ce33534c3\"",
+          "vary": "Accept",
+          "strict-transport-security": "max-age=31536000",
+          "x-rq": "mdw1 100 214 443",
+          "accept-ranges": "bytes\nbytes",
+          "cache-control": "max-age=31536000",
+          "x-cache": "HIT"
+        },
+        "responseBodyHash": "b504419cac373dde439cc5c39c26ec94d5ab29d4e6863bd2263d8f3a988b801c",
+        "initiators": [
+          "https://venturebeat.com/"
+        ],
+        "time": 0.2727220000233501
+      },
+      {
+        "url": "https://venturebeat.com/wp-content/uploads/2024/12/nuneybits_Cute_robot_who_is_coding_on_a_computer_fdb06a2c-6144-4895-9017-ef758ada6ffd.webp?w=1024",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 439253,
+        "remoteIPAddress": "192.0.66.2",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Thu, 12 Dec 2024 19:49:06 GMT",
+          "content-type": "image/webp",
+          "content-length": "438526",
+          "last-modified": "Wed, 11 Dec 2024 16:42:14 GMT",
+          "etag": "\"d2a3617e9bb8ba44\"",
+          "vary": "Accept",
+          "strict-transport-security": "max-age=31536000",
+          "x-rq": "mdw1 101 196 443",
+          "accept-ranges": "bytes\nbytes",
+          "cache-control": "max-age=31536000",
+          "x-cache": "HIT"
+        },
+        "responseBodyHash": "9e1989fb67b5c10366672d1007175caa2ade4c1b3abf228bcac813f107195444",
+        "initiators": [
+          "https://venturebeat.com/"
+        ],
+        "time": 0.29961300012655556
+      },
+      {
+        "url": "https://venturebeat.com/wp-content/uploads/2024/12/nuneybits_Vector_art_of_a_close-up_shot_of_the_Google_logo_on_a_290ad5f3-613b-40e8-a886-0cd6d9dc92c6.webp?w=1024",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 405221,
+        "remoteIPAddress": "192.0.66.2",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Thu, 12 Dec 2024 19:49:06 GMT",
+          "content-type": "image/webp",
+          "content-length": "404530",
+          "last-modified": "Wed, 11 Dec 2024 16:42:14 GMT",
+          "etag": "\"d1edd5a9944f0279\"",
+          "vary": "Accept",
+          "strict-transport-security": "max-age=31536000",
+          "x-rq": "mdw1 101 196 443",
+          "accept-ranges": "bytes\nbytes",
+          "cache-control": "max-age=31536000",
+          "x-cache": "HIT"
+        },
+        "responseBodyHash": "32e6251aa67a6ecbe88edfb7349c4e2dc135c6816f2f04ae09459e62c193b024",
+        "initiators": [
+          "https://venturebeat.com/"
+        ],
+        "time": 0.3094699999783188
+      },
+      {
+        "url": "https://venturebeat.com/wp-content/uploads/2024/12/developer-works-neon-gpu-cluster.png?w=350&h=175&crop=1",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 94831,
+        "remoteIPAddress": "192.0.66.2",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Thu, 12 Dec 2024 19:49:06 GMT",
+          "content-type": "image/webp",
+          "content-length": "94484",
+          "last-modified": "Thu, 12 Dec 2024 19:30:41 GMT",
+          "etag": "\"9ee1bc4b3f85ceb7\"",
+          "vary": "Accept",
+          "strict-transport-security": "max-age=31536000",
+          "x-rq": "mdw1 98 228 443",
+          "accept-ranges": "bytes\nbytes",
+          "cache-control": "max-age=31536000",
+          "x-cache": "HIT"
+        },
+        "responseBodyHash": "9deca7927ad4d33f3b92e5adeaf3a07e94ecdc3786c8011d693c7e70839cb8d7",
+        "initiators": [
+          "https://venturebeat.com/"
+        ],
+        "time": 0.3036519999150187
+      },
+      {
+        "url": "https://venturebeat.com/wp-content/uploads/2024/12/man-reading-haiku-pc.png?w=350&h=175&crop=1",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 96884,
+        "remoteIPAddress": "192.0.66.2",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Thu, 12 Dec 2024 19:49:06 GMT",
+          "content-type": "image/webp",
+          "content-length": "96536",
+          "last-modified": "Thu, 12 Dec 2024 17:15:43 GMT",
+          "etag": "\"834126f9b5ad0af7\"",
+          "vary": "Accept",
+          "strict-transport-security": "max-age=31536000",
+          "x-rq": "mdw1 101 176 443",
+          "accept-ranges": "bytes\nbytes",
+          "cache-control": "max-age=31536000",
+          "x-cache": "HIT"
+        },
+        "responseBodyHash": "bc44d2e0c0639d44096e25279e79a4a9e9ca33e032934c1f51214cb6f3e42078",
+        "initiators": [
+          "https://venturebeat.com/"
+        ],
+        "time": 0.3145679999142885
+      },
+      {
+        "url": "https://venturebeat.com/wp-content/uploads/2024/12/nuneybits_Vector_art_of_intellectual_property_194ee564-b25e-4c01-bf5b-a7ff47fd5afc.webp?w=350&h=175&crop=1",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 54470,
+        "remoteIPAddress": "192.0.66.2",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Thu, 12 Dec 2024 19:49:06 GMT",
+          "content-type": "image/webp",
+          "content-length": "54168",
+          "last-modified": "Thu, 12 Dec 2024 14:08:45 GMT",
+          "etag": "\"b2a91bb9eb15bfe6\"",
+          "vary": "Accept",
+          "strict-transport-security": "max-age=31536000",
+          "x-rq": "mdw1 98 228 443",
+          "accept-ranges": "bytes\nbytes",
+          "cache-control": "max-age=31536000",
+          "x-cache": "HIT"
+        },
+        "responseBodyHash": "ca32b1dae1facea861bc063749f74746911954e3fcf3d839e2fbbef2baa72d75",
+        "initiators": [
+          "https://venturebeat.com/"
+        ],
+        "time": 0.31666200002655387
+      },
+      {
+        "url": "https://venturebeat.com/wp-content/themes/vb-news/brand/img/vb-daily-newsletter.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1724423,
+        "remoteIPAddress": "192.0.66.2",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Thu, 12 Dec 2024 19:49:06 GMT",
+          "content-type": "image/png",
+          "content-length": "1722310",
+          "last-modified": "Fri, 15 Nov 2024 17:25:42 GMT",
+          "etag": "\"67378416-1a47c6\"",
+          "strict-transport-security": "max-age=31536000",
+          "x-rq": "mdw1 96 184 443",
+          "cache-control": "max-age=31536000",
+          "x-cache": "HIT",
+          "accept-ranges": "bytes"
+        },
+        "responseBodyHash": "7a54210ba4ee625b29fe21fca2f949e6521d2c465c0d0c853961800572ce87b1",
+        "initiators": [
+          "https://venturebeat.com/"
+        ],
+        "time": 3.3423589998856187
+      },
+      {
+        "url": "https://venturebeat.com/_static/??-eJyNjEEOwjAMwD5Emg2KxgXxFLR1YUtp02rJmPg9cEDiyNGSbdwqhCJGYphXqGmdWBQjWe3DHVrvGryyBBxWTiOy3FjYCDQsJaUvP11mcVF3+LOzmTIpPgYQ2hRHVsOo+AGYSGjp05/JXDK91Us+t93BN/vTsfPxBQq4Qx0=",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6380,
+        "remoteIPAddress": "192.0.66.2",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Thu, 12 Dec 2024 19:49:06 GMT",
+          "content-type": "application/javascript",
+          "vary": "Accept-Encoding",
+          "last-modified": "Thu, 12 Dec 2024 18:36:14 GMT",
+          "content-encoding": "br",
+          "strict-transport-security": "max-age=31536000",
+          "x-rq": "mdw1 96 185 443",
+          "accept-ranges": "bytes",
+          "cache-control": "max-age=31536000",
+          "x-cache": "HIT"
+        },
+        "responseBodyHash": "9f36d731f4eb1d90907a0fd2940f5b2b548fc1da65c0845aa4d4ab5524cfcb85",
+        "initiators": [
+          "https://venturebeat.com/"
+        ],
+        "time": 0.061852999962866306
+      },
+      {
+        "url": "https://stats.wp.com/e-202450.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2982,
+        "remoteIPAddress": "192.0.76.3",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Thu, 12 Dec 2024 19:49:06 GMT",
+          "content-type": "application/javascript",
+          "vary": "Accept-Encoding",
+          "x-minify": "t",
+          "x-minify-cache": "hit",
+          "etag": "W/14421-1717166113530.9253",
+          "content-encoding": "br",
+          "expires": "Mon, 08 Dec 2025 17:04:20 GMT",
+          "cache-control": "max-age=31536000",
+          "access-control-allow-methods": "GET, HEAD",
+          "access-control-allow-origin": "*",
+          "x-nc": "HIT mdw",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "5badd609a51ede5bab5b89534fc3011a4dd1ab487cc7081d7cf38479bcbab855",
+        "initiators": [
+          "https://venturebeat.com/"
+        ],
+        "time": 0.35535300010815263
+      },
+      {
+        "url": "https://cmp.inmobi.com/choice/UkS7f9ZMSZ6hP/www.venturebeat.com/choice.js?tag_version=V3",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1976,
+        "remoteIPAddress": "[2600:9000:24f8:2200:1b:cadc:ef40:93a1]",
+        "responseHeaders": {
+          "content-type": "application/javascript",
+          "last-modified": "Tue, 04 Jun 2024 08:54:31 GMT",
+          "x-amz-server-side-encryption": "AES256",
+          "server": "AmazonS3",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-encoding": "gzip",
+          "date": "Thu, 12 Dec 2024 19:49:06 GMT",
+          "cache-control": "max-age=900",
+          "etag": "W/\"2ffb70bda1d854a7e8eff545c614cdd1\"",
+          "vary": "Access-Control-Request-Headers,Access-Control-Request-Method,Origin,Accept-Encoding",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 f94f111858ae30776d9438404c17ed14.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P1",
+          "x-amz-cf-id": "IL2hun4ow6bnGJfBkl06GQRmOLLEnPitKM55wja-M8jvbutQXEMoTQ==",
+          "age": "42"
+        },
+        "responseBodyHash": "77b5a749e54d04223675c1e6a083fe5e1fcacc32a2e698647e85afdc0dc4a689",
+        "initiators": [
+          "https://venturebeat.com/"
+        ],
+        "time": 0.5298409999813884
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-M5ZX2VT",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 120304,
+        "remoteIPAddress": "[2607:f8b0:4002:c06::61]",
+        "responseHeaders": {
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-origin": "*",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "Cache-Control",
+          "content-encoding": "br",
+          "vary": "Accept-Encoding",
+          "date": "Thu, 12 Dec 2024 19:49:06 GMT",
+          "expires": "Thu, 12 Dec 2024 19:49:06 GMT",
+          "cache-control": "private, max-age=900",
+          "last-modified": "Thu, 12 Dec 2024 19:04:44 GMT",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascgcycc:1080:0",
+          "cross-origin-opener-policy-report-only": "same-origin; report-to=coop_reporting",
+          "report-to": "{\"group\":\"coop_reporting\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascgcycc:1080:0\"}],}",
+          "server": "Google Tag Manager",
+          "content-length": "119570",
+          "x-xss-protection": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "3ebf44883506ec7a81fa010be33f1b8acb10e1a0bd8ffc2f9a67369947d232f4",
+        "initiators": [
+          "https://venturebeat.com/"
+        ],
+        "time": 0.4959289999678731
+      },
+      {
+        "url": "https://venturebeat.com/wp-content/themes/vb-news/fonts/roboto-v20-latin/roboto-v20-latin-700.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 16115,
+        "remoteIPAddress": "192.0.66.2",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Thu, 12 Dec 2024 19:49:06 GMT",
+          "content-type": "application/font-woff2",
+          "content-length": "15816",
+          "last-modified": "Fri, 15 Nov 2024 17:25:42 GMT",
+          "etag": "\"67378416-3dc8\"",
+          "strict-transport-security": "max-age=31536000",
+          "x-rq": "mdw1 96 185 443",
+          "cache-control": "max-age=300, must-revalidate",
+          "x-cache": "HIT",
+          "access-control-allow-methods": "GET, HEAD",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes"
+        },
+        "responseBodyHash": "1d42af2adeab02b643fbdf0086157367d09f08e3b4874cdc203827a452eb5b6d",
+        "initiators": [
+          "https://venturebeat.com/_static/??/wp-content/mu-plugins/jetpack-14.0/modules/infinite-scroll/infinity.css,/wp-content/themes/vb-news/dist/css/home.css?m=1734028574"
+        ],
+        "time": 0.32083399989642203
+      },
+      {
+        "url": "https://mms.businesswire.com/media/20241212918148/en/2328344/2/Formic_Horizontal_Lockup_Black_%281%29.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 403,
+        "size": 0,
+        "remoteIPAddress": "184.26.226.20",
+        "responseHeaders": {
+          "server": "AkamaiGHost",
+          "mime-version": "1.0",
+          "content-length": "492",
+          "expires": "Thu, 12 Dec 2024 19:49:06 GMT",
+          "date": "Thu, 12 Dec 2024 19:49:06 GMT",
+          "content-type": "text/html; charset=UTF-8",
+          "x-frame-options": "SAMEORIGIN",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000 ; includeSubDomains ; preload"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://venturebeat.com/"
+        ],
+        "time": 0.19020699989050627
+      },
+      {
+        "url": "https://pixel.wp.com/g.gif?v=ext&blog=126020344&post=0&tz=-8&srv=venturebeat.com&hp=vip&j=1%3A14.0&host=venturebeat.com&ref=&fcp=872&rand=0.47552204059241077",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 177,
+        "remoteIPAddress": "192.0.76.3",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Thu, 12 Dec 2024 19:49:06 GMT",
+          "content-type": "image/gif",
+          "content-length": "50",
+          "cache-control": "no-cache",
+          "access-control-allow-origin": "*",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "3337660014a6f414e7fffd096cafd53c59b9ac5687fdc5f8701dbc822b4c8fc4",
+        "initiators": [
+          "https://stats.wp.com/e-202450.js",
+          "https://venturebeat.com/"
+        ],
+        "time": 0.04228499997407198
+      },
+      {
+        "url": "https://cmp.inmobi.com/tcfv2/53/cmp2.js?referer=www.venturebeat.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 44818,
+        "remoteIPAddress": "[2600:9000:24f8:2200:1b:cadc:ef40:93a1]",
+        "responseHeaders": {
+          "content-type": "text/javascript;charset=UTF-8",
+          "access-control-max-age": "86400",
+          "cache-control": "max-age=172800",
+          "date": "Thu, 12 Dec 2024 11:23:54 GMT",
+          "last-modified": "Mon, 03 Jun 2024 09:45:41 GMT",
+          "etag": "W/\"94ecd40669c01b7176fa0a4ffcf3fe8e\"",
+          "x-amz-storage-class": "INTELLIGENT_TIERING",
+          "x-amz-server-side-encryption": "AES256",
+          "server": "AmazonS3",
+          "access-control-allow-origin": "*",
+          "access-control-allow-methods": "GET",
+          "content-encoding": "br",
+          "vary": "Accept-Encoding",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 f94f111858ae30776d9438404c17ed14.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P1",
+          "x-amz-cf-id": "R_eMRx3MOqifsOESQcj5bJMpvbeUsHdpKuc7RQ33qx38HqND-zrV3g==",
+          "age": "30313"
+        },
+        "responseBodyHash": "2dd1b4e7e2c6ebfd815d4cdf497a829b83e9d30089e9f2cc35830594b78ffd39",
+        "initiators": [
+          "https://cmp.inmobi.com/choice/UkS7f9ZMSZ6hP/www.venturebeat.com/choice.js?tag_version=V3"
+        ],
+        "time": 0.03252000012435019
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-B8TDS1LEXQ&l=dataLayer&cx=c&gtm=45He4cb0v78033218za200",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 133246,
+        "remoteIPAddress": "[2607:f8b0:4002:c06::61]",
+        "responseHeaders": {
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-origin": "*",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "Cache-Control",
+          "content-encoding": "br",
+          "vary": "Accept-Encoding",
+          "date": "Thu, 12 Dec 2024 19:49:07 GMT",
+          "expires": "Thu, 12 Dec 2024 19:49:07 GMT",
+          "cache-control": "private, max-age=900",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascgcycc:838:0",
+          "cross-origin-opener-policy-report-only": "same-origin; report-to=coop_reporting",
+          "report-to": "{\"group\":\"coop_reporting\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascgcycc:838:0\"}],}",
+          "server": "Google Tag Manager",
+          "content-length": "132867",
+          "x-xss-protection": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "ff8bed55503930e6a1673b8948f77b35863aada8e52af7be05c12feb243ff761",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-M5ZX2VT"
+        ],
+        "time": 0.12864100001752377
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21598,
+        "remoteIPAddress": "[2607:f8b0:4002:c05::8a]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "x-content-type-options": "nosniff",
+          "content-encoding": "gzip",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgac:225:0",
+          "cross-origin-opener-policy-report-only": "same-origin; report-to=coop_reporting",
+          "report-to": "{\"group\":\"coop_reporting\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:225:0\"}],}",
+          "server": "Golfe2",
+          "content-length": "20994",
+          "date": "Thu, 12 Dec 2024 18:45:10 GMT",
+          "expires": "Thu, 12 Dec 2024 20:45:10 GMT",
+          "cache-control": "public, max-age=7200",
+          "age": "3837",
+          "last-modified": "Tue, 12 Dec 2023 18:09:08 GMT",
+          "content-type": "text/javascript",
+          "vary": "Accept-Encoding",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "de36e50194320a7d3ef1ace9bd34a875a8bd458b253c061979dd628e9bf49afd",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-M5ZX2VT"
+        ],
+        "time": 0.05298399995081127
+      },
+      {
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5324,
+        "remoteIPAddress": "[2600:1404:dc00::6875:f7bb]",
+        "responseHeaders": {
+          "last-modified": "Wed, 11 Dec 2024 08:31:33 GMT",
+          "x-amz-server-side-encryption": "AES256",
+          "accept-ranges": "bytes",
+          "content-type": "application/javascript;charset=utf-8",
+          "content-encoding": "gzip",
+          "content-length": "5114",
+          "cache-control": "max-age=37135",
+          "date": "Thu, 12 Dec 2024 19:49:07 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-cdn": "AKAM"
+        },
+        "responseBodyHash": "5615cdac4c30b1fb905891f5de1e1dcf7745b6b0ec88cfc89360ee48fc240977",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-M5ZX2VT"
+        ],
+        "time": 0.12432399997487664
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 64634,
+        "remoteIPAddress": "[2a03:2880:f082:108:face:b00c:0:3]",
+        "responseHeaders": {
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "content-type": "application/x-javascript; charset=utf-8",
+          "timing-allow-origin": "*",
+          "reporting-endpoints": "coop_report=\"https://www.facebook.com/browser_reporting/coop/?minimize=0\", coep_report=\"https://www.facebook.com/browser_reporting/coep/?minimize=0\", permissions_policy=\"https://www.facebook.com/ajax/browser_error_reports/\"",
+          "report-to": "{\"max_age\":2592000,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/browser_reporting\\/coop\\/?minimize=0\"}],\"group\":\"coop_report\",\"include_subdomains\":true}, {\"max_age\":86400,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/browser_reporting\\/coep\\/?minimize=0\"}],\"group\":\"coep_report\"}, {\"max_age\":21600,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/ajax\\/browser_error_reports\\/\"}],\"group\":\"permissions_policy\"}",
+          "content-security-policy": "default-src 'self' data: blob: *;script-src 'nonce-z3WqpGV9' *.facebook.com *.fbcdn.net *.facebook.net 127.0.0.1:* blob: data: 'self' https://*.google-analytics.com *.google.com;style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* wss://*.whatsapp.com:* wss://*.fbcdn.net attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' https://*.google-analytics.com;img-src 'self' data: blob: * https://*.google-analytics.com;block-all-mixed-content;upgrade-insecure-requests;report-uri https://www.facebook.com/csp/reporting/?minimize=0;require-trusted-types-for 'script';",
+          "document-policy": "force-load-at-top",
+          "permissions-policy": "accelerometer=(), attribution-reporting=(), autoplay=(), bluetooth=(), camera=(), ch-device-memory=(), ch-downlink=(), ch-dpr=(), ch-ect=(), ch-rtt=(), ch-save-data=(), ch-ua-arch=(), ch-ua-bitness=(), ch-viewport-height=(), ch-viewport-width=(), ch-width=(), clipboard-read=(), clipboard-write=(), compute-pressure=(), display-capture=(), encrypted-media=(), fullscreen=(self), gamepad=(), geolocation=(), gyroscope=(), hid=(), idle-detection=(), interest-cohort=(), keyboard-map=(), local-fonts=(), magnetometer=(), microphone=(), midi=(), otp-credentials=(), payment=(), picture-in-picture=(), private-state-token-issuance=(), publickey-credentials-get=(), screen-wake-lock=(), serial=(), shared-storage=(), shared-storage-select-url=(), private-state-token-redemption=(), usb=(), unload=(self), window-management=(), xr-spatial-tracking=();report-to=\"permissions_policy\"",
+          "cross-origin-resource-policy": "cross-origin",
+          "cross-origin-embedder-policy-report-only": "require-corp;report-to=\"coep_report\"",
+          "cross-origin-opener-policy": "same-origin-allow-popups",
+          "pragma": "public",
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "0",
+          "x-frame-options": "DENY",
+          "origin-agent-cluster": "?1",
+          "strict-transport-security": "max-age=31536000; preload; includeSubDomains",
+          "x-fb-debug": "gVpCliKvF0Se+QhWcQsCA6LLFDHzTAAkCxUbzmtzkIxwsoXpsfyZbvRhDeeZd43CfnqhU4GGtN+k4pY2ZOfRtQ==",
+          "content-length": "62212",
+          "date": "Thu, 12 Dec 2024 19:49:07 GMT",
+          "x-fb-connection-quality": "EXCELLENT; q=0.9, rtt=15, rtx=0, c=14, mss=1380, tbw=2712, tp=-1, tpl=-1, uplat=0, ullat=-1",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "c4eb49795f7a703429e7012cec0a556e6faf6f551f07cd337f66c5a1ec3a5847",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-M5ZX2VT"
+        ],
+        "time": 0.05241500004194677
+      },
+      {
+        "url": "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref=",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4625,
+        "remoteIPAddress": "[2606:4700:10::ac43:17ea]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:07 GMT",
+          "content-type": "application/javascript",
+          "vary": "accept-encoding",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-encoding": "gzip",
+          "last-modified": "Thu, 12 Dec 2024 19:49:07 GMT",
+          "cache-control": "max-age=14400",
+          "cf-cache-status": "EXPIRED",
+          "server": "cloudflare",
+          "cf-ray": "8f103c636faf4dea-MCI"
+        },
+        "responseBodyHash": "8e36cfde75e0f7eaebb0e0f3bc0d2105258bbfeb64517fb996c6099fb6a563f9",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-M5ZX2VT"
+        ],
+        "time": 0.189174999948591
+      },
+      {
+        "url": "https://ml314.com/tag.aspx?12112024",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13013,
+        "remoteIPAddress": "34.117.77.79",
+        "responseHeaders": {
+          "x-goog-generation": "1721849450340665",
+          "x-goog-metageneration": "1",
+          "x-goog-stored-content-encoding": "identity",
+          "x-goog-stored-content-length": "39162",
+          "x-goog-hash": "crc32c=6sDw2Q==\nmd5=YyYW/xWCXwMKqzORpY7wQg==",
+          "x-goog-storage-class": "STANDARD",
+          "accept-ranges": "bytes",
+          "x-guploader-uploadid": "AFiumC6gPw-GPlBw3vaOrVKs75NIvbQ5tLeLCKyODFpHkQx6bo2cSV2KDZ4fz20JiMdEot9u9p0rDOo",
+          "server": "UploadServer",
+          "via": "1.1 google",
+          "content-encoding": "br",
+          "content-length": "12522",
+          "date": "Thu, 12 Dec 2024 19:14:13 GMT",
+          "age": "2094",
+          "last-modified": "Wed, 24 Jul 2024 19:30:50 GMT",
+          "content-type": "application/javascript",
+          "vary": "Accept-Encoding",
+          "cache-control": "public,max-age=3600",
+          "x-cache-hit": "hit",
+          "cache-id": "ORD-319454a4",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "d0e12af8c4e560fe89643639e0c3ed4dc76125c62adeb2879b761d73dbaecf50",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-M5ZX2VT"
+        ],
+        "time": 0.1305569999385625
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?en=page_view&dl=https%3A%2F%2Fventurebeat.com%2F&scrsrc=www.googletagmanager.com&frm=0&rnd=1303457622.1734032948&auid=9043525.1734032948&navt=n&npa=0&us_privacy=error&gtm=45He4cb0v78033218za200&gcd=13l3l3l3l1l1&dma=0&tcfd=1000g&tag_exp=101509156~101925629~102067555~102067808~102081485~102198178&tft=1734032947834&tfd=2313&apve=1",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "[2607:f8b0:4002:c10::93]",
+        "responseHeaders": {
+          "content-type": "text/plain",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "date": "Thu, 12 Dec 2024 19:49:07 GMT",
+          "pragma": "no-cache",
+          "vary": "Origin\nX-Origin\nReferer",
+          "server": "scaffolding on HTTPServer2",
+          "content-length": "0",
+          "x-xss-protection": "0",
+          "x-frame-options": "SAMEORIGIN",
+          "x-content-type-options": "nosniff",
+          "access-control-allow-origin": "https://venturebeat.com",
+          "access-control-expose-headers": "date,vary,vary,vary,server,content-length",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-M5ZX2VT"
+        ],
+        "time": 0.10927799995988607
+      },
+      {
+        "url": "https://www.googletagmanager.com/static/service_worker/4cc0/sw_iframe.html?origin=https%3A%2F%2Fventurebeat.com",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "remoteIPAddress": "[2607:f8b0:4002:c06::61]",
+        "responseHeaders": {
+          "accept-ranges": "bytes",
+          "content-encoding": "br",
+          "cross-origin-resource-policy": "cross-origin",
+          "cross-origin-opener-policy": "same-origin; report-to=\"analytics-container-tag-serving\"",
+          "report-to": "{\"group\":\"analytics-container-tag-serving\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/analytics-container-tag-serving\"}]}",
+          "service-worker-allowed": "/static/service_worker",
+          "content-length": "1476",
+          "x-content-type-options": "nosniff",
+          "server": "sffe",
+          "x-xss-protection": "0",
+          "date": "Thu, 12 Dec 2024 16:56:16 GMT",
+          "expires": "Fri, 12 Dec 2025 16:56:16 GMT",
+          "cache-control": "public, max-age=31536000",
+          "last-modified": "Thu, 12 Dec 2024 10:18:00 GMT",
+          "content-type": "text/html",
+          "vary": "Accept-Encoding",
+          "age": "10372",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-M5ZX2VT"
+        ]
+      },
+      {
+        "url": "https://cmp.inmobi.com/geoip",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 334,
+        "remoteIPAddress": "[2600:9000:24f8:2200:1b:cadc:ef40:93a1]",
+        "responseHeaders": {
+          "server": "CloudFront",
+          "date": "Thu, 12 Dec 2024 19:49:08 GMT",
+          "content-type": "application/json",
+          "content-length": "49",
+          "x-cache": "FunctionGeneratedResponse from cloudfront",
+          "via": "1.1 55935195324044c1c5c95bf8d477e9d4.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P1",
+          "x-amz-cf-id": "ZbRjoqo4DFwFpAbIHDe3-fMOqewsHFnk7XqFXyqW2fHOXmxD9pBRew==",
+          "access-control-allow-origin": "*",
+          "access-control-expose-headers": "*"
+        },
+        "responseBodyHash": "8a4c9b4fa264de39b13a23aa2cf029a4cb9456720ae1cdd92da9c7b3ce6051ce",
+        "initiators": [
+          "https://cmp.inmobi.com/tcfv2/53/cmp2.js?referer=www.venturebeat.com"
+        ],
+        "time": 0.03966700006276369
+      },
+      {
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14854,
+        "remoteIPAddress": "[2600:1404:dc00::6875:f7bb]",
+        "responseHeaders": {
+          "last-modified": "Tue, 26 Nov 2024 13:42:26 GMT",
+          "x-amz-server-side-encryption": "AES256",
+          "cache-control": "max-age=86400",
+          "accept-ranges": "bytes",
+          "content-type": "application/javascript;charset=utf-8",
+          "content-encoding": "gzip",
+          "content-length": "14634",
+          "date": "Thu, 12 Dec 2024 19:49:08 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-cdn": "AKAM"
+        },
+        "responseBodyHash": "e6b8a90a2870483ace67380ff4a64b39bfecb7952a432393470d76a6614fc62c",
+        "initiators": [
+          "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+        ],
+        "time": 0.04967499990016222
+      },
+      {
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=1819369694&t=pageview&_s=1&dl=https%3A%2F%2Fventurebeat.com%2F&ul=en-us&de=UTF-8&dt=VentureBeat%20%7C%20Transformative%20tech%20coverage%20that%20matters&sd=30-bit&sr=1728x1117&vp=1440x812&je=0&_u=YGBACEABBAAAACAAI~&jid=154822853&gjid=1260513116&cid=137584344.1734032948&tid=UA-489886-1&_gid=198947072.1734032948&_r=1&_slc=1&gtm=45He4cb0n81M5ZX2VTv78033218za200&cg1=n%2Fa&cd3=B&gcd=13l3l3l3l1l1&dma=0&tcfd=1000g&tag_exp=101509156~101925629~102067555~102067808~102081485~102198178&z=1326120310",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 26,
+        "remoteIPAddress": "[2607:f8b0:4002:c05::8a]",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://venturebeat.com",
+          "date": "Thu, 12 Dec 2024 19:49:08 GMT",
+          "pragma": "no-cache",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "last-modified": "Sun, 17 May 1998 03:00:00 GMT",
+          "access-control-allow-credentials": "true",
+          "x-content-type-options": "nosniff",
+          "content-type": "text/plain",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgac:175:0",
+          "cross-origin-opener-policy-report-only": "same-origin; report-to=coop_reporting",
+          "report-to": "{\"group\":\"coop_reporting\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:175:0\"}],}",
+          "server": "Golfe2",
+          "content-length": "3",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "1cffc2b3146584685cd72751d7f28aa030ab9ae2f1bc78f2c27909f8d8287b26",
+        "initiators": [
+          "https://www.google-analytics.com/analytics.js"
+        ],
+        "time": 0.09150999994017184
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/456656537857707?v=2.9.178&r=stable&domain=venturebeat.com&hme=28abfdc7e582ae2a8fdd6ac5ebb406923cf601dc2ee488049b0628e75e0f6b36&ex_m=70%2C122%2C107%2C111%2C61%2C4%2C100%2C69%2C16%2C97%2C89%2C51%2C54%2C173%2C176%2C188%2C184%2C185%2C187%2C29%2C101%2C53%2C77%2C186%2C168%2C171%2C181%2C182%2C189%2C132%2C41%2C191%2C192%2C34%2C144%2C15%2C50%2C197%2C196%2C134%2C18%2C40%2C1%2C43%2C65%2C66%2C67%2C71%2C93%2C17%2C14%2C96%2C92%2C91%2C108%2C52%2C110%2C39%2C109%2C30%2C94%2C26%2C169%2C172%2C141%2C86%2C56%2C84%2C33%2C73%2C0%2C95%2C32%2C28%2C82%2C83%2C88%2C47%2C46%2C87%2C37%2C11%2C12%2C13%2C6%2C7%2C25%2C22%2C23%2C57%2C62%2C64%2C75%2C102%2C27%2C76%2C9%2C8%2C80%2C48%2C21%2C104%2C103%2C105%2C98%2C10%2C20%2C3%2C38%2C74%2C19%2C5%2C90%2C81%2C44%2C35%2C85%2C2%2C36%2C63%2C42%2C106%2C45%2C79%2C68%2C112%2C60%2C59%2C31%2C99%2C58%2C55%2C49%2C78%2C72%2C24%2C113",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14340,
+        "remoteIPAddress": "[2a03:2880:f082:108:face:b00c:0:3]",
+        "responseHeaders": {
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "content-type": "application/x-javascript; charset=utf-8",
+          "timing-allow-origin": "*",
+          "reporting-endpoints": "coop_report=\"https://www.facebook.com/browser_reporting/coop/?minimize=0\", coep_report=\"https://www.facebook.com/browser_reporting/coep/?minimize=0\", permissions_policy=\"https://www.facebook.com/ajax/browser_error_reports/\"",
+          "report-to": "{\"max_age\":2592000,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/browser_reporting\\/coop\\/?minimize=0\"}],\"group\":\"coop_report\",\"include_subdomains\":true}, {\"max_age\":86400,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/browser_reporting\\/coep\\/?minimize=0\"}],\"group\":\"coep_report\"}, {\"max_age\":21600,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/ajax\\/browser_error_reports\\/\"}],\"group\":\"permissions_policy\"}",
+          "content-security-policy": "default-src 'self' data: blob: *;script-src 'nonce-RVCaf7CC' *.facebook.com *.fbcdn.net *.facebook.net 127.0.0.1:* blob: data: 'self' https://*.google-analytics.com *.google.com;style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* wss://*.whatsapp.com:* wss://*.fbcdn.net attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' https://*.google-analytics.com;img-src 'self' data: blob: * https://*.google-analytics.com;block-all-mixed-content;upgrade-insecure-requests;require-trusted-types-for 'script';",
+          "document-policy": "force-load-at-top",
+          "permissions-policy": "accelerometer=(), attribution-reporting=(), autoplay=(), bluetooth=(), camera=(), ch-device-memory=(), ch-downlink=(), ch-dpr=(), ch-ect=(), ch-rtt=(), ch-save-data=(), ch-ua-arch=(), ch-ua-bitness=(), ch-viewport-height=(), ch-viewport-width=(), ch-width=(), clipboard-read=(), clipboard-write=(), compute-pressure=(), display-capture=(), encrypted-media=(), fullscreen=(self), gamepad=(), geolocation=(), gyroscope=(), hid=(), idle-detection=(), interest-cohort=(), keyboard-map=(), local-fonts=(), magnetometer=(), microphone=(), midi=(), otp-credentials=(), payment=(), picture-in-picture=(), private-state-token-issuance=(), publickey-credentials-get=(), screen-wake-lock=(), serial=(), shared-storage=(), shared-storage-select-url=(), private-state-token-redemption=(), usb=(), unload=(self), window-management=(), xr-spatial-tracking=();report-to=\"permissions_policy\"",
+          "cross-origin-resource-policy": "cross-origin",
+          "cross-origin-embedder-policy-report-only": "require-corp;report-to=\"coep_report\"",
+          "cross-origin-opener-policy": "same-origin-allow-popups;report-to=\"coop_report\"",
+          "pragma": "public",
+          "cache-control": "public, max-age=1200",
+          "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "0",
+          "x-frame-options": "DENY",
+          "origin-agent-cluster": "?1",
+          "strict-transport-security": "max-age=31536000; preload; includeSubDomains",
+          "x-fb-debug": "Hmls3XW09WtHnPDx+svf05anlYkCPU36zB/ERb0uU1WQ9gPfSTgx2zSrZaaOXwhInUrtogJK+cJ528G+pExDng==",
+          "date": "Thu, 12 Dec 2024 19:49:08 GMT",
+          "x-fb-connection-quality": "EXCELLENT; q=0.9, rtt=19, rtx=0, c=23, mss=1232, tbw=4498, tp=10, tpl=0, uplat=160, ullat=0",
+          "alt-svc": "h3=\":443\"; ma=86400",
+          "priority": "u=3,i"
+        },
+        "responseBodyHash": "96bec8323705a7b0acc96980ed7ac9d7e78f8bc865bc214f669669349361c329",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js"
+        ],
+        "time": 0.20624100021086633
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-B8TDS1LEXQ&gtm=45je4cb0v887537747z878033218za200zb78033218&_p=1734032946211&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&tcfd=1000g&tag_exp=101925629~102067555~102067808~102081485~102198178&cid=137584344.1734032948&ul=en-us&sr=1728x1117&uaa=&uab=&uamb=0&uam=&uap=&uapv=&uaw=0&frm=0&pscdl=noapi&_eu=Ag&_s=1&sid=1734032948&sct=1&seg=0&dl=https%3A%2F%2Fventurebeat.com%2F&dt=VentureBeat%20%7C%20Transformative%20tech%20coverage%20that%20matters&en=page_view&_fv=1&_ss=2&ep.sub_site=VentureBeat&ep.vb_gb=VB&ep.word_count=n%2Fa&ep.post_ID=&up.vb_reader=true&tfd=3440",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 204,
+        "remoteIPAddress": "[2001:4860:4802:34::181]",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://venturebeat.com",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "pragma": "no-cache",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "access-control-allow-credentials": "true",
+          "content-type": "text/plain",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsggc:136:0",
+          "cross-origin-opener-policy-report-only": "same-origin; report-to=coop_reporting",
+          "report-to": "{\"group\":\"coop_reporting\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsggc:136:0\"}],}",
+          "server": "Golfe2",
+          "content-length": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-B8TDS1LEXQ&l=dataLayer&cx=c&gtm=45He4cb0v78033218za200",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-M5ZX2VT",
+          "https://cmp.inmobi.com/tcfv2/53/cmp2.js?referer=www.venturebeat.com"
+        ],
+        "time": 0.40488600009121
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-B8TDS1LEXQ&cid=137584344.1734032948&gtm=45je4cb0v887537747z878033218za200zb78033218&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=101925629~102067555~102067808~102081485~102198178",
+        "method": "POST",
+        "type": "Ping",
+        "status": 204,
+        "size": 554,
+        "remoteIPAddress": "[2607:f8b0:4002:c0f::9b]",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://venturebeat.com",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "pragma": "no-cache",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "access-control-allow-credentials": "true",
+          "content-type": "text/plain",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsggc:111:0",
+          "cross-origin-opener-policy-report-only": "same-origin; report-to=coop_reporting",
+          "report-to": "{\"group\":\"coop_reporting\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsggc:111:0\"}],}",
+          "server": "Golfe2",
+          "content-length": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-B8TDS1LEXQ&l=dataLayer&cx=c&gtm=45He4cb0v78033218za200",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-M5ZX2VT",
+          "https://cmp.inmobi.com/tcfv2/53/cmp2.js?referer=www.venturebeat.com"
+        ],
+        "time": 0.10361200012266636
+      },
+      {
+        "url": "https://ml314.com/utsync.ashx?pub=&adv=&et=0&eid=50090&ct=js&pi=&fp=&clid=&if=0&ps=&cl=&mlt=&data=&&cp=https%3A%2F%2Fventurebeat.com%2F&pv=1734032947979_nq2yc28rh&bl=en-us&cb=1629516&return=&ht=&d=&dc=&si=1734032947979_nq2yc28rh&cid=VB&s=1728x1117&rp=&v=2.7.4.212",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 661,
+        "remoteIPAddress": "34.117.77.79",
+        "responseHeaders": {
+          "content-type": "application/javascript",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0",
+          "pragma": "no-cache",
+          "set-cookie": "u=aHR0cHM6Ly92ZW50dXJlYmVhdC5jb20v; expires=Thu, 12 Dec 2024 19:49:24 GMT; domain=ml314.com; path=/;SameSite=None; secure\npi=3649075765930098696; expires=Fri, 12 Dec 2025 19:49:09 GMT; domain=ml314.com; path=/; secure; samesite=none; httponly\ntp=4%253B12%252F12%252F2024%2B19%253A49%253A09; expires=Thu, 26 Dec 2024 19:49:09 GMT; domain=ml314.com; path=/;SameSite=None; secure",
+          "p3p": "CP=\"NON DSP COR ADMo PSAo DEVo BUS COM UNI NAV DEM STA\"",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "server": "Google Frontend",
+          "via": "1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "3adbd465e01177ad84f5e1dbcbd247b56eb60e4abec3b8a73b736a15161ae389",
+        "initiators": [
+          "https://ml314.com/tag.aspx?12112024",
+          "https://cmp.inmobi.com/tcfv2/53/cmp2.js?referer=www.venturebeat.com"
+        ],
+        "time": 0.12268700008280575
+      },
+      {
+        "url": "https://in.ml314.com/ud.ashx?topiclimit=&cb=12112024&v=2.7.4.212",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 482,
+        "remoteIPAddress": "44.213.212.172",
+        "responseHeaders": {
+          "cache-control": "public",
+          "content-encoding": "gzip",
+          "content-type": "application/javascript; charset=utf-8",
+          "date": "Thu, 12 Dec 2024 19:49:08 GMT",
+          "expires": "Fri, 13 Dec 2024 19:49:09 GMT",
+          "server": "Microsoft-IIS/10.0",
+          "vary": "Accept-Encoding",
+          "x-aspnet-version": "4.0.30319",
+          "x-powered-by": "ASP.NET",
+          "content-length": "138",
+          "connection": "keep-alive"
+        },
+        "responseBodyHash": "d0e4a6372d6fb5ffe9505dbe9e94aee8f1b9b96ec8e5e20684cce8b4c5a88fa7",
+        "initiators": [
+          "https://ml314.com/tag.aspx?12112024",
+          "https://cmp.inmobi.com/tcfv2/53/cmp2.js?referer=www.venturebeat.com"
+        ],
+        "time": 0.222097999881953
+      },
+      {
+        "url": "https://id.hadron.ad.gt/hadron.js?partner_id=173&sync=1&url=https%3A%2F%2Fventurebeat.com%2F",
+        "method": "GET",
+        "type": "Script",
+        "status": 404,
+        "remoteIPAddress": "[2606:4700:10::ac43:17ea]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-type": "text/html",
+          "cache-control": "max-age=14400",
+          "cf-cache-status": "HIT",
+          "age": "144",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "8f103c6c182a6a1e-MCI",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.23450400005094707
+      },
+      {
+        "url": "https://p.ad.gt/api/v1/p/173",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14486,
+        "remoteIPAddress": "[2606:4700:10::ac43:17ea]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-type": "application/javascript",
+          "vary": "accept-encoding",
+          "content-encoding": "gzip",
+          "last-modified": "Thu, 12 Dec 2024 19:43:24 GMT",
+          "cache-control": "max-age=14400",
+          "cf-cache-status": "HIT",
+          "age": "104",
+          "server": "cloudflare",
+          "cf-ray": "8f103c6c5a0d4de2-MCI"
+        },
+        "responseBodyHash": "a3ae5319e969884f5954bd196c13b0bebd61982bd1f1adda9c9adc0c6e2c70d7",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.14563299994915724
+      },
+      {
+        "url": "https://ids4.ad.gt/api/v1/ip_match?id=AU1D-0100-001734032949-UKJ4OAK6-N1YU",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 191,
+        "remoteIPAddress": "52.43.19.44",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "content-length": "0",
+          "server": "timberwolf",
+          "set-cookie": "au_id=AU1D-0100-001734032949-UKJ4OAK6-N1YU; Domain=ad.gt; Expires=Fri, 12 Dec 2025 19:49:09 GMT; Max-Age=31536000; Secure; Path=/; SameSite=None"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.24056699988432229
+      },
+      {
+        "url": "https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001734032949-UKJ4OAK6-N1YU&adnxs_id=$UID&gdpr=0",
+        "method": "GET",
+        "type": "Image",
+        "status": 307,
+        "remoteIPAddress": "104.254.151.69",
+        "responseHeaders": {
+          "server": "nginx/1.23.4",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "content-length": "0",
+          "cache-control": "no-store, no-cache, private",
+          "pragma": "no-cache",
+          "expires": "Sat, 15 Nov 2008 16:00:00 GMT",
+          "p3p": "policyref=\"http://cdn.adnxs-simple.com/w3c/policy/p3p.xml\", CP=\"NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE\"",
+          "x-xss-protection": "0",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "accept-ch": "Sec-CH-UA-Full-Version-List,Sec-CH-UA-Arch,Sec-CH-UA-Model,Sec-CH-UA-Platform-Version,Sec-CH-UA-Bitness",
+          "location": "https://secure.adnxs.com/bounce?%2Fgetuid%3Fhttps%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fmatch%3Fid%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU%26adnxs_id%3D%24UID%26gdpr%3D0",
+          "an-x-request-uuid": "0c4066f4-6481-45f0-8ded-14ef0d5556dd",
+          "set-cookie": "XANDR_PANID=Wvx7hQ6RSyU3AxRriGJitjdkZ4eVCixGPaRarM2rtMwF8p5C8hild1SeT2dKapeh1pW8pOleJT5rjZ_AP2mj8lHtf-YfR586TQbThXR3woA.; SameSite=None; Path=/; Max-Age=7776000; Expires=Wed, 12-Mar-2025 19:49:09 GMT; Domain=.adnxs.com; Secure; Partitioned\nreceive-cookie-deprecation=1; SameSite=None; Path=/; Max-Age=314496000; Expires=Thu, 30-Nov-2034 19:49:09 GMT; Domain=.adnxs.com; Secure; HttpOnly; Partitioned\nuuid2=6648430928778704752; SameSite=None; Path=/; Max-Age=7776000; Expires=Wed, 12-Mar-2025 19:49:09 GMT; Domain=.adnxs.com; Secure; HttpOnly",
+          "x-proxy-origin": "108.209.95.121; 108.209.95.121; 900.bm-nginx-loadbalancer.mgmt.lax1.adnexus.net; adnxs.com"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://secure.adnxs.com/bounce?%2Fgetuid%3Fhttps%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fmatch%3Fid%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU%26adnxs_id%3D%24UID%26gdpr%3D0",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.26811800012364984
+      },
+      {
+        "url": "https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU%26auid%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "34.98.64.218",
+        "responseHeaders": {
+          "server": "OXGW/0.0.0",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-length": "0",
+          "p3p": "CP=\"CUR ADM OUR NOR STA NID\"",
+          "location": "https://u.openx.net/w/1.0/cm?cc=1&id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU%26auid%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU",
+          "set-cookie": "i=ff38eaf3-8bb9-450d-9148-34783e096e08|1734032949; Version=1; Expires=Fri, 12-Dec-2025 19:49:09 GMT; Max-Age=31536000; Secure; Domain=.openx.net; Path=/; SameSite=None",
+          "via": "1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://u.openx.net/w/1.0/cm?cc=1&id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU%26auid%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.20135500002652407
+      },
+      {
+        "url": "https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "8.28.7.83",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "set-cookie": "KTPCACOOKIE=true; domain=pubmatic.com; SameSite=None; secure; expires=Wed, 12-Mar-2025 19:49:09 GMT; path=/",
+          "location": "https://image2.pubmatic.com/AdServer/UCookieSetPug?ird=1&rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU",
+          "p3p": "CP=\"NOI DSP COR LAW CUR ADMo DEVo TAIo PSAo PSDo IVAo IVDo HISo OTPo OUR SAMo BUS UNI COM NAV INT DEM CNT STA PRE LOC\"",
+          "cache-control": "no-store, no-cache, private"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://image2.pubmatic.com/AdServer/UCookieSetPug?ird=1&rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.20233800006099045
+      },
+      {
+        "url": "https://token.rubiconproject.com/token?pid=50242&puid=AU1D-0100-001734032949-UKJ4OAK6-N1YU&gdpr=0",
+        "method": "GET",
+        "type": "Image",
+        "status": 204,
+        "size": 1210,
+        "remoteIPAddress": "69.173.146.5",
+        "responseHeaders": {
+          "p3p": "CP=\"NOI CURa ADMa DEVa TAIa OUR BUS IND UNI COM NAV INT\"",
+          "pragma": "no-cache",
+          "cache-control": "no-cache,no-store,must-revalidate",
+          "expires": "0",
+          "x-rphost": "207e6e3bf58d030312efc0c602ea89b7",
+          "set-cookie": "audit_p=1|ymBHE6VXRMalrgzflyCUy0pJGfuqra3BaJ71nUPvQ9OG1vh6a/ae2TbT2UMjt5DjFriYRsBnX5pBK03vAHceEHP0swe0RknJoRjbyWWLTN4j5+SvyefVPNuPOQyxeXPcbowlQj49CbHbDhghRQwPinE00Ix14tFmzY7yoJVHQ3jeJRBGYIPH7rKpUjWTmmg0; Max-Age=31536000; Expires=Fri, 12 Dec 2025 19:49:09 GMT; Path=/; Domain=.rubiconproject.com; Secure; SameSite=None; Partitioned;\nkhaos=M4LQG2QK-1O-EYRU; Max-Age=31536000; Expires=Fri, 12 Dec 2025 19:49:09 GMT; Path=/; Domain=.rubiconproject.com; Secure; SameSite=None\nkhaos_p=M4LQG2QK-1O-EYRU; Max-Age=31536000; Expires=Fri, 12 Dec 2025 19:49:09 GMT; Path=/; Domain=.rubiconproject.com; Secure; SameSite=None; Partitioned;\naudit=1|ymBHE6VXRMalrgzflyCUy0pJGfuqra3BaJ71nUPvQ9OG1vh6a/ae2TbT2UMjt5DjFriYRsBnX5pBK03vAHceEHP0swe0RknJoRjbyWWLTN4j5+SvyefVPNuPOQyxeXPcbowlQj49CbHbDhghRQwPinE00Ix14tFmzY7yoJVHQ3jeJRBGYIPH7rKpUjWTmmg0; Max-Age=31536000; Expires=Fri, 12 Dec 2025 19:49:09 GMT; Path=/; Domain=.rubiconproject.com; Secure; SameSite=None"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.12076900014653802
+      },
+      {
+        "url": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001734032949-UKJ4OAK6-N1YU&gdpr=0",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "35.71.131.137",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-length": "273",
+          "location": "https://match.adsrvr.org/track/cmb/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001734032949-UKJ4OAK6-N1YU&gdpr=0",
+          "server": "Kestrel",
+          "set-cookie": "TDID=7c627083-cc25-4a11-917c-a681c2a46fb0; expires=Fri, 12 Dec 2025 19:49:09 GMT; domain=.adsrvr.org; path=/; secure; samesite=none\nTDCPM=CAEYBSgCMgsI8vjv55i8zT0QBTgB; expires=Fri, 12 Dec 2025 19:49:09 GMT; domain=.adsrvr.org; path=/; secure; samesite=none"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://match.adsrvr.org/track/cmb/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001734032949-UKJ4OAK6-N1YU&gdpr=0",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.263241000007838
+      },
+      {
+        "url": "https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001734032949-UKJ4OAK6-N1YU&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU%26tapad_id%3D%24%7BTA_DEVICE_ID%7D",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "34.111.113.62",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "strict-transport-security": "max-age=31536000",
+          "access-control-allow-origin": "*",
+          "accept-ch": "Sec-CH-UA\nSec-CH-UA-Arch\nSec-CH-UA-Bitness\nSec-CH-UA-Full-Version-List\nSec-CH-UA-Mobile\nSec-CH-UA-Model\nSec-CH-UA-Platform\nSec-CH-UA-Platform-Version\nSec-CH-UA-WoW64",
+          "p3p": "policyref=\"http://tapad-taptags.s3.amazonaws.com/policy/p3p.xml\", CP=\"NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE\"",
+          "set-cookie": "TapAd_TS=1734032949201;Expires=Mon, 10 Feb 2025 19:49:09 GMT;Path=/;Domain=.tapad.com;Secure;SameSite=None\nTapAd_DID=c2984ea9-cb1f-4ec6-88e6-7e2e1ca6e1eb;Expires=Mon, 10 Feb 2025 19:49:09 GMT;Path=/;Domain=.tapad.com;Secure;SameSite=None",
+          "location": "https://pixel.tapad.com/idsync/ex/receive/check?partner_id=3185&partner_device_id=AU1D-0100-001734032949-UKJ4OAK6-N1YU&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU%26tapad_id%3D%24%7BTA_DEVICE_ID%7D",
+          "content-length": "0",
+          "server": "Jetty(11.0.13)",
+          "via": "1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://pixel.tapad.com/idsync/ex/receive/check?partner_id=3185&partner_device_id=AU1D-0100-001734032949-UKJ4OAK6-N1YU&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU%26tapad_id%3D%24%7BTA_DEVICE_ID%7D",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.20133600011467934
+      },
+      {
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=audigent_w_appnexus_3985&google_cm&google_sc&google_ula=450542624&id=AU1D-0100-001734032949-UKJ4OAK6-N1YU",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 409,
+        "remoteIPAddress": "172.253.124.155",
+        "responseHeaders": {
+          "content-type": "image/png",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "pragma": "no-cache",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "cache-control": "no-cache, must-revalidate",
+          "cross-origin-resource-policy": "cross-origin",
+          "server": "HTTP server (unknown)",
+          "content-length": "170",
+          "x-xss-protection": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "071d0a5d172af491aedca9041f20e830d25fd4d339a1006bca3bed949069aa30",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.1922780000604689
+      },
+      {
+        "url": "https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "[2620:112:f008:200::101]",
+        "responseHeaders": {
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI CURa DEVa TAIa PSAa PSDa IVAa IVDa OUR IND UNI NAV\"",
+          "cache-control": "max-age=0, no-cache, no-store, private, must-revalidate, s-maxage=0",
+          "pragma": "no-cache",
+          "set-cookie": "uid=4525205045591359472; Domain=.turn.com; Expires=Tue, 10-Jun-2025 19:49:08 GMT; Path=/; Secure; SameSite=None",
+          "location": "https://ids.ad.gt/api/v1/amo_match?turn_id=4525205045591359472&id=AU1D-0100-001734032949-UKJ4OAK6-N1YU",
+          "content-length": "0",
+          "date": "Thu, 12 Dec 2024 19:49:07 GMT"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://ids.ad.gt/api/v1/amo_match?turn_id=4525205045591359472&id=AU1D-0100-001734032949-UKJ4OAK6-N1YU",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.2679990001488477
+      },
+      {
+        "url": "https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001734032949-UKJ4OAK6-N1YU&uid=[UID]&gdpr=0",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "[2607:f350:3:2569:0:10:0:200c]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-type": "text/plain; charset=utf8",
+          "content-length": "0",
+          "expires": "Sat, 26 Jul 1997 05:00:00 GMT",
+          "cache-control": "no-cache, no-store, private",
+          "p3p": "CP=\"NOI DSP COR NID CURa ADMa DEVa PSAa PSDa OUR BUS COM INT OTC PUR STA\"",
+          "pragma": "no-cache",
+          "tcn": "Choice",
+          "vary": "negotiate,Accept-Encoding",
+          "x-go-server": "go-iad-2-6-221",
+          "x-xss-protection": "0",
+          "location": "https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001734032949-UKJ4OAK6-N1YU&uid=ca9dbc9c-50eb-49c9-a572-99bd2b79f325&gdpr=0",
+          "set-cookie": "__uis=ca9dbc9c-50eb-49c9-a572-99bd2b79f325; expires=Fri, 12 Dec 2025 19:49:08 GMT; domain=.go.sonobi.com; path=/; secure; SameSite=None\nHAPLB8G=s86221|Z1s+O; path=/; domain=.go.sonobi.com; SameSite=none; Secure",
+          "server": "sonobi-go"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001734032949-UKJ4OAK6-N1YU&uid=ca9dbc9c-50eb-49c9-a572-99bd2b79f325&gdpr=0",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.3713400000706315
+      },
+      {
+        "url": "https://ids.ad.gt/api/v1/g_hosted?id=AU1D-0100-001734032949-UKJ4OAK6-N1YU",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "[2606:4700:10::6816:545]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "location": "https://cm.g.doubleclick.net/pixel?google_nid=audigent_w_appnexus_3985&google_hm=QVUxRC0wMTAwLTAwMTczNDAzMjk0OS1VS0o0T0FLNi1OMVlV",
+          "vary": "accept-encoding",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "8f103c6d2c286a1c-MCI"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://cm.g.doubleclick.net/pixel?google_nid=audigent_w_appnexus_3985&google_hm=QVUxRC0wMTAwLTAwMTczNDAzMjk0OS1VS0o0T0FLNi1OMVlV",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.371515000006184
+      },
+      {
+        "url": "https://cmp.inmobi.com/geoip",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 331,
+        "remoteIPAddress": "[2600:9000:24f8:2200:1b:cadc:ef40:93a1]",
+        "responseHeaders": {
+          "server": "CloudFront",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-type": "application/json",
+          "content-length": "49",
+          "x-cache": "FunctionGeneratedResponse from cloudfront",
+          "via": "1.1 55935195324044c1c5c95bf8d477e9d4.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P1",
+          "x-amz-cf-id": "jfYKCB0rDAKD6SG3oJ_hefPEiTPpw0HY7Ots_JSIwgD1glKsnr83sg==",
+          "access-control-allow-origin": "*",
+          "access-control-expose-headers": "*"
+        },
+        "responseBodyHash": "8a4c9b4fa264de39b13a23aa2cf029a4cb9456720ae1cdd92da9c7b3ce6051ce",
+        "initiators": [
+          "https://cmp.inmobi.com/tcfv2/53/cmp2.js?referer=www.venturebeat.com",
+          "https://venturebeat.com/",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-M5ZX2VT"
+        ],
+        "time": 0.021584999980404973
+      },
+      {
+        "url": "https://cmp.inmobi.com/geoip",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 333,
+        "remoteIPAddress": "[2600:9000:24f8:2200:1b:cadc:ef40:93a1]",
+        "responseHeaders": {
+          "server": "CloudFront",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-type": "application/json",
+          "content-length": "49",
+          "x-cache": "FunctionGeneratedResponse from cloudfront",
+          "via": "1.1 55935195324044c1c5c95bf8d477e9d4.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P1",
+          "x-amz-cf-id": "97G0IJC9CweNUP7ddHStP2g8zTYLCPXHZHQX2sjV8BTsy7uGu55m7g==",
+          "access-control-allow-origin": "*",
+          "access-control-expose-headers": "*"
+        },
+        "responseBodyHash": "8a4c9b4fa264de39b13a23aa2cf029a4cb9456720ae1cdd92da9c7b3ce6051ce",
+        "initiators": [
+          "https://cmp.inmobi.com/tcfv2/53/cmp2.js?referer=www.venturebeat.com",
+          "https://venturebeat.com/",
+          "https://ml314.com/tag.aspx?12112024"
+        ],
+        "time": 0.010639999993145466
+      },
+      {
+        "url": "https://u.openx.net/w/1.0/cm?cc=1&id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU%26auid%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "34.98.64.218",
+        "responseHeaders": {
+          "server": "OXGW/0.0.0",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-type": "image/gif",
+          "content-encoding": "gzip",
+          "content-length": "0",
+          "vary": "Accept, Accept-Encoding",
+          "p3p": "CP=\"CUR ADM OUR NOR STA NID\"",
+          "location": "https://ids.ad.gt/api/v1/openx?openx_id=05d4cccf-abb2-4506-9865-e8c04d5192f1&id=AU1D-0100-001734032949-UKJ4OAK6-N1YU&auid=AU1D-0100-001734032949-UKJ4OAK6-N1YU",
+          "set-cookie": "i=ff38eaf3-8bb9-450d-9148-34783e096e08|1734032949; Version=1; Expires=Fri, 12-Dec-2025 19:49:09 GMT; Max-Age=31536000; Secure; Domain=.openx.net; Path=/; SameSite=None",
+          "via": "1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://ids.ad.gt/api/v1/openx?openx_id=05d4cccf-abb2-4506-9865-e8c04d5192f1&id=AU1D-0100-001734032949-UKJ4OAK6-N1YU&auid=AU1D-0100-001734032949-UKJ4OAK6-N1YU",
+        "redirectedFrom": "https://u.openx.net/w/1.0/cm?id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU%26auid%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.06823799991980195
+      },
+      {
+        "url": "https://pixel.tapad.com/idsync/ex/receive/check?partner_id=3185&partner_device_id=AU1D-0100-001734032949-UKJ4OAK6-N1YU&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU%26tapad_id%3D%24%7BTA_DEVICE_ID%7D",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "34.111.113.62",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "strict-transport-security": "max-age=31536000",
+          "access-control-allow-origin": "*",
+          "accept-ch": "Sec-CH-UA\nSec-CH-UA-Arch\nSec-CH-UA-Bitness\nSec-CH-UA-Full-Version-List\nSec-CH-UA-Mobile\nSec-CH-UA-Model\nSec-CH-UA-Platform\nSec-CH-UA-Platform-Version\nSec-CH-UA-WoW64",
+          "p3p": "policyref=\"http://tapad-taptags.s3.amazonaws.com/policy/p3p.xml\", CP=\"NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE\"",
+          "set-cookie": "TapAd_TS=1734032949201;Expires=Mon, 10 Feb 2025 19:49:09 GMT;Path=/;Domain=.tapad.com;Secure;SameSite=None\nTapAd_DID=c2984ea9-cb1f-4ec6-88e6-7e2e1ca6e1eb;Expires=Mon, 10 Feb 2025 19:49:09 GMT;Path=/;Domain=.tapad.com;Secure;SameSite=None\nTapAd_3WAY_SYNCS=;Expires=Mon, 10 Feb 2025 19:49:09 GMT;Path=/;Domain=.tapad.com;Secure;SameSite=None",
+          "location": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=tapad&ttd_tpi=1&ttd_puid=c2984ea9-cb1f-4ec6-88e6-7e2e1ca6e1eb%252Chttps%25253A%25252F%25252Fids.ad.gt%25252Fapi%25252Fv1%25252Ftapad_match%25253Fid%25253DAU1D-0100-001734032949-UKJ4OAK6-N1YU%252526tapad_id%25253Dc2984ea9-cb1f-4ec6-88e6-7e2e1ca6e1eb%252C&gdpr=0&gdpr_consent=",
+          "content-length": "0",
+          "server": "Jetty(11.0.13)",
+          "via": "1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=tapad&ttd_tpi=1&ttd_puid=c2984ea9-cb1f-4ec6-88e6-7e2e1ca6e1eb%252Chttps%25253A%25252F%25252Fids.ad.gt%25252Fapi%25252Fv1%25252Ftapad_match%25253Fid%25253DAU1D-0100-001734032949-UKJ4OAK6-N1YU%252526tapad_id%25253Dc2984ea9-cb1f-4ec6-88e6-7e2e1ca6e1eb%252C&gdpr=0&gdpr_consent=",
+        "redirectedFrom": "https://pixel.tapad.com/idsync/ex/receive?partner_id=3185&partner_device_id=AU1D-0100-001734032949-UKJ4OAK6-N1YU&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU%26tapad_id%3D%24%7BTA_DEVICE_ID%7D",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.17259399988688529
+      },
+      {
+        "url": "https://image2.pubmatic.com/AdServer/UCookieSetPug?ird=1&rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "8.28.7.83",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Thu, 12 Dec 2024 19:49:08 GMT",
+          "set-cookie": "KADUSERCOOKIE=4A434D16-5C8D-409F-BDF0-FFC1B26D5AFC; domain=pubmatic.com; SameSite=None; secure; expires=Fri, 12-Dec-2025 19:49:08 GMT; path=/",
+          "location": "https://ids.ad.gt/api/v1/pbm_match?pbm=4A434D16-5C8D-409F-BDF0-FFC1B26D5AFC&id=AU1D-0100-001734032949-UKJ4OAK6-N1YU",
+          "p3p": "CP=\"NOI DSP COR LAW CUR ADMo DEVo TAIo PSAo PSDo IVAo IVDo HISo OTPo OUR SAMo BUS UNI COM NAV INT DEM CNT STA PRE LOC\"",
+          "cache-control": "no-store, no-cache, private"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://ids.ad.gt/api/v1/pbm_match?pbm=4A434D16-5C8D-409F-BDF0-FFC1B26D5AFC&id=AU1D-0100-001734032949-UKJ4OAK6-N1YU",
+        "redirectedFrom": "https://image2.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.06576599995605648
+      },
+      {
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=3086980%2C4010418&time=1734032949341&li_adsId=86f45f7a-4cd5-4cf2-a6e4-5d0a7930e510&url=https%3A%2F%2Fventurebeat.com%2F",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "[2620:1ec:21::14]",
+        "responseHeaders": {
+          "location": "/collect?v=2&fmt=js&pid=3086980%2C4010418&time=1734032949341&li_adsId=86f45f7a-4cd5-4cf2-a6e4-5d0a7930e510&url=https%3A%2F%2Fventurebeat.com%2F&cookiesTest=true",
+          "set-cookie": "li_sugr=f1d68d90-5ebf-4165-bdf3-5e2f556bf0c4; Max-Age=7776000; Expires=Wed, 12 Mar 2025 19:49:09 GMT; SameSite=None; Path=/; Domain=.linkedin.com; Secure\nbcookie=\"v=2&0bf8d20a-8844-4e27-8a70-03171b304551\"; domain=.linkedin.com; Path=/; Secure; Expires=Fri, 12-Dec-2025 19:49:09 GMT; SameSite=None\nlidc=\"b=OGST07:s=O:r=O:a=O:p=O:g=3056:u=1:x=1:i=1734032949:t=1734119349:v=2:sig=AQEUs_QrrGjbyqrzLh1cxmv1_WstwnMP\"; Expires=Fri, 13 Dec 2024 19:49:09 GMT; domain=.linkedin.com; Path=/; SameSite=None; Secure",
+          "linkedin-action": "1",
+          "x-li-fabric": "prod-lor1",
+          "report-to": "{\"group\":\"network-errors\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://www.linkedin.com/li/rep\"}],\"include_subdomains\":true}",
+          "nel": "{\"report_to\":\"network-errors\",\"max_age\":1296000,\"success_fraction\":0.00066,\"failure_fraction\":1,\"include_subdomains\":true}",
+          "x-li-pop": "afd-prod-lor1-x",
+          "x-li-proto": "http/2",
+          "x-li-uuid": "AAYpGAH68yguB45YgMEfiw==",
+          "x-cache": "CONFIG_NOCACHE",
+          "x-msedge-ref": "Ref A: 2081DAFB6E8343EDABB5B8C5BEA579E3 Ref B: CHGEDGE1714 Ref C: 2024-12-12T19:49:09Z",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-length": "0"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=3086980%2C4010418&time=1734032949341&li_adsId=86f45f7a-4cd5-4cf2-a6e4-5d0a7930e510&url=https%3A%2F%2Fventurebeat.com%2F&cookiesTest=true",
+        "initiators": [
+          "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js"
+        ],
+        "time": 0.15172200021333992
+      },
+      {
+        "url": "https://px.ads.linkedin.com/wa/",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 302,
+        "remoteIPAddress": "[2620:1ec:21::14]",
+        "responseHeaders": {
+          "vary": "Origin",
+          "set-cookie": "bcookie=\"v=2&ae4cdebd-b1c0-4ec6-83e7-7742c93cc4e7\"; domain=.linkedin.com; Path=/; Secure; Expires=Fri, 12-Dec-2025 19:49:09 GMT; SameSite=None\nlidc=\"b=OGST07:s=O:r=O:a=O:p=O:g=3056:u=1:x=1:i=1734032949:t=1734119349:v=2:sig=AQEUs_QrrGjbyqrzLh1cxmv1_WstwnMP\"; Expires=Fri, 13 Dec 2024 19:49:09 GMT; domain=.linkedin.com; Path=/; SameSite=None; Secure",
+          "linkedin-action": "1",
+          "access-control-allow-origin": "https://venturebeat.com",
+          "access-control-allow-credentials": "true",
+          "x-li-fabric": "prod-lor1",
+          "x-li-pop": "afd-prod-lor1-x",
+          "x-li-proto": "http/2",
+          "x-li-uuid": "AAYpGAH664ADE7N88oTsuQ==",
+          "x-cache": "CONFIG_NOCACHE",
+          "x-msedge-ref": "Ref A: 81FE3A3C22B74E86ACC143DCD0C15680 Ref B: CHGEDGE1714 Ref C: 2024-12-12T19:49:09Z",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js"
+        ],
+        "time": 0.13840499985963106
+      },
+      {
+        "url": "https://match.adsrvr.org/track/cmb/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001734032949-UKJ4OAK6-N1YU&gdpr=0",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "35.71.131.137",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-length": "259",
+          "location": "https://ids.ad.gt/api/v1/t_match?tdid=7c627083-cc25-4a11-917c-a681c2a46fb0&id=AU1D-0100-001734032949-UKJ4OAK6-N1YU",
+          "server": "Kestrel",
+          "set-cookie": "TDID=7c627083-cc25-4a11-917c-a681c2a46fb0; expires=Fri, 12 Dec 2025 19:49:09 GMT; domain=.adsrvr.org; path=/; secure; samesite=none\nTDCPM=CAEYBSABKAIyCwjy-O_nmLzNPRAFOAE.; expires=Fri, 12 Dec 2025 19:49:09 GMT; domain=.adsrvr.org; path=/; secure; samesite=none"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://ids.ad.gt/api/v1/t_match?tdid=7c627083-cc25-4a11-917c-a681c2a46fb0&id=AU1D-0100-001734032949-UKJ4OAK6-N1YU",
+        "redirectedFrom": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001734032949-UKJ4OAK6-N1YU&gdpr=0",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.11124800005927682
+      },
+      {
+        "url": "https://secure.adnxs.com/bounce?%2Fgetuid%3Fhttps%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fmatch%3Fid%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU%26adnxs_id%3D%24UID%26gdpr%3D0",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "104.254.151.69",
+        "responseHeaders": {
+          "server": "nginx/1.23.4",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "content-length": "0",
+          "cache-control": "no-store, no-cache, private",
+          "pragma": "no-cache",
+          "expires": "Sat, 15 Nov 2008 16:00:00 GMT",
+          "p3p": "policyref=\"http://cdn.adnxs-simple.com/w3c/policy/p3p.xml\", CP=\"NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE\"",
+          "x-xss-protection": "0",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "accept-ch": "Sec-CH-UA-Full-Version-List,Sec-CH-UA-Arch,Sec-CH-UA-Model,Sec-CH-UA-Platform-Version,Sec-CH-UA-Bitness",
+          "location": "https://ids.ad.gt/api/v1/match?id=AU1D-0100-001734032949-UKJ4OAK6-N1YU&adnxs_id=6648430928778704752&gdpr=0",
+          "an-x-request-uuid": "0fb1c198-3b5c-466d-a6ba-bd414cb5b2cc",
+          "set-cookie": "XANDR_PANID=Wvx7hQ6RSyU3AxRriGJitjdkZ4eVCixGPaRarM2rtMwF8p5C8hild1SeT2dKapeh1pW8pOleJT5rjZ_AP2mj8lHtf-YfR586TQbThXR3woA.; SameSite=None; Path=/; Max-Age=7776000; Expires=Wed, 12-Mar-2025 19:49:09 GMT; Domain=.adnxs.com; Secure; Partitioned\nreceive-cookie-deprecation=1; SameSite=None; Path=/; Max-Age=314496000; Expires=Thu, 30-Nov-2034 19:49:09 GMT; Domain=.adnxs.com; Secure; HttpOnly; Partitioned\nuuid2=6648430928778704752; SameSite=None; Path=/; Max-Age=7776000; Expires=Wed, 12-Mar-2025 19:49:09 GMT; Domain=.adnxs.com; Secure; HttpOnly",
+          "x-proxy-origin": "108.209.95.121; 108.209.95.121; 900.bm-nginx-loadbalancer.mgmt.lax1.adnexus.net; adnxs.com"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://ids.ad.gt/api/v1/match?id=AU1D-0100-001734032949-UKJ4OAK6-N1YU&adnxs_id=6648430928778704752&gdpr=0",
+        "redirectedFrom": "https://secure.adnxs.com/getuid?https://ids.ad.gt/api/v1/match?id=AU1D-0100-001734032949-UKJ4OAK6-N1YU&adnxs_id=$UID&gdpr=0",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.11097699985839427
+      },
+      {
+        "url": "https://ids.ad.gt/api/v1/pbm_match?pbm=4A434D16-5C8D-409F-BDF0-FFC1B26D5AFC&id=AU1D-0100-001734032949-UKJ4OAK6-N1YU",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 95,
+        "remoteIPAddress": "[2606:4700:10::6816:545]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-type": "image/gif",
+          "content-length": "43",
+          "cache-control": "no-cache",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "8f103c6d9cd26a1c-MCI"
+        },
+        "responseBodyHash": "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c",
+        "redirectedFrom": "https://image2.pubmatic.com/AdServer/UCookieSetPug?ird=1&rd=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fpbm_match%3Fpbm%3D%23PM_USER_ID%26id%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.08374499995261431
+      },
+      {
+        "url": "https://ids.ad.gt/api/v1/amo_match?turn_id=4525205045591359472&id=AU1D-0100-001734032949-UKJ4OAK6-N1YU",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 113,
+        "remoteIPAddress": "[2606:4700:10::6816:545]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-type": "image/gif",
+          "content-length": "43",
+          "cache-control": "no-cache",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "8f103c6d9cd36a1c-MCI"
+        },
+        "responseBodyHash": "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c",
+        "redirectedFrom": "https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMTc0ODI0MTY1OC90LzA/url/https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Famo_match%3Fturn_id%3D%24!%7BTURN_UUID%7D%26id%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.07651199982501566
+      },
+      {
+        "url": "https://ids.ad.gt/api/v1/openx?openx_id=05d4cccf-abb2-4506-9865-e8c04d5192f1&id=AU1D-0100-001734032949-UKJ4OAK6-N1YU&auid=AU1D-0100-001734032949-UKJ4OAK6-N1YU",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 95,
+        "remoteIPAddress": "[2606:4700:10::6816:545]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-type": "image/gif",
+          "content-length": "43",
+          "cache-control": "no-cache",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "8f103c6dacd56a1c-MCI"
+        },
+        "responseBodyHash": "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c",
+        "redirectedFrom": "https://u.openx.net/w/1.0/cm?cc=1&id=998eaf06-9905-4eae-9e26-9fac75960c53&r=https%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fopenx%3Fopenx_id%3D%7BOPENX_ID%7D%26id%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU%26auid%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.08300200011581182
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=456656537857707&ev=PageView&dl=https%3A%2F%2Fventurebeat.com%2F&rl=&if=false&ts=1734032949453&sw=1728&sh=1117&v=2.9.178&r=stable&ec=0&o=4126&fbp=fb.1.1734032949446.394576226792914207&ler=empty&cdl=API_unavailable&it=1734032948325&coo=false&rqm=GET",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 274,
+        "remoteIPAddress": "[2a03:2880:f175:181:face:b00c:0:25de]",
+        "responseHeaders": {
+          "content-type": "text/plain",
+          "access-control-allow-origin": "",
+          "access-control-allow-credentials": "true",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-length": "0",
+          "server": "proxygen-bolt",
+          "x-fb-connection-quality": "EXCELLENT; q=0.9, rtt=12, rtx=0, c=10, mss=1380, tbw=2682, tp=-1, tpl=-1, uplat=0, ullat=0",
+          "alt-svc": "h3=\":443\"; ma=86400",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://connect.facebook.net/en_US/fbevents.js",
+          "https://connect.facebook.net/signals/config/456656537857707?v=2.9.178&r=stable&domain=venturebeat.com&hme=28abfdc7e582ae2a8fdd6ac5ebb406923cf601dc2ee488049b0628e75e0f6b36&ex_m=70%2C122%2C107%2C111%2C61%2C4%2C100%2C69%2C16%2C97%2C89%2C51%2C54%2C173%2C176%2C188%2C184%2C185%2C187%2C29%2C101%2C53%2C77%2C186%2C168%2C171%2C181%2C182%2C189%2C132%2C41%2C191%2C192%2C34%2C144%2C15%2C50%2C197%2C196%2C134%2C18%2C40%2C1%2C43%2C65%2C66%2C67%2C71%2C93%2C17%2C14%2C96%2C92%2C91%2C108%2C52%2C110%2C39%2C109%2C30%2C94%2C26%2C169%2C172%2C141%2C86%2C56%2C84%2C33%2C73%2C0%2C95%2C32%2C28%2C82%2C83%2C88%2C47%2C46%2C87%2C37%2C11%2C12%2C13%2C6%2C7%2C25%2C22%2C23%2C57%2C62%2C64%2C75%2C102%2C27%2C76%2C9%2C8%2C80%2C48%2C21%2C104%2C103%2C105%2C98%2C10%2C20%2C3%2C38%2C74%2C19%2C5%2C90%2C81%2C44%2C35%2C85%2C2%2C36%2C63%2C42%2C106%2C45%2C79%2C68%2C112%2C60%2C59%2C31%2C99%2C58%2C55%2C49%2C78%2C72%2C24%2C113"
+        ],
+        "time": 0.06321299984119833
+      },
+      {
+        "url": "https://dpm.demdex.net/ibs:dpid=22052&dpuuid=3649075765930098696&redir=",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "52.37.14.226",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-length": "0",
+          "location": "https://dpm.demdex.net/demconf.jpg?et:ibs%7cdata:dpid=22052&dpuuid=3649075765930098696&redir=",
+          "x-tid": "plLmH8iGS1U=",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private",
+          "pragma": "no-cache",
+          "expires": "Thu, 01 Jan 1970 00:00:00 UTC",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT\"",
+          "dcs": "dcs-prod-usw2-1-v065-00ebc7c0d.edge-usw2.demdex.com 0 ms",
+          "set-cookie": "demdex=67078222037112122311068452772897460361; Max-Age=15552000; Expires=Tue, 10 Jun 2025 19:49:09 GMT; Path=/; Domain=.demdex.net; Secure; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://dpm.demdex.net/demconf.jpg?et:ibs%7cdata:dpid=22052&dpuuid=3649075765930098696&redir=",
+        "initiators": [
+          "https://ml314.com/tag.aspx?12112024",
+          "https://ml314.com/utsync.ashx?pub=&adv=&et=0&eid=50090&ct=js&pi=&fp=&clid=&if=0&ps=&cl=&mlt=&data=&&cp=https%3A%2F%2Fventurebeat.com%2F&pv=1734032947979_nq2yc28rh&bl=en-us&cb=1629516&return=&ht=&d=&dc=&si=1734032947979_nq2yc28rh&cid=VB&s=1728x1117&rp=&v=2.7.4.212"
+        ],
+        "time": 0.3716130000539124
+      },
+      {
+        "url": "https://idsync.rlcdn.com/395886.gif?partner_uid=3649075765930098696",
+        "method": "GET",
+        "type": "Image",
+        "status": 307,
+        "remoteIPAddress": "35.244.154.8",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store",
+          "location": "https://idsync.rlcdn.com/1000.gif?memo=CO6UGBIeChoIARCuXxoTMzY0OTA3NTc2NTkzMDA5ODY5NhAAGg0ItfzsugYSBQjoBxAAQgBKAA",
+          "p3p": "CP=\"NOI DSP COR NID CURa ADMa DEVa PSAa PSDa OUR BUS COM INT OTC PUR STA\"",
+          "set-cookie": "rlas3=Bi50JsGupt1MlX+U+vhkuqEDpVB4KteeWo3NSC+G0Go=; Path=/; Domain=rlcdn.com; Expires=Fri, 12 Dec 2025 19:49:09 GMT; Secure; SameSite=None\npxrc=CAA=; Path=/; Domain=rlcdn.com; Expires=Mon, 10 Feb 2025 19:49:09 GMT; Secure; SameSite=None",
+          "timing-allow-origin": "*",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-length": "0",
+          "via": "1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://idsync.rlcdn.com/1000.gif?memo=CO6UGBIeChoIARCuXxoTMzY0OTA3NTc2NTkzMDA5ODY5NhAAGg0ItfzsugYSBQjoBxAAQgBKAA",
+        "initiators": [
+          "https://ml314.com/tag.aspx?12112024",
+          "https://ml314.com/utsync.ashx?pub=&adv=&et=0&eid=50090&ct=js&pi=&fp=&clid=&if=0&ps=&cl=&mlt=&data=&&cp=https%3A%2F%2Fventurebeat.com%2F&pv=1734032947979_nq2yc28rh&bl=en-us&cb=1629516&return=&ht=&d=&dc=&si=1734032947979_nq2yc28rh&cid=VB&s=1728x1117&rp=&v=2.7.4.212"
+        ],
+        "time": 0.10521499998867512
+      },
+      {
+        "url": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=d0tro1j&ttd_tpi=1",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "35.71.131.137",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-length": "241",
+          "location": "https://ml314.com/utsync.ashx?eid=53819&et=0&fp=7c627083-cc25-4a11-917c-a681c2a46fb0&gdpr=0&gdpr_consent=",
+          "server": "Kestrel",
+          "set-cookie": "TDID=7c627083-cc25-4a11-917c-a681c2a46fb0; expires=Fri, 12 Dec 2025 19:49:09 GMT; domain=.adsrvr.org; path=/; secure; samesite=none\nTDCPM=CAESFgoHZDB0cm8xahILCNb0pL2CvM09EAUYASABKAIyCwjY6qfqmLzNPRAFOAFaB2QwdHJvMWpgAg..; expires=Fri, 12 Dec 2025 19:49:09 GMT; domain=.adsrvr.org; path=/; secure; samesite=none"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://ml314.com/utsync.ashx?eid=53819&et=0&fp=7c627083-cc25-4a11-917c-a681c2a46fb0&gdpr=0&gdpr_consent=",
+        "initiators": [
+          "https://ml314.com/tag.aspx?12112024",
+          "https://ml314.com/utsync.ashx?pub=&adv=&et=0&eid=50090&ct=js&pi=&fp=&clid=&if=0&ps=&cl=&mlt=&data=&&cp=https%3A%2F%2Fventurebeat.com%2F&pv=1734032947979_nq2yc28rh&bl=en-us&cb=1629516&return=&ht=&d=&dc=&si=1734032947979_nq2yc28rh&cid=VB&s=1728x1117&rp=&v=2.7.4.212"
+        ],
+        "time": 0.04899899987503886
+      },
+      {
+        "url": "https://ib.adnxs.com/getuid?https://ml314.com/csync.ashx%3Ffp=$UID%26person_id=3649075765930098696%26eid=2",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "104.254.151.69",
+        "responseHeaders": {
+          "server": "nginx/1.23.4",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "content-length": "0",
+          "cache-control": "no-store, no-cache, private",
+          "pragma": "no-cache",
+          "expires": "Sat, 15 Nov 2008 16:00:00 GMT",
+          "p3p": "policyref=\"http://cdn.adnxs-simple.com/w3c/policy/p3p.xml\", CP=\"NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE\"",
+          "x-xss-protection": "0",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "accept-ch": "Sec-CH-UA-Full-Version-List,Sec-CH-UA-Arch,Sec-CH-UA-Model,Sec-CH-UA-Platform-Version,Sec-CH-UA-Bitness",
+          "location": "https://ml314.com/csync.ashx?fp=6648430928778704752&person_id=3649075765930098696&eid=2",
+          "an-x-request-uuid": "9430aaa5-b8bc-4458-8ec4-d656cd9afbeb",
+          "set-cookie": "XANDR_PANID=Wvx7hQ6RSyU3AxRriGJitjdkZ4eVCixGPaRarM2rtMwF8p5C8hild1SeT2dKapeh1pW8pOleJT5rjZ_AP2mj8lHtf-YfR586TQbThXR3woA.; SameSite=None; Path=/; Max-Age=7776000; Expires=Wed, 12-Mar-2025 19:49:09 GMT; Domain=.adnxs.com; Secure; Partitioned\nreceive-cookie-deprecation=1; SameSite=None; Path=/; Max-Age=314496000; Expires=Thu, 30-Nov-2034 19:49:09 GMT; Domain=.adnxs.com; Secure; HttpOnly; Partitioned\nuuid2=6648430928778704752; SameSite=None; Path=/; Max-Age=7776000; Expires=Wed, 12-Mar-2025 19:49:09 GMT; Domain=.adnxs.com; Secure; HttpOnly",
+          "x-proxy-origin": "108.209.95.121; 108.209.95.121; 900.bm-nginx-loadbalancer.mgmt.lax1.adnexus.net; adnxs.com"
+        },
+        "responseBodyHash": "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f",
+        "redirectedTo": "https://ml314.com/csync.ashx?fp=6648430928778704752&person_id=3649075765930098696&eid=2",
+        "initiators": [
+          "https://ml314.com/tag.aspx?12112024",
+          "https://ml314.com/utsync.ashx?pub=&adv=&et=0&eid=50090&ct=js&pi=&fp=&clid=&if=0&ps=&cl=&mlt=&data=&&cp=https%3A%2F%2Fventurebeat.com%2F&pv=1734032947979_nq2yc28rh&bl=en-us&cb=1629516&return=&ht=&d=&dc=&si=1734032947979_nq2yc28rh&cid=VB&s=1728x1117&rp=&v=2.7.4.212"
+        ],
+        "time": 0.10502299992367625
+      },
+      {
+        "url": "https://ps.eyeota.net/pixel?pid=r8hrb20&t=gif",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "34.231.251.31",
+        "responseHeaders": {
+          "set-cookie": "mako_uid=193bc6b01b7-50840000010a479b; Domain=eyeota.net; Path=/; Expires=Fri, 12 Dec 2025 19:49:09 GMT; Secure; SameSite=None;\nSERVERID=18331~DM; Domain=eyeota.net; Path=/; Expires=Thu, 12 Dec 2024 19:59:09 GMT; Secure; SameSite=None;",
+          "p3p": "CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR SAMo BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\", policyref=\"http://ps.eyeota.net/w3c/p3p.xml\"\nCP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR SAMo BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\", policyref=\"http://ps.eyeota.net/w3c/p3p.xml\"",
+          "location": "/pixel/bounce/?pid=r8hrb20&t=gif",
+          "content-length": "0",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://ps.eyeota.net/pixel/bounce/?pid=r8hrb20&t=gif",
+        "initiators": [
+          "https://ml314.com/tag.aspx?12112024",
+          "https://ml314.com/utsync.ashx?pub=&adv=&et=0&eid=50090&ct=js&pi=&fp=&clid=&if=0&ps=&cl=&mlt=&data=&&cp=https%3A%2F%2Fventurebeat.com%2F&pv=1734032947979_nq2yc28rh&bl=en-us&cb=1629516&return=&ht=&d=&dc=&si=1734032947979_nq2yc28rh&cid=VB&s=1728x1117&rp=&v=2.7.4.212"
+        ],
+        "time": 0.36805900000035763
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-FVWZ0RM4DH&l=audDataLayer",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 97170,
+        "remoteIPAddress": "[2607:f8b0:4002:c06::61]",
+        "responseHeaders": {
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-origin": "*",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "Cache-Control",
+          "content-encoding": "br",
+          "vary": "Accept-Encoding",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "expires": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "cache-control": "private, max-age=900",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascgcycc:838:0",
+          "cross-origin-opener-policy-report-only": "same-origin; report-to=coop_reporting",
+          "report-to": "{\"group\":\"coop_reporting\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascgcycc:838:0\"}],}",
+          "server": "Google Tag Manager",
+          "content-length": "97118",
+          "x-xss-protection": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "802c64c163f41bc68fcda218490c9956372c352aa88f90545e8336e942445608",
+        "initiators": [
+          "https://p.ad.gt/api/v1/p/173"
+        ],
+        "time": 0.11498300009407103
+      },
+      {
+        "url": "https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001734032949-UKJ4OAK6-N1YU&uid=ca9dbc9c-50eb-49c9-a572-99bd2b79f325&gdpr=0",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 95,
+        "remoteIPAddress": "[2606:4700:10::6816:545]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-type": "image/gif",
+          "content-length": "43",
+          "cache-control": "no-cache",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "8f103c6e4de16a1c-MCI"
+        },
+        "responseBodyHash": "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c",
+        "redirectedFrom": "https://sync.go.sonobi.com/us?https://ids.ad.gt/api/v1/son_match?id=AU1D-0100-001734032949-UKJ4OAK6-N1YU&uid=[UID]&gdpr=0",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.08080099988728762
+      },
+      {
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=audigent_w_appnexus_3985&google_hm=QVUxRC0wMTAwLTAwMTczNDAzMjk0OS1VS0o0T0FLNi1OMVlV",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 188,
+        "remoteIPAddress": "172.253.124.155",
+        "responseHeaders": {
+          "content-type": "image/png",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "pragma": "no-cache",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "cache-control": "no-cache, must-revalidate",
+          "cross-origin-resource-policy": "cross-origin",
+          "server": "HTTP server (unknown)",
+          "content-length": "170",
+          "x-xss-protection": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "071d0a5d172af491aedca9041f20e830d25fd4d339a1006bca3bed949069aa30",
+        "redirectedFrom": "https://ids.ad.gt/api/v1/g_hosted?id=AU1D-0100-001734032949-UKJ4OAK6-N1YU",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.09573800000362098
+      },
+      {
+        "url": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=tapad&ttd_tpi=1&ttd_puid=c2984ea9-cb1f-4ec6-88e6-7e2e1ca6e1eb%252Chttps%25253A%25252F%25252Fids.ad.gt%25252Fapi%25252Fv1%25252Ftapad_match%25253Fid%25253DAU1D-0100-001734032949-UKJ4OAK6-N1YU%252526tapad_id%25253Dc2984ea9-cb1f-4ec6-88e6-7e2e1ca6e1eb%252C&gdpr=0&gdpr_consent=",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "35.71.131.137",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-length": "683",
+          "location": "https://pixel.tapad.com/idsync/ex/receive?partner_id=1830&partner_device_id=7c627083-cc25-4a11-917c-a681c2a46fb0&ttd_puid=c2984ea9-cb1f-4ec6-88e6-7e2e1ca6e1eb%2Chttps%253A%252F%252Fids.ad.gt%252Fapi%252Fv1%252Ftapad_match%253Fid%253DAU1D-0100-001734032949-UKJ4OAK6-N1YU%2526tapad_id%253Dc2984ea9-cb1f-4ec6-88e6-7e2e1ca6e1eb%2C",
+          "server": "Kestrel",
+          "set-cookie": "TDID=7c627083-cc25-4a11-917c-a681c2a46fb0; expires=Fri, 12 Dec 2025 19:49:09 GMT; domain=.adsrvr.org; path=/; secure; samesite=none\nTDCPM=CAESFAoFdGFwYWQSCwjKqa69grzNPRAFGAEgASgCMgsIvJ-x6pi8zT0QBTgBWgV0YXBhZGAC; expires=Fri, 12 Dec 2025 19:49:09 GMT; domain=.adsrvr.org; path=/; secure; samesite=none"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://pixel.tapad.com/idsync/ex/receive?partner_id=1830&partner_device_id=7c627083-cc25-4a11-917c-a681c2a46fb0&ttd_puid=c2984ea9-cb1f-4ec6-88e6-7e2e1ca6e1eb%2Chttps%253A%252F%252Fids.ad.gt%252Fapi%252Fv1%252Ftapad_match%253Fid%253DAU1D-0100-001734032949-UKJ4OAK6-N1YU%2526tapad_id%253Dc2984ea9-cb1f-4ec6-88e6-7e2e1ca6e1eb%2C",
+        "redirectedFrom": "https://pixel.tapad.com/idsync/ex/receive/check?partner_id=3185&partner_device_id=AU1D-0100-001734032949-UKJ4OAK6-N1YU&partner_url=https://ids.ad.gt%2Fapi%2Fv1%2Ftapad_match%3Fid%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU%26tapad_id%3D%24%7BTA_DEVICE_ID%7D",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.043355000205338
+      },
+      {
+        "url": "https://ids.ad.gt/api/v1/t_match?tdid=7c627083-cc25-4a11-917c-a681c2a46fb0&id=AU1D-0100-001734032949-UKJ4OAK6-N1YU",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 95,
+        "remoteIPAddress": "[2606:4700:10::6816:545]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-type": "image/gif",
+          "content-length": "43",
+          "cache-control": "no-cache",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "8f103c6e4de86a1c-MCI"
+        },
+        "responseBodyHash": "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c",
+        "redirectedFrom": "https://match.adsrvr.org/track/cmb/generic?ttd_pid=8gkxb6n&ttd_tpi=1&ttd_puid=AU1D-0100-001734032949-UKJ4OAK6-N1YU&gdpr=0",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.08277300000190735
+      },
+      {
+        "url": "https://ids.ad.gt/api/v1/match?id=AU1D-0100-001734032949-UKJ4OAK6-N1YU&adnxs_id=6648430928778704752&gdpr=0",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 95,
+        "remoteIPAddress": "[2606:4700:10::6816:545]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-type": "image/gif",
+          "content-length": "43",
+          "cache-control": "no-cache",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "8f103c6e5df26a1c-MCI"
+        },
+        "responseBodyHash": "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c",
+        "redirectedFrom": "https://secure.adnxs.com/bounce?%2Fgetuid%3Fhttps%3A%2F%2Fids.ad.gt%2Fapi%2Fv1%2Fmatch%3Fid%3DAU1D-0100-001734032949-UKJ4OAK6-N1YU%26adnxs_id%3D%24UID%26gdpr%3D0",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.08588099991902709
+      },
+      {
+        "url": "https://a.ad.gt/api/v1/collect",
+        "method": "POST",
+        "type": "XHR",
+        "status": 204,
+        "size": 116,
+        "remoteIPAddress": "[2606:4700:10::ac43:17ea]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "access-control-allow-origin": "https://venturebeat.com",
+          "access-control-allow-credentials": "true",
+          "vary": "Origin",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "8f103c6e6ef54dea-MCI"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://p.ad.gt/api/v1/p/173"
+        ],
+        "time": 0.08893500012345612
+      },
+      {
+        "url": "https://pixels.ad.gt/api/v1/getpixels?tagger_id=44350190db3d9483a94a2cc3c9463b2e&url=https%3A%2F%2Fventurebeat.com%2F&code=%27none%27",
+        "method": "GET",
+        "type": "Script",
+        "status": 204,
+        "size": 88,
+        "remoteIPAddress": "[2606:4700:10::6816:545]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "8f103c6f3f0ed191-MCI"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://p.ad.gt/api/v1/p/173"
+        ],
+        "time": 0.27777100005187094
+      },
+      {
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=3086980%2C4010418&time=1734032949341&li_adsId=86f45f7a-4cd5-4cf2-a6e4-5d0a7930e510&url=https%3A%2F%2Fventurebeat.com%2F&cookiesTest=true",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "[2620:1ec:21::14]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "x-li-pop": "afd-prod-lor1-x",
+          "x-msedge-ref": "Ref A: B7D8798F1A44487B8D205FB20DF354C9 Ref B: CHGEDGE1714 Ref C: 2024-12-12T19:49:09Z",
+          "linkedin-action": "1",
+          "x-cache": "CONFIG_NOCACHE",
+          "x-li-fabric": "prod-lor1",
+          "location": "https://www.linkedin.com/px/li_sync?redirect=https%3A%2F%2Fpx.ads.linkedin.com%2Fcollect%3Fv%3D2%26fmt%3Djs%26pid%3D3086980%252C4010418%26time%3D1734032949341%26li_adsId%3D86f45f7a-4cd5-4cf2-a6e4-5d0a7930e510%26url%3Dhttps%253A%252F%252Fventurebeat.com%252F%26cookiesTest%3Dtrue%26liSync%3Dtrue",
+          "x-li-proto": "http/2",
+          "content-length": "0",
+          "x-li-uuid": "AAYpGAH8avn2afohi0dv9w=="
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.linkedin.com/px/li_sync?redirect=https%3A%2F%2Fpx.ads.linkedin.com%2Fcollect%3Fv%3D2%26fmt%3Djs%26pid%3D3086980%252C4010418%26time%3D1734032949341%26li_adsId%3D86f45f7a-4cd5-4cf2-a6e4-5d0a7930e510%26url%3Dhttps%253A%252F%252Fventurebeat.com%252F%26cookiesTest%3Dtrue%26liSync%3Dtrue",
+        "redirectedFrom": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=3086980%2C4010418&time=1734032949341&li_adsId=86f45f7a-4cd5-4cf2-a6e4-5d0a7930e510&url=https%3A%2F%2Fventurebeat.com%2F",
+        "initiators": [
+          "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js"
+        ],
+        "time": 0.09023699979297817
+      },
+      {
+        "url": "https://ml314.com/utsync.ashx?eid=53819&et=0&fp=7c627083-cc25-4a11-917c-a681c2a46fb0&gdpr=0&gdpr_consent=",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "34.117.77.79",
+        "responseHeaders": {
+          "content-type": "image/gif",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0,Fri, 13 Dec 2024 19:49:09 GMT",
+          "location": "https://ml314.com/csync.ashx?fp=7c627083-cc25-4a11-917c-a681c2a46fb0&person_id=3649075765930098696&eid=53819",
+          "pragma": "no-cache",
+          "p3p": "CP=\"NON DSP COR ADMo PSAo DEVo BUS COM UNI NAV DEM STA\"",
+          "x-cloud-trace-context": "dfa8e5d5777cac1768898e96961b3fb8",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "server": "Google Frontend",
+          "content-length": "43",
+          "via": "1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f",
+        "redirectedTo": "https://ml314.com/csync.ashx?fp=7c627083-cc25-4a11-917c-a681c2a46fb0&person_id=3649075765930098696&eid=53819",
+        "redirectedFrom": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=d0tro1j&ttd_tpi=1",
+        "initiators": [
+          "https://ml314.com/tag.aspx?12112024",
+          "https://ml314.com/utsync.ashx?pub=&adv=&et=0&eid=50090&ct=js&pi=&fp=&clid=&if=0&ps=&cl=&mlt=&data=&&cp=https%3A%2F%2Fventurebeat.com%2F&pv=1734032947979_nq2yc28rh&bl=en-us&cb=1629516&return=&ht=&d=&dc=&si=1734032947979_nq2yc28rh&cid=VB&s=1728x1117&rp=&v=2.7.4.212"
+        ],
+        "time": 0.05691200005821884
+      },
+      {
+        "url": "https://pixel.tapad.com/idsync/ex/receive?partner_id=1830&partner_device_id=7c627083-cc25-4a11-917c-a681c2a46fb0&ttd_puid=c2984ea9-cb1f-4ec6-88e6-7e2e1ca6e1eb%2Chttps%253A%252F%252Fids.ad.gt%252Fapi%252Fv1%252Ftapad_match%253Fid%253DAU1D-0100-001734032949-UKJ4OAK6-N1YU%2526tapad_id%253Dc2984ea9-cb1f-4ec6-88e6-7e2e1ca6e1eb%2C",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "34.111.113.62",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "strict-transport-security": "max-age=31536000",
+          "access-control-allow-origin": "*",
+          "accept-ch": "Sec-CH-UA\nSec-CH-UA-Arch\nSec-CH-UA-Bitness\nSec-CH-UA-Full-Version-List\nSec-CH-UA-Mobile\nSec-CH-UA-Model\nSec-CH-UA-Platform\nSec-CH-UA-Platform-Version\nSec-CH-UA-WoW64",
+          "p3p": "policyref=\"http://tapad-taptags.s3.amazonaws.com/policy/p3p.xml\", CP=\"NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE\"",
+          "set-cookie": "TapAd_TS=1734032949201;Expires=Mon, 10 Feb 2025 19:49:09 GMT;Path=/;Domain=.tapad.com;Secure;SameSite=None\nTapAd_DID=c2984ea9-cb1f-4ec6-88e6-7e2e1ca6e1eb;Expires=Mon, 10 Feb 2025 19:49:09 GMT;Path=/;Domain=.tapad.com;Secure;SameSite=None\nTapAd_3WAY_SYNCS=1!8347;Expires=Mon, 10 Feb 2025 19:49:09 GMT;Path=/;Domain=.tapad.com;Secure;SameSite=None",
+          "location": "https://ids.ad.gt/api/v1/tapad_match?id=AU1D-0100-001734032949-UKJ4OAK6-N1YU&tapad_id=c2984ea9-cb1f-4ec6-88e6-7e2e1ca6e1eb",
+          "content-length": "0",
+          "server": "Jetty(11.0.13)",
+          "via": "1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://ids.ad.gt/api/v1/tapad_match?id=AU1D-0100-001734032949-UKJ4OAK6-N1YU&tapad_id=c2984ea9-cb1f-4ec6-88e6-7e2e1ca6e1eb",
+        "redirectedFrom": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=tapad&ttd_tpi=1&ttd_puid=c2984ea9-cb1f-4ec6-88e6-7e2e1ca6e1eb%252Chttps%25253A%25252F%25252Fids.ad.gt%25252Fapi%25252Fv1%25252Ftapad_match%25253Fid%25253DAU1D-0100-001734032949-UKJ4OAK6-N1YU%252526tapad_id%25253Dc2984ea9-cb1f-4ec6-88e6-7e2e1ca6e1eb%252C&gdpr=0&gdpr_consent=",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.05469599994830787
+      },
+      {
+        "url": "https://idsync.rlcdn.com/1000.gif?memo=CO6UGBIeChoIARCuXxoTMzY0OTA3NTc2NTkzMDA5ODY5NhAAGg0ItfzsugYSBQjoBxAAQgBKAA",
+        "method": "GET",
+        "type": "Image",
+        "status": 307,
+        "remoteIPAddress": "35.244.154.8",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store",
+          "location": "https://ml314.com/csync.ashx?fp=a48faddc642f38437456e7bf04a0d9ded294c03ee30dd984083baa3e9f9202edf4cb09cee1a4f8eb&person_id=3649075765930098696&eid=50082",
+          "p3p": "CP=\"NOI DSP COR NID CURa ADMa DEVa PSAa PSDa OUR BUS COM INT OTC PUR STA\"",
+          "set-cookie": "rlas3=Bi50JsGupt1MlX+U+vhkuqEDpVB4KteeWo3NSC+G0Go=; Path=/; Domain=rlcdn.com; Expires=Fri, 12 Dec 2025 19:49:09 GMT; Secure; SameSite=None\npxrc=CLX87LoGEgUI6AcQABIFCNtOEAA=; Path=/; Domain=rlcdn.com; Expires=Mon, 10 Feb 2025 19:49:09 GMT; Secure; SameSite=None",
+          "timing-allow-origin": "*",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-length": "0",
+          "via": "1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://ml314.com/csync.ashx?fp=a48faddc642f38437456e7bf04a0d9ded294c03ee30dd984083baa3e9f9202edf4cb09cee1a4f8eb&person_id=3649075765930098696&eid=50082",
+        "redirectedFrom": "https://idsync.rlcdn.com/395886.gif?partner_uid=3649075765930098696",
+        "initiators": [
+          "https://ml314.com/tag.aspx?12112024",
+          "https://ml314.com/utsync.ashx?pub=&adv=&et=0&eid=50090&ct=js&pi=&fp=&clid=&if=0&ps=&cl=&mlt=&data=&&cp=https%3A%2F%2Fventurebeat.com%2F&pv=1734032947979_nq2yc28rh&bl=en-us&cb=1629516&return=&ht=&d=&dc=&si=1734032947979_nq2yc28rh&cid=VB&s=1728x1117&rp=&v=2.7.4.212"
+        ],
+        "time": 0.2588949999772012
+      },
+      {
+        "url": "https://ml314.com/csync.ashx?fp=6648430928778704752&person_id=3649075765930098696&eid=2",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 56,
+        "remoteIPAddress": "34.117.77.79",
+        "responseHeaders": {
+          "content-type": "image/gif",
+          "expires": "Fri, 13 Dec 2024 19:49:09 GMT",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "server": "Google Frontend",
+          "via": "1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f",
+        "redirectedFrom": "https://ib.adnxs.com/getuid?https://ml314.com/csync.ashx%3Ffp=$UID%26person_id=3649075765930098696%26eid=2",
+        "initiators": [
+          "https://ml314.com/tag.aspx?12112024",
+          "https://ml314.com/utsync.ashx?pub=&adv=&et=0&eid=50090&ct=js&pi=&fp=&clid=&if=0&ps=&cl=&mlt=&data=&&cp=https%3A%2F%2Fventurebeat.com%2F&pv=1734032947979_nq2yc28rh&bl=en-us&cb=1629516&return=&ht=&d=&dc=&si=1734032947979_nq2yc28rh&cid=VB&s=1728x1117&rp=&v=2.7.4.212"
+        ],
+        "time": 0.05902400007471442
+      },
+      {
+        "url": "https://ml314.com/csync.ashx?fp=7c627083-cc25-4a11-917c-a681c2a46fb0&person_id=3649075765930098696&eid=53819",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 56,
+        "remoteIPAddress": "34.117.77.79",
+        "responseHeaders": {
+          "content-type": "image/gif",
+          "expires": "Fri, 13 Dec 2024 19:49:09 GMT",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "server": "Google Frontend",
+          "via": "1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f",
+        "redirectedFrom": "https://ml314.com/utsync.ashx?eid=53819&et=0&fp=7c627083-cc25-4a11-917c-a681c2a46fb0&gdpr=0&gdpr_consent=",
+        "initiators": [
+          "https://ml314.com/tag.aspx?12112024",
+          "https://ml314.com/utsync.ashx?pub=&adv=&et=0&eid=50090&ct=js&pi=&fp=&clid=&if=0&ps=&cl=&mlt=&data=&&cp=https%3A%2F%2Fventurebeat.com%2F&pv=1734032947979_nq2yc28rh&bl=en-us&cb=1629516&return=&ht=&d=&dc=&si=1734032947979_nq2yc28rh&cid=VB&s=1728x1117&rp=&v=2.7.4.212"
+        ],
+        "time": 0.059314999962225556
+      },
+      {
+        "url": "https://ids.ad.gt/api/v1/tapad_match?id=AU1D-0100-001734032949-UKJ4OAK6-N1YU&tapad_id=c2984ea9-cb1f-4ec6-88e6-7e2e1ca6e1eb",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 95,
+        "remoteIPAddress": "[2606:4700:10::6816:545]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-type": "image/gif",
+          "content-length": "43",
+          "cache-control": "no-cache",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "8f103c6eeee56a1c-MCI"
+        },
+        "responseBodyHash": "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c",
+        "redirectedFrom": "https://pixel.tapad.com/idsync/ex/receive?partner_id=1830&partner_device_id=7c627083-cc25-4a11-917c-a681c2a46fb0&ttd_puid=c2984ea9-cb1f-4ec6-88e6-7e2e1ca6e1eb%2Chttps%253A%252F%252Fids.ad.gt%252Fapi%252Fv1%252Ftapad_match%253Fid%253DAU1D-0100-001734032949-UKJ4OAK6-N1YU%2526tapad_id%253Dc2984ea9-cb1f-4ec6-88e6-7e2e1ca6e1eb%2C",
+        "initiators": [
+          "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref="
+        ],
+        "time": 0.10281000006943941
+      },
+      {
+        "url": "https://www.linkedin.com/px/li_sync?redirect=https%3A%2F%2Fpx.ads.linkedin.com%2Fcollect%3Fv%3D2%26fmt%3Djs%26pid%3D3086980%252C4010418%26time%3D1734032949341%26li_adsId%3D86f45f7a-4cd5-4cf2-a6e4-5d0a7930e510%26url%3Dhttps%253A%252F%252Fventurebeat.com%252F%26cookiesTest%3Dtrue%26liSync%3Dtrue",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "[2620:1ec:21::14]",
+        "responseHeaders": {
+          "cache-control": "no-cache, no-store",
+          "pragma": "no-cache",
+          "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+          "location": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=3086980%2C4010418&time=1734032949341&li_adsId=86f45f7a-4cd5-4cf2-a6e4-5d0a7930e510&url=https%3A%2F%2Fventurebeat.com%2F&cookiesTest=true&liSync=true",
+          "set-cookie": "bscookie=\"v=1&202412121949093fe2dd63-7435-4698-823c-e353606460abAQG1OBZQ5918hGHFbMVUg1Ea98Ibu16c\"; domain=.www.linkedin.com; Path=/; Secure; Expires=Fri, 12-Dec-2025 19:49:09 GMT; HttpOnly; SameSite=None",
+          "linkedin-action": "1",
+          "strict-transport-security": "max-age=31536000",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "sameorigin",
+          "content-security-policy": "frame-ancestors 'self'",
+          "x-li-fabric": "prod-lor1",
+          "x-li-pop": "afd-prod-lor1-x",
+          "x-li-proto": "http/2",
+          "x-li-uuid": "AAYpGAH+Jx13VhRE11my7A==",
+          "x-cache": "CONFIG_NOCACHE",
+          "x-msedge-ref": "Ref A: F1EA447BE04448AF98BC524E18E38D1E Ref B: CHGEDGE1714 Ref C: 2024-12-12T19:49:09Z",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-length": "0"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=3086980%2C4010418&time=1734032949341&li_adsId=86f45f7a-4cd5-4cf2-a6e4-5d0a7930e510&url=https%3A%2F%2Fventurebeat.com%2F&cookiesTest=true&liSync=true",
+        "redirectedFrom": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=3086980%2C4010418&time=1734032949341&li_adsId=86f45f7a-4cd5-4cf2-a6e4-5d0a7930e510&url=https%3A%2F%2Fventurebeat.com%2F&cookiesTest=true",
+        "initiators": [
+          "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js"
+        ],
+        "time": 0.24874900002032518
+      },
+      {
+        "url": "https://ml314.com/csync.ashx?fp=a48faddc642f38437456e7bf04a0d9ded294c03ee30dd984083baa3e9f9202edf4cb09cee1a4f8eb&person_id=3649075765930098696&eid=50082",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 56,
+        "remoteIPAddress": "34.117.77.79",
+        "responseHeaders": {
+          "content-type": "image/gif",
+          "expires": "Fri, 13 Dec 2024 19:49:09 GMT",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "server": "Google Frontend",
+          "via": "1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f",
+        "redirectedFrom": "https://idsync.rlcdn.com/1000.gif?memo=CO6UGBIeChoIARCuXxoTMzY0OTA3NTc2NTkzMDA5ODY5NhAAGg0ItfzsugYSBQjoBxAAQgBKAA",
+        "initiators": [
+          "https://ml314.com/tag.aspx?12112024",
+          "https://ml314.com/utsync.ashx?pub=&adv=&et=0&eid=50090&ct=js&pi=&fp=&clid=&if=0&ps=&cl=&mlt=&data=&&cp=https%3A%2F%2Fventurebeat.com%2F&pv=1734032947979_nq2yc28rh&bl=en-us&cb=1629516&return=&ht=&d=&dc=&si=1734032947979_nq2yc28rh&cid=VB&s=1728x1117&rp=&v=2.7.4.212"
+        ],
+        "time": 0.0595250001642853
+      },
+      {
+        "url": "https://ps.eyeota.net/pixel/bounce/?pid=r8hrb20&t=gif",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "34.231.251.31",
+        "responseHeaders": {
+          "set-cookie": "SERVERID=18331~DM; Domain=eyeota.net; Path=/; Expires=Thu, 12 Dec 2024 19:59:09 GMT; Secure; SameSite=None;",
+          "p3p": "CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR SAMo BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\", policyref=\"http://ps.eyeota.net/w3c/p3p.xml\"",
+          "location": "https://ml314.com/utsync.ashx?eid=50052&et=0&fp=2ELrECvNJvVXa1MEGWLdQevqA-FaUotJpQj-7lQwbShI&gdpr=0&gdpr_consent=&return=https%3A%2F%2Fps.eyeota.net%2Fmatch%3Fbid%3Dr8hrb20%26uid%3Dnil%26referrer_pid%3Dr8hrb20",
+          "content-length": "0",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://ml314.com/utsync.ashx?eid=50052&et=0&fp=2ELrECvNJvVXa1MEGWLdQevqA-FaUotJpQj-7lQwbShI&gdpr=0&gdpr_consent=&return=https%3A%2F%2Fps.eyeota.net%2Fmatch%3Fbid%3Dr8hrb20%26uid%3Dnil%26referrer_pid%3Dr8hrb20",
+        "redirectedFrom": "https://ps.eyeota.net/pixel?pid=r8hrb20&t=gif",
+        "initiators": [
+          "https://ml314.com/tag.aspx?12112024",
+          "https://ml314.com/utsync.ashx?pub=&adv=&et=0&eid=50090&ct=js&pi=&fp=&clid=&if=0&ps=&cl=&mlt=&data=&&cp=https%3A%2F%2Fventurebeat.com%2F&pv=1734032947979_nq2yc28rh&bl=en-us&cb=1629516&return=&ht=&d=&dc=&si=1734032947979_nq2yc28rh&cid=VB&s=1728x1117&rp=&v=2.7.4.212"
+        ],
+        "time": 0.1872129999101162
+      },
+      {
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=3086980%2C4010418&time=1734032949341&li_adsId=86f45f7a-4cd5-4cf2-a6e4-5d0a7930e510&url=https%3A%2F%2Fventurebeat.com%2F&cookiesTest=true&liSync=true",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "[2620:1ec:21::14]",
+        "responseHeaders": {
+          "location": "https://px4.ads.linkedin.com/collect?v=2&fmt=js&pid=3086980%2C4010418&time=1734032949341&li_adsId=86f45f7a-4cd5-4cf2-a6e4-5d0a7930e510&url=https%3A%2F%2Fventurebeat.com%2F&cookiesTest=true&liSync=true&e_ipv6=AQLA1MUwtN4M5AAAAZO8awKMgMNYBX2xjTYKq4Rl5vi3FAn9sby_nEdVWzt56hu7-lHm_KEhPTkJmEVMRTbPU-gwFT62-ATzzw",
+          "set-cookie": "li_sugr=f1d68d90-5ebf-4165-bdf3-5e2f556bf0c4; Max-Age=7776000; Expires=Wed, 12 Mar 2025 19:49:09 GMT; SameSite=None; Path=/; Domain=.linkedin.com; Secure\nbcookie=\"v=2&0bf8d20a-8844-4e27-8a70-03171b304551\"; domain=.linkedin.com; Path=/; Secure; Expires=Fri, 12-Dec-2025 19:49:09 GMT; SameSite=None",
+          "linkedin-action": "1",
+          "x-li-fabric": "prod-lor1",
+          "x-li-pop": "afd-prod-lor1-x",
+          "x-li-proto": "http/2",
+          "x-li-uuid": "AAYpGAIB3Om6aa8y/1qz6w==",
+          "x-cache": "CONFIG_NOCACHE",
+          "x-msedge-ref": "Ref A: A6B2069DA2B74B36BA2F45485166CD30 Ref B: CHGEDGE1714 Ref C: 2024-12-12T19:49:09Z",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-length": "0"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://px4.ads.linkedin.com/collect?v=2&fmt=js&pid=3086980%2C4010418&time=1734032949341&li_adsId=86f45f7a-4cd5-4cf2-a6e4-5d0a7930e510&url=https%3A%2F%2Fventurebeat.com%2F&cookiesTest=true&liSync=true&e_ipv6=AQLA1MUwtN4M5AAAAZO8awKMgMNYBX2xjTYKq4Rl5vi3FAn9sby_nEdVWzt56hu7-lHm_KEhPTkJmEVMRTbPU-gwFT62-ATzzw",
+        "redirectedFrom": "https://www.linkedin.com/px/li_sync?redirect=https%3A%2F%2Fpx.ads.linkedin.com%2Fcollect%3Fv%3D2%26fmt%3Djs%26pid%3D3086980%252C4010418%26time%3D1734032949341%26li_adsId%3D86f45f7a-4cd5-4cf2-a6e4-5d0a7930e510%26url%3Dhttps%253A%252F%252Fventurebeat.com%252F%26cookiesTest%3Dtrue%26liSync%3Dtrue",
+        "initiators": [
+          "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js"
+        ],
+        "time": 0.1892060001846403
+      },
+      {
+        "url": "https://dpm.demdex.net/demconf.jpg?et:ibs%7cdata:dpid=22052&dpuuid=3649075765930098696&redir=",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 715,
+        "remoteIPAddress": "52.37.14.226",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-type": "image/gif",
+          "content-length": "59",
+          "x-tid": "zR0HRahsQlk=",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private",
+          "pragma": "no-cache",
+          "expires": "Thu, 01 Jan 1970 00:00:00 UTC",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT\"",
+          "x-content-type-options": "nosniff",
+          "dcs": "dcs-prod-usw2-1-v065-0c7ef0517.edge-usw2.demdex.com 3 ms",
+          "set-cookie": "dpm=67078222037112122311068452772897460361; Max-Age=15552000; Expires=Tue, 10 Jun 2025 19:49:09 GMT; Path=/; Domain=.dpm.demdex.net; Secure; SameSite=None\ndemdex=67078222037112122311068452772897460361; Max-Age=15552000; Expires=Tue, 10 Jun 2025 19:49:09 GMT; Path=/; Domain=.demdex.net; Secure; SameSite=None",
+          "content-encoding": "gzip"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "redirectedFrom": "https://dpm.demdex.net/ibs:dpid=22052&dpuuid=3649075765930098696&redir=",
+        "initiators": [
+          "https://ml314.com/tag.aspx?12112024",
+          "https://ml314.com/utsync.ashx?pub=&adv=&et=0&eid=50090&ct=js&pi=&fp=&clid=&if=0&ps=&cl=&mlt=&data=&&cp=https%3A%2F%2Fventurebeat.com%2F&pv=1734032947979_nq2yc28rh&bl=en-us&cb=1629516&return=&ht=&d=&dc=&si=1734032947979_nq2yc28rh&cid=VB&s=1728x1117&rp=&v=2.7.4.212"
+        ],
+        "time": 0.08881199988536537
+      },
+      {
+        "url": "https://ml314.com/utsync.ashx?eid=50052&et=0&fp=2ELrECvNJvVXa1MEGWLdQevqA-FaUotJpQj-7lQwbShI&gdpr=0&gdpr_consent=&return=https%3A%2F%2Fps.eyeota.net%2Fmatch%3Fbid%3Dr8hrb20%26uid%3Dnil%26referrer_pid%3Dr8hrb20",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "34.117.77.79",
+        "responseHeaders": {
+          "content-type": "image/gif",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "0,Fri, 13 Dec 2024 19:49:10 GMT",
+          "location": "https://ml314.com/csync.ashx?fp=2ELrECvNJvVXa1MEGWLdQevqA-FaUotJpQj-7lQwbShI&person_id=3649075765930098696&eid=50052&return=https%3A%2F%2Fps.eyeota.net%2Fmatch%3Fbid%3Dr8hrb20%26uid%3Dnil%26referrer_pid%3Dr8hrb20",
+          "pragma": "no-cache",
+          "p3p": "CP=\"NON DSP COR ADMo PSAo DEVo BUS COM UNI NAV DEM STA\"",
+          "x-cloud-trace-context": "517c82cf443c3f84910d6bec101d791a",
+          "date": "Thu, 12 Dec 2024 19:49:10 GMT",
+          "server": "Google Frontend",
+          "content-length": "43",
+          "via": "1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://ml314.com/csync.ashx?fp=2ELrECvNJvVXa1MEGWLdQevqA-FaUotJpQj-7lQwbShI&person_id=3649075765930098696&eid=50052&return=https%3A%2F%2Fps.eyeota.net%2Fmatch%3Fbid%3Dr8hrb20%26uid%3Dnil%26referrer_pid%3Dr8hrb20",
+        "redirectedFrom": "https://ps.eyeota.net/pixel/bounce/?pid=r8hrb20&t=gif",
+        "initiators": [
+          "https://ml314.com/tag.aspx?12112024",
+          "https://ml314.com/utsync.ashx?pub=&adv=&et=0&eid=50090&ct=js&pi=&fp=&clid=&if=0&ps=&cl=&mlt=&data=&&cp=https%3A%2F%2Fventurebeat.com%2F&pv=1734032947979_nq2yc28rh&bl=en-us&cb=1629516&return=&ht=&d=&dc=&si=1734032947979_nq2yc28rh&cid=VB&s=1728x1117&rp=&v=2.7.4.212"
+        ],
+        "time": 0.06628899998031557
+      },
+      {
+        "url": "https://px4.ads.linkedin.com/collect?v=2&fmt=js&pid=3086980%2C4010418&time=1734032949341&li_adsId=86f45f7a-4cd5-4cf2-a6e4-5d0a7930e510&url=https%3A%2F%2Fventurebeat.com%2F&cookiesTest=true&liSync=true&e_ipv6=AQLA1MUwtN4M5AAAAZO8awKMgMNYBX2xjTYKq4Rl5vi3FAn9sby_nEdVWzt56hu7-lHm_KEhPTkJmEVMRTbPU-gwFT62-ATzzw",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 487,
+        "remoteIPAddress": "13.107.42.14",
+        "responseHeaders": {
+          "content-type": "application/javascript",
+          "set-cookie": "li_sugr=f1d68d90-5ebf-4165-bdf3-5e2f556bf0c4; Max-Age=7776000; Expires=Wed, 12 Mar 2025 19:49:10 GMT; SameSite=None; Path=/; Domain=.linkedin.com; Secure\nbcookie=\"v=2&0bf8d20a-8844-4e27-8a70-03171b304551\"; domain=.linkedin.com; Path=/; Secure; Expires=Fri, 12-Dec-2025 19:49:10 GMT; SameSite=None",
+          "linkedin-action": "1",
+          "x-li-fabric": "prod-lor1",
+          "x-li-pop": "afd-prod-lor1-x",
+          "x-li-proto": "http/2",
+          "x-li-uuid": "AAYpGAIFa4kzil4BUbtW+A==",
+          "x-cache": "CONFIG_NOCACHE",
+          "x-msedge-ref": "Ref A: 8C3CDBC356054AD9B00A1ACA07C4D01A Ref B: CHGEDGE1715 Ref C: 2024-12-12T19:49:10Z",
+          "date": "Thu, 12 Dec 2024 19:49:09 GMT",
+          "content-length": "0"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "redirectedFrom": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=3086980%2C4010418&time=1734032949341&li_adsId=86f45f7a-4cd5-4cf2-a6e4-5d0a7930e510&url=https%3A%2F%2Fventurebeat.com%2F&cookiesTest=true&liSync=true",
+        "initiators": [
+          "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js"
+        ],
+        "time": 0.1411329999100417
+      },
+      {
+        "url": "https://ml314.com/csync.ashx?fp=2ELrECvNJvVXa1MEGWLdQevqA-FaUotJpQj-7lQwbShI&person_id=3649075765930098696&eid=50052&return=https%3A%2F%2Fps.eyeota.net%2Fmatch%3Fbid%3Dr8hrb20%26uid%3Dnil%26referrer_pid%3Dr8hrb20",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "34.117.77.79",
+        "responseHeaders": {
+          "content-type": "image/gif",
+          "expires": "Fri, 13 Dec 2024 19:49:10 GMT",
+          "location": "https://ps.eyeota.net/match?bid=r8hrb20&uid=nil&referrer_pid=r8hrb20",
+          "x-cloud-trace-context": "327506bc2f1e7867088fbe061ec2ba1f",
+          "date": "Thu, 12 Dec 2024 19:49:10 GMT",
+          "server": "Google Frontend",
+          "content-length": "43",
+          "via": "1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://ps.eyeota.net/match?bid=r8hrb20&uid=nil&referrer_pid=r8hrb20",
+        "redirectedFrom": "https://ml314.com/utsync.ashx?eid=50052&et=0&fp=2ELrECvNJvVXa1MEGWLdQevqA-FaUotJpQj-7lQwbShI&gdpr=0&gdpr_consent=&return=https%3A%2F%2Fps.eyeota.net%2Fmatch%3Fbid%3Dr8hrb20%26uid%3Dnil%26referrer_pid%3Dr8hrb20",
+        "initiators": [
+          "https://ml314.com/tag.aspx?12112024",
+          "https://ml314.com/utsync.ashx?pub=&adv=&et=0&eid=50090&ct=js&pi=&fp=&clid=&if=0&ps=&cl=&mlt=&data=&&cp=https%3A%2F%2Fventurebeat.com%2F&pv=1734032947979_nq2yc28rh&bl=en-us&cb=1629516&return=&ht=&d=&dc=&si=1734032947979_nq2yc28rh&cid=VB&s=1728x1117&rp=&v=2.7.4.212"
+        ],
+        "time": 0.12264900002628565
+      },
+      {
+        "url": "https://ps.eyeota.net/match?bid=r8hrb20&uid=nil&referrer_pid=r8hrb20",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 440,
+        "remoteIPAddress": "34.231.251.31",
+        "responseHeaders": {
+          "set-cookie": "SERVERID=18331~DM; Domain=eyeota.net; Path=/; Expires=Thu, 12 Dec 2024 19:59:10 GMT; Secure; SameSite=None;",
+          "p3p": "CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR SAMo BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\", policyref=\"http://ps.eyeota.net/w3c/p3p.xml\"",
+          "content-type": "image/gif",
+          "content-length": "70",
+          "date": "Thu, 12 Dec 2024 19:49:10 GMT"
+        },
+        "responseBodyHash": "054a97aaff70057c3187746489439c24d1afa3017ab150c640e523a2b04a2084",
+        "redirectedFrom": "https://ml314.com/csync.ashx?fp=2ELrECvNJvVXa1MEGWLdQevqA-FaUotJpQj-7lQwbShI&person_id=3649075765930098696&eid=50052&return=https%3A%2F%2Fps.eyeota.net%2Fmatch%3Fbid%3Dr8hrb20%26uid%3Dnil%26referrer_pid%3Dr8hrb20",
+        "initiators": [
+          "https://ml314.com/tag.aspx?12112024",
+          "https://ml314.com/utsync.ashx?pub=&adv=&et=0&eid=50090&ct=js&pi=&fp=&clid=&if=0&ps=&cl=&mlt=&data=&&cp=https%3A%2F%2Fventurebeat.com%2F&pv=1734032947979_nq2yc28rh&bl=en-us&cb=1629516&return=&ht=&d=&dc=&si=1734032947979_nq2yc28rh&cid=VB&s=1728x1117&rp=&v=2.7.4.212"
+        ],
+        "time": 0.05820500012487173
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://venturebeat.com/": {
+          "Date.prototype.getTime": 1
+        },
+        "https://venturebeat.com/_static/??-eJyNjEEOwjAMwD5Emg2KxgXxFLR1YUtp02rJmPg9cEDiyNGSbdwqhCJGYphXqGmdWBQjWe3DHVrvGryyBBxWTiOy3FjYCDQsJaUvP11mcVF3+LOzmTIpPgYQ2hRHVsOo+AGYSGjp05/JXDK91Us+t93BN/vTsfPxBQq4Qx0=": {
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://stats.wp.com/e-202450.js": {
+          "Navigator.prototype.appName": 1
+        },
+        "https://cmp.inmobi.com/choice/UkS7f9ZMSZ6hP/www.venturebeat.com/choice.js?tag_version=V3": {
+          "Navigator.prototype.language": 2,
+          "Date.prototype.getTime": 1
+        },
+        "https://www.googletagmanager.com/gtm.js?id=GTM-M5ZX2VT": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 19,
+          "Date.prototype.getTime": 60,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "window.name": 2,
+          "window.localStorage": 2,
+          "Document.cookie setter": 1
+        },
+        "https://cmp.inmobi.com/tcfv2/53/cmp2.js?referer=www.venturebeat.com": {
+          "Navigator.prototype.product": 15,
+          "Navigator.prototype.userAgent": 3,
+          "window.localStorage": 4,
+          "Document.cookie getter": 3,
+          "Document.cookie setter": 1
+        },
+        "https://ml314.com/tag.aspx?12112024": {
+          "window.localStorage": 8,
+          "Date.prototype.getTime": 3,
+          "Navigator.prototype.language": 1,
+          "Screen.prototype.width": 2,
+          "Screen.prototype.height": 2,
+          "window.innerHeight": 2
+        },
+        "https://www.google-analytics.com/analytics.js": {
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "Screen.prototype.colorDepth": 1,
+          "Navigator.prototype.plugins": 1,
+          "Navigator.prototype.javaEnabled": 1,
+          "Navigator.prototype.language": 1,
+          "Date.prototype.getTime": 9,
+          "Document.cookie getter": 21,
+          "Navigator.prototype.userAgent": 2,
+          "Document.cookie setter": 3
+        },
+        "https://connect.facebook.net/en_US/fbevents.js": {
+          "Navigator.prototype.userAgent": 28,
+          "Navigator.prototype.vendor": 6,
+          "NavigatorUAData.prototype.brands": 1,
+          "NavigatorUAData.prototype.platform": 1,
+          "window.sessionStorage": 2,
+          "Document.cookie getter": 6,
+          "Document.cookie setter": 2,
+          "Screen.prototype.width": 3,
+          "Screen.prototype.height": 3
+        },
+        "https://www.googletagmanager.com/gtag/js?id=G-B8TDS1LEXQ&l=dataLayer&cx=c&gtm=45He4cb0v78033218za200": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 26,
+          "Date.prototype.getTime": 51,
+          "window.name": 2,
+          "Navigator.prototype.language": 2,
+          "Screen.prototype.width": 2,
+          "Screen.prototype.height": 2,
+          "Document.cookie setter": 5
+        },
+        "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref=": {
+          "window.localStorage": 6,
+          "Document.cookie getter": 1,
+          "Document.cookie setter": 13
+        },
+        "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js": {
+          "window.localStorage": 21,
+          "Document.cookie getter": 5,
+          "Date.prototype.getTime": 1,
+          "Navigator.prototype.userAgent": 9
+        },
+        "https://connect.facebook.net/signals/config/456656537857707?v=2.9.178&r=stable&domain=venturebeat.com&hme=28abfdc7e582ae2a8fdd6ac5ebb406923cf601dc2ee488049b0628e75e0f6b36&ex_m=70%2C122%2C107%2C111%2C61%2C4%2C100%2C69%2C16%2C97%2C89%2C51%2C54%2C173%2C176%2C188%2C184%2C185%2C187%2C29%2C101%2C53%2C77%2C186%2C168%2C171%2C181%2C182%2C189%2C132%2C41%2C191%2C192%2C34%2C144%2C15%2C50%2C197%2C196%2C134%2C18%2C40%2C1%2C43%2C65%2C66%2C67%2C71%2C93%2C17%2C14%2C96%2C92%2C91%2C108%2C52%2C110%2C39%2C109%2C30%2C94%2C26%2C169%2C172%2C141%2C86%2C56%2C84%2C33%2C73%2C0%2C95%2C32%2C28%2C82%2C83%2C88%2C47%2C46%2C87%2C37%2C11%2C12%2C13%2C6%2C7%2C25%2C22%2C23%2C57%2C62%2C64%2C75%2C102%2C27%2C76%2C9%2C8%2C80%2C48%2C21%2C104%2C103%2C105%2C98%2C10%2C20%2C3%2C38%2C74%2C19%2C5%2C90%2C81%2C44%2C35%2C85%2C2%2C36%2C63%2C42%2C106%2C45%2C79%2C68%2C112%2C60%2C59%2C31%2C99%2C58%2C55%2C49%2C78%2C72%2C24%2C113": {
+          "Navigator.prototype.userAgent": 1,
+          "window.localStorage": 5,
+          "Date.prototype.getTime": 1
+        },
+        "https://p.ad.gt/api/v1/p/173": {
+          "window.localStorage": 5
+        },
+        "https://www.googletagmanager.com/gtag/js?id=G-FVWZ0RM4DH&l=audDataLayer": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 6,
+          "Date.prototype.getTime": 27,
+          "window.name": 2,
+          "Navigator.prototype.language": 1,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://www.googletagmanager.com/gtm.js?id=GTM-M5ZX2VT",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gcl_au=1.1.9043525.1734032948; path=/; expires=Wed, 12 Mar 2025 19:49:07 GMT; domain=venturebeat.com"
+          ]
+        },
+        {
+          "source": "https://www.google-analytics.com/analytics.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga=GA1.2.137584344.1734032948; path=/; expires=Sat, 12 Dec 2026 19:49:08 GMT; domain=venturebeat.com;"
+          ]
+        },
+        {
+          "source": "https://www.google-analytics.com/analytics.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gid=GA1.2.198947072.1734032948; path=/; expires=Fri, 13 Dec 2024 19:49:08 GMT; domain=venturebeat.com;"
+          ]
+        },
+        {
+          "source": "https://www.google-analytics.com/analytics.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_gat_UA-489886-1=1; path=/; expires=Thu, 12 Dec 2024 19:50:08 GMT; domain=venturebeat.com;"
+          ]
+        },
+        {
+          "source": "https://cmp.inmobi.com/tcfv2/53/cmp2.js?referer=www.venturebeat.com",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "usprivacy=1N--;path=/;max-age=33696000;expires=Tue, 06 Jan 2026 19:49:08 GMT;domain=venturebeat.com;SameSite=Lax;secure"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-B8TDS1LEXQ&l=dataLayer&cx=c&gtm=45He4cb0v78033218za200",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_B8TDS1LEXQ=deleted; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; expires=Sat, 12 Dec 2026 19:49:08 GMT; domain=venturebeat.com; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-B8TDS1LEXQ&l=dataLayer&cx=c&gtm=45He4cb0v78033218za200",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_B8TDS1LEXQ=GS1.1.1734032948.1.0.1734032948.60.0.0; path=/; expires=Sat, 12 Dec 2026 19:49:08 GMT; domain=venturebeat.com; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-B8TDS1LEXQ&l=dataLayer&cx=c&gtm=45He4cb0v78033218za200",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga=GA1.1.137584344.1734032948; path=/; expires=Sat, 12 Dec 2026 19:49:08 GMT; domain=venturebeat.com; "
+          ]
+        },
+        {
+          "source": "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref=",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_au_1d=AU1D-0100-001734032949-UKJ4OAK6-N1YU; domain=venturebeat.com; secure; samesite=none; path=/; max-age=31536000"
+          ]
+        },
+        {
+          "source": "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref=",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_au_last_seen_apn=; domain=venturebeat.com; secure; samesite=none; path=/; max-age=0"
+          ]
+        },
+        {
+          "source": "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref=",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_au_last_seen_openx=; domain=venturebeat.com; secure; samesite=none; path=/; max-age=0"
+          ]
+        },
+        {
+          "source": "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref=",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_au_last_seen_pub=; domain=venturebeat.com; secure; samesite=none; path=/; max-age=0"
+          ]
+        },
+        {
+          "source": "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref=",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_au_last_seen_rub=; domain=venturebeat.com; secure; samesite=none; path=/; max-age=0"
+          ]
+        },
+        {
+          "source": "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref=",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_au_last_seen_ttd=; domain=venturebeat.com; secure; samesite=none; path=/; max-age=0"
+          ]
+        },
+        {
+          "source": "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref=",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_au_last_seen_tapad=; domain=venturebeat.com; secure; samesite=none; path=/; max-age=0"
+          ]
+        },
+        {
+          "source": "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref=",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_au_last_seen_adx=; domain=venturebeat.com; secure; samesite=none; path=/; max-age=0"
+          ]
+        },
+        {
+          "source": "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref=",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_au_last_seen_amo=; domain=venturebeat.com; secure; samesite=none; path=/; max-age=0"
+          ]
+        },
+        {
+          "source": "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref=",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_au_last_seen_son=; domain=venturebeat.com; secure; samesite=none; path=/; max-age=0"
+          ]
+        },
+        {
+          "source": "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref=",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_au_last_seen_goo=; domain=venturebeat.com; secure; samesite=none; path=/; max-age=0"
+          ]
+        },
+        {
+          "source": "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref=",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_au_last_seen_pixels=; domain=venturebeat.com; secure; samesite=none; path=/; max-age=0"
+          ]
+        },
+        {
+          "source": "https://a.ad.gt/api/v1/u/matches/173?url=https%3A%2F%2Fventurebeat.com%2F&ref=",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_au_last_seen_pixels=; domain=venturebeat.com; secure; samesite=none; path=/; max-age=0"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-B8TDS1LEXQ&l=dataLayer&cx=c&gtm=45He4cb0v78033218za200",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_B8TDS1LEXQ=deleted; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; expires=Sat, 12 Dec 2026 19:49:09 GMT; domain=venturebeat.com; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-B8TDS1LEXQ&l=dataLayer&cx=c&gtm=45He4cb0v78033218za200",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_B8TDS1LEXQ=GS1.1.1734032948.1.0.1734032949.59.0.0; path=/; expires=Sat, 12 Dec 2026 19:49:09 GMT; domain=venturebeat.com; "
+          ]
+        },
+        {
+          "source": "https://connect.facebook.net/en_US/fbevents.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_fbp=fb.0.1734032949446.394576226792914207;expires=Wed, 12 Mar 2025 19:49:09 GMT;domain=.com;SameSite=Lax;path=/"
+          ]
+        },
+        {
+          "source": "https://connect.facebook.net/en_US/fbevents.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_fbp=fb.1.1734032949446.394576226792914207;expires=Wed, 12 Mar 2025 19:49:09 GMT;domain=.venturebeat.com;SameSite=Lax;path=/"
+          ]
+        }
+      ]
+    },
+    "cookies": [
+      {
+        "name": "_gcl_au",
+        "domain": ".venturebeat.com",
+        "path": "/",
+        "expires": 1741808947000,
+        "session": false
+      },
+      {
+        "name": "_gid",
+        "domain": ".venturebeat.com",
+        "path": "/",
+        "expires": 1734119348000,
+        "session": false
+      },
+      {
+        "name": "_gat_UA-489886-1",
+        "domain": ".venturebeat.com",
+        "path": "/",
+        "expires": 1734033008000,
+        "session": false
+      },
+      {
+        "name": "usprivacy",
+        "domain": ".venturebeat.com",
+        "path": "/",
+        "expires": 1767728948863,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "_ga",
+        "domain": ".venturebeat.com",
+        "path": "/",
+        "expires": 1797104948000,
+        "session": false
+      },
+      {
+        "name": "_au_1d",
+        "domain": ".venturebeat.com",
+        "path": "/",
+        "expires": 1765568949068,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "u",
+        "domain": ".ml314.com",
+        "path": "/",
+        "expires": 1734032964098,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "pi",
+        "domain": ".ml314.com",
+        "path": "/",
+        "expires": 1765568949098,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "tp",
+        "domain": ".ml314.com",
+        "path": "/",
+        "expires": 1735242549098,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "i",
+        "domain": ".openx.net",
+        "path": "/",
+        "expires": 1765568949355,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "TapAd_TS",
+        "domain": ".tapad.com",
+        "path": "/",
+        "expires": 1739216949560,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "TapAd_DID",
+        "domain": ".tapad.com",
+        "path": "/",
+        "expires": 1739216949560,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_ga_B8TDS1LEXQ",
+        "domain": ".venturebeat.com",
+        "path": "/",
+        "expires": 1797104949000,
+        "session": false
+      },
+      {
+        "name": "KTPCACOOKIE",
+        "domain": ".pubmatic.com",
+        "path": "/",
+        "expires": 1741808949218,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "audit_p",
+        "domain": ".rubiconproject.com",
+        "path": "/",
+        "expires": 1765568949218,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "khaos",
+        "domain": ".rubiconproject.com",
+        "path": "/",
+        "expires": 1765568949218,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "khaos_p",
+        "domain": ".rubiconproject.com",
+        "path": "/",
+        "expires": 1765568949218,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "audit",
+        "domain": ".rubiconproject.com",
+        "path": "/",
+        "expires": 1765568949218,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "TDID",
+        "domain": ".adsrvr.org",
+        "path": "/",
+        "expires": 1765568949504,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "XANDR_PANID",
+        "domain": ".adnxs.com",
+        "path": "/",
+        "expires": 1741808949548,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "receive-cookie-deprecation",
+        "domain": ".adnxs.com",
+        "path": "/",
+        "expires": 2048528949548,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "uuid2",
+        "domain": ".adnxs.com",
+        "path": "/",
+        "expires": 1741808949548,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "KADUSERCOOKIE",
+        "domain": ".pubmatic.com",
+        "path": "/",
+        "expires": 1765568949332,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "au_id",
+        "domain": ".ad.gt",
+        "path": "/",
+        "expires": 1765568949338,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "uid",
+        "domain": ".turn.com",
+        "path": "/",
+        "expires": 1749584950352,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "__uis",
+        "domain": ".go.sonobi.com",
+        "path": "/",
+        "expires": 1765568948374,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "HAPLB8G",
+        "domain": ".go.sonobi.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "_fbp",
+        "domain": ".venturebeat.com",
+        "path": "/",
+        "expires": 1741808949000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "li_sugr",
+        "domain": ".linkedin.com",
+        "path": "/",
+        "expires": 1741808950164,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "lidc",
+        "domain": ".linkedin.com",
+        "path": "/",
+        "expires": 1734119349497,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "TDCPM",
+        "domain": ".adsrvr.org",
+        "path": "/",
+        "expires": 1765568949504,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "rlas3",
+        "domain": ".rlcdn.com",
+        "path": "/",
+        "expires": 1765568949637,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "TapAd_3WAY_SYNCS",
+        "domain": ".tapad.com",
+        "path": "/",
+        "expires": 1739216949560,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "UserMatchHistory",
+        "domain": ".linkedin.com",
+        "path": "/",
+        "expires": 1736624949576,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "AnalyticsSyncHistory",
+        "domain": ".linkedin.com",
+        "path": "/",
+        "expires": 1736624949576,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "bcookie",
+        "domain": ".linkedin.com",
+        "path": "/",
+        "expires": 1765568951164,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "pxrc",
+        "domain": ".rlcdn.com",
+        "path": "/",
+        "expires": 1739216949637,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "mako_uid",
+        "domain": ".eyeota.net",
+        "path": "/",
+        "expires": 1765568949761,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "SERVERID",
+        "domain": ".eyeota.net",
+        "path": "/",
+        "expires": 1734033550266,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "bscookie",
+        "domain": ".www.linkedin.com",
+        "path": "/",
+        "expires": 1765568949762,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "demdex",
+        "domain": ".demdex.net",
+        "path": "/",
+        "expires": 1749584949923,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "dpm",
+        "domain": ".dpm.demdex.net",
+        "path": "/",
+        "expires": 1749584949923,
+        "session": false,
+        "sameSite": "None"
+      }
+    ]
+  }
+}

@@ -1,0 +1,3497 @@
+{
+  "initialUrl": "http://dw.com/",
+  "finalUrl": "https://www.dw.com/en/top-stories/s-9097",
+  "timeout": false,
+  "testStarted": 1734033567234,
+  "testFinished": 1734033579155,
+  "data": {
+    "requests": [
+      {
+        "url": "http://dw.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "194.55.26.46",
+        "responseHeaders": {
+          "content-length": "0",
+          "location": "https://www.dw.com/"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.dw.com/",
+        "initiators": [],
+        "time": 0.5932340000290424
+      },
+      {
+        "url": "https://www.dw.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 3458,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"1fc4-1DjbonAISMP007CCzuCLR/faI7w\"",
+          "content-type": "text/html; charset=utf-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "3201",
+          "cache-control": "public, max-age=59, s-maxage=300",
+          "date": "Thu, 12 Dec 2024 19:59:28 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "5a38686945cb6082ca396a9123c0a883c7f0a4796fc0ac31df8c2cf5529cf2d6",
+        "redirectedFrom": "http://dw.com/",
+        "initiators": [],
+        "time": 0.45326599990949035
+      },
+      {
+        "url": "https://www.dw.com/static/index-oB6uIeUK.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 123423,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"6187f-193af77ac60\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/index-oB6uIeUK.js",
+          "last-modified": "Tue, 10 Dec 2024 07:27:56 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "123079",
+          "cache-control": "public, max-age=4975191",
+          "date": "Thu, 12 Dec 2024 19:59:28 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "6b209726df6b989305313c71f2b32f9d03c0387fb9912d635f6cfab8d5c5071c",
+        "initiators": [
+          "https://www.dw.com/"
+        ],
+        "time": 0.05116099980659783
+      },
+      {
+        "url": "https://www.dw.com/static/index-Bp60Mqmv.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 23160,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"1d13c-19396eacab0\"",
+          "content-type": "text/css; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/index-Bp60Mqmv.css",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "22881",
+          "cache-control": "public, max-age=4557155",
+          "date": "Thu, 12 Dec 2024 19:59:28 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "c2541e4a57c270e1f7be8f3a011c6c9de0747aece08ec0fc733f1b3e8e255e0e",
+        "initiators": [
+          "https://www.dw.com/"
+        ],
+        "time": 0.045904000056907535
+      },
+      {
+        "url": "https://www.dw.com/static/index-Bp60Mqmv.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "etag": "\"1d13c-19396eacab0\"",
+          "content-type": "text/css; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/index-Bp60Mqmv.css",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "22881",
+          "cache-control": "public, max-age=4557155",
+          "date": "Thu, 12 Dec 2024 19:59:28 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "c2541e4a57c270e1f7be8f3a011c6c9de0747aece08ec0fc733f1b3e8e255e0e",
+        "initiators": [
+          "https://www.dw.com/"
+        ],
+        "time": 0.03401999990455806
+      },
+      {
+        "url": "https://www.dw.com/graph-api/en/default-nav",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 426,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "W/\"b5-eRKAB7e/nn7ag5DxFJ70UDlkhn0\"",
+          "content-type": "application/json; charset=utf-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/graph-api/en/default-nav",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "157",
+          "cache-control": "public, max-age=52, s-maxage=300",
+          "date": "Thu, 12 Dec 2024 19:59:29 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "35a7cc4208becd2b9b3d23e260597baa15c3c87e87c682ac464ff5c850c68d49",
+        "initiators": [
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 0.022092999890446663
+      },
+      {
+        "url": "https://www.dw.com/service-worker.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "service-worker": "script",
+          "etag": "W/\"56f8-vv7D82lfr2jXpyPuui8u4dvtWhc\"",
+          "content-type": "application/javascript; charset=utf-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/service-worker.js",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "7299",
+          "date": "Thu, 12 Dec 2024 19:59:29 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "4a23b083be5ecb3f69590d3f27b5992cd6ef50151f856592e757e78db89c8ef9",
+        "initiators": [],
+        "time": 0.025039999978616834
+      },
+      {
+        "url": "https://www.dw.com/images/icons/favicon-32x32.png",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 1803,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"619-18fb8f539f0\"",
+          "content-type": "image/png",
+          "content-length": "1561",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/images/icons/favicon-32x32.png",
+          "last-modified": "Mon, 27 May 2024 07:30:30 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "cache-control": "public, max-age=4878463",
+          "date": "Thu, 12 Dec 2024 19:59:29 GMT"
+        },
+        "responseBodyHash": "3f57c76c3fffe2996be884ff1c376f8a63330bb54ce653c5c82b91a91271e330",
+        "initiators": [],
+        "time": 0.018715000012889504
+      },
+      {
+        "url": "https://www.dw.com/index.html",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 908,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"5fd-193af77ac60\"",
+          "content-type": "text/html; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/index.html",
+          "last-modified": "Tue, 10 Dec 2024 07:27:56 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "643",
+          "cache-control": "public, max-age=18, s-maxage=60",
+          "date": "Thu, 12 Dec 2024 19:59:29 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "32212c6bbfce83eadec16b9af29ea695e366c92fa62e05526f756db78c757ec1",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.02215699991211295
+      },
+      {
+        "url": "https://www.dw.com/static/AdvertorialContentDetails-BKh0iCJD.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1129,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"891-19396eacab0\"",
+          "content-type": "text/css; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/AdvertorialContentDetails-BKh0iCJD.css",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "848",
+          "cache-control": "public, max-age=4695212",
+          "date": "Thu, 12 Dec 2024 19:59:29 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "dfebfaebd35553612b5227ec61f72b0db7334f1fcb83033f8d833680e6d0e350",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.016153000062331557
+      },
+      {
+        "url": "https://www.dw.com/static/AdvertorialContentDetails-r5VgAoq4.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 2046,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"1383-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/AdvertorialContentDetails-r5VgAoq4.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "1754",
+          "cache-control": "public, max-age=4683848",
+          "date": "Thu, 12 Dec 2024 19:59:29 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "899f10947f9fe060a9faca769e43528dc6cd7603bfd75b2f138dba15798ea4c9",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.015807999996468425
+      },
+      {
+        "url": "https://www.dw.com/static/audioPlugins-DAyP6HSF.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1003,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"691-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/audioPlugins-DAyP6HSF.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "722",
+          "cache-control": "public, max-age=4557506",
+          "date": "Thu, 12 Dec 2024 19:59:29 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "9ff323198443e7f6bd484d3773f94e7c526b9665d6dcf767400638e3472509e4",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.015558999963104725
+      },
+      {
+        "url": "https://www.dw.com/static/audioPlugins-DBl05LP8.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 616,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"325-1903470d828\"",
+          "content-type": "text/css; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/audioPlugins-DBl05LP8.css",
+          "last-modified": "Thu, 20 Jun 2024 06:58:49 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "342",
+          "cache-control": "public, max-age=4883291",
+          "date": "Thu, 12 Dec 2024 19:59:29 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "4cb9744a69980e863988435b00192c028a781de5777972b233728fbd68bdec68",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.017666999949142337
+      },
+      {
+        "url": "https://www.dw.com/static/Balatarin-BMb7TqeF.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1099,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"7e3-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Balatarin-BMb7TqeF.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "820",
+          "cache-control": "public, max-age=4557624",
+          "date": "Thu, 12 Dec 2024 19:59:29 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "01da7d630e2db27fcdd476d256a57cfe3470ccc698c9cff181b5de60867c1fc8",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.01862400001846254
+      },
+      {
+        "url": "https://www.dw.com/graph-api/en/road/translations",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 6003,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "W/\"42d9-meoMiUNg2bdS0yh2qL/ienE/zkg\"",
+          "content-type": "application/json; charset=utf-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/graph-api/en/road/translations",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "5721",
+          "cache-control": "public, max-age=89, s-maxage=300",
+          "date": "Thu, 12 Dec 2024 19:59:29 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "427df4904abbdce1c286d22137fd936d823ac22e282c2130751dff25b4051184",
+        "initiators": [
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 0.021424999926239252
+      },
+      {
+        "url": "https://www.dw.com/graph-api/en/content/navigation/9097",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 19977,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "W/\"15bc4-BXEesV1Qtp/MqI1hppAa1aH3QEs\"",
+          "content-type": "application/json; charset=utf-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/graph-api/en/content/navigation/9097",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "19681",
+          "cache-control": "public, max-age=30, s-maxage=60",
+          "date": "Thu, 12 Dec 2024 19:59:29 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "2638b0c6e96a5ac9a6b1505788cdbd3c5831cde538bf0c267b53a1840e695de4",
+        "initiators": [
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 0.04531499999575317
+      },
+      {
+        "url": "https://www.dw.com/static/BreakingBannerNoQuery-Ba57ZRDQ.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 476,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"136-190252be8a8\"",
+          "content-type": "text/css; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/BreakingBannerNoQuery-Ba57ZRDQ.css",
+          "last-modified": "Mon, 17 Jun 2024 07:49:13 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "196",
+          "cache-control": "public, max-age=4883305",
+          "date": "Thu, 12 Dec 2024 19:59:29 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "7ce55a91056c49426a2f280d5e264289d589e4f5618d29dbface2ff5602883ac",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.016902999952435493
+      },
+      {
+        "url": "https://www.dw.com/static/BreakingBannerNoQuery-jeLH15DT.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 693,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"266-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/BreakingBannerNoQuery-jeLH15DT.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "404",
+          "cache-control": "public, max-age=4601369",
+          "date": "Thu, 12 Dec 2024 19:59:29 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "80f5902cd436673a3269c7edcbbb0bb9d42d70f194b5e51ec28f50e27095c548",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.01863699988462031
+      },
+      {
+        "url": "https://www.dw.com/static/cmp-style-overwrite-CKwW4HsE.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 537,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"164-19096916388\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/cmp-style-overwrite-CKwW4HsE.js",
+          "last-modified": "Tue, 09 Jul 2024 08:17:09 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "249",
+          "cache-control": "public, max-age=4883391",
+          "date": "Thu, 12 Dec 2024 19:59:29 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "37d48d12b0752f2b69c2fb3f6528dc6115aa8c23d37862386d9d3ccf24c3ff7a",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.01643700012937188
+      },
+      {
+        "url": "https://www.dw.com/static/cmp-style-overwrite-gSqeoI-t.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 456,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"10b-190e3dd0070\"",
+          "content-type": "text/css; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/cmp-style-overwrite-gSqeoI-t.css",
+          "last-modified": "Wed, 24 Jul 2024 08:30:30 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "179",
+          "cache-control": "public, max-age=4883298",
+          "date": "Thu, 12 Dec 2024 19:59:29 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "d97bc8dd67fa63b717ce2cc0cc52265f71693495815e2a8622ce77ecdd29ecb3",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.01890700007788837
+      },
+      {
+        "url": "https://www.dw.com/static/Comments-Cl0gXrje.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 353,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"49-1903470d828\"",
+          "content-type": "text/css; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Comments-Cl0gXrje.css",
+          "last-modified": "Thu, 20 Jun 2024 06:58:49 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "84",
+          "cache-control": "public, max-age=4883292",
+          "date": "Thu, 12 Dec 2024 19:59:29 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "22582bb4d8f6cfb4cec6eade04fcd3cf3ca6ff1dce0ed631aa5488a00fa5ecfd",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.01579400012269616
+      },
+      {
+        "url": "https://www.dw.com/images/icons/favicon-32x32.png",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "etag": "\"619-18fb8f539f0\"",
+          "content-type": "image/png",
+          "content-length": "1561",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/images/icons/favicon-32x32.png",
+          "last-modified": "Mon, 27 May 2024 07:30:30 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "cache-control": "public, max-age=4878463",
+          "date": "Thu, 12 Dec 2024 19:59:29 GMT"
+        },
+        "responseBodyHash": "3f57c76c3fffe2996be884ff1c376f8a63330bb54ce653c5c82b91a91271e330",
+        "initiators": [],
+        "time": 0.00419300002977252
+      },
+      {
+        "url": "https://www.dw.com/static/Comments-CqpIWSvr.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 732,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"384-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Comments-CqpIWSvr.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "453",
+          "cache-control": "public, max-age=4557451",
+          "date": "Thu, 12 Dec 2024 19:59:29 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "248dea62536b1852616e5e763791013effe31a9844b216e60da560ac7d387b11",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.02616199990734458
+      },
+      {
+        "url": "https://www.dw.com/static/consentScript-8lIvNgdL.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 3393,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"227e-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/consentScript-8lIvNgdL.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "3110",
+          "cache-control": "public, max-age=4557458",
+          "date": "Thu, 12 Dec 2024 19:59:29 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "85ba1acc8022b2b3d462e4b4208f14eaf2f816e2eac74f414cac940d9c13cc2d",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.018509999848902225
+      },
+      {
+        "url": "https://www.dw.com/static/Douban-DGF_n5VX.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 740,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"33b-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Douban-DGF_n5VX.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "462",
+          "cache-control": "public, max-age=4557669",
+          "date": "Thu, 12 Dec 2024 19:59:29 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "0d98a0424ca02b1b06a848ad3d26123879135829acdd2bf0c9903ff8ebbcac4b",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.0193699998781085
+      },
+      {
+        "url": "https://www.dw.com/static/einbliq-xfQ07QTY.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 11570,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"d8a2-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/einbliq-xfQ07QTY.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "11289",
+          "cache-control": "public, max-age=4557461",
+          "date": "Thu, 12 Dec 2024 19:59:29 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "3b6d56802e4ff2924d132b6c10e0076cb19db6571f52c539ac0599ac1ce2d79a",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.017380000092089176
+      },
+      {
+        "url": "https://www.dw.com/static/Email-CGzW-oXm.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 672,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"308-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Email-CGzW-oXm.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "395",
+          "cache-control": "public, max-age=4557572",
+          "date": "Thu, 12 Dec 2024 19:59:29 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "bb643389a809e4e78bd0f940cb736d2154158b8d70da040503bd1368e932fb67",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.01672299997881055
+      },
+      {
+        "url": "https://www.dw.com/static/extends-sLpYVMX2.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 637,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"240-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/extends-sLpYVMX2.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "359",
+          "cache-control": "public, max-age=4557427",
+          "date": "Thu, 12 Dec 2024 19:59:29 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "dfa373aef5cbbae43e0f7d8d0ec727692fb2484c27076fdbcc96b19c4be0b17d",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.02084599994122982
+      },
+      {
+        "url": "https://www.dw.com/static/FacebookMessenger-Diy2VYXu.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 809,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"361-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/FacebookMessenger-Diy2VYXu.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "524",
+          "cache-control": "public, max-age=4557518",
+          "date": "Thu, 12 Dec 2024 19:59:29 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "e671cbcdb40e718db2795d2bc6f3109e274b78b09bca2654913eaf0fe7601447",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.026172999991104007
+      },
+      {
+        "url": "https://www.dw.com/static/Flipboard-BG0p8vOP.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 663,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"2a2-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Flipboard-BG0p8vOP.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "383",
+          "cache-control": "public, max-age=4604264",
+          "date": "Thu, 12 Dec 2024 19:59:29 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "060617d783df1c63e3083c343bfa594aca752dd5801543107e75e4e0704abf59",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.018937000073492527
+      },
+      {
+        "url": "https://www.dw.com/static/index-A4EaFNjq.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 39932,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"1ef8d-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/index-A4EaFNjq.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "39634",
+          "cache-control": "public, max-age=4604194",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "ffcfa1397a9030d4e3ea8f51a099fe8afb8d517ebd19f9c9d7550dd7249f84a2",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.019337000092491508
+      },
+      {
+        "url": "https://www.dw.com/static/index-BJCUKpH4.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 17886,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"b8e6-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/index-BJCUKpH4.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "17598",
+          "cache-control": "public, max-age=4557657",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "8fee00b2f8beb7bc42e24cfdd9f8f57a9abeb265e5b8f60369d6a29f40b2caaf",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.017521000001579523
+      },
+      {
+        "url": "https://www.dw.com/static/index-Bp60Mqmv.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "etag": "\"1d13c-19396eacab0\"",
+          "content-type": "text/css; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/index-Bp60Mqmv.css",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "22881",
+          "cache-control": "public, max-age=4557155",
+          "date": "Thu, 12 Dec 2024 19:59:28 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "c2541e4a57c270e1f7be8f3a011c6c9de0747aece08ec0fc733f1b3e8e255e0e",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.0019409998785704374
+      },
+      {
+        "url": "https://www.dw.com/static/index-C5YbqRoX.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1576,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"fef-191faed9198\"",
+          "content-type": "text/css; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/index-C5YbqRoX.css",
+          "last-modified": "Mon, 16 Sep 2024 13:02:39 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "1308",
+          "cache-control": "public, max-age=4883363",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "0068eb7d9eefd7962eb60552d1fff082d13c65efcece397f2695c6934108d471",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.015850000083446503
+      },
+      {
+        "url": "https://www.dw.com/static/index-Hul_O_6k.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 123419,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"61847-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/index-Hul_O_6k.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "123075",
+          "cache-control": "public, max-age=4557506",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "515599bbc49fb0520844d9e980978e0d0eb737bc281a38ee12346c2056c70359",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.025034999940544367
+      },
+      {
+        "url": "https://www.dw.com/static/index-l0TVQwGS.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 953,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"611-19396eacab0\"",
+          "content-type": "text/css; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/index-l0TVQwGS.css",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "685",
+          "cache-control": "public, max-age=4557619",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "b853eae99a92fa257f1ba7e5b7d65bf7156108993535c4e6511422cf4d2038b7",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.016242000041529536
+      },
+      {
+        "url": "https://www.dw.com/static/Line-DWXxySov.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1898,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"ea1-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Line-DWXxySov.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "1621",
+          "cache-control": "public, max-age=4557625",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "fcac6c4f67838ecc15983e8bd84db3bf8e4947f7e4597fedfe41249a5fc906c1",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.015903000021353364
+      },
+      {
+        "url": "https://www.dw.com/static/LinkedIn-Bzx9wpuB.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1674,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"b0a-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/LinkedIn-Bzx9wpuB.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "1394",
+          "cache-control": "public, max-age=4557655",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "503c0646e232fb83d6b2f1efa458cdef328656491d3225fb4c59aaad9dbfd151",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.016290999948978424
+      },
+      {
+        "url": "https://www.dw.com/static/Meneame-CcUhFmTp.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 2954,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"1531-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Meneame-CcUhFmTp.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "2675",
+          "cache-control": "public, max-age=4557626",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "e252d82cc0d509184d8e673ec29020d430181decc3b005a006d493486a8c2a01",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.01738799992017448
+      },
+      {
+        "url": "https://www.dw.com/static/Moikrug-MZG1guAt.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1459,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"c52-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Moikrug-MZG1guAt.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "1180",
+          "cache-control": "public, max-age=4557535",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "3a9f323e80b9b55167447521133351b376d014db7d3607cef873dab61f62b2eb",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.027865999843925238
+      },
+      {
+        "url": "https://www.dw.com/static/Moj-B3jwbxsn.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1203,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"7ed-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Moj-B3jwbxsn.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "927",
+          "cache-control": "public, max-age=4557443",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "a8262d128f2d3cd52d8fd75fb430b57d9d60dac8f57d20b5cbad280846f638db",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.016487999819219112
+      },
+      {
+        "url": "https://www.dw.com/static/Odnoklassniki-CXvNhJSe.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1612,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"9d4-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Odnoklassniki-CXvNhJSe.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "1329",
+          "cache-control": "public, max-age=4604194",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "17277a0bed1e65af65a315c7d3c4e6a40849ac32915d2d5f01989466d288c4f4",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.016287000151351094
+      },
+      {
+        "url": "https://www.dw.com/static/PeachExperimentPage-Duugelja.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 338,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"2f-1903470d828\"",
+          "content-type": "text/css; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/PeachExperimentPage-Duugelja.css",
+          "last-modified": "Thu, 20 Jun 2024 06:58:49 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "61",
+          "cache-control": "public, max-age=4883295",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "d2daa2650029f5e5befe9b7c33c105cdd20c5ba983bf2241dec3e191effe6086",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.021428999956697226
+      },
+      {
+        "url": "https://www.dw.com/static/PeachExperimentPage-rj4PoCMA.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1155,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"670-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/PeachExperimentPage-rj4PoCMA.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "868",
+          "cache-control": "public, max-age=4683792",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "9edb976f5419c85757fa5222a6bbc3e2737a53e222aa150c4a457dc2465afa51",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.019619999919086695
+      },
+      {
+        "url": "https://www.dw.com/static/Print-BlfbskdR.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 350,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"49-18fde665700\"",
+          "content-type": "text/css; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Print-BlfbskdR.css",
+          "last-modified": "Mon, 03 Jun 2024 14:00:00 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "84",
+          "cache-control": "public, max-age=4883396",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "4728a061c3d19965a09d514febfd10fb2ae522879f6ee2a2499331b8a5d55476",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.017657999880611897
+      },
+      {
+        "url": "https://www.dw.com/static/Print-HeYMum90.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 784,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"493-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Print-HeYMum90.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "507",
+          "cache-control": "public, max-age=4604208",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "c9b6db47bd27af8b90b4e7d023a259e06ee47ee22aa0f845446e7624d41cd27e",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.027037999825552106
+      },
+      {
+        "url": "https://www.dw.com/static/ProxyProtocolFlip-BH2rnvd5.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1647,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"d62-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/ProxyProtocolFlip-BH2rnvd5.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "1361",
+          "cache-control": "public, max-age=4557507",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "68b801c109d9c57e5eaa405754f4c5d93ab5b8f75ee9933448133b780830190e",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.01811000006273389
+      },
+      {
+        "url": "https://www.dw.com/static/Qzone-DHy7CCKY.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 351,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"49-190e3dd0070\"",
+          "content-type": "text/css; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Qzone-DHy7CCKY.css",
+          "last-modified": "Wed, 24 Jul 2024 08:30:30 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "84",
+          "cache-control": "public, max-age=4883346",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "f143733b012404e56efbe70311cc516a6bfc4d7b6e24c52b6aad2c833fdf61e4",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.031147000147029757
+      },
+      {
+        "url": "https://www.dw.com/static/Qzone-DJ5WR29_.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1345,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"7b1-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Qzone-DJ5WR29_.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "1068",
+          "cache-control": "public, max-age=4683735",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "cb818d294c755ac74ebf5999bf25e363bf1d8daacb735c9c3b7108466871c45d",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.018803999992087483
+      },
+      {
+        "url": "https://www.dw.com/static/Reddit-C3PnwW0n.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1878,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"e6f-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Reddit-C3PnwW0n.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "1600",
+          "cache-control": "public, max-age=4557578",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "b73deb9b41ff284fad5df8ef5740c33ae3eb89e6c78c708f1ecb2717489c1f1a",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.016315999906510115
+      },
+      {
+        "url": "https://www.dw.com/static/Renren-B5SlvIfR.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1237,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"6b2-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Renren-B5SlvIfR.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "959",
+          "cache-control": "public, max-age=4557530",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "a97ad06a510d6dd706bcb7d13ab20c138f753571757679070a85a8301fb90e7c",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.017410999862477183
+      },
+      {
+        "url": "https://www.dw.com/static/Renren-DgYh8Y9o.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 351,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"49-18fde665700\"",
+          "content-type": "text/css; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Renren-DgYh8Y9o.css",
+          "last-modified": "Mon, 03 Jun 2024 14:00:00 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "84",
+          "cache-control": "public, max-age=4883389",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "e942dd600b41b93a6b9437bf5e20327c7293033800e6a9bb9c32a7ce9b8eca91",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.020471000112593174
+      },
+      {
+        "url": "https://www.dw.com/static/runGreekAccentedReplacer-D092jM88.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 859,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"3e7-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/runGreekAccentedReplacer-D092jM88.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "569",
+          "cache-control": "public, max-age=4557384",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "f165c141f81aa1c9edc616fef7b5f591f98f7f10f571295dca92629307679f93",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.01701200008392334
+      },
+      {
+        "url": "https://www.dw.com/static/Sharechat-DnMJXbGY.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1350,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"7ac-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Sharechat-DnMJXbGY.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "1070",
+          "cache-control": "public, max-age=4557380",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "6ce0528603969ef83e7c48e6f8e1a975115c5b1d0e5f65bd122e32b551c5d449",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.015993999782949686
+      },
+      {
+        "url": "https://www.dw.com/static/SlideChangeTracking-Bj9M2sZs.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 565,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"1c3-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/SlideChangeTracking-Bj9M2sZs.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "278",
+          "cache-control": "public, max-age=4557341",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "ad3843e02d8d242d1a2757b29aafd55a757890fa5dd68731cea16e6c4ad13e47",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.018473000032827258
+      },
+      {
+        "url": "https://www.dw.com/static/Sms-whLRGgfh.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 771,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"3d9-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Sms-whLRGgfh.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "495",
+          "cache-control": "public, max-age=4557507",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "f44af3848b0c40319fb1baeef6d1d246278285882275a3187d3af1c8d3f1b4a4",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.023518000030890107
+      },
+      {
+        "url": "https://www.dw.com/static/Telegram-CKZhalRQ.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 998,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"53d-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Telegram-CKZhalRQ.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "719",
+          "cache-control": "public, max-age=4557376",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "b5f0850768f2187af3836edbda2dd3e34a964abcdb0126312352007e0529ff0e",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.016881000017747283
+      },
+      {
+        "url": "https://www.dw.com/static/telegram-widget-ogcXe7hA.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1482,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"895-190e3dd0070\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/telegram-widget-ogcXe7hA.js",
+          "last-modified": "Wed, 24 Jul 2024 08:30:30 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "1199",
+          "cache-control": "public, max-age=4883313",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "4233727a97d700a6f1a5f7574d00f4b38a62c8d3299140c98137ef0e1013f4ac",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.018779000034555793
+      },
+      {
+        "url": "https://www.dw.com/static/TextInputBase-DF7WI0kM.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 743,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"3e8-191faed9198\"",
+          "content-type": "text/css; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/TextInputBase-DF7WI0kM.css",
+          "last-modified": "Mon, 16 Sep 2024 13:02:39 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "469",
+          "cache-control": "public, max-age=4883367",
+          "date": "Thu, 12 Dec 2024 19:59:30 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "efb4fde4040c66a850ee7416b20b5bb17ce33cd1b85cf9f97cea46088a8bb9d6",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.01959399995394051
+      },
+      {
+        "url": "https://www.dw.com/static/TextInputBase-TL-3SsXF.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 764,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"2bd-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/TextInputBase-TL-3SsXF.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "481",
+          "cache-control": "public, max-age=4557644",
+          "date": "Thu, 12 Dec 2024 19:59:31 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "ee0fc6443dbd5667e2893c8e6970488729963b9d2f79628959750ab768823f53",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.01898199995048344
+      },
+      {
+        "url": "https://www.dw.com/static/TextSize-Cu-aWu0-.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1023,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"529-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/TextSize-Cu-aWu0-.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "744",
+          "cache-control": "public, max-age=4604215",
+          "date": "Thu, 12 Dec 2024 19:59:31 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "b57ec532d4dd47377f72af08227f85e8db07e9de566e5ce995cdc12d8d545cb1",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.019118000054731965
+      },
+      {
+        "url": "https://www.dw.com/static/TextSize-DBJuF4rQ.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 353,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"48-1903470d828\"",
+          "content-type": "text/css; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/TextSize-DBJuF4rQ.css",
+          "last-modified": "Thu, 20 Jun 2024 06:58:49 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "83",
+          "cache-control": "public, max-age=4883322",
+          "date": "Thu, 12 Dec 2024 19:59:31 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "aab4622d97a6be07de2de50847330ab7eef3184af2e898c3081b835c8046bb74",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.01604999997653067
+      },
+      {
+        "url": "https://www.dw.com/static/Tiktok--HhoSayP.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 778,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"333-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Tiktok--HhoSayP.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "501",
+          "cache-control": "public, max-age=4557430",
+          "date": "Thu, 12 Dec 2024 19:59:31 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "433e68780bd3f170fd7497ae132c48896b79ff90a72f32784d0b838b86c01b58",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.016177000012248755
+      },
+      {
+        "url": "https://www.dw.com/static/TopStoryZone-DsZCTvKI.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 357,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"52-190bb40c2f0\"",
+          "content-type": "text/css; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/TopStoryZone-DsZCTvKI.css",
+          "last-modified": "Tue, 16 Jul 2024 11:15:02 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "85",
+          "cache-control": "public, max-age=4883326",
+          "date": "Thu, 12 Dec 2024 19:59:31 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "37f091b361f57abdcaf2e87869dffd501e3a4542f34a03dd4032a3db59cda6f6",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.01633500005118549
+      },
+      {
+        "url": "https://www.dw.com/static/TopStoryZone-DVowMNpI.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1642,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"d11-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/TopStoryZone-DVowMNpI.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "1359",
+          "cache-control": "public, max-age=4557503",
+          "date": "Thu, 12 Dec 2024 19:59:31 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "4f935a198f3b36269af7e4c6a1e35e0b66d5dc72277a1479b7670e1441025433",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.03662399994209409
+      },
+      {
+        "url": "https://www.dw.com/static/trackers-BLyEQyjt.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 651,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"2cc-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/trackers-BLyEQyjt.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "372",
+          "cache-control": "public, max-age=4557320",
+          "date": "Thu, 12 Dec 2024 19:59:31 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "7c2f9108d837da31e06bd2947deb76c81c3a08a36b5e4d14013312b3afb25979",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.0357659999281168
+      },
+      {
+        "url": "https://www.dw.com/static/Tracking-BeGaVPSq.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 39128,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"1f0d6-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Tracking-BeGaVPSq.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "38828",
+          "cache-control": "public, max-age=4557439",
+          "date": "Thu, 12 Dec 2024 19:59:31 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "bacfd92682a9ab042dd2384b467b6930e64c2df3d59f31b03d7b099c109e15bd",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.01870400016196072
+      },
+      {
+        "url": "https://www.dw.com/static/Twoo-BPAg0epd.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1151,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"686-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Twoo-BPAg0epd.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "875",
+          "cache-control": "public, max-age=4604222",
+          "date": "Thu, 12 Dec 2024 19:59:31 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "7020d960d39b74aa9c549c7a31f41f2bf7085dcfdf9c904f36c32f9a74ee231e",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.018817000091075897
+      },
+      {
+        "url": "https://www.dw.com/static/Twoo-CH0nQuBr.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 350,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"49-1918f709dc0\"",
+          "content-type": "text/css; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Twoo-CH0nQuBr.css",
+          "last-modified": "Mon, 26 Aug 2024 16:06:48 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "84",
+          "cache-control": "public, max-age=4883334",
+          "date": "Thu, 12 Dec 2024 19:59:31 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "5be684e19d08a1351dff33b42ec013bc50f8d9e9398839a99cad32dcf7a1abbf",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.018330999882891774
+      },
+      {
+        "url": "https://www.dw.com/static/Viber-Cnr39A9C.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 2869,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"1744-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Viber-Cnr39A9C.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "2591",
+          "cache-control": "public, max-age=4557385",
+          "date": "Thu, 12 Dec 2024 19:59:31 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "8395a00077c838bd8a59a19f0a48337321fc3ed8f95411493049dcabc5ac2f65",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.01699999999254942
+      },
+      {
+        "url": "https://www.dw.com/static/video.es-C2N9mc58.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 203884,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"a6577-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/video.es-C2N9mc58.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "203493",
+          "cache-control": "public, max-age=4557408",
+          "date": "Thu, 12 Dec 2024 19:59:31 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "52546eed40832b20a6f09b2abe3719cae7b94734ba54f8534c3e42de94535340",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.029171000001952052
+      },
+      {
+        "url": "https://www.dw.com/static/videojs-BOOTszGi.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 13116,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"bda4-1918f709dc0\"",
+          "content-type": "text/css; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/videojs-BOOTszGi.css",
+          "last-modified": "Mon, 26 Aug 2024 16:06:48 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "12845",
+          "cache-control": "public, max-age=4883357",
+          "date": "Thu, 12 Dec 2024 19:59:31 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "6f6e33712310def52d2b652a84ba282e853946a062e4c15142757c903eaf4df5",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.022517999866977334
+      },
+      {
+        "url": "https://www.dw.com/static/videojs-Iug94EgC.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1608,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"100c-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/videojs-Iug94EgC.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "1329",
+          "cache-control": "public, max-age=4557458",
+          "date": "Thu, 12 Dec 2024 19:59:31 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "35e66add23f719b0c858f8c92a2da4b091ac65d0644151d95fbfa40de74369aa",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.017170000122860074
+      },
+      {
+        "url": "https://www.dw.com/static/videoPlugins-BooWdYNF.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 725,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"6fc-18fb8f541c0\"",
+          "content-type": "text/css; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/videoPlugins-BooWdYNF.css",
+          "last-modified": "Mon, 27 May 2024 07:30:32 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "452",
+          "cache-control": "public, max-age=4883338",
+          "date": "Thu, 12 Dec 2024 19:59:31 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "dff883af60a44aaae7644d04b8ce34174ec2189447510c199494e223a1309be4",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.015552999917417765
+      },
+      {
+        "url": "https://www.dw.com/static/videoPlugins-D9j4syYf.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1778,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"d26-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/videoPlugins-D9j4syYf.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "1496",
+          "cache-control": "public, max-age=4557312",
+          "date": "Thu, 12 Dec 2024 19:59:31 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "7943b39a241aa8c214f522ed9ad8f7e9c4c4144ace960911899d7dbb7042bd5d",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.01631600013934076
+      },
+      {
+        "url": "https://www.dw.com/static/Vkontakte-B_SY1GJM.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 289,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"0-18fde665700\"",
+          "content-type": "text/css; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Vkontakte-B_SY1GJM.css",
+          "last-modified": "Mon, 03 Jun 2024 14:00:00 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "20",
+          "cache-control": "public, max-age=4883306",
+          "date": "Thu, 12 Dec 2024 19:59:31 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.017139999894425273
+      },
+      {
+        "url": "https://www.dw.com/static/Vkontakte-BrzgAa5_.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1627,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"9d7-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Vkontakte-BrzgAa5_.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "1347",
+          "cache-control": "public, max-age=4557476",
+          "date": "Thu, 12 Dec 2024 19:59:31 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "8fba8838098ca21f76e04acb2b321e78f53054a95cb7168a64daac118ca013a5",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.01687399996444583
+      },
+      {
+        "url": "https://www.dw.com/static/Wechat-XWoJ6xEN.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 3143,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"17c7-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Wechat-XWoJ6xEN.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "2864",
+          "cache-control": "public, max-age=4604211",
+          "date": "Thu, 12 Dec 2024 19:59:31 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "c75a18077f787089141a67b552fb71af5bcda19fe5be3e85804da19d7ea0b088",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.024148000171408057
+      },
+      {
+        "url": "https://www.dw.com/static/Weibo-s1SYhIRM.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1909,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"c3b-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Weibo-s1SYhIRM.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "1632",
+          "cache-control": "public, max-age=4557515",
+          "date": "Thu, 12 Dec 2024 19:59:31 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "e11b12c65f96037fd3d9123dce500050b31324ce16be45e9a01c957730e7a06b",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.016550000058487058
+      },
+      {
+        "url": "https://www.dw.com/static/Whatsapp-B5GeATY8.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1582,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"a3c-19396eacab0\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Whatsapp-B5GeATY8.js",
+          "last-modified": "Thu, 05 Dec 2024 13:03:10 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "1303",
+          "cache-control": "public, max-age=4557420",
+          "date": "Thu, 12 Dec 2024 19:59:31 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "c5d60aa96437e8380f5b6a0e417e1d8befa67eabfb233e3c27692853be515d55",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.015872000018134713
+      },
+      {
+        "url": "https://static.dw.com/image/71019554_1004.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 38984,
+        "remoteIPAddress": "[2600:1404:d400:193::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "content-type": "image/webp;charset=UTF-8",
+          "content-length": "38844",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "cache-control": "max-age=1654",
+          "date": "Thu, 12 Dec 2024 19:59:32 GMT"
+        },
+        "responseBodyHash": "7e128e73902501889bf62ecaf005607a14b56812a247d7fdf48e63483bfd95ba",
+        "initiators": [],
+        "time": 0.16339399991557002
+      },
+      {
+        "url": "https://www.dw.com/static/DWPangeaLatinBasicLettersVAR-BZ-2Srmb.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 20396,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"4e70-18fb8f541c0\"",
+          "content-type": "font/woff2",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/DWPangeaLatinBasicLettersVAR-BZ-2Srmb.woff2",
+          "last-modified": "Mon, 27 May 2024 07:30:32 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "20108",
+          "cache-control": "public, max-age=4878481",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "a1f828dd8adcfd19ee693458e031ebea4e8300c6c7a0b1356d3c6bb5b490ea76",
+        "initiators": [],
+        "time": 0.4583839999977499
+      },
+      {
+        "url": "https://www.dw.com/static/DWPangeaLatinBasicSymbolsVAR-yLfzKTDH.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 17217,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"4204-19121b49ef8\"",
+          "content-type": "font/woff2",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/DWPangeaLatinBasicSymbolsVAR-yLfzKTDH.woff2",
+          "last-modified": "Mon, 05 Aug 2024 08:42:51 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "16928",
+          "cache-control": "public, max-age=4878457",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "a05195acd232369ac7b277509210617479d5f026bf5d5af01221da2c7128d69c",
+        "initiators": [],
+        "time": 0.45827100006863475
+      },
+      {
+        "url": "https://www.dw.com/static/cmp-style-overwrite-CKwW4HsE.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "etag": "\"164-19096916388\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/cmp-style-overwrite-CKwW4HsE.js",
+          "last-modified": "Tue, 09 Jul 2024 08:17:09 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "249",
+          "cache-control": "public, max-age=4883391",
+          "date": "Thu, 12 Dec 2024 19:59:29 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "37d48d12b0752f2b69c2fb3f6528dc6115aa8c23d37862386d9d3ccf24c3ff7a",
+        "initiators": [
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 0.021033999975770712
+      },
+      {
+        "url": "https://www.dw.com/graph-api/en/breaking-news",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 333,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "W/\"2d-6+mSBFQegDK8wZJFK2Zf0IeO4bU\"",
+          "content-type": "application/json; charset=utf-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/graph-api/en/breaking-news",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "65",
+          "cache-control": "public, max-age=1, s-maxage=60",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "da90b3b1166c4be50885d813099bdba71d64662cc66bcc967404ee6696dc89da",
+        "initiators": [
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 0.10198500007390976
+      },
+      {
+        "url": "https://www.dw.com/static/Tracking-BrqAfrs4.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 39083,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"1efd6-193af77ac60\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/Tracking-BrqAfrs4.js",
+          "last-modified": "Tue, 10 Dec 2024 07:27:56 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "38783",
+          "cache-control": "public, max-age=4975239",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "206e40d3fb6511bb09dd0777d985f635d8d00dc96a361395b8880947e47fb2c1",
+        "initiators": [
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 0.03877199999988079
+      },
+      {
+        "url": "https://www.dw.com/static/trackers-Db117S5X.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 651,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"2cc-193af77ac60\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/trackers-Db117S5X.js",
+          "last-modified": "Tue, 10 Dec 2024 07:27:56 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "372",
+          "cache-control": "public, max-age=4975197",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "7dcaf70f804d2122342cfdf5ac6282c771ccfb9eb42629c294a77a8859c279b9",
+        "initiators": [
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 0.036367000080645084
+      },
+      {
+        "url": "https://static.dw.com/image/71024927_600.jpg",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1682,
+        "remoteIPAddress": "[2600:1404:d400:193::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "content-type": "image/jpeg;charset=UTF-8",
+          "content-length": "1561",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "cache-control": "max-age=2962",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT"
+        },
+        "responseBodyHash": "b19b7a4e2cdc0f93f53134d08d74214b5a36091da13ada6e60e4754bd4d19a71",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.028876999858766794
+      },
+      {
+        "url": "https://static.dw.com/image/71041411_600.jpg",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1574,
+        "remoteIPAddress": "[2600:1404:d400:193::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "content-type": "image/jpeg;charset=UTF-8",
+          "content-length": "1453",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "cache-control": "max-age=1011",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT"
+        },
+        "responseBodyHash": "f2723b2b2eea3077dd42f09552aebb7093527e204c1a848f991a502bf3ba949f",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.04899100004695356
+      },
+      {
+        "url": "https://static.dw.com/image/71039789_600.jpg",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1739,
+        "remoteIPAddress": "[2600:1404:d400:193::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "content-type": "image/jpeg;charset=UTF-8",
+          "content-length": "1618",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "cache-control": "max-age=2046",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT"
+        },
+        "responseBodyHash": "29a6ca95d6bdae7cbf526c2f0ec743a8fcdda1c7069c6d8eb55cd49f48997b82",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.05069900001399219
+      },
+      {
+        "url": "https://static.dw.com/image/71024927_600.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT",
+          "cache-control": "max-age=2962",
+          "accept-ranges": "bytes",
+          "content-length": "1561",
+          "strict-transport-security": "max-age=31536000",
+          "content-type": "image/jpeg;charset=UTF-8"
+        },
+        "responseBodyHash": "b19b7a4e2cdc0f93f53134d08d74214b5a36091da13ada6e60e4754bd4d19a71",
+        "initiators": [
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 0.035929000005126
+      },
+      {
+        "url": "https://static.dw.com/image/71041411_600.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT",
+          "cache-control": "max-age=1011",
+          "accept-ranges": "bytes",
+          "content-length": "1453",
+          "strict-transport-security": "max-age=31536000",
+          "content-type": "image/jpeg;charset=UTF-8"
+        },
+        "responseBodyHash": "f2723b2b2eea3077dd42f09552aebb7093527e204c1a848f991a502bf3ba949f",
+        "initiators": [
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 0.056228999979794025
+      },
+      {
+        "url": "https://static.dw.com/image/71039789_600.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT",
+          "cache-control": "max-age=2046",
+          "accept-ranges": "bytes",
+          "content-length": "1618",
+          "strict-transport-security": "max-age=31536000",
+          "content-type": "image/jpeg;charset=UTF-8"
+        },
+        "responseBodyHash": "29a6ca95d6bdae7cbf526c2f0ec743a8fcdda1c7069c6d8eb55cd49f48997b82",
+        "initiators": [
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 0.061655000085011125
+      },
+      {
+        "url": "https://static.dw.com/image/70991609_600.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT",
+          "cache-control": "max-age=367",
+          "accept-ranges": "bytes",
+          "content-length": "1688",
+          "strict-transport-security": "max-age=31536000",
+          "content-type": "image/jpeg;charset=UTF-8"
+        },
+        "responseBodyHash": "6639990c9f46b0a84382cc96c9ca793faf3dab86317e3d80671e09dcbefbaa2d",
+        "initiators": [
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 0.10624300013296306
+      },
+      {
+        "url": "https://static.dw.com/image/70991609_600.jpg",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1808,
+        "remoteIPAddress": "[2600:1404:d400:193::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "content-type": "image/jpeg;charset=UTF-8",
+          "content-length": "1688",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "cache-control": "max-age=367",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT"
+        },
+        "responseBodyHash": "6639990c9f46b0a84382cc96c9ca793faf3dab86317e3d80671e09dcbefbaa2d",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.09758600010536611
+      },
+      {
+        "url": "https://static.dw.com/image/19118091_600.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT",
+          "cache-control": "max-age=1779",
+          "accept-ranges": "bytes",
+          "content-length": "1506",
+          "strict-transport-security": "max-age=31536000",
+          "content-type": "image/jpeg;charset=UTF-8"
+        },
+        "responseBodyHash": "0736a870074104d98c47f3841e19bc75679cda0e62d9e0b16f4a309ed5834fba",
+        "initiators": [
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 0.09224599995650351
+      },
+      {
+        "url": "https://static.dw.com/image/19118091_600.jpg",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1627,
+        "remoteIPAddress": "[2600:1404:d400:193::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "content-type": "image/jpeg;charset=UTF-8",
+          "content-length": "1506",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "cache-control": "max-age=1779",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT"
+        },
+        "responseBodyHash": "0736a870074104d98c47f3841e19bc75679cda0e62d9e0b16f4a309ed5834fba",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.08068099990487099
+      },
+      {
+        "url": "https://static.dw.com/image/70991609_601.jpg",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 6542,
+        "remoteIPAddress": "[2600:1404:d400:193::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "content-type": "image/jpeg;charset=UTF-8",
+          "content-length": "6422",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "cache-control": "max-age=413",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT"
+        },
+        "responseBodyHash": "76a1caa91545ae71f6fa6d5931c4ccbf84907c04bb90b65cd77460902908a0cf",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.051389999920502305
+      },
+      {
+        "url": "https://static.dw.com/image/70991609_601.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT",
+          "cache-control": "max-age=413",
+          "accept-ranges": "bytes",
+          "content-length": "6422",
+          "strict-transport-security": "max-age=31536000",
+          "content-type": "image/jpeg;charset=UTF-8"
+        },
+        "responseBodyHash": "76a1caa91545ae71f6fa6d5931c4ccbf84907c04bb90b65cd77460902908a0cf",
+        "initiators": [
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 0.055948999943211675
+      },
+      {
+        "url": "https://static.dw.com/image/19118091_601.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT",
+          "cache-control": "max-age=2339",
+          "accept-ranges": "bytes",
+          "content-length": "5950",
+          "strict-transport-security": "max-age=31536000",
+          "content-type": "image/jpeg;charset=UTF-8"
+        },
+        "responseBodyHash": "bc1248e32c9a6ed1d0ee5ce03a0938a4c835384467582efd50100345523d9376",
+        "initiators": [
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 0.04999000020325184
+      },
+      {
+        "url": "https://static.dw.com/image/71024927_602.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT",
+          "cache-control": "max-age=1732",
+          "accept-ranges": "bytes",
+          "content-length": "25318",
+          "strict-transport-security": "max-age=31536000",
+          "content-type": "image/jpeg;charset=UTF-8"
+        },
+        "responseBodyHash": "a9ad34cc63bb55366e3a7b9c3c28462d932fc1eb458161ad52e6651898592eeb",
+        "initiators": [
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 0.04753899993374944
+      },
+      {
+        "url": "https://static.dw.com/image/71041411_602.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT",
+          "cache-control": "max-age=990",
+          "accept-ranges": "bytes",
+          "content-length": "11198",
+          "strict-transport-security": "max-age=31536000",
+          "content-type": "image/jpeg;charset=UTF-8"
+        },
+        "responseBodyHash": "6f88e766207855c7974027f137dd3ae71d889a89377d880f52b38c5f7778cc0a",
+        "initiators": [
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 0.06344900000840425
+      },
+      {
+        "url": "https://static.dw.com/image/71039789_602.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT",
+          "cache-control": "max-age=1923",
+          "accept-ranges": "bytes",
+          "content-length": "13578",
+          "strict-transport-security": "max-age=31536000",
+          "content-type": "image/jpeg;charset=UTF-8"
+        },
+        "responseBodyHash": "5fba7edd719bd92f66995c12a9e08c3fd92ec4fcbc7637cde5ddbb12a157da3d",
+        "initiators": [
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 0.10547999991104007
+      },
+      {
+        "url": "https://static.dw.com/image/19118091_601.jpg",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 6071,
+        "remoteIPAddress": "[2600:1404:d400:193::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "content-type": "image/jpeg;charset=UTF-8",
+          "content-length": "5950",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "cache-control": "max-age=2339",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT"
+        },
+        "responseBodyHash": "bc1248e32c9a6ed1d0ee5ce03a0938a4c835384467582efd50100345523d9376",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.037754000164568424
+      },
+      {
+        "url": "https://www.dw.com/en/manifest.json",
+        "method": "GET",
+        "type": "Manifest",
+        "status": 200,
+        "size": 569,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"405-+EgIic8iLaauMMQGSfG4tcecr9A\"",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/en/manifest.json",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "303",
+          "cache-control": "public, max-age=43200, s-maxage=86400",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "8543dd48ca9fe97df1381d53113d18d15c6b1e8c61dad60581a1b33db15c0c95",
+        "initiators": [],
+        "time": 0.09377700020559132
+      },
+      {
+        "url": "https://static.dw.com/image/71024927_602.jpg",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 25449,
+        "remoteIPAddress": "[2600:1404:d400:193::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "content-type": "image/jpeg;charset=UTF-8",
+          "content-length": "25318",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "cache-control": "max-age=1732",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT"
+        },
+        "responseBodyHash": "a9ad34cc63bb55366e3a7b9c3c28462d932fc1eb458161ad52e6651898592eeb",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.037675000028684735
+      },
+      {
+        "url": "https://static.dw.com/image/71041411_602.jpg",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 11319,
+        "remoteIPAddress": "[2600:1404:d400:193::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "content-type": "image/jpeg;charset=UTF-8",
+          "content-length": "11198",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "cache-control": "max-age=990",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT"
+        },
+        "responseBodyHash": "6f88e766207855c7974027f137dd3ae71d889a89377d880f52b38c5f7778cc0a",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.04754299996420741
+      },
+      {
+        "url": "https://static.dw.com/image/71039789_602.jpg",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 13700,
+        "remoteIPAddress": "[2600:1404:d400:193::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "content-type": "image/jpeg;charset=UTF-8",
+          "content-length": "13578",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "cache-control": "max-age=1923",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT"
+        },
+        "responseBodyHash": "5fba7edd719bd92f66995c12a9e08c3fd92ec4fcbc7637cde5ddbb12a157da3d",
+        "initiators": [
+          "https://www.dw.com/service-worker.js"
+        ],
+        "time": 0.082406000001356
+      },
+      {
+        "url": "https://www.dw.com/static/consentScript-D8d-tf_N.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3393,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"227e-193af77ac60\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/consentScript-D8d-tf_N.js",
+          "last-modified": "Tue, 10 Dec 2024 07:27:56 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "3110",
+          "cache-control": "public, max-age=4975256",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "6b58b146333dcb7c166e0de7dd94c8c9d4f119791bde3013338c75c074b0c3fb",
+        "initiators": [
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 0.030766999814659357
+      },
+      {
+        "url": "https://www.dw.com/images/icons/favicon-144x144.png",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 15306,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"3ad6-18ea3a69860\"",
+          "content-type": "image/png",
+          "content-length": "15062",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/images/icons/favicon-144x144.png",
+          "last-modified": "Wed, 03 Apr 2024 11:09:48 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "cache-control": "public, max-age=4887240",
+          "date": "Thu, 12 Dec 2024 19:59:33 GMT"
+        },
+        "responseBodyHash": "be04d45b53efc59a1fc325e1bd3033257ceeff70c917d2e71a9569ecb0d3aae2",
+        "initiators": [],
+        "time": 0.024639999959617853
+      },
+      {
+        "url": "https://pipe-collect.ebu.io/v3/collect?s=dedw000000000128",
+        "method": "POST",
+        "type": "XHR",
+        "status": 201,
+        "size": 54,
+        "remoteIPAddress": "54.170.59.98",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-type": "application/json; charset=utf-8",
+          "date": "Thu, 12 Dec 2024 19:59:34 GMT",
+          "server": "Python/3.10 aiohttp/3.8.4",
+          "content-length": "2"
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://www.dw.com/static/Tracking-BrqAfrs4.js",
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 0.5199750000610948
+      },
+      {
+        "url": "https://pipe-collect.ebu.io/v3/collect?s=dedw000000000128",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "54.170.59.98",
+        "responseHeaders": {
+          "access-control-allow-headers": "Content-Type",
+          "access-control-allow-methods": "POST, OPTIONS",
+          "access-control-allow-origin": "*",
+          "date": "Thu, 12 Dec 2024 19:59:34 GMT",
+          "server": "Python/3.10 aiohttp/3.8.4"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://pipe-collect.ebu.io/v3/collect?s=dedw000000000128"
+        ],
+        "time": 0.39965700008906424
+      },
+      {
+        "url": "https://pgxdqxq.pa-cd.com/event?s=615873&idclient=m4lqtgmw1mw9v6g3",
+        "method": "POST",
+        "type": "Ping",
+        "status": 204,
+        "size": 325,
+        "remoteIPAddress": "108.157.141.6",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:59:34 GMT",
+          "strict-transport-security": "max-age=15768000",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "https://www.dw.com",
+          "access-control-max-age": "600",
+          "cache-control": "no-store",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 4ad6f7d2964ccad9e98ef7dfd5f9c392.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P1",
+          "x-amz-cf-id": "luFJQzfquWGIwlW91lI2rc73YgylL3-a-Uv04kMLaDoww1FsOOlj0w=="
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.dw.com/static/Tracking-BrqAfrs4.js",
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 0.18714599986560643
+      },
+      {
+        "url": "https://consent.dw.com/delivery/cmp.php?cdid=b33d6f92e190c&h=https%253A%252F%252Fwww.dw.com%252Fen%252Ftop-stories%252Fs-9097&__cmpfcc=1&l=en&o=1734033574090",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4276,
+        "remoteIPAddress": "[2600:1404:1800:597::2d63]",
+        "responseHeaders": {
+          "content-type": "text/javascript; charset=utf-8",
+          "pragma": "no-cache",
+          "access-control-allow-origin": "*",
+          "cross-origin-resource-policy": "cross-origin",
+          "x-xss-protection": "0",
+          "last-modified": "Thu, 12 Dec 2024 19:59:35 GMT",
+          "x-77-nzt": "EwgBWbunJQEhCAG5TAoBASEIAYrHJcQBIQ",
+          "x-77-nzt-ray": "84cb522f55c9cdfaa7405b6721f6970c",
+          "x-77-cache": "MISS",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "x-77-pop": "londonGB",
+          "content-length": "3757",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "expires": "Thu, 12 Dec 2024 19:59:35 GMT",
+          "date": "Thu, 12 Dec 2024 19:59:35 GMT",
+          "alt-svc": "h3=\":443\"; ma=93600",
+          "server-timing": "cdn-cache; desc=MISS\nedge; dur=21\norigin; dur=180\nak_p; desc=\"1734033574284_3089039525_20028266_20151_2160_18_0_146\";dur=1"
+        },
+        "responseBodyHash": "b70563e1b4614dfb531a59192a80d9218311d16a42628e37d2bd97970c16c8d0",
+        "initiators": [
+          "https://www.dw.com/static/consentScript-D8d-tf_N.js",
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 1.253535999916494
+      },
+      {
+        "url": "https://consent.dw.com/delivery/js/cmp_final_en.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 97997,
+        "remoteIPAddress": "[2600:1404:1800:597::2d63]",
+        "responseHeaders": {
+          "content-type": "application/javascript",
+          "cross-origin-resource-policy": "cross-origin\ncross-origin",
+          "last-modified": "Thu, 28 Nov 2024 18:45:11 GMT",
+          "etag": "W/\"6e9f3-627fd7b69bbc0\"",
+          "x-77-nzt": "EwwBVBEyBwH32o4AAAwBuUwKCQH3ensAAAwBJRPCMQG3QQ0AAA",
+          "x-77-nzt-ray": "66f31c26e090a11008d349672530ea18",
+          "x-77-cache": "HIT",
+          "x-77-age": "36570",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "x-77-pop": "londonGB",
+          "content-length": "97467",
+          "cache-control": "max-age=33154",
+          "expires": "Fri, 13 Dec 2024 05:12:09 GMT",
+          "date": "Thu, 12 Dec 2024 19:59:35 GMT",
+          "server-timing": "cdn-cache; desc=HIT\nedge; dur=13\nak_p; desc=\"1734033575129_3089039525_20028267_1359_1027_23_845_146\";dur=1"
+        },
+        "responseBodyHash": "a39edc064915e15f9a4132e628b922f76e9705c8c41f1c312f532b2c4178de68",
+        "initiators": [
+          "https://www.dw.com/static/consentScript-D8d-tf_N.js",
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 1.1039479998871684
+      },
+      {
+        "url": "https://consent.dw.com/delivery/customdata/bV8xLndfNzAxNjYucl9HRFBSLmxfZW4uZF8zNDg1MS54XzgzOS52LnAudF8zNDg1MS54dF8xOTU.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 33344,
+        "remoteIPAddress": "[2600:1404:1800:597::2d63]",
+        "responseHeaders": {
+          "content-type": "text/javascript; charset=utf-8",
+          "access-control-allow-origin": "*",
+          "cross-origin-resource-policy": "cross-origin",
+          "x-xss-protection": "0",
+          "last-modified": "Thu, 12 Dec 2024 19:36:08 GMT",
+          "x-77-nzt": "EwwBVBEyBwGzpwYAAAwBuUwKEwGzpwYAAAwBJRPCNAG3DAAAAA",
+          "x-77-nzt-ray": "66f31c26e1443f34343b5b673ac3311c",
+          "x-77-cache": "HIT",
+          "x-77-age": "12",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "x-77-pop": "londonGB",
+          "content-length": "32834",
+          "cache-control": "public, max-age=386",
+          "expires": "Thu, 12 Dec 2024 20:06:01 GMT",
+          "date": "Thu, 12 Dec 2024 19:59:35 GMT",
+          "server-timing": "cdn-cache; desc=HIT\nedge; dur=23\norigin; dur=0\nak_p; desc=\"1734033575467_3089039525_20028657_2340_947_18_0_146\";dur=1"
+        },
+        "responseBodyHash": "9b3dfddeec30fa77f9db4caa243000a9e38d34d193e2a69bd276700118e1414f",
+        "initiators": [
+          "https://consent.dw.com/delivery/cmp.php?cdid=b33d6f92e190c&h=https%253A%252F%252Fwww.dw.com%252Fen%252Ftop-stories%252Fs-9097&__cmpfcc=1&l=en&o=1734033574090"
+        ],
+        "time": 0.05366700002923608
+      },
+      {
+        "url": "https://consent.dw.com/delivery/info/?id=70166&did=2&cfdid=2&t=pv.d_ncs.d_ancs.d_bncs&h=https%3A%2F%2Fwww.dw.com%2Fen%2Ftop-stories%2Fs-9097&o=1734033575629&l=EN&lv=95766&d=2&ct=14&e=&e2=&e3=&i=&sv=195&dv=839&",
+        "method": "GET",
+        "type": "Image",
+        "status": 404,
+        "size": 0,
+        "remoteIPAddress": "[2600:1404:1800:597::2d63]",
+        "responseHeaders": {
+          "content-type": "text/html; charset=iso-8859-1",
+          "content-length": "212",
+          "x-77-nzt": "EwwBVBEyBwGzAAAAAAwBuUwKEwH1yMYXAAwBnJIhJwG05h9FAA",
+          "x-77-nzt-ray": "66f31c26c741e372a7405b677733e82c",
+          "x-77-cache": "HIT",
+          "x-77-age": "1558216",
+          "x-77-pop": "londonGB",
+          "cache-control": "max-age=0",
+          "expires": "Thu, 12 Dec 2024 19:59:35 GMT",
+          "date": "Thu, 12 Dec 2024 19:59:35 GMT",
+          "alt-svc": "h3=\":443\"; ma=93600",
+          "server-timing": "cdn-cache; desc=MISS\nedge; dur=14\norigin; dur=115\nak_p; desc=\"1734033575469_3089039560_23449154_12892_1075_-_-_-\";dur=1",
+          "quic-version": "0x00000001"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://consent.dw.com/delivery/js/cmp_final_en.min.js",
+          "https://consent.dw.com/delivery/cmp.php?cdid=b33d6f92e190c&h=https%253A%252F%252Fwww.dw.com%252Fen%252Ftop-stories%252Fs-9097&__cmpfcc=1&l=en&o=1734033574090",
+          "https://consent.dw.com/delivery/customdata/bV8xLndfNzAxNjYucl9HRFBSLmxfZW4uZF8zNDg1MS54XzgzOS52LnAudF8zNDg1MS54dF8xOTU.js"
+        ],
+        "time": 0.15898000006563962
+      },
+      {
+        "url": "https://consent.dw.com/delivery/info/?id=70166&did=2&cfdid=2&t=cv&h=https%3A%2F%2Fwww.dw.com%2Fen%2Ftop-stories%2Fs-9097&o=1734033575632&l=EN&lv=95766&d=2&ct=14&e=&e2=&e3=&i=&sv=195&dv=839&",
+        "method": "GET",
+        "type": "Image",
+        "status": 404,
+        "size": 0,
+        "remoteIPAddress": "[2600:1404:1800:597::2d63]",
+        "responseHeaders": {
+          "content-type": "text/html; charset=iso-8859-1",
+          "content-length": "212",
+          "x-77-nzt": "EwwBVBEyBwH1AAAAAAwBuUwKEwH1yMYXAAwBnJIhJwG05h9FAA",
+          "x-77-nzt-ray": "66f31c268f3e10bda7405b6748baf52c",
+          "x-77-cache": "HIT",
+          "x-77-age": "0",
+          "x-77-pop": "londonGB",
+          "cache-control": "max-age=0",
+          "expires": "Thu, 12 Dec 2024 19:59:35 GMT",
+          "date": "Thu, 12 Dec 2024 19:59:35 GMT",
+          "alt-svc": "h3=\":443\"; ma=93600",
+          "server-timing": "cdn-cache; desc=MISS\nedge; dur=11\norigin; dur=110\nak_p; desc=\"1734033575682_3089039560_23449155_12083_753_-_-_-\";dur=1",
+          "quic-version": "0x00000001"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://consent.dw.com/delivery/js/cmp_final_en.min.js",
+          "https://consent.dw.com/delivery/cmp.php?cdid=b33d6f92e190c&h=https%253A%252F%252Fwww.dw.com%252Fen%252Ftop-stories%252Fs-9097&__cmpfcc=1&l=en&o=1734033574090",
+          "https://consent.dw.com/delivery/customdata/bV8xLndfNzAxNjYucl9HRFBSLmxfZW4uZF8zNDg1MS54XzgzOS52LnAudF8zNDg1MS54dF8xOTU.js"
+        ],
+        "time": 0.15091899991966784
+      },
+      {
+        "url": "https://www.dw.com/static/videojs-BdUY1Wm9.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1607,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"100c-193af77ac60\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/videojs-BdUY1Wm9.js",
+          "last-modified": "Tue, 10 Dec 2024 07:27:56 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "1328",
+          "cache-control": "public, max-age=4975254",
+          "date": "Thu, 12 Dec 2024 19:59:37 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "7bf2d626d675c6baa21767186ab2871ea28bb351252a6585d0933358de20d72c",
+        "initiators": [
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 0.016952000092715025
+      },
+      {
+        "url": "https://www.dw.com/static/video.es-DjttdCSp.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 203882,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"a6577-193af77ac60\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/video.es-DjttdCSp.js",
+          "last-modified": "Tue, 10 Dec 2024 07:27:56 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "203491",
+          "cache-control": "public, max-age=4975476",
+          "date": "Thu, 12 Dec 2024 19:59:37 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "fcd51185e21e0c8e81074d602a827c049eabd4c1efaaa3759879c5f02d37d006",
+        "initiators": [
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 0.34873399999924004
+      },
+      {
+        "url": "https://www.dw.com/static/extends-CTgPGggY.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 639,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"240-193af77ac60\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/extends-CTgPGggY.js",
+          "last-modified": "Tue, 10 Dec 2024 07:27:56 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "content-length": "360",
+          "cache-control": "public, max-age=4975280",
+          "date": "Thu, 12 Dec 2024 19:59:37 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "871dae877783df2c4ba17a4aedf9fdac373823e87a1fd7a244618f41a9d6a203",
+        "initiators": [
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 0.025936000049114227
+      },
+      {
+        "url": "https://www.dw.com/static/videojs-BOOTszGi.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:59:31 GMT",
+          "content-encoding": "gzip",
+          "last-modified": "Mon, 26 Aug 2024 16:06:48 GMT",
+          "etag": "\"bda4-1918f709dc0\"",
+          "vary": "Accept-Encoding",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/videojs-BOOTszGi.css",
+          "content-type": "text/css; charset=UTF-8",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=4883357",
+          "strict-transport-security": "max-age=31536000",
+          "accept-ranges": "bytes",
+          "content-length": "12845"
+        },
+        "responseBodyHash": "6f6e33712310def52d2b652a84ba282e853946a062e4c15142757c903eaf4df5",
+        "initiators": [
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 0.008080000057816505
+      },
+      {
+        "url": "https://www.dw.com/static/einbliq-eHvWhkIr.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 11571,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"d8a2-193af77ac60\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/einbliq-eHvWhkIr.js",
+          "last-modified": "Tue, 10 Dec 2024 07:27:56 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "11290",
+          "cache-control": "public, max-age=4975216",
+          "date": "Thu, 12 Dec 2024 19:59:37 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "1b36e4b61a73ccf66f4cfd7a2ba98264be9fc9fcab4583f9f05f7877be4ab5c9",
+        "initiators": [
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 0.02493700012564659
+      },
+      {
+        "url": "https://www.dw.com/static/videoPlugins-D1r5hxTj.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1775,
+        "remoteIPAddress": "[2600:1407:7400:1088::2d63]",
+        "responseHeaders": {
+          "strict-transport-security": "max-age=31536000",
+          "etag": "\"d26-193af77ac60\"",
+          "content-type": "application/javascript; charset=UTF-8",
+          "content-encoding": "gzip",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/videoPlugins-D1r5hxTj.js",
+          "last-modified": "Tue, 10 Dec 2024 07:27:56 GMT",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "1493",
+          "cache-control": "public, max-age=4975391",
+          "date": "Thu, 12 Dec 2024 19:59:38 GMT",
+          "vary": "Accept-Encoding"
+        },
+        "responseBodyHash": "f7b50f2cf1465ac1a1da21ffd645616f186197ba1ca9359c542126ac58a355dd",
+        "initiators": [
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 0.019504999974742532
+      },
+      {
+        "url": "https://www.dw.com/static/videoPlugins-BooWdYNF.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:59:31 GMT",
+          "content-encoding": "gzip",
+          "last-modified": "Mon, 27 May 2024 07:30:32 GMT",
+          "etag": "\"6fc-18fb8f541c0\"",
+          "vary": "Accept-Encoding",
+          "onion-location": "https://www.dwnewsgngmhlplxy6o2twtfgjnrnjxbegbwqx6wnotdhkzt562tszfid.onion/static/videoPlugins-BooWdYNF.css",
+          "content-type": "text/css; charset=UTF-8",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=4883338",
+          "strict-transport-security": "max-age=31536000",
+          "accept-ranges": "bytes",
+          "content-length": "452"
+        },
+        "responseBodyHash": "dff883af60a44aaae7644d04b8ce34174ec2189447510c199494e223a1309be4",
+        "initiators": [
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ],
+        "time": 0.008122000144794583
+      },
+      {
+        "url": "https://pipe-collect.ebu.io/v3/collect?s=dedw000000000128",
+        "method": "POST",
+        "type": "XHR",
+        "initiators": [
+          "https://www.dw.com/static/Tracking-BrqAfrs4.js",
+          "https://www.dw.com/static/trackers-Db117S5X.js",
+          "https://www.dw.com/static/videojs-BdUY1Wm9.js",
+          "https://www.dw.com/static/video.es-DjttdCSp.js",
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ]
+      },
+      {
+        "url": "https://xftcpwwm.1bliq.io/qos/html5?x=%7B%22sid%22%3A%22d8da95fd-df32-fddc-0595-8d3df8d68efc%22%2C%22rn%22%3A0%2C%22t%22%3A2%2C%22ps%22%3A%5B%7B%22t%22%3A1%2C%22id%22%3A10%7D%5D%2C%22es%22%3A%5B%7B%22t%22%3A1%2C%22sid%22%3A3%2C%22em%22%3A%22MEDIA_ERR_SRC_NOT_SUPPORTED%20Code%3A%204%22%2C%22ed%22%3A%22No%20compatible%20source%20was%20found%20for%20this%20media.%22%7D%5D%2C%22cd%22%3A%5B%7B%22t%22%3A0%2C%22cd%22%3A%7B%22web.language%22%3A%22ENGLISH%22%7D%7D%2C%7B%22t%22%3A0%2C%22cd%22%3A%7B%22web.player%22%3A%22Videojs%20Player%22%2C%22web.referrer%22%3A%22https%3A%2F%2Fwww.dw.com%2Fen%2Ftop-stories%2Fs-9097%22%7D%7D%5D%2C%22per%22%3A%7B%22pid%22%3A%227fa4cad0-923a-890f-6d2c-9081162154fb%22%7D%2C%22it%22%3A1734033578871%2C%22mu%22%3A%22https%3A%2F%2Fhlsvod.dw.com%2Fi%2Fdwtv_video%2Fflv%2Fshe%2Fshe241212_ttn_sora_%2CAVC_480x270%2CAVC_512x288%2CAVC_640x360%2CAVC_960x540%2CAVC_1280x720%2CAVC_1920x1080%2C.mp4.csmil%2Fmaster.m3u8%22%2C%22mt%22%3A%22Three%20things%20you%20need%20to%20know%20about%20Sora%22%2C%22mid%22%3A%2271039169%22%2C%22av%22%3A%223.41.0%22%2C%22an%22%3A%22road%22%2C%22lv%22%3A%221.4.1%22%7D",
+        "method": "GET",
+        "type": "Image",
+        "initiators": [
+          "https://www.dw.com/static/einbliq-eHvWhkIr.js",
+          "https://www.dw.com/static/video.es-DjttdCSp.js",
+          "https://www.dw.com/static/index-oB6uIeUK.js"
+        ]
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.dw.com/static/index-oB6uIeUK.js": {
+          "window.localStorage": 1,
+          "window.sessionStorage": 1,
+          "Navigator.prototype.platform": 3,
+          "Navigator.prototype.maxTouchPoints": 1,
+          "Navigator.prototype.userAgent": 8,
+          "Navigator.prototype.language": 1,
+          "Date.prototype.getTime": 76
+        },
+        "https://www.dw.com/static/Tracking-BrqAfrs4.js": {
+          "window.localStorage": 18,
+          "Date.prototype.getTime": 14,
+          "Document.cookie setter": 14,
+          "Document.cookie getter": 30,
+          "Navigator.prototype.doNotTrack": 1,
+          "Navigator.prototype.userAgent": 1,
+          "Navigator.prototype.vendor": 1,
+          "Navigator.prototype.platform": 1,
+          "Navigator.prototype.language": 3,
+          "Date.prototype.getTimezoneOffset": 1,
+          "Screen.prototype.width": 2,
+          "Screen.prototype.height": 2,
+          "window.innerWidth": 2,
+          "window.innerHeight": 2,
+          "NavigatorUAData.prototype.getHighEntropyValues": 2,
+          "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+        },
+        "https://www.dw.com/static/consentScript-D8d-tf_N.js": {
+          "Document.cookie getter": 1,
+          "Date.prototype.getTime": 1
+        },
+        "https://consent.dw.com/delivery/js/cmp_final_en.min.js": {
+          "Date.prototype.getTime": 16,
+          "Navigator.prototype.languages": 9,
+          "window.localStorage": 25,
+          "Document.cookie getter": 21,
+          "Document.cookie setter": 2
+        },
+        "https://consent.dw.com/delivery/cmp.php?cdid=b33d6f92e190c&h=https%253A%252F%252Fwww.dw.com%252Fen%252Ftop-stories%252Fs-9097&__cmpfcc=1&l=en&o=1734033574090": {
+          "Date.prototype.getTime": 12
+        },
+        "https://www.dw.com/static/video.es-DjttdCSp.js": {
+          "Navigator.prototype.maxTouchPoints": 1,
+          "NavigatorUAData.prototype.platform": 1,
+          "Navigator.prototype.userAgent": 1,
+          "Navigator.prototype.languages": 2,
+          "HTMLMediaElement.prototype.canPlayType": 10,
+          "MediaSource.isTypeSupported": 1,
+          "Screen.prototype.orientation": 2
+        },
+        "https://www.dw.com/static/einbliq-eHvWhkIr.js": {
+          "Date.prototype.getTime": 6
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://www.dw.com/static/Tracking-BrqAfrs4.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=m4lqtglk5fqj3m; expires=Thu, 12 Dec 2024 20:00:03 GMT; path=/; domain=com; secure"
+          ]
+        },
+        {
+          "source": "https://www.dw.com/static/Tracking-BrqAfrs4.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=; expires=Wed, 11 Dec 2024 19:59:33 GMT; path=/; domain=com"
+          ]
+        },
+        {
+          "source": "https://www.dw.com/static/Tracking-BrqAfrs4.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=m4lqtglk5fqj3m; expires=Thu, 12 Dec 2024 20:00:03 GMT; path=/; domain=dw.com; secure"
+          ]
+        },
+        {
+          "source": "https://www.dw.com/static/Tracking-BrqAfrs4.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=; expires=Wed, 11 Dec 2024 19:59:33 GMT; path=/; domain=dw.com"
+          ]
+        },
+        {
+          "source": "https://www.dw.com/static/Tracking-BrqAfrs4.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "pa_privacy=%22optin%22;path=/;domain=.dw.com;secure;samesite=lax;expires=Sun, 11 Jan 2026 19:59:33 GMT"
+          ]
+        },
+        {
+          "source": "https://www.dw.com/static/Tracking-BrqAfrs4.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_pc_c=73b1add2-24be-1e5f-e1a1-5486a241948d;expires=Fri, 12 Dec 2025 19:59:33 GMT;SameSite=Strict;secure;path=/;domain=dw.com"
+          ]
+        },
+        {
+          "source": "https://www.dw.com/static/Tracking-BrqAfrs4.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_pc_t=do_not_track;SameSite=Strict;secure;expires=Fri, 12 Dec 2025 19:59:33 GMT;path=/;domain=dw.com"
+          ]
+        },
+        {
+          "source": "https://www.dw.com/static/Tracking-BrqAfrs4.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_pc_lr=1734033573778;SameSite=Strict;secure;path=/;domain=dw.com"
+          ]
+        },
+        {
+          "source": "https://www.dw.com/static/Tracking-BrqAfrs4.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_pc_st=1734033573779;SameSite=Strict;secure;path=/;domain=dw.com"
+          ]
+        },
+        {
+          "source": "https://www.dw.com/static/Tracking-BrqAfrs4.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_pc_t=tracking_enabled;SameSite=Strict;secure;expires=Fri, 12 Dec 2025 19:59:33 GMT;path=/;domain=dw.com"
+          ]
+        },
+        {
+          "source": "https://www.dw.com/static/Tracking-BrqAfrs4.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_pcid=%7B%22browserId%22%3A%22m4lqtgmw1mw9v6g3%22%2C%22_t%22%3A%22mka5qy0r%7Cm4lqtgor%22%7D; expires=Sun, 11 Jan 2026 19:59:33 GMT; path=/; domain=.dw.com; secure; sameSite=lax"
+          ]
+        },
+        {
+          "source": "https://www.dw.com/static/Tracking-BrqAfrs4.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_pctx=%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18yBbANaEArAEcAngAYJAH34AWVGPwBzShJABfIA; expires=Sun, 11 Jan 2026 19:59:33 GMT; path=/; domain=.dw.com; secure; sameSite=lax"
+          ]
+        },
+        {
+          "source": "https://www.dw.com/static/Tracking-BrqAfrs4.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_pc_lr=1734033573869;SameSite=Strict;secure;path=/;domain=dw.com"
+          ]
+        },
+        {
+          "source": "https://consent.dw.com/delivery/js/cmp_final_en.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__cmpconsentx70166=CQJiNbAQJiNbAAfCmCENBTFwAAAAAAAAAAigAAAGfgAgGfAA;expires=Thu, 26 Dec 2024 19:59:35 GMT;path=/;domain=.dw.com;SameSite=Lax;Secure"
+          ]
+        },
+        {
+          "source": "https://consent.dw.com/delivery/js/cmp_final_en.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__cmpcccx70166=aBQJkIaMAAgAyAkAAWAA0AC4ANAAggBDAC8AJkAYIAywBtAD4AIWAU8AswBlQDRAHMAXGAuUBugDfQHEgOWAeiBBkCDgEpQJ_gWBAxwBjsEl4KFAUaAqAADVNyrWdWxg;expires=Thu, 26 Dec 2024 19:59:35 GMT;path=/;domain=.dw.com;SameSite=Lax;Secure"
+          ]
+        },
+        {
+          "source": "https://www.dw.com/static/Tracking-BrqAfrs4.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_pc_lr=1734033578860;SameSite=Strict;secure;path=/;domain=dw.com"
+          ]
+        }
+      ]
+    },
+    "cookies": [
+      {
+        "name": "pa_privacy",
+        "domain": ".dw.com",
+        "path": "/",
+        "expires": 1768161573000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "_pc_c",
+        "domain": ".dw.com",
+        "path": "/",
+        "expires": 1765569573000,
+        "session": false,
+        "sameSite": "Strict"
+      },
+      {
+        "name": "_pc_st",
+        "domain": ".dw.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "Strict"
+      },
+      {
+        "name": "_pc_t",
+        "domain": ".dw.com",
+        "path": "/",
+        "expires": 1765569573000,
+        "session": false,
+        "sameSite": "Strict"
+      },
+      {
+        "name": "_pcid",
+        "domain": ".dw.com",
+        "path": "/",
+        "expires": 1768161573000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "_pctx",
+        "domain": ".dw.com",
+        "path": "/",
+        "expires": 1768161573000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "__cmpconsentx70166",
+        "domain": ".dw.com",
+        "path": "/",
+        "expires": 1735243175000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "__cmpcccx70166",
+        "domain": ".dw.com",
+        "path": "/",
+        "expires": 1735243175000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "_pc_lr",
+        "domain": ".dw.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "Strict"
+      }
+    ]
+  }
+}

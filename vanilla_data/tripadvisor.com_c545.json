@@ -1,0 +1,148 @@
+{
+  "initialUrl": "http://tripadvisor.com/",
+  "finalUrl": "https://tripadvisor.com/",
+  "timeout": false,
+  "testStarted": 1734033641790,
+  "testFinished": 1734033646395,
+  "data": {
+    "requests": [
+      {
+        "url": "http://tripadvisor.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "151.101.130.28",
+        "responseHeaders": {
+          "connection": "close",
+          "content-length": "0",
+          "server": "Varnish",
+          "retry-after": "0",
+          "location": "https://tripadvisor.com/",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 20:00:41 GMT",
+          "via": "1.1 varnish",
+          "x-served-by": "cache-cmh1290123-CMH",
+          "x-cache": "HIT",
+          "x-cache-hits": "0",
+          "x-timer": "S1734033642.987284,VS0,VE0"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://tripadvisor.com/",
+        "initiators": [],
+        "time": 0.1179770000744611
+      },
+      {
+        "url": "https://tripadvisor.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 403,
+        "size": 1549,
+        "remoteIPAddress": "151.101.130.28",
+        "responseHeaders": {
+          "pragma": "no-cache",
+          "cache-control": "no-store, must-revalidate",
+          "set-cookie": "datadome=XKTzYKDMzAhJVh6WoNi9dQFu3Fyqzmf5z7RfFORtHbsCYoUM4Yzk_F~OCWqgLEnICmjqoCj852_3Ee6vAr1ynJDB_Du9L_nQSb5iHOd3exaLZUBXDsBuwIFhxkAJLYvA; Max-Age=31104000; Domain=.tripadvisor.com; Path=/; Secure; SameSite=Lax\nTAUnique=%1%enc%3A6%2BgYXauEHQghI88HQsJMvLFPF1ELJ9dQwUUCsbZDP%2FGLf23Fpt%2FHM0QPSdd2C2IZNox8JbUSTxk%3D; Max-Age=63072000; HttpOnly; Path=/",
+          "charset": "utf-8",
+          "x-envoy-upstream-service-time": "4",
+          "access-control-allow-credentials": "true",
+          "access-control-expose-headers": "x-dd-b, x-set-cookie",
+          "x-datadome-cid": "AHrlqAAAAAMAXIpR-c550JQAbNFfeQ==",
+          "x-dd-b": "2",
+          "server": "envoy",
+          "content-type": "text/html;charset=utf-8",
+          "x-datadome": "protected",
+          "access-control-allow-origin": "*",
+          "accept-ch": "Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory",
+          "x-request-id": "59364ba8-b29a-4866-97a0-b5e34216e0a9",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 20:00:42 GMT",
+          "via": "1.1 varnish",
+          "x-served-by": "cache-cmh1290078-CMH",
+          "x-cache": "MISS",
+          "x-cache-hits": "0",
+          "x-timer": "S1734033642.096960,VS0,VE24",
+          "vary": "Accept-Encoding",
+          "content-length": "735"
+        },
+        "responseBodyHash": "145553d34e58016e7298a3465866f13bbfabac7e93bc58166d2b7463284da889",
+        "redirectedFrom": "http://tripadvisor.com/",
+        "initiators": [],
+        "time": 0.1259190000128001
+      },
+      {
+        "url": "https://ct.captcha-delivery.com/c.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 11651,
+        "remoteIPAddress": "18.160.156.100",
+        "responseHeaders": {
+          "content-type": "text/javascript",
+          "content-length": "11273",
+          "date": "Thu, 12 Dec 2024 14:53:03 GMT",
+          "last-modified": "Thu, 12 Dec 2024 14:52:45 GMT",
+          "etag": "\"14c9d8874f75e12878693ab443f21f5c\"",
+          "x-amz-server-side-encryption": "AES256",
+          "x-amz-version-id": "null",
+          "accept-ranges": "bytes",
+          "server": "AmazonS3",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 3478862062821cb68202321df0f72682.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "IAH50-P1",
+          "x-amz-cf-id": "t0DIqPIK-OH7d0sT0KOb1c0eihh_xs2bKMXLQXBoupIrVAUm4-9FuQ==",
+          "age": "18460"
+        },
+        "responseBodyHash": "fe12fedf5df7e9c9a24865ebda31e65b49b23d6048c5c7178b38eedc3c117429",
+        "initiators": [
+          "https://tripadvisor.com/"
+        ],
+        "time": 0.5192110000643879
+      },
+      {
+        "url": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAXIpR-c550JQAbNFfeQ%3D%3D&hash=2F05D671381DB06BEE4CC52C7A6FD3&cid=XKTzYKDMzAhJVh6WoNi9dQFu3Fyqzmf5z7RfFORtHbsCYoUM4Yzk_F~OCWqgLEnICmjqoCj852_3Ee6vAr1ynJDB_Du9L_nQSb5iHOd3exaLZUBXDsBuwIFhxkAJLYvA&t=bv&referer=https%3A%2F%2Ftripadvisor.com%2F&s=46694&e=44831d9a29cda52cb918263510e9c96ef2a34ff200b8dbedcc75d4ddea02ac0a&dm=cd",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "remoteIPAddress": "34.36.220.158",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 20:00:42 GMT",
+          "content-type": "text/html;charset=utf-8",
+          "transfer-encoding": "chunked",
+          "connection": "keep-alive",
+          "access-control-allow-origin": "*",
+          "content-encoding": "gzip"
+        },
+        "initiators": [
+          "https://ct.captcha-delivery.com/c.js"
+        ]
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://ct.captcha-delivery.com/c.js": {
+          "window.sessionStorage": 1,
+          "Navigator.prototype.userAgent": 3,
+          "Document.cookie getter": 1
+        }
+      },
+      "savedCalls": []
+    },
+    "cookies": [
+      {
+        "name": "datadome",
+        "domain": ".tripadvisor.com",
+        "path": "/",
+        "expires": 1765137642130,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "TAUnique",
+        "domain": "tripadvisor.com",
+        "path": "/",
+        "expires": 1797105642131,
+        "session": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,3225 @@
+{
+  "initialUrl": "http://quizlet.com/",
+  "finalUrl": "https://quizlet.com/",
+  "timeout": true,
+  "testStarted": 1734033264886,
+  "testFinished": 1734033297705,
+  "data": {
+    "requests": [
+      {
+        "url": "http://quizlet.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:25 GMT",
+          "content-type": "text/html",
+          "content-length": "167",
+          "connection": "keep-alive",
+          "cache-control": "max-age=3600",
+          "expires": "Thu, 12 Dec 2024 20:54:25 GMT",
+          "location": "https://quizlet.com/",
+          "set-cookie": "__cf_bm=GIlVXbizPX7mecXWH3pbkJSlqKsJxUZWLNivh3QA1l8-1734033265-1.0.1.1-M1or9Bg0ntZUAZtwUDK64wtFUsKC3cP2QjazozZggy1atqAni8OONm_O8ocZwVXCXfCX0gLdSZbUPagju1Mxcg; path=/; expires=Thu, 12-Dec-24 20:24:25 GMT; domain=.quizlet.com; HttpOnly",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "8f1044232e7160a7-ORD"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://quizlet.com/",
+        "initiators": [],
+        "time": 0.18425599997863173
+      },
+      {
+        "url": "https://quizlet.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 61840,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "cf-ray": "8f104423fa2e6077-ORD",
+          "cf-cache-status": "DYNAMIC",
+          "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "set-cookie": "qmeasure__persistence=%7B%22118%22%3A%2200010000%22%7D; path=/; secure; httponly\nqi5=n2fnng5etlyr%3Acxo1XXMjt0ym3dIjMhpK; expires=Sun, 10-Dec-2034 19:54:25 GMT; Max-Age=315360000; path=/; secure; httponly\nqtkn=ThgG9bVtPr5K2GEsF9S5Ty; path=/; secure\nfs=soecmp; expires=Sun, 10-Dec-2034 19:54:25 GMT; Max-Age=315360000; path=/; secure; httponly\napp_session_id=684e3859-4c8a-4536-80e3-9c90112a485c; expires=Thu, 12-Dec-2024 20:24:25 GMT; Max-Age=1800; path=/; secure\n_pxhd=db6e71d282c081bff1f8b5cb5cb3e4139e7fe508a6b796479be4aafaa9365646:e3932bc6-b8c2-11ef-bd54-12c16c3777d2; path=/; SameSite=Lax\n__cfruid=d0f937ef8d8feff8244b947f21b135c31759e608-1734033266; path=/; domain=.quizlet.com; HttpOnly; Secure; SameSite=None\n_cfuvid=y.NPvatBAH0ptMPXUKp0nl4cceT9f7ToVgSVK60cLt8-1734033266027-0.0.1.1-604800000; path=/; domain=.quizlet.com; HttpOnly; Secure; SameSite=None",
+          "vary": "Accept-Encoding",
+          "via": "1.1 google",
+          "quizlet-action-name": "Homepage/index",
+          "quizlet-route-importance": "normal",
+          "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/csp-reporting.cloudflare.com\\/cdn-cgi\\/script_monitor\\/report?m=UBDbojLMX90LSkabABenEhfw4qZJjJOg8MZHvlqFvUA-1734033266-1.0.1.1-TmAp37TRFZWmc2Vic7ANPGVInEd7PbdZi4FFYYCGEHID2Xz2LcaI7hSRuCcja2LFOPyhoJJZS8jH6MzgsrnA2cL91S5hUFsH0TSNATvIVonCUzO.WMOTrDBo91sCbnhr9RZ1TtlXlVz.166362j2vw\"}],\"group\":\"cf-csp-endpoint\",\"max_age\":86400}",
+          "content-security-policy-report-only": "script-src 'none'; connect-src 'none'; report-uri https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=UBDbojLMX90LSkabABenEhfw4qZJjJOg8MZHvlqFvUA-1734033266-1.0.1.1-TmAp37TRFZWmc2Vic7ANPGVInEd7PbdZi4FFYYCGEHID2Xz2LcaI7hSRuCcja2LFOPyhoJJZS8jH6MzgsrnA2cL91S5hUFsH0TSNATvIVonCUzO.WMOTrDBo91sCbnhr9RZ1TtlXlVz.166362j2vw; report-to cf-csp-endpoint",
+          "server": "cloudflare",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "69c26e02a3fcbf2501f568bd79376f7d98499e4f24ab1e585fa0cf2a2d632410",
+        "redirectedFrom": "http://quizlet.com/",
+        "initiators": [],
+        "time": 0.869082999881357
+      },
+      {
+        "url": "https://quizlet.com/_next/static/media/icons.47caa533.svg",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 145336,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "image/svg+xml",
+          "cf-ray": "8f1044290f496077-ORD",
+          "cf-cache-status": "HIT",
+          "age": "801539",
+          "cache-control": "public, max-age=31536000",
+          "content-encoding": "gzip",
+          "etag": "W/\"6d6f7-1938a100d00\"",
+          "expires": "Fri, 12 Dec 2025 19:54:26 GMT",
+          "last-modified": "Tue, 03 Dec 2024 01:08:48 GMT",
+          "vary": "Accept-Encoding",
+          "via": "1.1 google",
+          "server": "cloudflare"
+        },
+        "responseBodyHash": "1c4a9316d2afca151ae169843181e0d50725f08d25c33efd6617aaa2fd8a6952",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.059751999797299504
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/gpp.stub.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1685,
+        "remoteIPAddress": "[2606:4700::6812:562a]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "application/javascript",
+          "content-md5": "7BUfatnGjdBhkwOWB4dLng==",
+          "last-modified": "Wed, 11 Dec 2024 04:55:23 GMT",
+          "x-ms-request-id": "382f72b5-001e-00c0-6195-4b19ce000000",
+          "x-ms-version": "2009-09-19",
+          "x-ms-lease-status": "unlocked",
+          "x-ms-blob-type": "BlockBlob",
+          "access-control-expose-headers": "x-ms-request-id,Server,x-ms-version,Content-Type,Last-Modified,ETag,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "cf-cache-status": "HIT",
+          "age": "51772",
+          "vary": "Accept-Encoding",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "x-content-type-options": "nosniff",
+          "cross-origin-resource-policy": "cross-origin",
+          "server": "cloudflare",
+          "cf-ray": "8f10442c5a556213-ORD",
+          "content-encoding": "gzip"
+        },
+        "responseBodyHash": "063e0d8b9ae096706db29f8cb7ba2f4480168dcfdefe63993a29c875a077f240",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.5720490000676364
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7819,
+        "remoteIPAddress": "[2606:4700::6812:562a]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "application/javascript",
+          "content-length": "7211",
+          "content-encoding": "gzip",
+          "content-md5": "UzmBk0Ra4K9he+CwjGKb/g==",
+          "last-modified": "Wed, 11 Dec 2024 20:18:50 GMT",
+          "etag": "0x8DD1A2106D903F4",
+          "x-ms-request-id": "cf91a70e-c01e-0092-0347-4c043c000000",
+          "x-ms-version": "2009-09-19",
+          "x-ms-lease-status": "unlocked",
+          "x-ms-blob-type": "BlockBlob",
+          "access-control-expose-headers": "x-ms-request-id,Server,x-ms-version,Content-Type,Content-Encoding,Last-Modified,ETag,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding",
+          "access-control-allow-origin": "*",
+          "cf-cache-status": "HIT",
+          "age": "22118",
+          "expires": "Fri, 13 Dec 2024 19:54:26 GMT",
+          "cache-control": "public, max-age=86400",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "x-content-type-options": "nosniff",
+          "cross-origin-resource-policy": "cross-origin",
+          "server": "cloudflare",
+          "cf-ray": "8f10442c5a586213-ORD"
+        },
+        "responseBodyHash": "50d93a2c186cbd1032ed973e133713a6dfbbd5f7fba4fb89069350f228ce4d81",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.5714630000293255
+      },
+      {
+        "url": "https://assets.quizlet.com/static/ads-frontend.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 458,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/javascript",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Wed, 03 Dec 2025 17:03:36 GMT",
+          "last-modified": "Tue, 03 Dec 2024 16:56:26 GMT",
+          "etag": "W/\"259b9e7fde6a6cd0003bfac8ce2d01fe\"",
+          "x-goog-generation": "1733244986127797",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "AFiumC7wRea2EdyE1B4Xu6TMN0WTkqf-Qx6emYnd5QMxsgvDmnESv1t8dq7VCbpQqDWzG2v7ar8GpiJRNQ",
+          "cf-cache-status": "HIT",
+          "age": "694305",
+          "server": "cloudflare",
+          "cf-ray": "8f1044292f716077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "3716015d9f1434537cc0a53eb92c3cc6d54b9e5c974fff8963f965c9d0e567fb",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.05418700003065169
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/media/hurmegeosans-no2-400.70b8c5c1.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 15740,
+        "remoteIPAddress": "104.16.134.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "application/font-woff2",
+          "content-length": "15228",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Fri, 30 May 2025 18:11:40 GMT",
+          "last-modified": "Thu, 30 May 2024 00:06:38 GMT",
+          "etag": "\"b0d1fa6ac7268f9ed0fc632dc4ba9297\"",
+          "x-goog-generation": "1717027598637035",
+          "access-control-allow-origin": "https://quizlet.com",
+          "access-control-expose-headers": "Content-Length, Content-Type, Date, Server, Transfer-Encoding, X-GUploader-UploadID, X-Google-Trace",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "ABPtcPrHiaYxsRZEzVd5a6saTEa3sy6p7GbK4qeht4Vjm5GtO_aOvWhz6YU7md3d5-rnRgzXiVIhdsSs4A",
+          "cf-cache-status": "HIT",
+          "age": "1270210",
+          "accept-ranges": "bytes",
+          "set-cookie": "__cf_bm=4u.X9.mNU1XZhhO3nC4.BJILRXW92sLOrglrkFB3R2M-1734033266-1.0.1.1-grK4UCVgCEN4VlXtB39swCs.fHeHt.GGqV.FFk8.BDRWh96KP.npcEFqup.dMyZbfuXOOmL0hu.V1OCTA8NToA; path=/; expires=Thu, 12-Dec-24 20:24:26 GMT; domain=.quizlet.com; HttpOnly; Secure; SameSite=None",
+          "server": "cloudflare",
+          "cf-ray": "8f10442c5c096176-ORD"
+        },
+        "responseBodyHash": "5505a7d4816ea9d46c7d8534d94349abb1c1d2b02e920b6727479933a345f9fb",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.5721500001382083
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/media/hurmegeosans-no2-400.85194c42.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 18753,
+        "remoteIPAddress": "104.16.134.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "application/font-woff2",
+          "content-length": "18060",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Sat, 28 Jun 2025 00:23:32 GMT",
+          "last-modified": "Thu, 27 Jun 2024 23:52:09 GMT",
+          "etag": "\"fceb7fa657e6aa78f3dc2387dbd05146\"",
+          "x-goog-generation": "1719532329689713",
+          "access-control-allow-origin": "https://quizlet.com",
+          "access-control-expose-headers": "*, Content-Length, Date, Server, Transfer-Encoding, X-GUploader-UploadID, X-Google-Trace",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "ACJd0Nq7r5Ymk8aD_vP4ZkfgWovXLCU8LWT8OhXx2EnCSPs_AglGSVhNuvEYWWNWEJVdHQAlt_s",
+          "cf-cache-status": "HIT",
+          "age": "1253503",
+          "accept-ranges": "bytes",
+          "set-cookie": "__cf_bm=co.e9GqutC3HAwUAHoVLN8Yshz3CcNQS.xtfp67cwaQ-1734033266-1.0.1.1-MqyBhPTrxMXTn57XHJ.tVZH_C9z0yEO3l2Bokfsxe5Q9elHq391pEcqrqQc3.9gWQSX5ii2TzZ4T9Zc07FswWg; path=/; expires=Thu, 12-Dec-24 20:24:26 GMT; domain=.quizlet.com; HttpOnly; Secure; SameSite=None",
+          "server": "cloudflare",
+          "cf-ray": "8f10442c5c0c6176-ORD"
+        },
+        "responseBodyHash": "459d75eaff15f5ed5b9f8af2ba33d5a57f0ae87ace96744c54c0f87ed1405e31",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.5715660001151264
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/media/hurmegeosans-no2-600.91becca0.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 21224,
+        "remoteIPAddress": "104.16.134.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "application/font-woff2",
+          "content-length": "20824",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Fri, 30 May 2025 18:11:40 GMT",
+          "last-modified": "Thu, 30 May 2024 00:06:38 GMT",
+          "etag": "\"df51690e7e655608cf917d9b8331cf39\"",
+          "x-goog-generation": "1717027598725058",
+          "access-control-allow-origin": "https://quizlet.com",
+          "access-control-expose-headers": "Content-Length, Content-Type, Date, Server, Transfer-Encoding, X-GUploader-UploadID, X-Google-Trace",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "ABPtcPoXo5ovPHSuOjsapDGKRxMItHju27iIyvnxgjj1nOvegvd2ZoIUY2waZbiyeG0jAvPhGS0cImtJbA",
+          "cf-cache-status": "HIT",
+          "age": "159339",
+          "accept-ranges": "bytes",
+          "set-cookie": "__cf_bm=JTBPDiMBCpvovT0BbMTl9zHCJ4CqMxl3tnPsqpbTTe4-1734033266-1.0.1.1-TPe4tgJ5hnkDa_.7rsYcMOvyS.vJWnUxEsUiIiLSNU9RhC0J8QIvZ47JnQ7xsQn8V_I0BPkGKGTM6Ryq.0hyCg; path=/; expires=Thu, 12-Dec-24 20:24:26 GMT; domain=.quizlet.com; HttpOnly; Secure; SameSite=None",
+          "server": "cloudflare",
+          "cf-ray": "8f10442c5c0d6176-ORD"
+        },
+        "responseBodyHash": "c491f06057c1bca1cc99d86dc2e43ecaccb423c209c4888efc7fd6c6de389e97",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.5735230001155287
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/media/hurmegeosans-no2-600.e647fc28.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 18240,
+        "remoteIPAddress": "104.16.134.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "application/font-woff2",
+          "content-length": "17840",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Fri, 30 May 2025 18:11:40 GMT",
+          "last-modified": "Thu, 30 May 2024 00:06:38 GMT",
+          "etag": "\"c3230d124a38c02740f6140638b219c4\"",
+          "x-goog-generation": "1717027598829090",
+          "access-control-allow-origin": "https://quizlet.com",
+          "access-control-expose-headers": "Content-Length, Content-Type, Date, Server, Transfer-Encoding, X-GUploader-UploadID, X-Google-Trace",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "ABPtcPoqQE_z8Vzb_KU7LvOvgB-3jd458lzR8nZncJK7VKFof0z984zZGGJEID_-lIxrAeeB7qR7JnDCYQ",
+          "cf-cache-status": "HIT",
+          "age": "812786",
+          "accept-ranges": "bytes",
+          "set-cookie": "__cf_bm=dLEDkeHni2sPiRDsu4Ev7Jbwx4KaC8iiaQnI83dfMZw-1734033266-1.0.1.1-ZrVlZVvlbIt3vLdsEBHrGkwwlBBJI8REP07zE6JCaKgR0_temu8hr0UQvuT1tXtuUEePYYbBBOPw8wYo49gxzQ; path=/; expires=Thu, 12-Dec-24 20:24:26 GMT; domain=.quizlet.com; HttpOnly; Secure; SameSite=None",
+          "server": "cloudflare",
+          "cf-ray": "8f10442c5c0e6176-ORD"
+        },
+        "responseBodyHash": "e8039f208b39170b8c3198923422240dd18ac95ec843140dd56587cc4f99cd8a",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.5925300000235438
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/media/hurmegeosans-no2-700.36a1d2ca.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 18430,
+        "remoteIPAddress": "104.16.134.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "application/font-woff2",
+          "content-length": "17984",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Fri, 31 Oct 2025 10:37:38 GMT",
+          "last-modified": "Thu, 31 Oct 2024 01:10:24 GMT",
+          "etag": "\"f964c59f80946ba4943367424de2eace\"",
+          "x-goog-generation": "1730337024149301",
+          "access-control-allow-origin": "https://quizlet.com",
+          "access-control-expose-headers": "*, Content-Length, Date, Server, Transfer-Encoding, X-GUploader-UploadID, X-Google-Trace",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "AHmUCY0wYrwGiBc69qgJufTYtb5CDLb9r6bBjPwGaazoMEIfCt7Sy35OIh0AnDspxz_xwo_gSduebBabFg",
+          "cf-cache-status": "HIT",
+          "age": "1241134",
+          "accept-ranges": "bytes",
+          "set-cookie": "__cf_bm=pdmvzzxuaNjCyXknp3gfWO_fYvQM0DKRnL2EaKD_N8k-1734033266-1.0.1.1-BGbAq_CNVcR407rRDQdMLKONTWWQOFbmnQzp74TChil2oeeVKhQfpJtQ42QBKYhNcGtwKSCx1y8aToAh1ANhww; path=/; expires=Thu, 12-Dec-24 20:24:26 GMT; domain=.quizlet.com; HttpOnly; Secure; SameSite=None",
+          "server": "cloudflare",
+          "cf-ray": "8f10442c5c0f6176-ORD"
+        },
+        "responseBodyHash": "0a9d076106de3f0ab4a5522d2ea6324c7cbbf7d22ce68671e47f8f839d330ea9",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.5726880000438541
+      },
+      {
+        "url": "https://accounts.google.com/gsi/client",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 87907,
+        "remoteIPAddress": "[2607:f8b0:4002:c09::54]",
+        "responseHeaders": {
+          "content-type": "application/javascript; charset=utf-8",
+          "vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+          "expires": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "cache-control": "private, max-age=1800",
+          "report-to": "{\"group\":\"coop_dd7de8473bddc59c6b748810a67a39b1\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/dd7de8473bddc59c6b748810a67a39b1\"}]}",
+          "content-security-policy": "script-src 'report-sample' 'nonce-K0ZZqEL1MzzJhrv7WEMihQ' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/identity-sign-in-google-http\nrequire-trusted-types-for 'script';report-uri https://csp.withgoogle.com/csp/identity-sign-in-google-http",
+          "cross-origin-resource-policy": "cross-origin",
+          "cross-origin-opener-policy-report-only": "same-origin; report-to=\"coop_dd7de8473bddc59c6b748810a67a39b1\"",
+          "content-encoding": "gzip",
+          "server": "ESF",
+          "x-xss-protection": "0",
+          "x-frame-options": "SAMEORIGIN",
+          "x-content-type-options": "nosniff",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "5d2f8996d3057c23d3ca2d97d452e3fab5b990254dc95f3dc9c7d42226193c24",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.1744279998820275
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/css/3944f47b24c26393.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 53425,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/css",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Thu, 11 Dec 2025 19:16:54 GMT",
+          "last-modified": "Wed, 11 Dec 2024 18:52:01 GMT",
+          "etag": "W/\"cf92a4510a4356fc65e618fadfa443fc\"",
+          "x-goog-generation": "1733943121688348",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "AFiumC40M2RcSkxaLBq6TCCYkP0ZtpicyyYdSg0nrfhvhwTslNT9XPJMU0zSeyPRnaQw784y-ZBFg2F3Hw",
+          "cf-cache-status": "HIT",
+          "age": "88652",
+          "server": "cloudflare",
+          "cf-ray": "8f1044292f656077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "03dde7d05d1526cd50c31bbc0b57394aac828e24f3cae494daacdb217fe4577a",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.06420299992896616
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/css/47991f701e930dfb.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 4615,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/css",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Tue, 14 Oct 2025 19:36:06 GMT",
+          "last-modified": "Mon, 14 Oct 2024 19:35:39 GMT",
+          "etag": "W/\"93c2edefe1e7880a2e0b9bf3ac21fd1e\"",
+          "x-goog-generation": "1728934539863336",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "AHmUCY3k8d2p7pg0JZeL1995H-Q0AGRmwvvSZ0B4xknz_Rb2Rqq57wYeJwnn95GN57aGBSwrZSV8uJSg-Q",
+          "cf-cache-status": "HIT",
+          "age": "163223",
+          "server": "cloudflare",
+          "cf-ray": "8f1044292f676077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "0fed7a1362204733719fa1cdd74ba74fe25cdc0ad18d64d8e77c00b80f62cb05",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.05494399997405708
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/css/3c1e53b84f0d5bb3.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 13508,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/css",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Fri, 05 Dec 2025 19:51:59 GMT",
+          "last-modified": "Thu, 05 Dec 2024 19:00:51 GMT",
+          "etag": "W/\"748b32a17f33dc8b27457b99916a9cd1\"",
+          "x-goog-generation": "1733425251402146",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "AFiumC5QZwBOTE1gCy_BDjk7UGTAUrHicOZyXORO_Vvx3cBfwTSggEbKohd6LjjAp3dkKe9newXe5hHKTQ",
+          "cf-cache-status": "HIT",
+          "age": "94568",
+          "server": "cloudflare",
+          "cf-ray": "8f1044292f686077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "9f1b3b112f729c3fcd8407eb2a1bda0ac80e04795cfcc6335454425246cf4cce",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.055776000022888184
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/css/8fdb825625759c5a.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 494,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/css",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Sat, 13 Sep 2025 14:56:03 GMT",
+          "last-modified": "Fri, 13 Sep 2024 14:20:05 GMT",
+          "etag": "W/\"d5f0eb3c4be5f581f256757e07438b5a\"",
+          "x-goog-generation": "1726237205135239",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "AD-8ljuBLFabsYGzz2ySF5VQmXFCQZea3iT7v1CreNUaGDK0DVJKz7Kn94a7h4H3CXV8oHnFwQtLYHIgtQ",
+          "cf-cache-status": "HIT",
+          "age": "1170012",
+          "server": "cloudflare",
+          "cf-ray": "8f1044292f6a6077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "0fe56f69ad1d9197bb58c2a94735fc796c9d36f8dea9c85cbbb67028bcfa0f38",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.05163199990056455
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/css/611865474bde6574.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1200,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/css",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Sun, 10 Aug 2025 16:10:43 GMT",
+          "last-modified": "Sat, 10 Aug 2024 15:38:10 GMT",
+          "etag": "W/\"dadc8db0b612184e92a1882aef7d713d\"",
+          "x-goog-generation": "1723304290229087",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "AHxI1nO3hEBG35OW1cpYzhEuKdSfTR73eAmfB1VXGCd1_lqPZa8-__1t0IhCqqgPG7C-iE6kDGew4KTYLQ",
+          "cf-cache-status": "HIT",
+          "age": "826198",
+          "server": "cloudflare",
+          "cf-ray": "8f1044292f6c6077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "96c83eb1747ad6e9c31e116914a7f4702134a14bd64aa875ad49c9bacf42e5c7",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.05214500008150935
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/css/efd6ed2d735b5b0e.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 18639,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/css",
+          "x-guploader-uploadid": "AFiumC5U5dsFz6Vs_WB2g4Eikaw_bWLBfSj611q1vlRahaiqPwRQrtWvwPittl-2RBIHFheZJCztzAQ",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Thu, 11 Dec 2025 17:06:45 GMT",
+          "last-modified": "Wed, 11 Dec 2024 16:51:26 GMT",
+          "etag": "W/\"e3a55c0cbebc9ac6d8801f45e960f618\"",
+          "x-goog-generation": "1733935886609757",
+          "vary": "Origin, Accept-Encoding",
+          "cf-cache-status": "HIT",
+          "age": "96461",
+          "server": "cloudflare",
+          "cf-ray": "8f1044292f6e6077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "39e0b7ba11df147c9dbc1189cdcad25c6a716433e299e60b744b8d51bf370eb4",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.05840800004079938
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/css/984b61e20bf78ecf.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 886,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/css",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Fri, 05 Dec 2025 21:53:01 GMT",
+          "last-modified": "Thu, 05 Dec 2024 21:10:48 GMT",
+          "etag": "W/\"694e88801a5a9173aa555fa9d58a3139\"",
+          "x-goog-generation": "1733433047952478",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "AFiumC4nFflDjqNWJ4SS8w-jpvchyxgGf6HxQW4AhOSlBGk-inwWlToKTGXUwuXhgSptEmOr6KU",
+          "cf-cache-status": "HIT",
+          "age": "96434",
+          "server": "cloudflare",
+          "cf-ray": "8f1044292f6f6077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "d9c458d6a34cf67fc88bcd668510d7b51bf6eb17f94875ca3522e81f3a9dec29",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.066439000191167
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/chunks/4db04493.055dd48f3ffcd1d0.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 51149,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/javascript",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Wed, 09 Jul 2025 17:27:47 GMT",
+          "last-modified": "Tue, 09 Jul 2024 17:22:30 GMT",
+          "etag": "W/\"df4dc07a584ef257c2f0958e4b4dbeb6\"",
+          "x-goog-generation": "1720545750085258",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "ACJd0NrKRnkBbi2QOyVmVNBrs6nJBk4JrokvLiOuA6_U37zBZ3xebGd0cw1mVqn4oAjOhuBm1xPrTld_4Q",
+          "cf-cache-status": "HIT",
+          "age": "1168369",
+          "server": "cloudflare",
+          "cf-ray": "8f10442d5b7a6077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "36c263a4e9df88d637515d6c6d6bd6babedd3668d0217d15835473b463f82b96",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.7336299999151379
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/chunks/36149.72890f25050727fd.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 44913,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/javascript",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Tue, 09 Sep 2025 09:06:58 GMT",
+          "last-modified": "Fri, 06 Sep 2024 23:37:34 GMT",
+          "etag": "W/\"4840e8e428a420f81c0f7cbda1c14fe7\"",
+          "x-goog-generation": "1725665854017097",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "AD-8ljtABWJMroO4sh_cU0bq4b2--OSQCeUuFNrXxwSM7wKYY2l8tWHaCTrfgPKCE45qc-DI7rtnuOZrag",
+          "cf-cache-status": "HIT",
+          "age": "814042",
+          "server": "cloudflare",
+          "cf-ray": "8f10442d5b7d6077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "74d5a10991c5221b3948ac3a46de8958500821e8cce0ca5f7a06d180f86bf44e",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.734940999886021
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/chunks/intl_polyfills.fef99a817e82f477.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 387,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/javascript",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Fri, 05 Sep 2025 20:11:36 GMT",
+          "last-modified": "Thu, 05 Sep 2024 20:09:02 GMT",
+          "etag": "W/\"33d7ea89b8acdfa16c4aaffd735eb9bd\"",
+          "x-goog-generation": "1725566942561191",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "AD-8ljvnFZM7Zj4u6ArlhnG-Tfe4mSqAqrB9REAQzRos_0VojnO_As2eAebrN02R85wmpD5OfBE",
+          "cf-cache-status": "HIT",
+          "age": "739194",
+          "server": "cloudflare",
+          "cf-ray": "8f10442dabc56077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "e650c6612e7b0a129c4cf624ea0e5b69467230160fc1a8ccb27662bf927eeea3",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.7795359999872744
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/chunks/3447.952c06a1bd41ba1e.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4839,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/javascript",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Wed, 19 Nov 2025 23:27:20 GMT",
+          "last-modified": "Tue, 19 Nov 2024 23:26:28 GMT",
+          "etag": "W/\"acb0ab8a1a302bc2c873f051d46892d6\"",
+          "x-goog-generation": "1732058788638652",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "AFiumC4CZ58jgd2aIBsdPZ4hr9atJl7flnY6Sk4KPkgHzm2KROVTw6zOk5NAs8FKEzvGMbP6wMPe575v9Q",
+          "cf-cache-status": "HIT",
+          "age": "1250728",
+          "server": "cloudflare",
+          "cf-ray": "8f10442dabcd6077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "a11768831f1cfcd746383509bcdc0864bf1dff6abb19c4e4bc22baf049f7b366",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.793299000011757
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/chunks/38158.97404b1682e9dad8.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4082,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/javascript",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Thu, 20 Nov 2025 23:22:16 GMT",
+          "last-modified": "Wed, 20 Nov 2024 22:53:19 GMT",
+          "etag": "W/\"5061e1373683c800d68058f8f3fb0f14\"",
+          "x-goog-generation": "1732143199063697",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "AFiumC4Mhv7kq68qLqJZpxlN2560jUdrv4g29L2mr9vEBu-h_Vw_xCVOoC0-8_nZcRkQUywZBmo",
+          "cf-cache-status": "HIT",
+          "age": "892602",
+          "server": "cloudflare",
+          "cf-ray": "8f10442dabcf6077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "576017f58e5103fc4a7419e620452739e9de82a0dedc098c5eca23fe25b1a954",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.7935120000038296
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/chunks/12410.f9fa7ac334ab79e8.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3313,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/javascript",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Fri, 30 May 2025 11:13:50 GMT",
+          "last-modified": "Thu, 30 May 2024 00:06:07 GMT",
+          "etag": "W/\"5b9865faa48d164093e77ecff3194505\"",
+          "x-goog-generation": "1717027567323835",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "ABPtcPpUn1v7FWyrUinSq9uuxkDvgT2aZ3FbJvyumjkuWBkScbmFpsfO_m7bo_FXuIs6DF3K8pIzpIAIPA",
+          "cf-cache-status": "HIT",
+          "age": "982862",
+          "server": "cloudflare",
+          "cf-ray": "8f10442dbbd26077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "3356e90a6ef6139812932e79140a3d53cc767e8c0a3a2ce0662f2dfd1fa5d737",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.7937590000219643
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/chunks/2439.d04f49bca3fb7c32.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3979,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/javascript",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Thu, 20 Nov 2025 23:22:16 GMT",
+          "last-modified": "Wed, 20 Nov 2024 22:53:18 GMT",
+          "etag": "W/\"723b54c2f6e3181693902968df857b18\"",
+          "x-goog-generation": "1732143198606398",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "AFiumC5WKkOrthTAg6rMtZlGLmN2_uhNpXRe5mJgc-RajRrkDBxIBhlpCaT2Y09My50DA1-SDB4",
+          "cf-cache-status": "HIT",
+          "age": "1255467",
+          "server": "cloudflare",
+          "cf-ray": "8f10442dbbd46077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "ac3d4cc11189488455d3c0b548e2b934b0c9de80bc84c45605a06d4263b4273b",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.7923099999316037
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/chunks/7503-2ccfd61e8db9d6f0.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3470,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/javascript",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Thu, 20 Nov 2025 19:44:39 GMT",
+          "last-modified": "Wed, 20 Nov 2024 19:43:25 GMT",
+          "etag": "W/\"ca37ff12a22b86ab4c0c8653e91e8ab5\"",
+          "x-goog-generation": "1732131805854606",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "AFiumC58A_AxJHLonns61TnkJF1vHtyRvE5FpJcJX_QEzcgDH3UhdF6_kRAcyE34e3hK0EiHVn-nwc2C6A",
+          "cf-cache-status": "HIT",
+          "age": "1069420",
+          "server": "cloudflare",
+          "cf-ray": "8f10442dbbd66077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "f6d9292641f5c376b08f36a7b4107037f9285be9ff4c0ee5ca379b6d3bcb2f2e",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.7926069998648018
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/chunks/11832.c9b155dd50f6dde6.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3336,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/javascript",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Thu, 20 Nov 2025 19:44:56 GMT",
+          "last-modified": "Wed, 20 Nov 2024 19:43:23 GMT",
+          "etag": "W/\"8b0bc14d2e36b7d9f49c4dd7b9b8ee13\"",
+          "x-goog-generation": "1732131803746950",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "AFiumC5zck3g8zaU2Q4AqshOMYjvdIkhaf9X4oA_d3Exkmkj-9WZmjAw7YlnNumqEMELDdiVMujKEI3lYA",
+          "cf-cache-status": "HIT",
+          "age": "79745",
+          "server": "cloudflare",
+          "cf-ray": "8f10442ddc076077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "e9209c22c1cc929ffa374f801be8736df648b5d1b5084e9bbaeea492023c85b4",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.8262650000397116
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/chunks/16655-fcf0e77ba3390a4d.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3490,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/javascript",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Thu, 04 Sep 2025 00:47:32 GMT",
+          "last-modified": "Wed, 04 Sep 2024 00:14:05 GMT",
+          "etag": "W/\"12a5148c9bb629ab8b77cd2b2fbbce85\"",
+          "x-goog-generation": "1725408844898806",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "AD-8ljs_YAhcq9ue5yFfTbV0UvOLzwLg9u-KZvTP08TjIUzMqO32UMSivmMwN4OTvAQukKGvWw",
+          "cf-cache-status": "HIT",
+          "age": "989323",
+          "server": "cloudflare",
+          "cf-ray": "8f10442e3c5f6077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "a9b84f8203870f751918e7aad57aa1b32249e8a65238307ffd42651cb1ec012b",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.8674820000305772
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/chunks/79816.8cc66df77f2eb33e.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4892,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/javascript",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Fri, 05 Dec 2025 21:53:01 GMT",
+          "last-modified": "Thu, 05 Dec 2024 21:10:45 GMT",
+          "etag": "W/\"c69f168e3fe5f39988ea7593b0d60be8\"",
+          "x-goog-generation": "1733433045080611",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "AFiumC5TC1LezjoQLX17wVTwLIKrEnHikaAY5y9iogWX7oZVvm6VI6Bg1b9RiJrPH1v1o0VXtxqUFYNgiw",
+          "cf-cache-status": "HIT",
+          "age": "597641",
+          "server": "cloudflare",
+          "cf-ray": "8f10442e3c606077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "b3b1c066d498011fa1945f877815e922a0c779489ecc5616b61b9ee53346901f",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.8667269998695701
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/chunks/webpack-d2d7de8d99821db3.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14337,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/javascript",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Fri, 12 Dec 2025 19:35:27 GMT",
+          "last-modified": "Thu, 12 Dec 2024 19:09:17 GMT",
+          "etag": "W/\"057c65dd7ca71c5d86d6d61d3254b3db\"",
+          "x-goog-generation": "1734030557607115",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "AFiumC5sAZuRVrdHMKxTJtMb-Xd_GJs_t8mdjwwJfNJRx4SwXGJZBC7KbDroYExDMCQWgi10C3I",
+          "cf-cache-status": "HIT",
+          "age": "1130",
+          "server": "cloudflare",
+          "cf-ray": "8f10442e3c626077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "0638d3b3ca1ccaa35cf29ec444e2beeb3dc88fc25e4188ed71447e2be4eeeb08",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.8929339998867363
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/chunks/framework-a08dcba15d15c130.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 59460,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/javascript",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Wed, 15 Oct 2025 19:44:25 GMT",
+          "last-modified": "Tue, 15 Oct 2024 19:30:49 GMT",
+          "etag": "W/\"32504f0a57f6b27e5111f2e8679eb330\"",
+          "x-goog-generation": "1729020649272530",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "AHmUCY3KFkRVJlz6pkE5HI8VsWvxQhlXEBVZxUK9HrkHgA7IrVkIkf2wlcwnJ64gENK1whArrzOoX9rZKQ",
+          "cf-cache-status": "HIT",
+          "age": "1251379",
+          "server": "cloudflare",
+          "cf-ray": "8f10442e3c636077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "9ba7b57a7fe98195519f4e61112e7efd4deb42262fe84aa6c9285501386f524a",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.8954249999951571
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/chunks/main-40100c8ebbd7bbfa.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 38241,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/javascript",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Thu, 29 May 2025 12:10:45 GMT",
+          "last-modified": "Wed, 29 May 2024 02:44:01 GMT",
+          "etag": "W/\"c9591cf86c2fb756159a8f72e33bbf42\"",
+          "x-goog-generation": "1716950641458143",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "ABPtcPrSmdTotsZaxqcP7fz4dL4a5B2GfYgWpNS9Ie-vb81r6azXJRODEBVubdb8Sd51ovtHEzRLRWicOw",
+          "cf-cache-status": "HIT",
+          "age": "1423695",
+          "server": "cloudflare",
+          "cf-ray": "8f10442e3c666077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "e16cf20b62b817c55b23f710cf82bc97dddb74d76141d7849be26334cb5e6a8c",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.8750670000445098
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/chunks/pages/_app-7223f2b2ed28797d.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 587446,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/javascript",
+          "x-guploader-uploadid": "AFiumC6d8FUBGa5zIaV8fshL4usQQRrs5U0kPyLFxcd3oqm3EJq3wLjCAJhdl83PL6kuCQzHB1g4Uns",
+          "cache-control": "public, max-age=31536000",
+          "expires": "Fri, 12 Dec 2025 19:54:26 GMT",
+          "last-modified": "Thu, 12 Dec 2024 19:09:16 GMT",
+          "etag": "W/\"8aef7f9308565b69e6aba05d0ca2dddb\"",
+          "x-goog-generation": "1734030556253855",
+          "vary": "Origin, Accept-Encoding",
+          "cf-cache-status": "HIT",
+          "age": "257",
+          "server": "cloudflare",
+          "cf-ray": "8f10442e3c696077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "61a5d703d42e301f78b56eb7686558572a2367410f227fe8bef3a28484ba0582",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 1.538789999904111
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/chunks/30044-be0c2e59a1b82a21.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3092,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/javascript",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Fri, 07 Nov 2025 16:36:32 GMT",
+          "last-modified": "Thu, 07 Nov 2024 16:12:50 GMT",
+          "etag": "W/\"4f7871ac90aaac64d35fb0e386ff9ce6\"",
+          "x-goog-generation": "1730995970345781",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "AHmUCY2hE89BFKKrYqDD50SYHhNWNWie1hy3l5Fxi-UzchBaqdr1ZY7xWQMyby-eK8h8viOQV0g",
+          "cf-cache-status": "HIT",
+          "age": "647371",
+          "server": "cloudflare",
+          "cf-ray": "8f10442e4c6c6077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "7c8147e3dd8ec88fbf95b3cd1b0f7da75bcbc44106a1e1c96e5afbdb8757abb8",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.8780229999683797
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/chunks/pages/index-7a8072ab267df204.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2559,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/javascript",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Thu, 11 Dec 2025 17:06:59 GMT",
+          "last-modified": "Wed, 11 Dec 2024 16:51:24 GMT",
+          "etag": "W/\"06a4f1d3a19cf49b9ae90cbd29324bb1\"",
+          "x-goog-generation": "1733935884143314",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "AFiumC6utL-vA9gP9JURByWxzwgz19XlITi7jJlLOCuv7bjz1S3_vPuySYUUjbKckpnbOOrwM4w",
+          "cf-cache-status": "HIT",
+          "age": "96433",
+          "server": "cloudflare",
+          "cf-ray": "8f10442e4c6d6077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "426b40770a5859f9ed2fc92000546675a8c936fd98413cf416829b52a061d7eb",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.8776119998656213
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/yPuQCwNKqTcOv3HHW7qp4/_buildManifest.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14624,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/javascript",
+          "x-guploader-uploadid": "AFiumC5Hq9TyrnBGQcWKkGQSh-qMGeaXt3cg4MI4tE0KnIWm9J3R1BN7QX_wCmgcZivhQfE3L121RBI",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Fri, 12 Dec 2025 19:35:26 GMT",
+          "last-modified": "Thu, 12 Dec 2024 19:09:26 GMT",
+          "etag": "W/\"7d3c4c3df35b0acab8f8c5442454cdfe\"",
+          "x-goog-generation": "1734030566314102",
+          "vary": "Origin, Accept-Encoding",
+          "cf-cache-status": "HIT",
+          "age": "1129",
+          "server": "cloudflare",
+          "cf-ray": "8f10442e4c6e6077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "68b4be3c0a254a52631c57d4308cde153b0ff91761d0056eec539db43073a517",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.8748719999566674
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/yPuQCwNKqTcOv3HHW7qp4/_ssgManifest.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 241,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/javascript",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Fri, 12 Dec 2025 19:35:27 GMT",
+          "last-modified": "Thu, 12 Dec 2024 19:09:26 GMT",
+          "etag": "W/\"b6652df95db52feb4daf4eca35380933\"",
+          "x-goog-generation": "1734030566304076",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "AFiumC6OYMXbackSzXhYTkOpNvZdpYEsOcVGJU2dxQrPVaMK8XJ0wVxlrhJ4TrA-3WgI4bHjRyA",
+          "cf-cache-status": "HIT",
+          "age": "1129",
+          "server": "cloudflare",
+          "cf-ray": "8f10442e4c716077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "6f5b4aa00d2f8d6aed9935b471806bf7acef464d0c1d390260e5fe27f800c67e",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.8812190000899136
+      },
+      {
+        "url": "https://images.prismic.io/quizlet-web/ZpFubx5LeNNTxHxg_4Learn%402x.png?auto=format,compress",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 23406,
+        "remoteIPAddress": "[2a04:4e42:26::720]",
+        "responseHeaders": {
+          "x-imgix-id": "93a72db2cfa6faa44ada449fa30b5979b0198ed5",
+          "cache-control": "public, max-age=31536000",
+          "last-modified": "Tue, 26 Nov 2024 11:40:27 GMT",
+          "server": "imgix",
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "age": "1412040",
+          "accept-ranges": "bytes",
+          "content-type": "image/avif",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cross-origin-resource-policy": "cross-origin",
+          "x-content-type-options": "nosniff",
+          "x-served-by": "cache-chi-kigq8000149-CHI, cache-dfw-kdal2120073-DFW",
+          "x-cache": "HIT, HIT",
+          "vary": "Accept, User-Agent",
+          "content-length": "23077"
+        },
+        "responseBodyHash": "93bdae19931b147b2e8885982660543db5951f1bb18eb7506c1b5df6980ad4fc",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.9179790001362562
+      },
+      {
+        "url": "https://images.prismic.io/quizlet-web/ZpFuOB5LeNNTxHxU_1SG%402x.png?auto=format,compress",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10848,
+        "remoteIPAddress": "[2a04:4e42:26::720]",
+        "responseHeaders": {
+          "x-imgix-id": "00b614e0a630a417932d49e92f5433608a440f4d",
+          "cache-control": "public, max-age=31536000",
+          "last-modified": "Thu, 21 Nov 2024 22:35:18 GMT",
+          "server": "imgix",
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "age": "1804749",
+          "accept-ranges": "bytes",
+          "content-type": "image/avif",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cross-origin-resource-policy": "cross-origin",
+          "x-content-type-options": "nosniff",
+          "x-served-by": "cache-chi-kigq8000039-CHI, cache-dfw-kdal2120073-DFW",
+          "x-cache": "HIT, HIT",
+          "vary": "Accept, User-Agent",
+          "content-length": "10706"
+        },
+        "responseBodyHash": "9b7b3a8a72cbb8395a9d629db69b07bbaf716838e7905a79d97ed0f2f0d66f5d",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.9272460001520813
+      },
+      {
+        "url": "https://images.prismic.io/quizlet-web/ZpFuUR5LeNNTxHxc_2Flashcards%402x.png?auto=format,compress",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 35674,
+        "remoteIPAddress": "[2a04:4e42:26::720]",
+        "responseHeaders": {
+          "x-imgix-id": "669020c16e26bb4247533319c57038970aa6b2c6",
+          "cache-control": "public, max-age=31536000",
+          "last-modified": "Thu, 28 Nov 2024 11:48:48 GMT",
+          "server": "imgix",
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "age": "1238738",
+          "accept-ranges": "bytes",
+          "content-type": "image/avif",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cross-origin-resource-policy": "cross-origin",
+          "x-content-type-options": "nosniff",
+          "x-served-by": "cache-chi-kigq8000103-CHI, cache-dfw-kdal2120073-DFW",
+          "x-cache": "HIT, HIT",
+          "vary": "Accept, User-Agent",
+          "content-length": "35514"
+        },
+        "responseBodyHash": "d4b20b72b8f3add401d3d23f43e7184a12027474991806640ad039b08c40cfd6",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.9381540000904351
+      },
+      {
+        "url": "https://images.prismic.io/quizlet-web/ZpFuYB5LeNNTxHxd_3PracticeTests%402x.png?auto=format,compress",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6757,
+        "remoteIPAddress": "[2a04:4e42:26::720]",
+        "responseHeaders": {
+          "x-imgix-id": "645f34623ff92c00766f26d9d3429fbe60c32129",
+          "cache-control": "public, max-age=31536000",
+          "last-modified": "Wed, 20 Nov 2024 08:40:41 GMT",
+          "server": "imgix",
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "age": "1941226",
+          "accept-ranges": "bytes",
+          "content-type": "image/avif",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cross-origin-resource-policy": "cross-origin",
+          "x-content-type-options": "nosniff",
+          "x-served-by": "cache-chi-klot8100108-CHI, cache-dfw-kdal2120073-DFW",
+          "x-cache": "HIT, HIT",
+          "vary": "Accept, User-Agent",
+          "content-length": "6616"
+        },
+        "responseBodyHash": "fc352a42d1580ebb6fe98311c14fc0a60637e7f88354d1d543777acb804c34fb",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.9294390000868589
+      },
+      {
+        "url": "https://images.prismic.io/quizlet-web/ZpWfER5LeNNTxK_S_flashcards-image.png?auto=format,compress",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 15338,
+        "remoteIPAddress": "[2a04:4e42:26::720]",
+        "responseHeaders": {
+          "x-imgix-id": "381e42a693a674f12b850f0456a1db86a908f550",
+          "cache-control": "public, max-age=31536000",
+          "last-modified": "Sun, 27 Oct 2024 11:49:30 GMT",
+          "log-mgt-timing": "fetch=305327,misspass=305,do_stream=0",
+          "backend_is_origin": "1",
+          "log-mgt-origin": "ip=216.239.34.53,port=443,name=F_production_tannhauser_shield_chi,status=200,reason=OK,method=GET,host=tannhauser-shield-tcim2ltlua-uc.a.run.app,path=\"/shield/quizlet-web/ZpWfER5LeNNTxK_S_flashcards-image.png\",qs=\"auto=compress&fm=avif\",shield=CHI,src_ip,alternate_path=0",
+          "server": "imgix",
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "age": "4003497",
+          "accept-ranges": "bytes",
+          "content-type": "image/avif",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cross-origin-resource-policy": "cross-origin",
+          "x-content-type-options": "nosniff",
+          "x-served-by": "cache-chi-klot8100147-CHI, cache-dfw-kdal2120073-DFW",
+          "x-cache": "HIT, HIT",
+          "vary": "Accept, User-Agent",
+          "content-length": "14928"
+        },
+        "responseBodyHash": "f92d4258aad69b763b151bf6ea1716b8c72fdb32d3f8265a7fa781b5a64fb7d9",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.9395750002004206
+      },
+      {
+        "url": "https://images.prismic.io/quizlet-web/ZpWfEh5LeNNTxK_T_study-guides-image.png?auto=format,compress",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 50288,
+        "remoteIPAddress": "[2a04:4e42:26::720]",
+        "responseHeaders": {
+          "x-imgix-id": "fbcf56e1a3d74a66bc09f77e71f143599a3d2336",
+          "cache-control": "public, max-age=31536000",
+          "last-modified": "Tue, 03 Dec 2024 22:27:03 GMT",
+          "server": "imgix",
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "age": "768443",
+          "accept-ranges": "bytes",
+          "content-type": "image/avif",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cross-origin-resource-policy": "cross-origin",
+          "x-content-type-options": "nosniff",
+          "x-served-by": "cache-chi-klot8100126-CHI, cache-dfw-kdal2120073-DFW",
+          "x-cache": "HIT, HIT",
+          "vary": "Accept, User-Agent",
+          "content-length": "49958"
+        },
+        "responseBodyHash": "be9a4ad4e12e17fc1ea23f0e997f29f7ec194b3e73df5418b234b578a4aae616",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.9512459998950362
+      },
+      {
+        "url": "https://images.prismic.io/quizlet-web/ZpWfEx5LeNNTxK_U_learn-image.png?auto=format,compress",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 17753,
+        "remoteIPAddress": "[2a04:4e42:26::720]",
+        "responseHeaders": {
+          "x-imgix-id": "5be52c172d1142a2a4642a356f143b0b37fe9b49",
+          "cache-control": "public, max-age=31536000",
+          "last-modified": "Tue, 12 Nov 2024 13:56:59 GMT",
+          "server": "imgix",
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "age": "2613449",
+          "accept-ranges": "bytes",
+          "content-type": "image/avif",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cross-origin-resource-policy": "cross-origin",
+          "x-content-type-options": "nosniff",
+          "x-served-by": "cache-chi-kigq8000151-CHI, cache-dfw-kdal2120073-DFW",
+          "x-cache": "HIT, HIT",
+          "vary": "Accept, User-Agent",
+          "content-length": "17603"
+        },
+        "responseBodyHash": "565d5371d0662c20d038a57ebc17d667f29ad4adbfc65d6b770db1eb139ee312",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.9533999999985099
+      },
+      {
+        "url": "https://images.prismic.io/quizlet-web/ZpFqjB5LeNNTxHvk_teacher-image-LOH.png?auto=format,compress",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 52060,
+        "remoteIPAddress": "[2a04:4e42:26::720]",
+        "responseHeaders": {
+          "x-imgix-id": "fb026ba21c3d525e89e49dea7f2c29b86ada98bf",
+          "cache-control": "public, max-age=31536000",
+          "last-modified": "Mon, 25 Nov 2024 08:18:33 GMT",
+          "server": "imgix",
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "age": "1510553",
+          "accept-ranges": "bytes",
+          "content-type": "image/avif",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cross-origin-resource-policy": "cross-origin",
+          "x-content-type-options": "nosniff",
+          "x-served-by": "cache-chi-kigq8000082-CHI, cache-dfw-kdal2120073-DFW",
+          "x-cache": "HIT, HIT",
+          "vary": "Accept, User-Agent",
+          "content-length": "51892"
+        },
+        "responseBodyHash": "6dd120b926b27c01234c3d86dbe19b6caa8643f202eea55ac0de160dad3c9272",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.9541449998505414
+      },
+      {
+        "url": "https://up.quizlet.com/483dn8-zvert-96s.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3190,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "image/webp",
+          "content-length": "2896",
+          "cache-control": "public, max-age=946080000",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origFmt=png, origSize=4493",
+          "content-disposition": "inline; filename=\"483dn8-zvert-96s.webp\"",
+          "etag": "\"5737048c7121fc85941076ea63fe154d\"",
+          "expires": "Sat, 05 Dec 2054 19:54:26 GMT",
+          "last-modified": "Mon, 02 Jan 2023 06:48:51 GMT",
+          "vary": "Accept",
+          "x-amz-id-2": "A5z+816CYrb+lEiwzoAcmPbL0sjsxqvF+cunlV/vcUGbFqlW1w+bwei0TopFC800HS4L/lFxyiEkVzmDUuSbGw==",
+          "x-amz-request-id": "XMPXQYXQMJ4M67DH",
+          "x-amz-server-side-encryption": "AES256",
+          "cf-cache-status": "HIT",
+          "age": "4214950",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f10442e5c896077-ORD"
+        },
+        "responseBodyHash": "4ee6b8b3c4990794a56cea577ff71bb28783411d2862059c0c7a05de5b8246e5",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.8854740001261234
+      },
+      {
+        "url": "https://assets.quizlet.com/static/i/animals/111.f9dd73353feb908.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 44373,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "image/jpeg",
+          "content-length": "44005",
+          "cache-control": "public, max-age=31536000, immutable",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origSize=51360, status=vary_header_present",
+          "etag": "\"8b3e9f8a4bb0fc8a85995fe9cb518088\"",
+          "expires": "Fri, 05 Sep 2025 16:00:41 GMT",
+          "last-modified": "Thu, 05 Sep 2024 15:49:15 GMT",
+          "vary": "Origin, Accept-Encoding",
+          "x-goog-generation": "1725551355169394",
+          "x-guploader-uploadid": "AD-8ljsF8xNPSonMLkuy0tVwYcrnjNrxZVr9U2Yn94jUWhH5lwxPan9iCzvdqmKxbfu8yUGfDx1F5a6NjA",
+          "cf-cache-status": "HIT",
+          "age": "932488",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f10442e4c736077-ORD"
+        },
+        "responseBodyHash": "72e9a0089e7a1f2f668ea361de3c6f34d9abaa0b762416cd9e55bad3f83b4a64",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.8883289999794215
+      },
+      {
+        "url": "https://assets.quizlet.com/static/i/animals/121.86d7c15a5a6be0f.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 61161,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "image/jpeg",
+          "content-length": "60777",
+          "cache-control": "public, max-age=31536000, immutable",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origSize=71389, status=vary_header_present",
+          "etag": "\"ced92557b101a2f54eb818f9efbcb054\"",
+          "expires": "Sat, 20 Sep 2025 12:39:23 GMT",
+          "last-modified": "Fri, 20 Sep 2024 03:02:54 GMT",
+          "vary": "Origin, Accept-Encoding",
+          "x-goog-generation": "1726801374225163",
+          "x-guploader-uploadid": "AD-8ljs0LxH-ePdWGO3TmRGUaCEjVkNZ5FPGETlGhH306pFlueyhOhmWRrhzqVoAzl-bPuD1ZZI",
+          "cf-cache-status": "HIT",
+          "age": "1244987",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f10442e4c766077-ORD"
+        },
+        "responseBodyHash": "c870a92bb5fc23fefbea0af6c263600ea337ee32f61b715596b2f45ffc085728",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.8695950000546873
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/a/ACg8ocKKdAfllz8RC-iI-JQdWmlxM9XsBe-m2gftGcn4Op6l2Ryi8-oJ=s96-c?sz=150",
+        "method": "GET",
+        "type": "Image",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_TIMED_OUT",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 30.877475999994203
+      },
+      {
+        "url": "https://up.quizlet.com/1270le-5rxTh-96s.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9690,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "image/webp",
+          "content-length": "9340",
+          "cache-control": "public, max-age=946080000",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origFmt=png, origSize=22446",
+          "content-disposition": "inline; filename=\"1270le-5rxTh-96s.webp\"",
+          "etag": "\"1d7a6bb4bd66d479fbc488f650573a5f\"",
+          "expires": "Sat, 05 Dec 2054 19:54:26 GMT",
+          "last-modified": "Wed, 16 Feb 2022 01:45:23 GMT",
+          "vary": "Accept",
+          "x-amz-id-2": "08eBKzwsYsegN57nqkv7FVYYUW0mws1LGnqeeZXGg7eXnvsm/GZcjHsHWAZd49VlGEs08+k2XZhAgYfR40hBUw==",
+          "x-amz-request-id": "MSEHP53TXRMVW19R",
+          "cf-cache-status": "HIT",
+          "age": "1092617",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f10442e5c856077-ORD"
+        },
+        "responseBodyHash": "2a3c3cf3bbba98ee8b72f5d8c6fc9e11e2190e01c26b0d3c54c6059839db95a8",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.8766719999257475
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/a/AEdFTp43uf3SgvKiTQSzRy435kPLv3Jtj-jnUs_2QULU9g=s96-c?sz=150",
+        "method": "GET",
+        "type": "Image",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_TIMED_OUT",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 30.87751100002788
+      },
+      {
+        "url": "https://assets.quizlet.com/static/i/animals/116.9aaedd4f4495837.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 51242,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "image/jpeg",
+          "content-length": "50887",
+          "cache-control": "public, max-age=31536000, immutable",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origSize=58389, status=vary_header_present",
+          "etag": "\"8d3ab7a387f78063ee37fedb26874e06\"",
+          "expires": "Thu, 09 Oct 2025 16:32:17 GMT",
+          "last-modified": "Wed, 09 Oct 2024 16:27:50 GMT",
+          "vary": "Origin, Accept-Encoding",
+          "x-goog-generation": "1728491270191490",
+          "x-guploader-uploadid": "AHmUCY3XY6U6kYnOmZr25hAMAYLTsAVY0iMxzpV3vIgDxCTCOnXgS-9wUgqN6UpPzFgXb0oUywDh-UNG7w",
+          "cf-cache-status": "HIT",
+          "age": "5703",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f10442e4c7a6077-ORD"
+        },
+        "responseBodyHash": "2baf3923486abf4e06251a60da92e3ec8a2dc4cfbd838cc41bd49ca063d51095",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.8776289999950677
+      },
+      {
+        "url": "https://assets.quizlet.com/static/i/animals/112.c90135dfc341a90.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 36665,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "image/jpeg",
+          "content-length": "36287",
+          "cache-control": "public, max-age=31536000, immutable",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origSize=42886, status=vary_header_present",
+          "etag": "\"af254d7f5ddc44169953e355b77581fc\"",
+          "expires": "Thu, 23 Oct 2025 18:24:08 GMT",
+          "last-modified": "Tue, 22 Oct 2024 23:31:01 GMT",
+          "vary": "Origin, Accept-Encoding",
+          "x-goog-generation": "1729639861804734",
+          "x-guploader-uploadid": "AHmUCY3TFJLkgZ7gHMPGc58PZGcB5z61P6JCl6bmp690dULYnPu7uBg5Fvum8tf_f6HknO_TNn8JUh1kqw",
+          "cf-cache-status": "HIT",
+          "age": "819928",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f10442e4c7c6077-ORD"
+        },
+        "responseBodyHash": "e63b58f5f4e7ae8a681a478090a3a780cab675aced0f70ce44d0fe2fd8c3b867",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.8790730000473559
+      },
+      {
+        "url": "https://up.quizlet.com/61bcj-KRWCJ-96s.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2475,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:27 GMT",
+          "content-type": "image/jpeg",
+          "content-length": "2154",
+          "cache-control": "public, max-age=946080000",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "status=not_needed",
+          "etag": "\"97d35ba317e914b5d209f8e404ca3491\"",
+          "expires": "Sat, 05 Dec 2054 19:54:27 GMT",
+          "last-modified": "Tue, 15 Apr 2014 15:06:37 GMT",
+          "x-amz-id-2": "AvqvtYPw9Dj8GTkZnQtrF6a8ls22unByLHf6TIXWo1JqNVj07zgP9JQKKWRFaT6JdqL65JcMD+I=",
+          "x-amz-request-id": "AAHGXB512GB66N9R",
+          "cf-cache-status": "HIT",
+          "age": "1443832",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "8f10442e9cc56077-ORD"
+        },
+        "responseBodyHash": "734a1c5b00464f008f132b4ad33c92c839062029f4289ab64ce8fe6982260d23",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.9440510000567883
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/a/AAcHTtfJWJowI5mWTYQ6naXZaCIR-L09RNOz2n9AsR7rRLGH=s96-c?sz=150",
+        "method": "GET",
+        "type": "Image",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_TIMED_OUT",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 30.924460999900475
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/a/ACg8ocLFJjzxXTSuC2aaBUQFZopjsYwy7yJBE-vradOvu0kcaVF5bVRX=s96-c?sz=150",
+        "method": "GET",
+        "type": "Image",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_TIMED_OUT",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 30.952155000064522
+      },
+      {
+        "url": "https://up.quizlet.com/709q-RFj6e-96s.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3425,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:27 GMT",
+          "content-type": "image/jpeg",
+          "content-length": "3216",
+          "cache-control": "public, max-age=946080000",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "status=not_needed",
+          "etag": "\"6261b1bf60f761b1b560a961030042a6\"",
+          "expires": "Sat, 05 Dec 2054 19:54:27 GMT",
+          "last-modified": "Mon, 03 Aug 2015 21:54:58 GMT",
+          "x-amz-id-2": "PaZP9TMZxntuMarMMwQTjpf4vdjGyAEU4ctYaXqhmfdUne06/kcxC2ZJBOKdrgwLO3egnx3Czdc=",
+          "x-amz-request-id": "BDXY1C3X36MHJNKQ",
+          "cf-cache-status": "HIT",
+          "age": "197653",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "8f10442eed1a6077-ORD"
+        },
+        "responseBodyHash": "92bdc03a840ae7cd2c26deeeacd100c9c8ead7ef836e35dce3cd9ef1bddff998",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.9297809998970479
+      },
+      {
+        "url": "https://graph.facebook.com/1761928510533812/picture?type=large",
+        "method": "GET",
+        "type": "Image",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_TIMED_OUT",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 22.438027000054717
+      },
+      {
+        "url": "https://assets.quizlet.com/static/i/animals/122.c263b6b48ca2b1a.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 50936,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "image/jpeg",
+          "content-length": "50556",
+          "cache-control": "public, max-age=31536000, immutable",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origSize=58812, status=vary_header_present",
+          "etag": "\"dd7a4bbf9b449ad147bf41f333a64bf9\"",
+          "expires": "Thu, 23 Oct 2025 20:22:33 GMT",
+          "last-modified": "Tue, 22 Oct 2024 23:31:01 GMT",
+          "vary": "Origin, Accept-Encoding",
+          "x-goog-generation": "1729639861850050",
+          "x-guploader-uploadid": "AHmUCY2xgo5Zm3sWp-l_2CoN-cIguFRdNzncLHivSQsO5hrzRerGpll-UPmjQQjOGzkg9AsWiA",
+          "cf-cache-status": "HIT",
+          "age": "804091",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f10442e6c996077-ORD"
+        },
+        "responseBodyHash": "6c36e00d6dd525a00419ef3be9e2a936c7c17bf65f4488e0c4124f00c7853b29",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.8600340001285076
+      },
+      {
+        "url": "https://up.quizlet.com/28qebc-qQn2d-96s.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5711,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:27 GMT",
+          "content-type": "image/jpeg",
+          "content-length": "5443",
+          "cache-control": "public, max-age=946080000",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origSize=5634",
+          "etag": "\"a1f4064f78d30bfd92b03f2738b4e47d\"",
+          "expires": "Sat, 05 Dec 2054 19:54:27 GMT",
+          "last-modified": "Sun, 08 Sep 2024 20:08:34 GMT",
+          "x-amz-id-2": "Fps1zFCylbvlyx/RxjN04TAFVby2JlSXCEn3KRDeh6nTgzRKWPaA57JPwVHZKQOcJRd7iwjwWeI=",
+          "x-amz-request-id": "Y116DDE15RF7SJE3",
+          "x-amz-server-side-encryption": "AES256",
+          "cf-cache-status": "HIT",
+          "age": "1267791",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "8f10442efd2e6077-ORD"
+        },
+        "responseBodyHash": "53cd4dd1ec5d615dfd48e1c7a789ca101919f3a0123065280e552738b2cf07f3",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.9384840000420809
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/a/ACg8ocLt-4OR9DaUWaMh93o70BhyIePBSA8swzkedMmHm71EtSbuIZc=s96-c?sz=150",
+        "method": "GET",
+        "type": "Image",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_TIMED_OUT",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 30.932620000094175
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/a/ACg8ocJKix8eHQGfRVuRA1r1_7Qc9FpfwFAyAJ-n38GBvE2iz3H0HpIv=s96-c?sz=150",
+        "method": "GET",
+        "type": "Image",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_TIMED_OUT",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 30.939298999961466
+      },
+      {
+        "url": "https://assets.quizlet.com/static/i/animals/110.36d90f6882d4593.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 41116,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "image/jpeg",
+          "content-length": "40784",
+          "cache-control": "public, max-age=31536000, immutable",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origSize=47739, status=vary_header_present",
+          "etag": "\"2674f31c1ad40bc9c2bdfd4c8de56331\"",
+          "expires": "Sat, 07 Jun 2025 18:41:40 GMT",
+          "last-modified": "Fri, 07 Jun 2024 18:37:30 GMT",
+          "vary": "Origin, Accept-Encoding",
+          "x-goog-generation": "1717785450887880",
+          "x-guploader-uploadid": "ABPtcPq0fX-H9_O3G6MhoKPsVvCmoMcAQ_Fw4BE-TklWeYRcrDMpXCBWn0lUnJYIdJsi1lTxFddRQLtFuQ",
+          "cf-cache-status": "HIT",
+          "age": "1170653",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f10442e6c9b6077-ORD"
+        },
+        "responseBodyHash": "95e875bfc78395a8b7ecb6e0e20f75f37a972f5c7dcf1bbaeec3fdf999ba7319",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.8530770000070333
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5GTSWTM",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_TIMED_OUT",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 30.95259499992244
+      },
+      {
+        "url": "https://secure.quantserve.com/quant.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_TIMED_OUT",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 31.020475999917835
+      },
+      {
+        "url": "https://sb.scorecardresearch.com/beacon.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_TIMED_OUT",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 19.018920000176877
+      },
+      {
+        "url": "https://cdn.cookielaw.org/consent/c477f242-a93f-4a62-9585-05c0f39fc61d/c477f242-a93f-4a62-9585-05c0f39fc61d.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2429,
+        "remoteIPAddress": "[2606:4700::6812:562a]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "application/json",
+          "content-length": "1814",
+          "cf-ray": "8f10442dba2760a7-ORD",
+          "cf-cache-status": "HIT",
+          "accept-ranges": "bytes",
+          "access-control-allow-origin": "*",
+          "age": "50506",
+          "cache-control": "public, max-age=86400",
+          "content-encoding": "gzip",
+          "etag": "0x8DC7378985CE262",
+          "expires": "Fri, 13 Dec 2024 19:54:26 GMT",
+          "last-modified": "Mon, 13 May 2024 18:14:56 GMT",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "vary": "Accept-Encoding",
+          "access-control-expose-headers": "x-ms-request-id,Server,x-ms-version,Content-Type,Content-Encoding,Cache-Control,Last-Modified,ETag,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding",
+          "content-md5": "hvz5uarCVBEehsGsUM/TVA==",
+          "cross-origin-resource-policy": "cross-origin\ncross-origin",
+          "x-content-type-options": "nosniff",
+          "x-ms-blob-type": "BlockBlob",
+          "x-ms-lease-status": "unlocked",
+          "x-ms-request-id": "6333e486-201e-00b1-78d9-426bf7000000",
+          "x-ms-version": "2009-09-19",
+          "server": "cloudflare"
+        },
+        "responseBodyHash": "70194613109167bd5dac16bb6508d94d8e57c12044b26703d8cac872e9e4a2b7",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.08260499988682568
+      },
+      {
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/rollbar.js/2.26.1/rollbar.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21928,
+        "remoteIPAddress": "[2606:4700::6811:190e]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:45 GMT",
+          "content-type": "application/javascript; charset=utf-8",
+          "content-length": "21234",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=30672000",
+          "content-encoding": "br",
+          "etag": "\"63b6227d-52f2\"",
+          "last-modified": "Thu, 05 Jan 2023 01:06:05 GMT",
+          "cf-cdnjs-via": "cfworker/kv",
+          "cross-origin-resource-policy": "cross-origin",
+          "timing-allow-origin": "*",
+          "x-content-type-options": "nosniff",
+          "vary": "Accept-Encoding",
+          "cf-cache-status": "HIT",
+          "age": "726382",
+          "expires": "Tue, 02 Dec 2025 19:54:45 GMT",
+          "accept-ranges": "bytes",
+          "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=w247aLH55fG3LFKa3CDJeuEsC2JmRGVb7bax2wMnGquw77n7QTsJTiV1vRWGM9YwXPE%2FLi8fqPUmpq5qZEueCglmEmJWuhhPTNpYtPnyrfcg%2B2HjLBxHVUusCoVS%2F5soG2YC4NRQJ%2BT6txWtTlZsL96Z\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+          "nel": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+          "strict-transport-security": "max-age=15780000",
+          "server": "cloudflare",
+          "cf-ray": "8f1044a0ad28617d-ORD",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "41764f6cf1cfa99fad12f1ee265ea0bb292761f6b15d1f5432756524854cd77f",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 18.46115400013514
+      },
+      {
+        "url": "https://assets.quizlet.com/static/cyfvgf2p.3.15.0.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 25480,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/javascript",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Fri, 31 Oct 2025 10:39:40 GMT",
+          "last-modified": "Thu, 31 Oct 2024 01:10:32 GMT",
+          "etag": "W/\"b216b06285bff9aeab187fd487486fd2\"",
+          "x-goog-generation": "1730337032148193",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "AHmUCY0ukY5pLpAWzbU6yB78cBqhtE0Gl7X0G91UvcZUi_Ns4U7HJTFTy7xG0xqT3wqukCFU4OMPeRrxzg",
+          "cf-cache-status": "HIT",
+          "age": "1249292",
+          "server": "cloudflare",
+          "cf-ray": "8f10442e6c9f6077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "9ca6fb6cdbe6c9100279b9122a202cd41dad13ec6a3acbf9e93c54dafc1e5580",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.1831169999204576
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/css/3944f47b24c26393.css",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 65536,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:26 GMT",
+          "content-type": "text/css",
+          "cache-control": "public, max-age=31536000, immutable",
+          "expires": "Thu, 11 Dec 2025 19:16:54 GMT",
+          "last-modified": "Wed, 11 Dec 2024 18:52:01 GMT",
+          "etag": "W/\"cf92a4510a4356fc65e618fadfa443fc\"",
+          "x-goog-generation": "1733943121688348",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "AFiumC40M2RcSkxaLBq6TCCYkP0ZtpicyyYdSg0nrfhvhwTslNT9XPJMU0zSeyPRnaQw784y-ZBFg2F3Hw",
+          "cf-cache-status": "HIT",
+          "age": "88652",
+          "server": "cloudflare",
+          "cf-ray": "8f1044292f656077-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://assets.quizlet.com/_next/static/css/3944f47b24c26393.css"
+        ],
+        "time": 0.5918750001583248
+      },
+      {
+        "url": "https://o.quizlet.com/7PMRF2U4d2Ynd9uflDyBMA_m.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 39661,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:45 GMT",
+          "content-type": "image/webp",
+          "content-length": "39286",
+          "cache-control": "public, max-age=946080000",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origFmt=png, origSize=69960",
+          "content-disposition": "inline; filename=\"7PMRF2U4d2Ynd9uflDyBMA_m.webp\"",
+          "etag": "\"8ba1c94c7fb2ae719cdbb6694808acad\"",
+          "expires": "Sat, 05 Dec 2054 19:54:45 GMT",
+          "last-modified": "Tue, 10 Dec 2019 21:49:52 GMT",
+          "vary": "Accept",
+          "x-amz-id-2": "9j1qa2eabEbxfEUT4nsYzyqWAoJvOzrf38Es3y/QyvswR0H6f/p1OvNicwP1ZNyXegNDiZeOjBo=",
+          "x-amz-request-id": "3S45JSWDDHEE4HEE",
+          "cf-cache-status": "HIT",
+          "age": "1709",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f1044a54a456077-ORD"
+        },
+        "responseBodyHash": "a6def34e35068b875b24c6f6f497fb28399074162a9d05001eb79ab67cd8a571",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 18.99233999988064
+      },
+      {
+        "url": "https://o.quizlet.com/ACoLATX8xxV4BerPR1yg0A_m.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 13318,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:45 GMT",
+          "content-type": "image/jpeg",
+          "content-length": "13055",
+          "cache-control": "public, max-age=946080000",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origSize=13311",
+          "etag": "\"38a7fd8aae29059bdfd576090e80c8df\"",
+          "expires": "Sat, 05 Dec 2054 19:54:45 GMT",
+          "last-modified": "Fri, 01 Mar 2013 17:07:24 GMT",
+          "x-amz-id-2": "fNCZCZbp2tzABuRv+XbeRbKfFqD9wkl4LxmGSjQ7z5qtEVJGJktHFHS5YLiiOgH3971iy5pepck=",
+          "x-amz-request-id": "6P7YE1SZRSESS0AQ",
+          "cf-cache-status": "HIT",
+          "age": "1089836",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "8f1044a54a476077-ORD"
+        },
+        "responseBodyHash": "2edef4ff0befb6ed078c4f404c269b4ee9b327d4add6292a7662a3a4202a64e7",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 18.994659999851137
+      },
+      {
+        "url": "https://o.quizlet.com/iJpd1QI3hAKL9fmIMErVHg_m.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12403,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:45 GMT",
+          "content-type": "image/jpeg",
+          "content-length": "12165",
+          "cache-control": "public, max-age=946080000",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origSize=12240",
+          "etag": "\"11ba0c5382e6c7e06dee0b8678936ba2\"",
+          "expires": "Sat, 05 Dec 2054 19:54:45 GMT",
+          "last-modified": "Thu, 26 Mar 2020 18:07:45 GMT",
+          "x-amz-id-2": "Bq9nxDrirgqdsijRGfc00D9dAN7k3uA7u2Btx5bVz30A/MCAhXAxWETlKdR0HQEaDwFrrZD0T00=",
+          "x-amz-request-id": "469EMDNCCHFS1QJW",
+          "cf-cache-status": "HIT",
+          "age": "90319",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "8f1044a54a486077-ORD"
+        },
+        "responseBodyHash": "55f514c5ef2bab3b738bcd0228c2682f3f57491f661a1459b1f9a7d37438fe4f",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 18.992766000097618
+      },
+      {
+        "url": "https://o.quizlet.com/S4eEolh2LLnSeIOnNdCUag_m.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 18291,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:46 GMT",
+          "content-type": "image/jpeg",
+          "content-length": "18017",
+          "cache-control": "public, max-age=946080000",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origSize=18090",
+          "etag": "\"e62ee897db2bde6d700ae822fd8db30f\"",
+          "expires": "Sat, 05 Dec 2054 19:54:45 GMT",
+          "last-modified": "Sat, 09 Feb 2013 23:23:21 GMT",
+          "x-amz-id-2": "N8WMBKEieoYIG8XORx7O2EqWb5ZASGqXnJVQSQgk66PwISji4hG7Gt8c0iirCrUKNrQoyzihlP0=",
+          "x-amz-request-id": "3SWQT6PQHZYM4P7F",
+          "cf-cache-status": "HIT",
+          "age": "5489930",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "8f1044a54a4b6077-ORD"
+        },
+        "responseBodyHash": "b78a9f951dbdcae593366b1ed59e89691f9c410a47a13308ef2fdfa1449715d9",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 18.999637000029907
+      },
+      {
+        "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 316,
+        "remoteIPAddress": "[2606:4700:4400::6812:2089]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:28 GMT",
+          "content-type": "application/json",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "Content-Type",
+          "access-control-allow-methods": "GET, OPTIONS",
+          "vary": "Accept-Encoding",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "server": "cloudflare",
+          "cf-ray": "8f1044350e2e615a-ORD",
+          "content-encoding": "gzip"
+        },
+        "responseBodyHash": "e7fdf2edc0002eaf01d6f3be67780b21d9d954316247ad65bbd05f2a691d12ad",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.4570740000344813
+      },
+      {
+        "url": "https://e.quizlet.com/a3c86/tz9",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 329,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:28 GMT",
+          "content-type": "text/plain; charset=UTF-8",
+          "content-length": "2",
+          "set-cookie": "sp=02ed4bf5-36d3-47fe-9e3d-4c2867f2c194; Expires=Fri, 12 Dec 2025 19:54:28 GMT; Domain=quizlet.com; Path=/; Secure; HttpOnly; SameSite=Lax",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI DSP COR NID PSA OUR IND COM NAV STA\"",
+          "access-control-allow-origin": "https://quizlet.com",
+          "access-control-allow-credentials": "true",
+          "via": "1.1 google",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "8f1044383eea6077-ORD"
+        },
+        "responseBodyHash": "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df",
+        "initiators": [
+          "https://assets.quizlet.com/static/cyfvgf2p.3.15.0.min.js"
+        ],
+        "time": 0.11714900005608797
+      },
+      {
+        "url": "https://e.quizlet.com/a3c86/tz9",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.16.134.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:28 GMT",
+          "content-length": "0",
+          "access-control-allow-origin": "https://quizlet.com",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "Content-Type, SP-Anonymous",
+          "access-control-max-age": "5",
+          "via": "1.1 google",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=V8lUdYvjc.8.12rGv4I39K02I_egO7h213Ci8OGXJPs-1734033268-1.0.1.1-ShrivGntA2jNoLuh2HXsUN2lyvdTzDcne3QEYnbxskasFkQV9JzgvkGXfK_aQ6GlZnsYTtwBEQVlgyJt2Eb0yw; path=/; expires=Thu, 12-Dec-24 20:24:28 GMT; domain=.quizlet.com; HttpOnly; Secure; SameSite=None\n_cfuvid=h1.B5VBw7CnyXd2mCz86QG0Q4FAqI_R._VouKsDPv2A-1734033268497-0.0.1.1-604800000; path=/; domain=.quizlet.com; HttpOnly; Secure; SameSite=None",
+          "server": "cloudflare",
+          "cf-ray": "8f104437e8296176-ORD"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://e.quizlet.com/a3c86/tz9"
+        ],
+        "time": 0.06537399999797344
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202310.2.0/otBannerSdk.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 105312,
+        "remoteIPAddress": "[2606:4700::6812:562a]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:28 GMT",
+          "content-type": "application/javascript",
+          "content-length": "105018",
+          "content-encoding": "gzip",
+          "content-md5": "futiIRaAGsEL76yunD0yWQ==",
+          "last-modified": "Tue, 16 Jul 2024 19:54:08 GMT",
+          "etag": "0x8DCA5D10E7176E8",
+          "x-ms-request-id": "3bdecb2d-701e-00cf-4a3b-36f438000000",
+          "x-ms-version": "2009-09-19",
+          "x-ms-lease-status": "unlocked",
+          "x-ms-blob-type": "BlockBlob",
+          "access-control-expose-headers": "x-ms-request-id,Server,x-ms-version,Content-Type,Content-Encoding,Last-Modified,ETag,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "cf-cache-status": "HIT",
+          "age": "50409",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "x-content-type-options": "nosniff",
+          "cross-origin-resource-policy": "cross-origin",
+          "server": "cloudflare",
+          "cf-ray": "8f10443a49316213-ORD"
+        },
+        "responseBodyHash": "60aaad2288d23fb03527331b7b03e1f1643898e136a926f1d48609f453babd85",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+        ],
+        "time": 0.03092499985359609
+      },
+      {
+        "url": "https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17844,
+        "remoteIPAddress": "104.69.82.131",
+        "responseHeaders": {
+          "server": "Apple",
+          "content-type": "application/javascript;charset=UTF-8",
+          "cache-control": "public, max-age=86400,stale-while-revalidate=86400",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "accept-ranges": "bytes",
+          "etag": "W/\"43171-1733961260030\"",
+          "last-modified": "Wed, 11 Dec 2024 23:54:20 GMT",
+          "vary": "accept-encoding",
+          "content-encoding": "gzip",
+          "content-length": "17356",
+          "date": "Thu, 12 Dec 2024 19:54:45 GMT",
+          "connection": "keep-alive",
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "8356948d6f3bef342ff37a4deca7f6b64b58ca0b90ca128c1929c1bb76cc7a54",
+        "initiators": [
+          "https://assets.quizlet.com/_next/static/chunks/main-40100c8ebbd7bbfa.js",
+          "https://assets.quizlet.com/_next/static/chunks/framework-a08dcba15d15c130.js"
+        ],
+        "time": 15.728406000183895
+      },
+      {
+        "url": "https://accounts.google.com/gsi/style",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 609,
+        "remoteIPAddress": "[2607:f8b0:4002:c09::54]",
+        "responseHeaders": {
+          "content-type": "text/css; charset=utf-8",
+          "vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+          "expires": "Thu, 12 Dec 2024 19:54:30 GMT",
+          "date": "Thu, 12 Dec 2024 19:54:30 GMT",
+          "cache-control": "private, max-age=86400",
+          "content-security-policy": "script-src 'report-sample' 'nonce-AyXOx4eGdfNRFubvlS-A-Q' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/identity-sign-in-google-http\nrequire-trusted-types-for 'script';report-uri https://csp.withgoogle.com/csp/identity-sign-in-google-http",
+          "cross-origin-resource-policy": "cross-origin",
+          "cross-origin-opener-policy-report-only": "same-origin; report-to=\"coop_dd7de8473bddc59c6b748810a67a39b1\"",
+          "report-to": "{\"group\":\"coop_dd7de8473bddc59c6b748810a67a39b1\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/dd7de8473bddc59c6b748810a67a39b1\"}]}",
+          "content-encoding": "gzip",
+          "server": "ESF",
+          "x-xss-protection": "0",
+          "x-frame-options": "SAMEORIGIN",
+          "x-content-type-options": "nosniff",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "1c4e7e389d73c6acf7f19cc812514e71230740791fde8a018c1d7edccf1590ae",
+        "initiators": [
+          "https://accounts.google.com/gsi/client",
+          "https://assets.quizlet.com/_next/static/chunks/pages/_app-7223f2b2ed28797d.js",
+          "https://assets.quizlet.com/_next/static/chunks/framework-a08dcba15d15c130.js"
+        ],
+        "time": 0.044705000007525086
+      },
+      {
+        "url": "https://accounts.google.com/gsi/status?client_id=520305074949.apps.googleusercontent.com&as=1eIyyX9yYfAxZB%2FotxtBYQ&has_opted_out_fedcm=false",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 95,
+        "remoteIPAddress": "[2607:f8b0:4002:c09::54]",
+        "responseHeaders": {
+          "content-type": "application/json; charset=utf-8",
+          "vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+          "x-content-type-options": "nosniff",
+          "access-control-allow-origin": "https://quizlet.com",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-methods": "GET",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "pragma": "no-cache",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "date": "Thu, 12 Dec 2024 19:54:30 GMT",
+          "content-disposition": "attachment; filename=\"json.txt\"; filename*=UTF-8''json.txt",
+          "content-security-policy": "script-src 'report-sample' 'nonce-FBUso0HW0L1HvtZ2QWxSRQ' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/identity-sign-in-google-http\nrequire-trusted-types-for 'script';report-uri https://csp.withgoogle.com/csp/identity-sign-in-google-http",
+          "report-to": "{\"group\":\"coop_dd7de8473bddc59c6b748810a67a39b1\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/dd7de8473bddc59c6b748810a67a39b1\"}]}",
+          "cross-origin-opener-policy-report-only": "same-origin; report-to=\"coop_dd7de8473bddc59c6b748810a67a39b1\"",
+          "content-encoding": "gzip",
+          "server": "ESF",
+          "x-xss-protection": "0",
+          "x-frame-options": "SAMEORIGIN",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "99d9b57fccf7bba5e35ca1dbad2049314d8577898a5df4a1240473320b26e704",
+        "initiators": [
+          "https://accounts.google.com/gsi/client",
+          "https://assets.quizlet.com/_next/static/chunks/pages/_app-7223f2b2ed28797d.js",
+          "https://assets.quizlet.com/_next/static/chunks/framework-a08dcba15d15c130.js"
+        ],
+        "time": 0.15101799997501075
+      },
+      {
+        "url": "https://e.quizlet.com/a3c86/tz9",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 185,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:30 GMT",
+          "content-type": "text/plain; charset=UTF-8",
+          "content-length": "2",
+          "set-cookie": "sp=02ed4bf5-36d3-47fe-9e3d-4c2867f2c194; Expires=Fri, 12 Dec 2025 19:54:30 GMT; Domain=quizlet.com; Path=/; Secure; HttpOnly; SameSite=Lax",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI DSP COR NID PSA OUR IND COM NAV STA\"",
+          "access-control-allow-origin": "https://quizlet.com",
+          "access-control-allow-credentials": "true",
+          "via": "1.1 google",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "8f10444249de6077-ORD"
+        },
+        "responseBodyHash": "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df",
+        "initiators": [
+          "https://assets.quizlet.com/static/cyfvgf2p.3.15.0.min.js"
+        ],
+        "time": 0.05331100011244416
+      },
+      {
+        "url": "https://el.quizlet.com/",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 508,
+        "remoteIPAddress": "104.16.134.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:30 GMT",
+          "content-type": "application/json; charset=UTF-8",
+          "content-length": "2",
+          "access-control-allow-origin": "https://quizlet.com",
+          "x-envoy-upstream-service-time": "1",
+          "x-envoy-decorator-operation": "eventlogger-publisher-frontend.eventlogger.svc.cluster.local:80/*",
+          "via": "1.1 google",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=YqBJlKYys9eQ3Vgd7O9LjFK7u7gteTJlae.n0fUL0Zw-1734033270-1.0.1.1-AhiM9F4aWfR.dSgoFa1_kCaEI3v8Sz0IU2CspidadbYGXIb1Cttu6GtNccugA7iOoqkrmCCkH94sDLwq99S43Q; path=/; expires=Thu, 12-Dec-24 20:24:30 GMT; domain=.quizlet.com; HttpOnly; Secure; SameSite=None\n_cfuvid=TYMnSgvhxUR8Phut6_zcwZYFY7VLrL_jWoHdCPowbpY-1734033270283-0.0.1.1-604800000; path=/; domain=.quizlet.com; HttpOnly; Secure; SameSite=None",
+          "server": "cloudflare",
+          "cf-ray": "8f1044431c0e6176-ORD"
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://assets.quizlet.com/_next/static/chunks/pages/_app-7223f2b2ed28797d.js"
+        ],
+        "time": 0.06317300000227988
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/media/apple.4170bb1a.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3256,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:30 GMT",
+          "content-type": "image/png",
+          "content-length": "2978",
+          "cache-control": "public, max-age=31536000, immutable",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "status=not_needed",
+          "etag": "\"89d0c116cd15ec838cd60e1e8c07279e\"",
+          "expires": "Thu, 31 Jul 2025 18:17:24 GMT",
+          "last-modified": "Wed, 31 Jul 2024 10:51:39 GMT",
+          "vary": "Origin, Accept-Encoding",
+          "x-goog-generation": "1722423098917417",
+          "x-guploader-uploadid": "AHxI1nP1-o9L4cF5shvJ-iU0YDYkgkTbZQBityy2DO72cJuEMiG-ja4Z6sWn_Vqn9bL2-NE1ZTpNzh7p3g",
+          "cf-cache-status": "HIT",
+          "age": "1010973",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f1044448c226077-ORD"
+        },
+        "responseBodyHash": "0d267f289e111f8e278f38d361771cc72786d456a993f95de651dfd2d09169e3",
+        "initiators": [
+          "https://assets.quizlet.com/_next/static/css/3944f47b24c26393.css"
+        ],
+        "time": 0.037813999922946095
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/media/google_play.fca45251.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3202,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:30 GMT",
+          "content-type": "image/png",
+          "content-length": "2930",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "status=not_needed",
+          "last-modified": "Wed, 28 Jun 2023 15:46:31 GMT",
+          "vary": "Origin, Accept-Encoding",
+          "x-guploader-uploadid": "ADPycdvsB1I7CXq-pBjPxO3wTXJ0PuV7k8cNS3qYSqNRm3ec0yBRb8Sj7HscLljRB6mAzaEAyo2NBSjrF-uilYrhSeqAZA",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "\"69a5f243c4a0867a0f2461c9adfc71bc\"",
+          "expires": "Fri, 30 May 2025 19:58:31 GMT",
+          "x-goog-generation": "1687967191562594",
+          "cf-cache-status": "HIT",
+          "age": "891833",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f1044448c246077-ORD"
+        },
+        "responseBodyHash": "a4ddf70d8872718bf74a83a4fb71f891fbf9b02739a473d67ef0a2b9b77a2b2b",
+        "initiators": [
+          "https://assets.quizlet.com/_next/static/css/3944f47b24c26393.css"
+        ],
+        "time": 0.04038799996487796
+      },
+      {
+        "url": "https://cdn.cookielaw.org/consent/c477f242-a93f-4a62-9585-05c0f39fc61d/018f7328-8f31-7f0a-b839-cc8145abef39/en.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 40278,
+        "remoteIPAddress": "[2606:4700::6812:562a]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:30 GMT",
+          "content-type": "application/json",
+          "content-length": "40030",
+          "cf-ray": "8f1044477b1060a7-ORD",
+          "cf-cache-status": "HIT",
+          "accept-ranges": "bytes",
+          "access-control-allow-origin": "*",
+          "age": "20594",
+          "cache-control": "public, max-age=86400",
+          "content-encoding": "gzip",
+          "etag": "0x8DC7378A456C2BD",
+          "expires": "Fri, 13 Dec 2024 19:54:30 GMT",
+          "last-modified": "Mon, 13 May 2024 18:15:17 GMT",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "vary": "Accept-Encoding",
+          "access-control-expose-headers": "x-ms-request-id,Server,x-ms-version,Content-Type,Content-Encoding,Cache-Control,Last-Modified,ETag,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding",
+          "content-md5": "Er31Kk3prc0KIBDj5s0gAQ==",
+          "cross-origin-resource-policy": "cross-origin\ncross-origin",
+          "x-content-type-options": "nosniff",
+          "x-ms-blob-type": "BlockBlob",
+          "x-ms-lease-status": "unlocked",
+          "x-ms-request-id": "6c2eae64-801e-00b7-645f-369c8f000000",
+          "x-ms-version": "2009-09-19",
+          "server": "cloudflare"
+        },
+        "responseBodyHash": "34c5136ccab07b447a1a5bfeee09f538614cfd7853d165182bc765e22deb70fe",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/202310.2.0/otBannerSdk.js"
+        ],
+        "time": 0.04606200009584427
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202310.2.0/otGPP.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12065,
+        "remoteIPAddress": "[2606:4700::6812:562a]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:31 GMT",
+          "content-type": "application/javascript",
+          "access-control-allow-origin": "*",
+          "access-control-expose-headers": "x-ms-request-id,Server,x-ms-version,Content-Type,Last-Modified,ETag,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding",
+          "cf-bgj": "minify",
+          "cf-polished": "origSize=59492",
+          "content-md5": "iCHTeEul4usQRSJqLRCksA==",
+          "last-modified": "Tue, 16 Jul 2024 19:54:12 GMT",
+          "x-ms-blob-type": "BlockBlob",
+          "x-ms-lease-status": "unlocked",
+          "x-ms-request-id": "2a9f500c-001e-0084-116f-d8c5a2000000",
+          "x-ms-version": "2009-09-19",
+          "cache-control": "max-age=86400",
+          "cf-cache-status": "HIT",
+          "age": "25747",
+          "vary": "Accept-Encoding",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "x-content-type-options": "nosniff",
+          "cross-origin-resource-policy": "cross-origin",
+          "server": "cloudflare",
+          "cf-ray": "8f104447de9e6213-ORD",
+          "content-encoding": "gzip"
+        },
+        "responseBodyHash": "5e10443bfd84fcc5ce6becbd21679d4103103aed1fc4cebada63ae1eec0760ab",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/202310.2.0/otBannerSdk.js"
+        ],
+        "time": 0.04198000021278858
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202310.2.0/assets/otFlat.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 3180,
+        "remoteIPAddress": "[2606:4700::6812:562a]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:31 GMT",
+          "content-type": "application/json",
+          "content-length": "3017",
+          "content-encoding": "gzip",
+          "content-md5": "/1UdBS+YEc76mTiBEFqAyQ==",
+          "last-modified": "Tue, 16 Jul 2024 19:54:00 GMT",
+          "etag": "0x8DCA5D10971D872",
+          "x-ms-request-id": "e0e29456-101e-0075-42e2-2c1431000000",
+          "x-ms-version": "2009-09-19",
+          "x-ms-lease-status": "unlocked",
+          "x-ms-blob-type": "BlockBlob",
+          "access-control-expose-headers": "x-ms-request-id,Server,x-ms-version,Content-Type,Content-Encoding,Last-Modified,ETag,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "cf-cache-status": "HIT",
+          "age": "39368",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "x-content-type-options": "nosniff",
+          "cross-origin-resource-policy": "cross-origin",
+          "server": "cloudflare",
+          "cf-ray": "8f104449dd3b60a7-ORD"
+        },
+        "responseBodyHash": "ea5db5581e262d77d1a43fbb3f0fa3661b51d097b40ca38f584b4943f47cf2e0",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/202310.2.0/otBannerSdk.js"
+        ],
+        "time": 0.10882099997252226
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202310.2.0/assets/v2/otPcCenter.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 13008,
+        "remoteIPAddress": "[2606:4700::6812:562a]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:31 GMT",
+          "content-type": "application/json",
+          "content-length": "12708",
+          "content-encoding": "gzip",
+          "content-md5": "fqYUlgAo8WJOmRng41XGWA==",
+          "last-modified": "Tue, 16 Jul 2024 19:54:02 GMT",
+          "etag": "0x8DCA5D10ABDCA3B",
+          "x-ms-request-id": "520b6b45-a01e-00ef-0e81-3398f4000000",
+          "x-ms-version": "2009-09-19",
+          "x-ms-lease-status": "unlocked",
+          "x-ms-blob-type": "BlockBlob",
+          "access-control-expose-headers": "x-ms-request-id,Server,x-ms-version,Content-Type,Content-Encoding,Last-Modified,ETag,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "cf-cache-status": "HIT",
+          "age": "27785",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "x-content-type-options": "nosniff",
+          "cross-origin-resource-policy": "cross-origin",
+          "server": "cloudflare",
+          "cf-ray": "8f104449dd3e60a7-ORD"
+        },
+        "responseBodyHash": "0b0a210e89ac35b54a9b4ccb0336ea91c561e6dc5f8bda49574da98d40799c6e",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/202310.2.0/otBannerSdk.js"
+        ],
+        "time": 0.03403400001116097
+      },
+      {
+        "url": "https://cdn.cookielaw.org/scripttemplates/202310.2.0/assets/otCommonStyles.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 3968,
+        "remoteIPAddress": "[2606:4700::6812:562a]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:31 GMT",
+          "content-type": "text/css",
+          "content-md5": "c7xAZ9MSGAobGaTYg/Qtag==",
+          "last-modified": "Tue, 16 Jul 2024 19:54:13 GMT",
+          "x-ms-request-id": "b2563369-201e-007d-09ad-430f42000000",
+          "x-ms-version": "2009-09-19",
+          "x-ms-lease-status": "unlocked",
+          "x-ms-blob-type": "BlockBlob",
+          "access-control-expose-headers": "x-ms-request-id,Server,x-ms-version,Content-Type,Last-Modified,ETag,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "cf-cache-status": "HIT",
+          "age": "1175",
+          "vary": "Accept-Encoding",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "x-content-type-options": "nosniff",
+          "cross-origin-resource-policy": "cross-origin",
+          "server": "cloudflare",
+          "cf-ray": "8f104449dd4160a7-ORD",
+          "content-encoding": "gzip"
+        },
+        "responseBodyHash": "d3f7b0ec4de079928a999641e781e80f33597a392a561bc460276dfb4efb6eec",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/202310.2.0/otBannerSdk.js"
+        ],
+        "time": 0.03125999984331429
+      },
+      {
+        "url": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 495,
+        "remoteIPAddress": "[2606:4700::6812:562a]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:31 GMT",
+          "content-type": "image/svg+xml",
+          "content-md5": "tXyZydHjxQshFMbbBT1/8A==",
+          "last-modified": "Wed, 11 Dec 2024 20:18:52 GMT",
+          "x-ms-request-id": "98709d71-001e-0061-6754-4cd755000000",
+          "x-ms-version": "2009-09-19",
+          "x-ms-lease-status": "unlocked",
+          "x-ms-blob-type": "BlockBlob",
+          "access-control-expose-headers": "x-ms-request-id,Server,x-ms-version,Content-Type,Last-Modified,ETag,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "cf-cache-status": "HIT",
+          "age": "31343",
+          "vary": "Accept-Encoding",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "x-content-type-options": "nosniff",
+          "cross-origin-resource-policy": "cross-origin",
+          "server": "cloudflare",
+          "cf-ray": "8f10444b3eaf60a7-ORD",
+          "content-encoding": "gzip"
+        },
+        "responseBodyHash": "691dcdb24853a0f5ce4e6597e5713dea66799b57ffe2c2a10f28f98e0b569b19",
+        "initiators": [
+          "https://cdn.cookielaw.org/scripttemplates/202310.2.0/otBannerSdk.js"
+        ],
+        "time": 0.04836799995973706
+      },
+      {
+        "url": "https://cdn.cookielaw.org/logos/static/ot_company_logo.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4207,
+        "remoteIPAddress": "[2606:4700::6812:562a]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:31 GMT",
+          "content-type": "image/png",
+          "content-length": "4036",
+          "content-md5": "E8+sk/ECzKgTUVtDLikiIA==",
+          "last-modified": "Wed, 11 Dec 2024 20:18:53 GMT",
+          "etag": "0x8DD1A21083A6371",
+          "x-ms-request-id": "b5b8ff55-901e-00ec-6759-4c9bf3000000",
+          "x-ms-version": "2009-09-19",
+          "x-ms-lease-status": "unlocked",
+          "x-ms-blob-type": "BlockBlob",
+          "access-control-expose-headers": "x-ms-request-id,Server,x-ms-version,Content-Type,Last-Modified,ETag,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=86400",
+          "cf-cache-status": "HIT",
+          "age": "29706",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "x-content-type-options": "nosniff",
+          "cross-origin-resource-policy": "cross-origin",
+          "server": "cloudflare",
+          "cf-ray": "8f10444c0aed6213-ORD"
+        },
+        "responseBodyHash": "e7fd0009abc1f00afe5c545bf11873331d40d7cb97127a7492a4392942f5565a",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.03209599992260337
+      },
+      {
+        "url": "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2201,
+        "remoteIPAddress": "[2606:4700::6812:562a]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:31 GMT",
+          "content-type": "image/svg+xml",
+          "content-md5": "Y+c301RBZNK39PvKQWrIBw==",
+          "last-modified": "Wed, 11 Dec 2024 04:55:23 GMT",
+          "x-ms-request-id": "7aa1e03c-a01e-00ef-57c9-4b98f4000000",
+          "x-ms-version": "2009-09-19",
+          "x-ms-lease-status": "unlocked",
+          "x-ms-blob-type": "BlockBlob",
+          "access-control-expose-headers": "x-ms-request-id,Server,x-ms-version,Content-Type,Last-Modified,ETag,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding",
+          "access-control-allow-origin": "*",
+          "cf-cache-status": "HIT",
+          "age": "12085",
+          "expires": "Fri, 13 Dec 2024 19:54:31 GMT",
+          "cache-control": "public, max-age=86400",
+          "vary": "Accept-Encoding",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "x-content-type-options": "nosniff",
+          "cross-origin-resource-policy": "cross-origin",
+          "server": "cloudflare",
+          "cf-ray": "8f10444c0aef6213-ORD",
+          "content-encoding": "gzip"
+        },
+        "responseBodyHash": "5fa00d047acd959697b9d7772c31dcd37bec33c70c6fbf80ab8316205d1d286d",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.02872400009073317
+      },
+      {
+        "url": "https://e.quizlet.com/a3c86/tz9",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 185,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:32 GMT",
+          "content-type": "text/plain; charset=UTF-8",
+          "content-length": "2",
+          "set-cookie": "sp=02ed4bf5-36d3-47fe-9e3d-4c2867f2c194; Expires=Fri, 12 Dec 2025 19:54:32 GMT; Domain=quizlet.com; Path=/; Secure; HttpOnly; SameSite=Lax",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI DSP COR NID PSA OUR IND COM NAV STA\"",
+          "access-control-allow-origin": "https://quizlet.com",
+          "access-control-allow-credentials": "true",
+          "via": "1.1 google",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "8f104451a93d6077-ORD"
+        },
+        "responseBodyHash": "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df",
+        "initiators": [
+          "https://assets.quizlet.com/static/cyfvgf2p.3.15.0.min.js",
+          "https://quizlet.com/",
+          "https://assets.quizlet.com/_next/static/chunks/pages/_app-7223f2b2ed28797d.js",
+          "https://assets.quizlet.com/_next/static/chunks/framework-a08dcba15d15c130.js"
+        ],
+        "time": 0.04382700007408857
+      },
+      {
+        "url": "https://quizlet.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 302,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:57 GMT",
+          "content-length": "0",
+          "location": "/cdn-cgi/challenge-platform/h/g/scripts/jsd/f9063374b04d/main.js?",
+          "cache-control": "max-age=300, stale-if-error=10800, stale-while-revalidate=10800, public",
+          "access-control-allow-origin": "*",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "8f1044eb3bb66077-ORD"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://quizlet.com/cdn-cgi/challenge-platform/h/g/scripts/jsd/f9063374b04d/main.js?",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.037862000055611134
+      },
+      {
+        "url": "https://quizlet.com/cdn-cgi/challenge-platform/h/g/scripts/jsd/f9063374b04d/main.js?",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4212,
+        "remoteIPAddress": "104.16.133.27",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:57 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "cache-control": "max-age=14400, stale-if-error=10800, stale-while-revalidate=10800, public",
+          "x-content-type-options": "nosniff",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "8f1044eb7bfb6077-ORD",
+          "content-encoding": "br"
+        },
+        "redirectedFrom": "https://quizlet.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+        "initiators": [
+          "https://quizlet.com/"
+        ],
+        "time": 0.031119999941438437
+      },
+      {
+        "url": "https://quizlet.com/manifest.webmanifest",
+        "method": "GET",
+        "type": "Manifest",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:57 GMT",
+          "content-type": "application/octet-stream",
+          "content-length": "304",
+          "cf-ray": "8f1044eb7ab26176-ORD",
+          "cf-cache-status": "DYNAMIC",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "set-cookie": "_pxhd=d0892be3b695c88644301f83aa4a0ad37e9f0c604d5efa7d29bb44d3a0882a0d:f69b2e09-b8c2-11ef-95bc-8b320d72ac81; path=/; SameSite=Lax\n__cf_bm=ODM_uIt.umiCAnAdNKaltsdfcmflmPvS8KT1rm0OH6E-1734033297-1.0.1.1-ZybPdrTV5rP2311a4QHVNCglTDZ9uQZCxlngRZySzoHun.KfwOENBOiujHBFNScyvUEFI7oy5tLOZqZqmUZiAw; path=/; expires=Thu, 12-Dec-24 20:24:57 GMT; domain=.quizlet.com; HttpOnly; Secure; SameSite=None\n__cfruid=af429d7ddcd621f780035506024f5c615c69f578-1734033297; path=/; domain=.quizlet.com; HttpOnly; Secure; SameSite=None",
+          "vary": "Accept-Encoding",
+          "via": "1.1 google",
+          "x-envoy-decorator-operation": "web-preview.hhvm.svc.cluster.local:80/*",
+          "x-envoy-upstream-service-time": "0",
+          "server": "cloudflare"
+        },
+        "initiators": []
+      },
+      {
+        "url": "https://assets.quizlet.com/_next/static/media/q-twilight.e27821d9.png",
+        "method": "GET",
+        "type": "Other",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:54:57 GMT",
+          "content-type": "image/png",
+          "content-length": "1962",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origSize=4535, status=vary_header_present",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "\"bf86a55f0414fecf437392bcbc22e54b\"",
+          "expires": "Fri, 30 May 2025 18:11:40 GMT",
+          "last-modified": "Wed, 29 May 2024 02:44:33 GMT",
+          "vary": "Origin, Accept-Encoding",
+          "x-goog-generation": "1716950672866041",
+          "x-guploader-uploadid": "ABPtcPrb8eIyOouCJ6tLk12Pg7Cs3t3_bpXH-jovjWDAu-eISm9JdQnsZvPYZa10fCl7S3HHVg1t5oWi-g",
+          "cf-cache-status": "HIT",
+          "age": "825015",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f1044eb7bfe6077-ORD"
+        },
+        "initiators": []
+      },
+      {
+        "url": "https://static.cdn.prismic.io/prismic.js?repo=quizlet-web&new=true",
+        "method": "GET",
+        "type": "Script",
+        "initiators": [
+          "https://assets.quizlet.com/_next/static/chunks/main-40100c8ebbd7bbfa.js",
+          "https://assets.quizlet.com/_next/static/chunks/framework-a08dcba15d15c130.js"
+        ]
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": {
+          "Document.cookie getter": 8,
+          "window.sessionStorage": 4
+        },
+        "https://accounts.google.com/gsi/client": {
+          "Navigator.prototype.userAgent": 79,
+          "window.sessionStorage": 1,
+          "Date.prototype.getTime": 1
+        },
+        "https://assets.quizlet.com/_next/static/chunks/pages/_app-7223f2b2ed28797d.js": {
+          "Navigator.prototype.appVersion": 1,
+          "Navigator.prototype.userAgent": 12,
+          "Navigator.prototype.vendor": 1,
+          "window.localStorage": 3,
+          "PerformanceTiming.prototype.navigationStart": 3,
+          "Navigator.prototype.language": 1,
+          "window.matchMedia(\"prefers-color-scheme\")": 1,
+          "Document.cookie getter": 82,
+          "Navigator.prototype.storage": 2,
+          "window.innerHeight": 2,
+          "window.innerWidth": 1,
+          "Document.cookie setter": 20,
+          "Date.prototype.getTime": 3,
+          "Navigator.prototype.onLine": 1,
+          "window.indexedDB": 1,
+          "Navigator.prototype.connection": 2
+        },
+        "https://assets.quizlet.com/static/cyfvgf2p.3.15.0.min.js": {
+          "Navigator.prototype.doNotTrack": 1,
+          "Date.prototype.getTime": 23,
+          "window.localStorage": 9,
+          "window.innerWidth": 4,
+          "window.innerHeight": 4,
+          "Screen.prototype.width": 4,
+          "Screen.prototype.height": 4,
+          "Screen.prototype.colorDepth": 4,
+          "window.devicePixelRatio": 4,
+          "Navigator.prototype.cookieEnabled": 4,
+          "Navigator.prototype.onLine": 4,
+          "Navigator.prototype.language": 4,
+          "Navigator.prototype.webdriver": 4,
+          "Navigator.prototype.deviceMemory": 4,
+          "Navigator.prototype.hardwareConcurrency": 4,
+          "Document.cookie getter": 8,
+          "Document.cookie setter": 4,
+          "Date.prototype.getTimezoneOffset": 672,
+          "Intl.DateTimeFormat.prototype.resolvedOptions": 1
+        },
+        "https://cdn.cookielaw.org/scripttemplates/202310.2.0/otBannerSdk.js": {
+          "Navigator.prototype.doNotTrack": 2,
+          "Navigator.prototype.languages": 6,
+          "Date.prototype.getTime": 12,
+          "Navigator.prototype.userAgent": 6,
+          "Navigator.prototype.vendor": 1
+        },
+        "https://cdnjs.cloudflare.com/ajax/libs/rollbar.js/2.26.1/rollbar.min.js": {
+          "console.memory": 1,
+          "Date.prototype.getTime": 3
+        },
+        "https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js": {
+          "window.innerWidth": 4,
+          "window.innerHeight": 4,
+          "window.screenLeft": 2,
+          "window.screenTop": 2
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://assets.quizlet.com/static/cyfvgf2p.3.15.0.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_sp_ses.424b=*; Expires=Thu, 12 Dec 2024 20:24:28 GMT; Path=/; SameSite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://assets.quizlet.com/static/cyfvgf2p.3.15.0.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_sp_id.424b=f097a098-09d6-4e24-9e05-946366b9dd28.1734033268.1.1734033268..67fe37bc-4ddd-43dd-8399-bb6e1a8b1215....0; Expires=Sat, 12 Dec 2026 19:54:28 GMT; Path=/; SameSite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://assets.quizlet.com/static/cyfvgf2p.3.15.0.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_sp_id.424b=f097a098-09d6-4e24-9e05-946366b9dd28.1734033268.1.1734033268..67fe37bc-4ddd-43dd-8399-bb6e1a8b1215..9c4f3402-d241-43f2-b4ee-ceaa01c416c4.1734033268418.1; Expires=Sat, 12 Dec 2026 19:54:28 GMT; Path=/; SameSite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://assets.quizlet.com/static/cyfvgf2p.3.15.0.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_sp_ses.424b=*; Expires=Thu, 12 Dec 2024 20:24:28 GMT; Path=/; SameSite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://assets.quizlet.com/_next/static/chunks/pages/_app-7223f2b2ed28797d.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "qTestCookie=qTestValue; path=/; secure"
+          ]
+        },
+        {
+          "source": "https://assets.quizlet.com/_next/static/chunks/pages/_app-7223f2b2ed28797d.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "qTestCookie=; path=/; expires=Wed, 11 Dec 2024 19:54:29 GMT; secure"
+          ]
+        },
+        {
+          "source": "https://assets.quizlet.com/_next/static/chunks/pages/_app-7223f2b2ed28797d.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_sp_id.424b=f097a098-09d6-4e24-9e05-946366b9dd28.1734033268.1.1734033270..67fe37bc-4ddd-43dd-8399-bb6e1a8b1215..9c4f3402-d241-43f2-b4ee-ceaa01c416c4.1734033268418.2; Expires=Sat, 12 Dec 2026 19:54:29 GMT; Path=/; SameSite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://assets.quizlet.com/_next/static/chunks/pages/_app-7223f2b2ed28797d.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_sp_ses.424b=*; Expires=Thu, 12 Dec 2024 20:24:29 GMT; Path=/; SameSite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://assets.quizlet.com/_next/static/chunks/pages/_app-7223f2b2ed28797d.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "session_landing_page=Homepage%2Findex; path=/; secure"
+          ]
+        },
+        {
+          "source": "https://assets.quizlet.com/_next/static/chunks/pages/_app-7223f2b2ed28797d.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "app_session_id=684e3859-4c8a-4536-80e3-9c90112a485c; path=/; expires=Thu, 12 Dec 2024 20:24:30 GMT; secure"
+          ]
+        },
+        {
+          "source": "https://assets.quizlet.com/_next/static/chunks/pages/_app-7223f2b2ed28797d.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Thu+Dec+12+2024+13%3A54%3A31+GMT-0600+(Central+Standard+Time)&version=202310.2.0; expires=Fri, 12 Dec 2025 19:54:31 GMT; path=/; domain=.quizlet.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://assets.quizlet.com/_next/static/chunks/pages/_app-7223f2b2ed28797d.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Thu+Dec+12+2024+13%3A54%3A31+GMT-0600+(Central+Standard+Time)&version=202310.2.0&browserGpcFlag=0; expires=Fri, 12 Dec 2025 19:54:31 GMT; path=/; domain=.quizlet.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://assets.quizlet.com/_next/static/chunks/pages/_app-7223f2b2ed28797d.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Thu+Dec+12+2024+13%3A54%3A31+GMT-0600+(Central+Standard+Time)&version=202310.2.0&browserGpcFlag=0&isIABGlobal=false; expires=Fri, 12 Dec 2025 19:54:31 GMT; path=/; domain=.quizlet.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://assets.quizlet.com/_next/static/chunks/pages/_app-7223f2b2ed28797d.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Thu+Dec+12+2024+13%3A54%3A31+GMT-0600+(Central+Standard+Time)&version=202310.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=; expires=Fri, 12 Dec 2025 19:54:31 GMT; path=/; domain=.quizlet.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://assets.quizlet.com/_next/static/chunks/pages/_app-7223f2b2ed28797d.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Thu+Dec+12+2024+13%3A54%3A31+GMT-0600+(Central+Standard+Time)&version=202310.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=caf0e965-c2e7-424f-9a4b-2f276d1874e7; expires=Fri, 12 Dec 2025 19:54:31 GMT; path=/; domain=.quizlet.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://assets.quizlet.com/_next/static/chunks/pages/_app-7223f2b2ed28797d.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Thu+Dec+12+2024+13%3A54%3A31+GMT-0600+(Central+Standard+Time)&version=202310.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=caf0e965-c2e7-424f-9a4b-2f276d1874e7&interactionCount=0; expires=Fri, 12 Dec 2025 19:54:31 GMT; path=/; domain=.quizlet.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://assets.quizlet.com/_next/static/chunks/pages/_app-7223f2b2ed28797d.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Thu+Dec+12+2024+13%3A54%3A31+GMT-0600+(Central+Standard+Time)&version=202310.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=caf0e965-c2e7-424f-9a4b-2f276d1874e7&interactionCount=0&landingPath=https%3A%2F%2Fquizlet.com%2F; expires=Fri, 12 Dec 2025 19:54:31 GMT; path=/; domain=.quizlet.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://assets.quizlet.com/_next/static/chunks/pages/_app-7223f2b2ed28797d.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Thu+Dec+12+2024+13%3A54%3A31+GMT-0600+(Central+Standard+Time)&version=202310.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=caf0e965-c2e7-424f-9a4b-2f276d1874e7&interactionCount=0&landingPath=https%3A%2F%2Fquizlet.com%2F&GPPCookiesCount=1; expires=Fri, 12 Dec 2025 19:54:31 GMT; path=/; domain=.quizlet.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://assets.quizlet.com/_next/static/chunks/pages/_app-7223f2b2ed28797d.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OTGPPConsent=DBABBg~BUoAAAKA.QA; expires=Fri, 12 Dec 2025 19:54:31 GMT; path=/; domain=.quizlet.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://assets.quizlet.com/_next/static/chunks/pages/_app-7223f2b2ed28797d.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Thu+Dec+12+2024+13%3A54%3A31+GMT-0600+(Central+Standard+Time)&version=202310.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=caf0e965-c2e7-424f-9a4b-2f276d1874e7&interactionCount=0&landingPath=https%3A%2F%2Fquizlet.com%2F&GPPCookiesCount=1&groups=C0001%3A1%2CN01%3A1%2CC0002%3A1%2CC0004%3A1; expires=Fri, 12 Dec 2025 19:54:31 GMT; path=/; domain=.quizlet.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://assets.quizlet.com/_next/static/chunks/pages/_app-7223f2b2ed28797d.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "OptanonConsent=isGpcEnabled=0&datestamp=Thu+Dec+12+2024+13%3A54%3A31+GMT-0600+(Central+Standard+Time)&version=202310.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=caf0e965-c2e7-424f-9a4b-2f276d1874e7&interactionCount=0&landingPath=https%3A%2F%2Fquizlet.com%2F&GPPCookiesCount=1&groups=C0001%3A1%2CN01%3A1%2CC0002%3A1%2CC0004%3A1; expires=Fri, 12 Dec 2025 19:54:31 GMT; path=/; domain=.quizlet.com; Samesite=Lax"
+          ]
+        },
+        {
+          "source": "https://assets.quizlet.com/_next/static/chunks/pages/_app-7223f2b2ed28797d.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_sp_id.424b=f097a098-09d6-4e24-9e05-946366b9dd28.1734033268.1.1734033273..67fe37bc-4ddd-43dd-8399-bb6e1a8b1215..9c4f3402-d241-43f2-b4ee-ceaa01c416c4.1734033268418.3; Expires=Sat, 12 Dec 2026 19:54:32 GMT; Path=/; SameSite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://assets.quizlet.com/_next/static/chunks/pages/_app-7223f2b2ed28797d.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_sp_ses.424b=*; Expires=Thu, 12 Dec 2024 20:24:32 GMT; Path=/; SameSite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://assets.quizlet.com/_next/static/chunks/pages/_app-7223f2b2ed28797d.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "app_session_id=684e3859-4c8a-4536-80e3-9c90112a485c; path=/; expires=Thu, 12 Dec 2024 20:24:57 GMT; secure"
+          ]
+        }
+      ]
+    },
+    "cookies": [
+      {
+        "name": "__cf_bm",
+        "domain": ".quizlet.com",
+        "path": "/",
+        "expires": 1734035065172,
+        "session": false
+      },
+      {
+        "name": "qmeasure__persistence",
+        "domain": "quizlet.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "qi5",
+        "domain": "quizlet.com",
+        "path": "/",
+        "expires": 2049393266032,
+        "session": false
+      },
+      {
+        "name": "qtkn",
+        "domain": "quizlet.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "fs",
+        "domain": "quizlet.com",
+        "path": "/",
+        "expires": 2049393266032,
+        "session": false
+      },
+      {
+        "name": "app_session_id",
+        "domain": "quizlet.com",
+        "path": "/",
+        "expires": 1734035097000,
+        "session": false
+      },
+      {
+        "name": "_pxhd",
+        "domain": "quizlet.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "__cfruid",
+        "domain": ".quizlet.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "_cfuvid",
+        "domain": ".quizlet.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "_sp_ses.424b",
+        "domain": "quizlet.com",
+        "path": "/",
+        "expires": 1734035072000,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "sp",
+        "domain": ".quizlet.com",
+        "path": "/",
+        "expires": 1765569272614,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "session_landing_page",
+        "domain": "quizlet.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "OTGPPConsent",
+        "domain": ".quizlet.com",
+        "path": "/",
+        "expires": 1765569271000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "OptanonConsent",
+        "domain": ".quizlet.com",
+        "path": "/",
+        "expires": 1765569271000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "_sp_id.424b",
+        "domain": "quizlet.com",
+        "path": "/",
+        "expires": 1797105272000,
+        "session": false,
+        "sameSite": "None"
+      }
+    ]
+  }
+}

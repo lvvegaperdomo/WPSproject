@@ -1,0 +1,389 @@
+{
+  "initialUrl": "http://wikipedia.org/",
+  "finalUrl": "https://www.wikipedia.org/",
+  "timeout": false,
+  "testStarted": 1734033579889,
+  "testFinished": 1734033586133,
+  "data": {
+    "requests": [
+      {
+        "url": "http://wikipedia.org/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "[2620:0:861:ed1a::1]",
+        "responseHeaders": {
+          "content-length": "0",
+          "location": "https://wikipedia.org/",
+          "server": "HAProxy",
+          "x-cache": "cp1100 int",
+          "x-cache-status": "int-tls",
+          "connection": "close"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://wikipedia.org/",
+        "initiators": [],
+        "time": 0.18625999987125397
+      },
+      {
+        "url": "https://wikipedia.org/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "[2620:0:861:ed1a::1]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 06:59:52 GMT",
+          "server": "mw-web.eqiad.main-b8fb6998d-5ktwm",
+          "location": "https://www.wikipedia.org/",
+          "content-length": "234",
+          "content-type": "text/html; charset=iso-8859-1",
+          "vary": "X-Forwarded-Proto",
+          "age": "46788",
+          "x-cache": "cp1100 miss, cp1100 hit/147680",
+          "x-cache-status": "hit-front",
+          "server-timing": "cache;desc=\"hit-front\", host;desc=\"cp1100\"",
+          "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+          "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+          "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+          "set-cookie": "WMF-Last-Access=12-Dec-2024;Path=/;HttpOnly;secure;Expires=Mon, 13 Jan 2025 12:00:00 GMT\nWMF-Last-Access-Global=12-Dec-2024;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Mon, 13 Jan 2025 12:00:00 GMT\nGeoIP=US:MO:St_Louis:38.67:-90.32:v4; Path=/; secure; Domain=.wikipedia.org\nNetworkProbeLimit=0.001;Path=/;Secure;SameSite=Lax;Max-Age=3600",
+          "x-client-ip": "2600:1700:2001:2aa0:e16a:1bac:b38d:569e"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.wikipedia.org/",
+        "redirectedFrom": "http://wikipedia.org/",
+        "initiators": [],
+        "time": 0.13342100009322166
+      },
+      {
+        "url": "https://www.wikipedia.org/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 24365,
+        "remoteIPAddress": "[2620:0:861:ed1a::1]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 12:16:40 GMT",
+          "cache-control": "s-maxage=86400, must-revalidate, max-age=3600",
+          "server": "ATS/9.2.6",
+          "etag": "W/\"188ef-6284c2f73aec0\"",
+          "last-modified": "Mon, 02 Dec 2024 16:38:59 GMT",
+          "content-type": "text/html",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "age": "27780",
+          "x-cache": "cp1100 miss, cp1100 hit/674000",
+          "x-cache-status": "hit-front",
+          "server-timing": "cache;desc=\"hit-front\", host;desc=\"cp1100\"",
+          "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+          "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+          "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+          "set-cookie": "WMF-Last-Access=12-Dec-2024;Path=/;HttpOnly;secure;Expires=Mon, 13 Jan 2025 12:00:00 GMT\nNetworkProbeLimit=0.001;Path=/;Secure;SameSite=Lax;Max-Age=3600",
+          "x-client-ip": "2600:1700:2001:2aa0:e16a:1bac:b38d:569e",
+          "accept-ranges": "bytes",
+          "content-length": "23442"
+        },
+        "responseBodyHash": "9b474bf077478a51eebeb817816b3b9191d6c595bbd77779e4eafa38cbdcee12",
+        "redirectedFrom": "https://wikipedia.org/",
+        "initiators": [],
+        "time": 0.08607800002209842
+      },
+      {
+        "url": "https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 16587,
+        "remoteIPAddress": "[2620:0:861:ed1a::1]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 11:39:21 GMT",
+          "etag": "\"3dd5-62309f0dda7c0\"",
+          "expires": "Fri, 12 Dec 2025 00:33:31 GMT",
+          "cache-control": "s-maxage=86400, max-age=86400",
+          "server": "ATS/9.2.6",
+          "last-modified": "Thu, 26 Sep 2024 18:31:03 GMT",
+          "content-length": "15829",
+          "access-control-allow-origin": "*",
+          "content-type": "image/png",
+          "age": "30019",
+          "x-cache": "cp1100 hit, cp1100 hit/18117",
+          "x-cache-status": "hit-front",
+          "server-timing": "cache;desc=\"hit-front\", host;desc=\"cp1100\"",
+          "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+          "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+          "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+          "x-client-ip": "2600:1700:2001:2aa0:e16a:1bac:b38d:569e",
+          "accept-ranges": "bytes"
+        },
+        "responseBodyHash": "11af71b4529dc79eeae27266e179aba36dd95ac7fd3ac9b1cf3cd4e59dc4756c",
+        "initiators": [
+          "https://www.wikipedia.org/"
+        ],
+        "time": 0.04352200007997453
+      },
+      {
+        "url": "https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-de847d1a.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 19036,
+        "remoteIPAddress": "[2620:0:861:ed1a::1]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 10:37:21 GMT",
+          "expires": "Fri, 12 Dec 2025 10:37:21 GMT",
+          "cache-control": "s-maxage=86400, max-age=86400",
+          "server": "ATS/9.2.6",
+          "etag": "W/\"c5c8-62309f0dda7c0\"",
+          "last-modified": "Thu, 26 Sep 2024 18:31:03 GMT",
+          "access-control-allow-origin": "*",
+          "content-type": "image/svg+xml",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "age": "33739",
+          "x-cache": "cp1100 hit, cp1100 hit/36055",
+          "x-cache-status": "hit-front",
+          "server-timing": "cache;desc=\"hit-front\", host;desc=\"cp1100\"",
+          "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+          "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+          "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+          "x-client-ip": "2600:1700:2001:2aa0:e16a:1bac:b38d:569e",
+          "accept-ranges": "bytes",
+          "content-length": "18249"
+        },
+        "responseBodyHash": "f73533c94a7d6fece2222badb9bd64c25e0d0b1d96edf26cd2985694a3dc854c",
+        "initiators": [
+          "https://www.wikipedia.org/"
+        ],
+        "time": 0.045203000074252486
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/donate/1/14/Wikimedia_Foundation_logo_-_wordmark.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2907,
+        "remoteIPAddress": "[2620:0:861:ed1a::2:b]",
+        "responseHeaders": {
+          "date": "Wed, 11 Dec 2024 20:04:34 GMT",
+          "server": "ATS/9.2.6",
+          "etag": "W/70e1a7d694818971ed949150f54fa968",
+          "content-type": "image/svg+xml",
+          "x-object-meta-sha1base36": "ffejw7iwmobg51a0m7rvzw4ewlepht4",
+          "last-modified": "Fri, 08 Sep 2023 16:26:51 GMT",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "age": "86106",
+          "x-cache": "cp1111 hit, cp1111 hit/1427691",
+          "x-cache-status": "hit-front",
+          "server-timing": "cache;desc=\"hit-front\", host;desc=\"cp1111\"",
+          "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+          "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+          "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+          "x-client-ip": "2600:1700:2001:2aa0:e16a:1bac:b38d:569e",
+          "x-content-type-options": "nosniff",
+          "access-control-allow-origin": "*",
+          "access-control-expose-headers": "Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache",
+          "timing-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "content-length": "1963"
+        },
+        "responseBodyHash": "875f5209d36a31fb95b851a9eff47e09ce1e95b4397cb2c92a9889f135261caa",
+        "initiators": [
+          "https://www.wikipedia.org/"
+        ],
+        "time": 0.03661299985833466
+      },
+      {
+        "url": "https://www.wikipedia.org/portal/wikipedia.org/assets/js/index-0b1f819930.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9909,
+        "remoteIPAddress": "[2620:0:861:ed1a::1]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 09:19:15 GMT",
+          "cache-control": "s-maxage=86400, max-age=86400",
+          "server": "ATS/9.2.6",
+          "etag": "W/\"6a8f-6284c2f73aec0\"",
+          "last-modified": "Mon, 02 Dec 2024 16:38:59 GMT",
+          "access-control-allow-origin": "*",
+          "content-type": "application/javascript",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "age": "38425",
+          "x-cache": "cp1100 hit, cp1100 hit/40091",
+          "x-cache-status": "hit-front",
+          "server-timing": "cache;desc=\"hit-front\", host;desc=\"cp1100\"",
+          "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+          "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+          "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+          "x-client-ip": "2600:1700:2001:2aa0:e16a:1bac:b38d:569e",
+          "accept-ranges": "bytes",
+          "content-length": "9154"
+        },
+        "responseBodyHash": "3cf773b05f409a953db5d6ffcdf227c14df2d1af3f44747d156551aee1c61ef9",
+        "initiators": [
+          "https://www.wikipedia.org/"
+        ],
+        "time": 0.04199000005610287
+      },
+      {
+        "url": "https://www.wikipedia.org/portal/wikipedia.org/assets/js/gt-ie9-ce3fe8e88d.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1342,
+        "remoteIPAddress": "[2620:0:861:ed1a::1]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 09:19:47 GMT",
+          "etag": "\"266-62309f0dda7c0\"",
+          "cache-control": "s-maxage=86400, max-age=86400",
+          "server": "ATS/9.2.6",
+          "last-modified": "Thu, 26 Sep 2024 18:31:03 GMT",
+          "content-length": "614",
+          "access-control-allow-origin": "*",
+          "content-type": "application/javascript",
+          "age": "38393",
+          "x-cache": "cp1100 hit, cp1100 hit/33689",
+          "x-cache-status": "hit-front",
+          "server-timing": "cache;desc=\"hit-front\", host;desc=\"cp1100\"",
+          "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+          "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+          "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+          "x-client-ip": "2600:1700:2001:2aa0:e16a:1bac:b38d:569e",
+          "accept-ranges": "bytes"
+        },
+        "responseBodyHash": "fe51e51e5890cf5c1ec7a55bb137460d8d906c00ad60b3e1e686910cd93db59c",
+        "initiators": [
+          "https://www.wikipedia.org/"
+        ],
+        "time": 0.04166199988685548
+      },
+      {
+        "url": "https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikinews-logo_sister.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2813,
+        "remoteIPAddress": "[2620:0:861:ed1a::1]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 10:13:04 GMT",
+          "etag": "\"812-62309f0dda7c0\"",
+          "expires": "Fri, 12 Dec 2025 10:13:04 GMT",
+          "cache-control": "s-maxage=86400, max-age=86400",
+          "server": "ATS/9.2.6",
+          "last-modified": "Thu, 26 Sep 2024 18:31:03 GMT",
+          "content-length": "2066",
+          "access-control-allow-origin": "*",
+          "content-type": "image/png",
+          "age": "35196",
+          "x-cache": "cp1100 hit, cp1100 hit/18323",
+          "x-cache-status": "hit-front",
+          "server-timing": "cache;desc=\"hit-front\", host;desc=\"cp1100\"",
+          "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+          "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+          "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+          "x-client-ip": "2600:1700:2001:2aa0:e16a:1bac:b38d:569e",
+          "accept-ranges": "bytes"
+        },
+        "responseBodyHash": "988cb14a6b461c3f129f5c190151bcef69397b697134664feb8307cc41925c22",
+        "initiators": [
+          "https://www.wikipedia.org/"
+        ],
+        "time": 0.035708999959751964
+      },
+      {
+        "url": "https://www.wikipedia.org/static/favicon/wikipedia.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 1811,
+        "remoteIPAddress": "[2620:0:861:ed1a::1]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 00:24:26 GMT",
+          "expires": "Thu, 11 Dec 2025 17:35:21 GMT",
+          "cache-control": "max-age=31536000",
+          "server": "ATS/9.2.6",
+          "etag": "W/\"aae-62309f0dda7c0\"",
+          "last-modified": "Thu, 26 Sep 2024 18:31:03 GMT",
+          "access-control-allow-origin": "*",
+          "content-type": "image/vnd.microsoft.icon",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "age": "70516",
+          "x-cache": "cp1100 hit, cp1100 hit/1147689",
+          "x-cache-status": "hit-front",
+          "server-timing": "cache;desc=\"hit-front\", host;desc=\"cp1100\"",
+          "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+          "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+          "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+          "x-client-ip": "2600:1700:2001:2aa0:e16a:1bac:b38d:569e",
+          "accept-ranges": "bytes",
+          "content-length": "1035"
+        },
+        "responseBodyHash": "21aa637e02283d9c9226b917933158900679b5c1bf696ff0aa6f16ca5c514417",
+        "initiators": [],
+        "time": 0.03750300011597574
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.wikipedia.org/portal/wikipedia.org/assets/js/index-0b1f819930.js": {
+          "window.localStorage": 1,
+          "Navigator.prototype.doNotTrack": 2,
+          "Navigator.prototype.languages": 5,
+          "Navigator.prototype.userAgent": 1,
+          "Navigator.prototype.language": 1,
+          "Document.cookie getter": 6,
+          "window.devicePixelRatio": 4,
+          "window.innerHeight": 1
+        }
+      },
+      "savedCalls": []
+    },
+    "cookies": [
+      {
+        "name": "WMF-Last-Access",
+        "domain": "wikipedia.org",
+        "path": "/",
+        "expires": 1736816388341,
+        "session": false
+      },
+      {
+        "name": "WMF-Last-Access-Global",
+        "domain": ".wikipedia.org",
+        "path": "/",
+        "expires": 1736816388341,
+        "session": false
+      },
+      {
+        "name": "GeoIP",
+        "domain": ".wikipedia.org",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "NetworkProbeLimit",
+        "domain": "wikipedia.org",
+        "path": "/",
+        "expires": 1734037180341,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "WMF-Last-Access",
+        "domain": "www.wikipedia.org",
+        "path": "/",
+        "expires": 1736797380406,
+        "session": false
+      },
+      {
+        "name": "NetworkProbeLimit",
+        "domain": "www.wikipedia.org",
+        "path": "/",
+        "expires": 1734037180406,
+        "session": false,
+        "sameSite": "Lax"
+      }
+    ]
+  }
+}

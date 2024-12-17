@@ -1,0 +1,3021 @@
+{
+  "initialUrl": "http://stltoday.com/",
+  "finalUrl": "https://www.stltoday.com/",
+  "timeout": false,
+  "testStarted": 1734032975247,
+  "testFinished": 1734032988840,
+  "data": {
+    "requests": [
+      {
+        "url": "http://stltoday.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "192.104.183.109",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:48:14 GMT",
+          "content-type": "text/html; charset=UTF-8",
+          "x-loop": "1",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "content-security-policy": "upgrade-insecure-requests",
+          "cache-control": "public, max-age=300",
+          "x-xrds-location": "https://www.stltoday.com/tncms/xrds/",
+          "location": "https://www.stltoday.com/",
+          "link": "<https://bloximages.newyork1.vip.townnews.com>; rel=preconnect dns-prefetch; crossorigin",
+          "x-tncms": "1.83.3; app6; 0.01s; 1.1M",
+          "x-frame-options": "SAMEORIGIN",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "age": "81",
+          "x-vcache": "HIT",
+          "content-length": "1463"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.stltoday.com/",
+        "initiators": [],
+        "time": 0.2203930001705885
+      },
+      {
+        "url": "https://www.stltoday.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 71771,
+        "remoteIPAddress": "192.104.183.109",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:48:07 GMT",
+          "content-type": "text/html; charset=UTF-8",
+          "x-loop": "1",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "content-security-policy": "upgrade-insecure-requests",
+          "last-modified": "Thu, 12 Dec 2024 19:48:07 GMT",
+          "x-xrds-location": "https://www.stltoday.com/tncms/xrds/",
+          "x-ua-compatible": "IE=edge",
+          "link": "<https://bloximages.newyork1.vip.townnews.com>; rel=preconnect dns-prefetch; crossorigin\n<https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/jquery/resources/scripts/jquery.min.d6d18fcf88750a16d256e72626e676a6.js>; rel=preload; as=script\n</shared-content/art/tncms/user/user.js>; rel=preload; as=script\n<https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/bootstrap/resources/scripts/bootstrap.min.d457560d3dfbf1d56a225eb99d7b0702.js>; rel=preload; as=script\n<https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/plugins/resources/scripts/common.08a61544f369cc43bf02e71b2d10d49f.js>; rel=preload; as=script\n<https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/template/resources/scripts/tnt.ee95c0b6f1daceb31bf5ef84353968c6.js>; rel=preload; as=script\n<https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/template/resources/scripts/application.0758030105fdd3a70dff03f4da4530e2.js>; rel=preload; as=script\n<https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/template/resources/scripts/tnt.navigation.accessibility.7a9170240d21440159b9bd59db72933b.js>; rel=preload; as=script",
+          "x-tncms": "1.83.3; app18; 0.6s; 8.1M",
+          "x-frame-options": "SAMEORIGIN",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cache-control": "public, max-age=60, s-maxage=30, must-revalidate, proxy-revalidate",
+          "etag": "W/63b484857e214c6af8321bf8eaa9e055",
+          "content-encoding": "gzip",
+          "vary": "X-IPCountry, X-Townnews-Now-API-Version, Accept-Encoding",
+          "age": "88",
+          "accept-ranges": "bytes",
+          "x-vcache": "HIT",
+          "content-length": "69565"
+        },
+        "responseBodyHash": "ee7ae7a7477212b09389b445154b1278d559847a58e9e2b253b68712888ea215",
+        "redirectedFrom": "http://stltoday.com/",
+        "initiators": [],
+        "time": 0.19270299980416894
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/jquery/resources/scripts/jquery.min.d6d18fcf88750a16d256e72626e676a6.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 38646,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:36 GMT",
+          "content-type": "application/x-javascript",
+          "content-length": "38456",
+          "last-modified": "Wed, 07 Jul 2021 20:09:22 GMT",
+          "etag": "W/\"60e609f2-1882c\"",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "expires": "Mon, 10 Nov 2025 09:43:27 GMT",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "HIT",
+          "age": "991335",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d15efe561b4-ORD"
+        },
+        "responseBodyHash": "bad3f4a20b737202b4cb52ce0124a2ae5d54be0002feb42790867ee446425332",
+        "initiators": [],
+        "time": 0.5862499999348074
+      },
+      {
+        "url": "https://www.stltoday.com/shared-content/art/tncms/user/user.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1885,
+        "remoteIPAddress": "192.104.183.109",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:45:28 GMT",
+          "last-modified": "Tue, 26 Nov 2024 19:28:25 GMT",
+          "etag": "W/\"67462159-ee3\"",
+          "content-type": "application/x-javascript",
+          "cache-control": "public, max-age=600",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "service-worker-allowed": "/",
+          "age": "247",
+          "accept-ranges": "bytes",
+          "x-vcache": "HIT",
+          "content-length": "1658"
+        },
+        "responseBodyHash": "8cf6f020c4fe1dfc77d6ad29dfe4c4591e317d397baf3ee31edaf44ce3da098a",
+        "initiators": [],
+        "time": 0.040133999893441796
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/bootstrap/resources/scripts/bootstrap.min.d457560d3dfbf1d56a225eb99d7b0702.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12864,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:36 GMT",
+          "content-type": "application/x-javascript",
+          "content-length": "12719",
+          "last-modified": "Fri, 06 Sep 2019 14:16:03 GMT",
+          "etag": "W/\"5d726a23-9bd8\"",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "strict-transport-security": "max-age=604800",
+          "expires": "Thu, 13 Mar 2025 18:01:22 GMT",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "HIT",
+          "cf-cache-status": "HIT",
+          "age": "1251215",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d15efe761b4-ORD"
+        },
+        "responseBodyHash": "93eac8b1fb14d0863561633dfdf563013c023393aabfb122e3be7256629d9235",
+        "initiators": [],
+        "time": 0.5716569998767227
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/plugins/resources/scripts/common.08a61544f369cc43bf02e71b2d10d49f.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14334,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:36 GMT",
+          "content-type": "application/x-javascript",
+          "content-length": "14189",
+          "last-modified": "Wed, 21 Feb 2024 21:20:34 GMT",
+          "etag": "W/\"65d66922-841f\"",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "strict-transport-security": "max-age=604800",
+          "expires": "Thu, 13 Mar 2025 16:43:03 GMT",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "cf-cache-status": "HIT",
+          "age": "1411136",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d15efe961b4-ORD"
+        },
+        "responseBodyHash": "4908103eb097a575d25aecab0b105c51313e35ce211bb70d82ea0ce6e75ed2b3",
+        "initiators": [],
+        "time": 0.575963000068441
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/template/resources/scripts/tnt.ee95c0b6f1daceb31bf5ef84353968c6.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4375,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:36 GMT",
+          "content-type": "application/x-javascript",
+          "content-length": "4260",
+          "last-modified": "Wed, 13 Nov 2024 14:11:00 GMT",
+          "etag": "W/\"6734b374-2d77\"",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "expires": "Sat, 29 Nov 2025 12:07:39 GMT",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "HIT",
+          "age": "731751",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d15efea61b4-ORD"
+        },
+        "responseBodyHash": "4b093bf8fe11ce768e5543697030a064da71b347431594daf7efb86f94a201c0",
+        "initiators": [],
+        "time": 0.5710830001626164
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/template/resources/scripts/application.0758030105fdd3a70dff03f4da4530e2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1771,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:36 GMT",
+          "content-type": "application/x-javascript",
+          "content-length": "1636",
+          "last-modified": "Wed, 13 Nov 2024 14:11:01 GMT",
+          "etag": "W/\"6734b375-1166\"",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "expires": "Wed, 26 Nov 2025 01:52:05 GMT",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "HIT",
+          "age": "1422759",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d15efe361b4-ORD"
+        },
+        "responseBodyHash": "7f4049e8923ddb3b759697aebae3d69181b42fa677abba4d875f4a1ba7beff89",
+        "initiators": [],
+        "time": 0.5897939999122173
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/template/resources/scripts/tnt.navigation.accessibility.7a9170240d21440159b9bd59db72933b.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1067,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:36 GMT",
+          "content-type": "application/x-javascript",
+          "content-length": "910",
+          "last-modified": "Wed, 13 Nov 2024 14:11:01 GMT",
+          "etag": "W/\"6734b375-9b8\"",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "expires": "Sun, 30 Nov 2025 09:36:02 GMT",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "HIT",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "HIT",
+          "age": "1073602",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d15efdd61b4-ORD"
+        },
+        "responseBodyHash": "cf3e21aad61783d6e6908e5631c43656c05a34a9c7f64eab44dcd7fc58562aa8",
+        "initiators": [],
+        "time": 0.5632929999846965
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/bootstrap/resources/styles/bootstrap.min.87df60d54091cf1e8f8173c2e568260c.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 21593,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:36 GMT",
+          "content-type": "text/css",
+          "content-length": "21439",
+          "last-modified": "Wed, 13 Nov 2024 14:11:00 GMT",
+          "etag": "W/\"6734b374-1ac2e\"",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "expires": "Wed, 19 Nov 2025 22:32:18 GMT",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "HIT",
+          "age": "1169400",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d15dfd061b4-ORD"
+        },
+        "responseBodyHash": "296ffff5be5fa17a541df8e925d24e473ced64d535f543542bebc15759b761fd",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.5473520001396537
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/template/resources/styles/layout.4f2008879f13ddd758050a76c1e8672c.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 34642,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:36 GMT",
+          "content-type": "text/css",
+          "content-length": "34470",
+          "last-modified": "Wed, 23 Oct 2024 15:35:14 GMT",
+          "etag": "W/\"671917b2-26de1\"",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "expires": "Tue, 11 Nov 2025 16:43:57 GMT",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "HIT",
+          "age": "818518",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d15dfd361b4-ORD"
+        },
+        "responseBodyHash": "252904bb838e1fb52a44c23792b4f5395783fae0ce1e9fa1d02f307c7657d1b6",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.547137999907136
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/live/libraries/flex/components/lee_ds_v3/resources/styles/lee.ds.css?_dc=1733814034",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 20893,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:36 GMT",
+          "content-type": "text/css",
+          "content-length": "20739",
+          "last-modified": "Tue, 10 Dec 2024 07:00:34 GMT",
+          "etag": "W/\"6757e712-187ab\"",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "expires": "Wed, 10 Dec 2025 07:05:50 GMT",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "HIT",
+          "age": "218566",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d15dfd761b4-ORD"
+        },
+        "responseBodyHash": "962f88b62b18780a0b6cf19d5d529db54986db8635f6db5d778a5f3b76a6e78f",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.5444840001873672
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/block/resources/styles/flex-notification-controls.e115619c5ab5d4eb38fbd29cc0d2ea9b.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2291,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:36 GMT",
+          "content-type": "text/css",
+          "content-length": "1979",
+          "last-modified": "Thu, 10 Oct 2024 13:07:18 GMT",
+          "etag": "W/\"6707d186-183e\"",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "expires": "Wed, 29 Oct 2025 04:51:28 GMT",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "HIT",
+          "age": "1251260",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d15efd861b4-ORD"
+        },
+        "responseBodyHash": "1a77010a20c4a6611c4230df5afe003914255a35909daabaaa5a8f0427c73eec",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.5403120000846684
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/live/libraries/flex/components/site/resources/styles/stl.dsv3.css?_dc=1643659011",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 325,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:36 GMT",
+          "content-type": "text/css",
+          "content-length": "192",
+          "last-modified": "Mon, 31 Jan 2022 19:56:51 GMT",
+          "etag": "W/\"61f83f03-122\"",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "expires": "Fri, 07 Nov 2025 11:01:36 GMT",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "HIT",
+          "age": "995239",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d15efda61b4-ORD"
+        },
+        "responseBodyHash": "cf41c8b2e6b523787056f392529d8ac4daad43af3c19c7b73c78cda18c889722",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.5421909999568015
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/plugins/resources/styles/owl.carousel.d631cca58a0d014854c4a6c1815f1da3.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1638,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:36 GMT",
+          "content-type": "text/css",
+          "content-length": "1376",
+          "last-modified": "Wed, 21 Feb 2024 21:20:37 GMT",
+          "etag": "W/\"65d66925-12c4\"",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "strict-transport-security": "max-age=604800",
+          "expires": "Thu, 13 Mar 2025 19:22:20 GMT",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "cf-cache-status": "HIT",
+          "age": "1236133",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d15efdc61b4-ORD"
+        },
+        "responseBodyHash": "b93740066fadbde00a03ff560765bd25b8e9ca74f7774a4633f61ce44b332991",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.5495090000331402
+      },
+      {
+        "url": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 100240,
+        "remoteIPAddress": "[2600:9000:2798:e00:3:b7e:8940:93a1]",
+        "responseHeaders": {
+          "content-type": "application/javascript; charset=utf-8",
+          "content-length": "99488",
+          "server": "CloudFront",
+          "last-modified": "Tue, 03 Dec 2024 18:05:12 GMT",
+          "content-encoding": "gzip",
+          "date": "Thu, 12 Dec 2024 19:07:13 GMT",
+          "etag": "\"c671dc9929ecd7a85f9d2efcafb353ef\"",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 430b52f5283b2b0c6d9bd4418733e4e6.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P3",
+          "alt-svc": "h3=\":443\"; ma=86400",
+          "x-amz-cf-id": "NQmZxRGAG64-f9U0gqzpqQ5_qITOVsKfnWJn6cDEcqea9AGY4eIrZA==",
+          "age": "21983",
+          "x-xss-protection": "1; mode=block",
+          "x-frame-options": "SAMEORIGIN",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "cache-control": "public, max-age=86400, s-maxage=86400, must-revalidate, proxy-revalidate, no-transform",
+          "cross-origin-resource-policy": "cross-origin",
+          "vary": "Origin"
+        },
+        "responseBodyHash": "bb832a1ad5b63ca73c5e30591a693b5f57599dae2641cfe2f83d687da9034e55",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.5707119998987764
+      },
+      {
+        "url": "https://www.stltoday.com/shared-content/art/tncms/api/csrf.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 762,
+        "remoteIPAddress": "192.104.183.109",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:48:15 GMT",
+          "last-modified": "Tue, 26 Nov 2024 19:28:25 GMT",
+          "etag": "W/\"67462159-3ac\"",
+          "content-type": "application/x-javascript",
+          "cache-control": "public, max-age=600",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "service-worker-allowed": "/",
+          "age": "80",
+          "accept-ranges": "bytes",
+          "x-vcache": "HIT",
+          "content-length": "537"
+        },
+        "responseBodyHash": "9fe769bfc93145d27bc2efa853ca49895d7a44af9c5dd2566c3233b66c9d14b4",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.03684799978509545
+      },
+      {
+        "url": "https://www.stltoday.com/shared-content/art/tncms/api/access.3e0b8030b6000aa9a609.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 30025,
+        "remoteIPAddress": "192.104.183.109",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:48:38 GMT",
+          "last-modified": "Tue, 29 Oct 2024 20:16:16 GMT",
+          "etag": "W/\"67214290-11c3d\"",
+          "content-type": "application/x-javascript",
+          "cache-control": "public, max-age=600",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "service-worker-allowed": "/",
+          "age": "58",
+          "accept-ranges": "bytes",
+          "x-vcache": "HIT",
+          "content-length": "29787"
+        },
+        "responseBodyHash": "b07d02c8ede625dd16b97254a7d58fb54d63c5906d0c9390a494998d99d495ba",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 1.475954000139609
+      },
+      {
+        "url": "https://c.amazon-adsystem.com/aax2/apstag.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 86864,
+        "remoteIPAddress": "3.166.99.210",
+        "responseHeaders": {
+          "content-type": "application/javascript",
+          "date": "Thu, 12 Dec 2024 19:18:21 GMT",
+          "last-modified": "Wed, 06 Nov 2024 22:50:44 GMT",
+          "x-amz-server-side-encryption": "AES256",
+          "cache-control": "max-age=3600",
+          "server": "AmazonS3",
+          "content-encoding": "gzip",
+          "etag": "W/\"812ceba01127f3bf5aede260eaddcd29\"",
+          "via": "1.1 b7248001409a22dcf06ac3c9df2f5fac.cloudfront.net (CloudFront), 1.1 d8de853718c0ce94813e0f6ecef81ac4.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "CMH68-P5\nMCI50-P3",
+          "vary": "Accept-Encoding",
+          "x-cache": "Hit from cloudfront",
+          "x-amz-cf-id": "cd_Sb9bNZONCdDT7OK3H6aYDAzIdK5WAdzdU7vgUS4wJrijnAShSpw==",
+          "age": "1876"
+        },
+        "responseBodyHash": "3bf4f940a69cf7d1af0797f0371ddae937a8274190b22ebe165f0f7223b0e670",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.5643750000745058
+      },
+      {
+        "url": "https://bloximages.chicago2.vip.townnews.com/leetemplates.com/content/tncms/live/global/resources/scripts/falcon/stltoday.com.v2.js?_dc=1734032887",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1058,
+        "remoteIPAddress": "104.16.133.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:36 GMT",
+          "content-type": "application/x-javascript",
+          "content-length": "739",
+          "last-modified": "Mon, 16 Sep 2024 17:17:32 GMT",
+          "etag": "W/\"66e8682c-6b0\"",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "expires": "Fri, 12 Dec 2025 19:48:10 GMT",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "HIT",
+          "age": "86",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d15fcd76185-ORD"
+        },
+        "responseBodyHash": "569fb70d76542d85cc789c7f86d90e2bc87d7b67792246b4ef9710a0aadc1f55",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.5567000000737607
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/plugins/resources/scripts/owl.carousel.50dc41fa734414148ce4b489fd904c5f.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12830,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:36 GMT",
+          "content-type": "application/x-javascript",
+          "content-length": "12674",
+          "last-modified": "Wed, 21 Feb 2024 21:20:35 GMT",
+          "etag": "W/\"65d66923-a55f\"",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "strict-transport-security": "max-age=604800",
+          "expires": "Thu, 13 Mar 2025 19:22:20 GMT",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "cf-cache-status": "HIT",
+          "age": "1256368",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d15efde61b4-ORD"
+        },
+        "responseBodyHash": "3386bb5a79ff2284d6557313c0ddd06b0a64b9bfb6daf9631aaf6d2343d219cd",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.5402369999792427
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/template/resources/scripts/tnt.notify.a814fe612f2dcba9061edc229aeaf90b.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1456,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:37 GMT",
+          "content-type": "application/x-javascript",
+          "content-length": "1322",
+          "last-modified": "Wed, 13 Nov 2024 14:11:01 GMT",
+          "etag": "W/\"6734b375-dbe\"",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "expires": "Wed, 26 Nov 2025 08:14:13 GMT",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "HIT",
+          "age": "641171",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d1bbe5d61b4-ORD"
+        },
+        "responseBodyHash": "4dc723b7dd6602e39eb50fa74c7df276cb468805f5fae7450b00b8a568973a09",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 1.4697410000953823
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/template/resources/scripts/tnt.notify.panel.bacbeac9a1ca6ee75b79b21a0e2e99f2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2506,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:37 GMT",
+          "content-type": "application/x-javascript",
+          "content-length": "2388",
+          "last-modified": "Wed, 13 Nov 2024 14:11:01 GMT",
+          "etag": "W/\"6734b375-1baf\"",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "expires": "Thu, 04 Dec 2025 05:21:33 GMT",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "HIT",
+          "age": "743284",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d1bbe5f61b4-ORD"
+        },
+        "responseBodyHash": "69316bde85428108020829bb1b79e145922a983b6f5ba55c74c82f6f46de9938",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 1.472245000069961
+      },
+      {
+        "url": "https://www.gstatic.com/firebasejs/6.6.2/firebase-app.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4500,
+        "remoteIPAddress": "[2607:f8b0:4002:c0f::5e]",
+        "responseHeaders": {
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/firebase-js",
+          "cross-origin-resource-policy": "cross-origin",
+          "cross-origin-opener-policy": "same-origin-allow-popups; report-to=\"firebase-js\"",
+          "report-to": "{\"group\":\"firebase-js\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/firebase-js\"}]}",
+          "content-length": "3945",
+          "x-content-type-options": "nosniff",
+          "server": "sffe",
+          "x-xss-protection": "0",
+          "date": "Tue, 10 Dec 2024 17:25:36 GMT",
+          "expires": "Wed, 10 Dec 2025 17:25:36 GMT",
+          "cache-control": "public, max-age=31536000",
+          "last-modified": "Thu, 19 Sep 2019 21:11:52 GMT",
+          "content-type": "text/javascript; charset=UTF-8",
+          "vary": "Accept-Encoding",
+          "age": "181441",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "b10a075758097bb0578287af03c76a9fcd82fa4607587109ae41fe2d24756600",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 1.5423109999392182
+      },
+      {
+        "url": "https://www.gstatic.com/firebasejs/6.6.2/firebase-messaging.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8771,
+        "remoteIPAddress": "[2607:f8b0:4002:c0f::5e]",
+        "responseHeaders": {
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/firebase-js",
+          "cross-origin-resource-policy": "cross-origin",
+          "cross-origin-opener-policy": "same-origin-allow-popups; report-to=\"firebase-js\"",
+          "report-to": "{\"group\":\"firebase-js\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/firebase-js\"}]}",
+          "content-length": "8653",
+          "x-content-type-options": "nosniff",
+          "server": "sffe",
+          "x-xss-protection": "0",
+          "date": "Tue, 10 Dec 2024 17:18:05 GMT",
+          "expires": "Wed, 10 Dec 2025 17:18:05 GMT",
+          "cache-control": "public, max-age=31536000",
+          "last-modified": "Thu, 19 Sep 2019 21:11:54 GMT",
+          "content-type": "text/javascript; charset=UTF-8",
+          "vary": "Accept-Encoding",
+          "age": "181892",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "f5e55a21dfa3a20ceb298737c8f4c517a83d7960468c7f53b3f33c567bacff3c",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 1.544886999996379
+      },
+      {
+        "url": "https://www.stltoday.com/shared-content/art/tncms/api/messaging662.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1115,
+        "remoteIPAddress": "192.104.183.109",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:35 GMT",
+          "last-modified": "Tue, 26 Nov 2024 19:28:25 GMT",
+          "etag": "W/\"67462159-9ce\"",
+          "content-type": "application/x-javascript",
+          "cache-control": "public, max-age=600",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "service-worker-allowed": "/",
+          "age": "2",
+          "accept-ranges": "bytes",
+          "x-vcache": "HIT",
+          "content-length": "891"
+        },
+        "responseBodyHash": "fe9d3c399cfab2beae377ccb7ebd0e90cc65bd98aa0172e82e21e4cdb57ef597",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 1.4738620000425726
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/ads/resources/scripts/tnt.ads.adverts.66a3812a7b5c12fde8cd998fd691ad7d.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 309,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:36 GMT",
+          "content-type": "application/x-javascript",
+          "content-length": "176",
+          "last-modified": "Mon, 23 Sep 2024 18:47:32 GMT",
+          "etag": "W/\"66f1b7c4-cf\"",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "expires": "Sun, 05 Oct 2025 08:40:17 GMT",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "HIT",
+          "age": "1257766",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d15efdf61b4-ORD"
+        },
+        "responseBodyHash": "64d2ce701b1f0b1d910bff7f252ae7a53d5f90cf3efb970163811c757b889d57",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.5434659998863935
+      },
+      {
+        "url": "https://www.stltoday.com/shared-content/art/tncms/tracking.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1383,
+        "remoteIPAddress": "192.104.183.109",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:48:02 GMT",
+          "last-modified": "Tue, 26 Nov 2024 19:28:25 GMT",
+          "etag": "W/\"67462159-a3a\"",
+          "content-type": "application/x-javascript",
+          "cache-control": "public, max-age=600",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "service-worker-allowed": "/",
+          "age": "93",
+          "accept-ranges": "bytes",
+          "x-vcache": "HIT",
+          "content-length": "1157"
+        },
+        "responseBodyHash": "aa4391f03da55de95caebed478d3e1183fb01a3e8f1c5891a48e75717ed2bed9",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.0461519998498261
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/live/libraries/flex/components/ads_dfp/resources/scripts/prebid9.22.0.js?_dc=1733986833",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 97523,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:36 GMT",
+          "content-type": "application/x-javascript",
+          "content-length": "97289",
+          "last-modified": "Thu, 12 Dec 2024 07:00:33 GMT",
+          "etag": "W/\"675a8a11-3dc58\"",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "expires": "Fri, 12 Dec 2025 07:05:48 GMT",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "HIT",
+          "age": "45796",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d15efed61b4-ORD"
+        },
+        "responseBodyHash": "2bfd0ac32a5c8e47dca69dd79ece326239c4342990674b6a62a7324e19306d5b",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.5647169998846948
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/live/libraries/flex/components/lee_ds_v3/resources/scripts/lee.common.js?_dc=1733814034",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3704,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:36 GMT",
+          "content-type": "application/x-javascript",
+          "content-length": "3556",
+          "last-modified": "Tue, 10 Dec 2024 07:00:34 GMT",
+          "etag": "W/\"6757e712-2c45\"",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "expires": "Wed, 10 Dec 2025 07:05:50 GMT",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "HIT",
+          "age": "97600",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d15efef61b4-ORD"
+        },
+        "responseBodyHash": "ffead3e4f6561930d9686d5c69e2e146b59fedf602473117e42a80d3571ede95",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.550810000160709
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/plugins/resources/scripts/fontawesome.48f6e778a25162f5c4a6977fb556155b.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 117998,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:37 GMT",
+          "content-type": "application/x-javascript",
+          "content-length": "117608",
+          "last-modified": "Wed, 13 Nov 2024 14:11:02 GMT",
+          "etag": "W/\"6734b376-45518\"",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "expires": "Sat, 29 Nov 2025 11:55:49 GMT",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "HIT",
+          "age": "629463",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d1bbe6361b4-ORD"
+        },
+        "responseBodyHash": "a8dd5310f1564e14e30c03c9c260a31c490ce92ac9b5123d50dc2af9193a485f",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 1.4817419999744743
+      },
+      {
+        "url": "https://www.stltoday.com/shared-content/art/stats/common/tracker.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3461,
+        "remoteIPAddress": "192.104.183.109",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:47:52 GMT",
+          "last-modified": "Fri, 27 Sep 2024 18:21:08 GMT",
+          "etag": "W/\"66f6f794-2200\"",
+          "content-type": "application/x-javascript",
+          "cache-control": "public, max-age=600",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "service-worker-allowed": "/",
+          "age": "103",
+          "accept-ranges": "bytes",
+          "x-vcache": "HIT",
+          "content-length": "3224"
+        },
+        "responseBodyHash": "d50881e8cf2ac03741c7c31b98dcabdf91d458ed76766efc511b26a2b796dd0f",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.04603599989786744
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/custom/image/9b98b5bc-7564-11ec-9b25-e32a5add2fc1.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4361,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:37 GMT",
+          "content-type": "image/webp",
+          "content-length": "4146",
+          "cf-bgj": "imgq:85,h2pri",
+          "cf-polished": "origFmt=png, origSize=8323",
+          "content-disposition": "inline; filename=\"9b98b5bc-7564-11ec-9b25-e32a5add2fc1.webp\"",
+          "vary": "Accept",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"61e1bb7e-2083\"",
+          "expires": "Thu, 27 Nov 2025 18:01:27 GMT",
+          "last-modified": "Fri, 14 Jan 2022 18:05:50 GMT",
+          "strict-transport-security": "max-age=31536000",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "cf-cache-status": "HIT",
+          "age": "1170541",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d1bbe6761b4-ORD"
+        },
+        "responseBodyHash": "77e3c324ca94ab45ad15733df518104d9f23c110ae53d9f91af4d722fe4d0a13",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 1.4774670000188053
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/themes/resources/images/user_no_avatar.82c8fc38eb25dca10493a994ca1bfb90.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1202,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:37 GMT",
+          "content-type": "image/webp",
+          "content-length": "978",
+          "cf-bgj": "imgq:85,h2pri",
+          "cf-polished": "origFmt=png, origSize=3610",
+          "content-disposition": "inline; filename=\"user_no_avatar.webp\"",
+          "vary": "Accept",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"551dba72-e1a\"",
+          "expires": "Sat, 29 Nov 2025 02:13:56 GMT",
+          "last-modified": "Thu, 02 Apr 2015 21:53:54 GMT",
+          "strict-transport-security": "max-age=31536000",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "cf-cache-status": "HIT",
+          "age": "1074027",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d1bbe6a61b4-ORD"
+        },
+        "responseBodyHash": "b8e2a71a961bf4c45312eda8c2f85e4554399310b2e364e88afd19b89278b24c",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 1.4672199999913573
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/live/libraries/flex/components/lee_ds_v3/resources/images/newsplus_white.png?_dc=1733814034",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4413,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:37 GMT",
+          "content-type": "image/webp",
+          "content-length": "4248",
+          "cf-bgj": "imgq:85,h2pri",
+          "cf-polished": "origFmt=png, origSize=8454",
+          "content-disposition": "inline; filename=\"newsplus_white.webp\"",
+          "vary": "Accept",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"6757e712-2106\"",
+          "expires": "Wed, 10 Dec 2025 07:05:50 GMT",
+          "last-modified": "Tue, 10 Dec 2024 07:00:34 GMT",
+          "strict-transport-security": "max-age=31536000",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "cf-cache-status": "HIT",
+          "age": "218530",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d1bbe6e61b4-ORD"
+        },
+        "responseBodyHash": "853b07cb07e4265de14a784b5aa8e2c633f8968fa27a01b5bfbf1339c2312266",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 1.4578329999931157
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/live/libraries/flex/components/lee_ds_v3/resources/images/logo-tagline.png?_dc=1733814034",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5458,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:37 GMT",
+          "content-type": "image/webp",
+          "content-length": "5302",
+          "cf-bgj": "imgq:85,h2pri",
+          "cf-polished": "origFmt=png, origSize=10949",
+          "content-disposition": "inline; filename=\"logo-tagline.webp\"",
+          "vary": "Accept",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"6757e712-2ac5\"",
+          "expires": "Wed, 10 Dec 2025 07:05:50 GMT",
+          "last-modified": "Tue, 10 Dec 2024 07:00:34 GMT",
+          "strict-transport-security": "max-age=31536000",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "cf-cache-status": "HIT",
+          "age": "218530",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d1bbe7361b4-ORD"
+        },
+        "responseBodyHash": "d9d373fe3eb92a4d209e73c4d949492c1f5465c7c1d0fa3126a2047b6f67c6df",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 1.4579389998689294
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/live/libraries/flex/components/lee_ds_v3/resources/images/chat-icon.png?_dc=1733814034",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7783,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:37 GMT",
+          "content-type": "image/webp",
+          "content-length": "7600",
+          "cf-bgj": "imgq:85,h2pri",
+          "cf-polished": "origFmt=png, origSize=15471",
+          "content-disposition": "inline; filename=\"chat-icon.webp\"",
+          "vary": "Accept",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"6757e712-3c6f\"",
+          "expires": "Wed, 10 Dec 2025 12:30:03 GMT",
+          "last-modified": "Tue, 10 Dec 2024 07:00:34 GMT",
+          "strict-transport-security": "max-age=31536000",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "cf-cache-status": "HIT",
+          "age": "198930",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d1bbe7561b4-ORD"
+        },
+        "responseBodyHash": "7162fc465919bcb513d978ebd2a4f891663d90a237a3b15957e476b7feb7937c",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 1.2537809999193996
+      },
+      {
+        "url": "https://tagan.adlightning.com/leeenterprises/op.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7026,
+        "remoteIPAddress": "3.166.96.21",
+        "responseHeaders": {
+          "content-type": "application/javascript",
+          "content-length": "6571",
+          "date": "Thu, 12 Dec 2024 19:41:25 GMT",
+          "last-modified": "Thu, 12 Dec 2024 18:44:26 GMT",
+          "etag": "\"0d8109e0d175502f1ebdea9af2a066ef\"",
+          "x-amz-server-side-encryption": "AES256",
+          "cache-control": "max-age=3600",
+          "x-amz-meta-git_commit": "bde0e05",
+          "content-encoding": "gzip",
+          "x-amz-version-id": "tVSyXAq0tVmq0BjaiYsLiKUd7Jm2yi8Z",
+          "accept-ranges": "bytes",
+          "server": "AmazonS3",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 0e1d72855f208c44a97e05fedbdd0768.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P3",
+          "x-amz-cf-id": "S_M7PnFHd6oYUkWMzL0hwIzZKuz-u2dLymYCph8mfubBpHOgSezg7g==",
+          "age": "492"
+        },
+        "responseBodyHash": "65b8f6bcf9214a0cd51809258d471323fb5e14da6b8abf21a3a047e4d787a2b7",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.41599100013263524
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/live/libraries/flex/components/ads_dfp/resources/scripts/pb-config/stltoday.com.js?_dc=1733986833",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 870,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:36 GMT",
+          "content-type": "application/x-javascript",
+          "content-length": "783",
+          "last-modified": "Thu, 12 Dec 2024 07:00:33 GMT",
+          "etag": "W/\"675a8a11-dbd\"",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "expires": "Fri, 12 Dec 2025 07:05:48 GMT",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "HIT",
+          "age": "45795",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d1a0c6661b4-ORD"
+        },
+        "responseBodyHash": "65af06df7142d66a46a10be4adf04f8d87ec4483ced7c44157f2b2f2c603c7bb",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.9678019999992102
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/live/libraries/flex/components/ads_dfp/resources/scripts/dfp.lazy.ozone.js?_dc=1733986833",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5583,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:37 GMT",
+          "content-type": "application/x-javascript",
+          "content-length": "5500",
+          "last-modified": "Thu, 12 Dec 2024 07:00:33 GMT",
+          "etag": "W/\"675a8a11-4f07\"",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "expires": "Fri, 12 Dec 2025 07:05:48 GMT",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "HIT",
+          "age": "45796",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d1bae5861b4-ORD"
+        },
+        "responseBodyHash": "8792c7157a48995124e97bbe9958fd1282a7a4e89edcc9bda76413c40bcd0815",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 1.2374370000325143
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PDQV3N",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 80401,
+        "remoteIPAddress": "[2607:f8b0:4002:c06::61]",
+        "responseHeaders": {
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-origin": "*",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "Cache-Control",
+          "content-encoding": "br",
+          "vary": "Accept-Encoding",
+          "date": "Thu, 12 Dec 2024 19:49:37 GMT",
+          "expires": "Thu, 12 Dec 2024 19:49:37 GMT",
+          "cache-control": "private, max-age=900",
+          "last-modified": "Thu, 12 Dec 2024 18:41:08 GMT",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascgcycc:1080:0",
+          "cross-origin-opener-policy-report-only": "same-origin; report-to=coop_reporting",
+          "report-to": "{\"group\":\"coop_reporting\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascgcycc:1080:0\"}],}",
+          "server": "Google Tag Manager",
+          "content-length": "79695",
+          "x-xss-protection": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "c6c1980c939f8725847b51da888a8348010f6c031226655ca8af93b9a0f0b492",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 1.041571999900043
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/live/libraries/flex/components/site/resources/scripts/main.js?_dc=1629146859",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 27042,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:37 GMT",
+          "content-type": "application/x-javascript",
+          "content-length": "26850",
+          "last-modified": "Mon, 16 Aug 2021 20:47:39 GMT",
+          "etag": "W/\"611aceeb-163d3\"",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "strict-transport-security": "max-age=604800",
+          "expires": "Thu, 13 Mar 2025 19:22:03 GMT",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "cf-cache-status": "HIT",
+          "age": "1241492",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d1bbe7661b4-ORD"
+        },
+        "responseBodyHash": "7cc757a2acdca3c4e28fe760ee71ccf9c76af31a42c92c136b9c3bfdb7e32566",
+        "initiators": [
+          "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.5813150000758469
+      },
+      {
+        "url": "https://www.stltoday.com/shared-content/art/stats/common/tracker.gif?tnms_rs=1728x1117x30&tnms_vtum=1&tnms_vt=1&tnms_vid=1734032977232226014408121642772474918&tnms_dt=St.%20Louis%20Post-Dispatch%20%7C%20Breaking%20News%20%7C%20Read%20St.%20Louis%2C%20MO%20and%20Missouri%20breaking%20news.%20Get%20latest%20news%2C%20events%20and%20information%20on%20Missouri%20sports%2C%20weather%2C%20entertainment%20and%20lifestyles.&tnms_upage=1&tnms_do=www.stltoday.com&tnms_uri=/&tnms_ref=&rt=1734032977298",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 145,
+        "remoteIPAddress": "192.104.183.109",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:37 GMT",
+          "content-type": "image/gif",
+          "content-length": "0",
+          "last-modified": "Thu, 16 Oct 2008 20:11:25 GMT",
+          "etag": "\"48f79fed-0\"",
+          "accept-ranges": "bytes",
+          "cache-control": "no-cache, no-store",
+          "age": "0",
+          "x-vcache": "MISS"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.stltoday.com/shared-content/art/stats/common/tracker.js",
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.033906999975442886
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 34640,
+        "remoteIPAddress": "[2607:f8b0:4002:c10::9d]",
+        "responseHeaders": {
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "timing-allow-origin": "*",
+          "cross-origin-resource-policy": "cross-origin",
+          "vary": "Accept-Encoding",
+          "date": "Thu, 12 Dec 2024 19:49:37 GMT",
+          "expires": "Thu, 12 Dec 2024 19:49:37 GMT",
+          "cache-control": "private, max-age=900, stale-while-revalidate=3600",
+          "content-type": "text/javascript; charset=UTF-8",
+          "etag": "972 / 20069 / m202412090101 / config-hash: 11938167693786803437",
+          "access-control-allow-origin": "*",
+          "x-content-type-options": "nosniff",
+          "content-disposition": "attachment; filename=\"f.txt\"",
+          "content-encoding": "br",
+          "server": "cafe",
+          "content-length": "34114",
+          "x-xss-protection": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "7b8becb8fcb08edcdc0328354a844b5a512a1ac6ffc3bb8e4ceda28a6efbc875",
+        "initiators": [
+          "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.07407500012777746
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TDWDC2",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 157839,
+        "remoteIPAddress": "[2607:f8b0:4002:c06::61]",
+        "responseHeaders": {
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-origin": "*",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "Cache-Control",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "date": "Thu, 12 Dec 2024 19:49:37 GMT",
+          "expires": "Thu, 12 Dec 2024 19:49:37 GMT",
+          "cache-control": "private, max-age=900",
+          "last-modified": "Thu, 12 Dec 2024 18:41:08 GMT",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascgcycc:1080:0",
+          "cross-origin-opener-policy-report-only": "same-origin; report-to=coop_reporting",
+          "report-to": "{\"group\":\"coop_reporting\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascgcycc:1080:0\"}],}",
+          "server": "Google Tag Manager",
+          "content-length": "157605",
+          "x-xss-protection": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "166d6d58e996c4c3dc4ae5bbdb38d3d5737a78602cfc152d1fb0e54ba54a25e0",
+        "initiators": [
+          "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "https://www.stltoday.com/"
+        ],
+        "time": 2.3858219999819994
+      },
+      {
+        "url": "blob:https://www.stltoday.com/d989cb9e-ad4c-42e9-886c-28a086f34d2a",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "content-length": "390",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6a8dbbb4d2df5781f48a9c71c64645a9ec26ee8b159d0daf0ec14630192a5469",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 2.3460500000510365
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/live/libraries/flex/components/lee_ds_v3/resources/images/holiday-banner-2024.png?_dc=1",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 31821,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:37 GMT",
+          "content-type": "image/png",
+          "content-length": "31607",
+          "cf-bgj": "imgq:85,h2pri",
+          "cf-polished": "origSize=65183, status=webp_bigger",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"6746c392-fe9f\"",
+          "expires": "Thu, 27 Nov 2025 07:00:48 GMT",
+          "last-modified": "Wed, 27 Nov 2024 07:00:34 GMT",
+          "strict-transport-security": "max-age=31536000",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "cf-cache-status": "HIT",
+          "age": "1342068",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "8f103d1e99a861b4-ORD"
+        },
+        "responseBodyHash": "1a577f906e1cd43cda3b9e65cad0a8822f5f51870b4680e7076781106a3e1c30",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.031278999987989664
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/live/libraries/flex/components/lee_ds_v3/resources/images/serif-ds.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 26507,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:39 GMT",
+          "content-type": "application/font-woff2",
+          "content-length": "26164",
+          "last-modified": "Tue, 26 Nov 2024 07:00:36 GMT",
+          "etag": "\"67457214-6634\"",
+          "expires": "Wed, 26 Nov 2025 08:46:28 GMT",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "HIT",
+          "age": "147041",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "8f103d2c2fe261ac-ORD"
+        },
+        "responseBodyHash": "0ad494affb09c3678d9cf39fe5a4ecfb0da9525205b012272016393c52ebd750",
+        "initiators": [
+          "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/live/libraries/flex/components/lee_ds_v3/resources/styles/lee.ds.css?_dc=1733814034"
+        ],
+        "time": 1.0894970002118498
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/assets/v3/editorial/a/21/a21e12c6-b673-11ef-ae83-ff75ae47cc10/675a3d931bfe9.preview.jpg?crop=1763%2C992%2C0%2C91&resize=640%2C360&order=crop%2Cresize",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 25780,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:39 GMT",
+          "content-type": "image/webp",
+          "cf-bgj": "imgq:85,h2pri",
+          "cf-polished": "qual=85, origFmt=jpeg, origSize=29175",
+          "content-disposition": "inline; filename=\"675a3d931bfe9.webp\"",
+          "vary": "Accept",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"170b762f848c860e167fd8acc51f45c7\"",
+          "expires": "Fri, 12 Dec 2025 12:01:33 GMT",
+          "last-modified": "Thu, 12 Dec 2024 01:34:13 GMT",
+          "strict-transport-security": "max-age=31536000",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "cf-cache-status": "HIT",
+          "age": "28067",
+          "server": "cloudflare",
+          "cf-ray": "8f103d2ae87161b4-ORD"
+        },
+        "responseBodyHash": "ad0f4c6f5be0f0db60c9032fb8ab5209e2f8264026da297b0eefd242d93fd949",
+        "initiators": [
+          "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/plugins/resources/scripts/common.08a61544f369cc43bf02e71b2d10d49f.js"
+        ],
+        "time": 0.03014899999834597
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/assets/v3/editorial/3/57/3576b65d-da66-501a-a311-e379017ce14c/65a86e28acf7c.image.jpg?crop=1796%2C1010%2C127%2C0&resize=300%2C169&order=crop%2Cresize",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 15072,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:39 GMT",
+          "content-type": "image/jpeg",
+          "cf-bgj": "imgq:85,h2pri",
+          "cf-polished": "origSize=15710, status=webp_bigger",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"051c846825ab14225a7f52b6f0ab9881\"",
+          "expires": "Fri, 12 Dec 2025 18:03:56 GMT",
+          "last-modified": "Thu, 18 Jan 2024 00:17:47 GMT",
+          "strict-transport-security": "max-age=31536000",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "cf-cache-status": "HIT",
+          "age": "6343",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "8f103d2af87361b4-ORD"
+        },
+        "responseBodyHash": "446c74a4201d9d86192fef0daecd9e5a626c91290bbf431466e02124c6ed3148",
+        "initiators": [
+          "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/plugins/resources/scripts/common.08a61544f369cc43bf02e71b2d10d49f.js"
+        ],
+        "time": 0.03286799998022616
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/assets/v3/editorial/7/c1/7c1827e6-b511-11ef-9f7d-83267d8a986f/67550d5145d81.image.jpg?crop=1768%2C995%2C0%2C88&resize=300%2C169&order=crop%2Cresize",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12731,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:39 GMT",
+          "content-type": "image/jpeg",
+          "cf-bgj": "imgq:85,h2pri",
+          "cf-polished": "degrade=85, origSize=15468, status=webp_bigger",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"92482e83c71583f38933150de68cbe5c\"",
+          "expires": "Fri, 12 Dec 2025 12:01:26 GMT",
+          "last-modified": "Sun, 08 Dec 2024 03:06:58 GMT",
+          "strict-transport-security": "max-age=31536000",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "cf-cache-status": "HIT",
+          "age": "28074",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "8f103d2af87a61b4-ORD"
+        },
+        "responseBodyHash": "a90b699cf9a7d55942aa803c3a4658b47e82737bef47ced2b8d7424cab28c323",
+        "initiators": [
+          "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/plugins/resources/scripts/common.08a61544f369cc43bf02e71b2d10d49f.js"
+        ],
+        "time": 0.036543000023812056
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/assets/v3/editorial/e/21/e21458e4-b5de-11ef-9870-03108baaa3c8/67572d880a2b4.preview.jpg?crop=1892%2C1064%2C0%2C15&resize=300%2C169&order=crop%2Cresize",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 13115,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:39 GMT",
+          "content-type": "image/jpeg",
+          "cf-bgj": "imgq:85,h2pri",
+          "cf-polished": "degrade=85, origSize=15713, status=webp_bigger",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"9aa9408056a90faf58a4b629aa78d55c\"",
+          "expires": "Fri, 12 Dec 2025 12:17:12 GMT",
+          "last-modified": "Mon, 09 Dec 2024 17:48:58 GMT",
+          "strict-transport-security": "max-age=31536000",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "cf-cache-status": "HIT",
+          "age": "27147",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "8f103d2af87e61b4-ORD"
+        },
+        "responseBodyHash": "523cd3ac253a1ad0ec8a0b6420f5d4d3b2e1d258abbb792ded032583a8594519",
+        "initiators": [
+          "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/plugins/resources/scripts/common.08a61544f369cc43bf02e71b2d10d49f.js"
+        ],
+        "time": 0.04254399985074997
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/assets/v3/editorial/9/28/9284a68e-b729-11ef-bcc1-8bd1d0aac1be/6759c5738a9e6.preview.jpg?crop=1798%2C1011%2C19%2C35&resize=300%2C169&order=crop%2Cresize",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 14491,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:39 GMT",
+          "content-type": "image/jpeg",
+          "cf-bgj": "imgq:85,h2pri",
+          "cf-polished": "origSize=15203, status=webp_bigger",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"39a12d12989446216bdacc2aea23eda0\"",
+          "expires": "Fri, 12 Dec 2025 12:01:26 GMT",
+          "last-modified": "Wed, 11 Dec 2024 17:01:40 GMT",
+          "strict-transport-security": "max-age=31536000",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "cf-cache-status": "HIT",
+          "age": "28074",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "8f103d2af87f61b4-ORD"
+        },
+        "responseBodyHash": "56dfaed9ea147efd08aa6e329d3aec231eb56cac48fe3500f2a33b32028fa0f0",
+        "initiators": [
+          "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/plugins/resources/scripts/common.08a61544f369cc43bf02e71b2d10d49f.js"
+        ],
+        "time": 0.038613999960944057
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/assets/v3/editorial/6/5f/65fbdffc-b282-11ef-8625-af6c1d079719/675a3e87bb9c6.preview.jpg?crop=1662%2C935%2C0%2C156&resize=300%2C169&order=crop%2Cresize",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12188,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:39 GMT",
+          "content-type": "image/jpeg",
+          "cf-bgj": "imgq:85,h2pri",
+          "cf-polished": "degrade=85, origSize=41631, status=webp_bigger",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"bfcc20c52fef94e47d409a5d9e7b7479\"",
+          "expires": "Fri, 12 Dec 2025 14:26:23 GMT",
+          "last-modified": "Thu, 12 Dec 2024 01:38:18 GMT",
+          "strict-transport-security": "max-age=31536000",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "cf-cache-status": "HIT",
+          "age": "18050",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "8f103d2af88a61b4-ORD"
+        },
+        "responseBodyHash": "7f46a15418eebe4ae7391ae1b4f5f25c61ef6bc98ac5c2b879646257cbf885f3",
+        "initiators": [
+          "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/plugins/resources/scripts/common.08a61544f369cc43bf02e71b2d10d49f.js"
+        ],
+        "time": 0.03071100008673966
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/assets/v3/editorial/3/d4/3d4c6d22-b7ed-11ef-ab28-b3064d933138/675abe7b2b550.preview.jpg?crop=1054%2C593%2C0%2C56&resize=300%2C169&order=crop%2Cresize",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9641,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:39 GMT",
+          "content-type": "image/webp",
+          "content-length": "9420",
+          "cf-bgj": "imgq:85,h2pri",
+          "cf-polished": "qual=85, origFmt=jpeg, origSize=10130",
+          "content-disposition": "inline; filename=\"675abe7b2b550.webp\"",
+          "vary": "Accept",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"f66a354ca47dd15aed72555d9b410d3c\"",
+          "expires": "Fri, 12 Dec 2025 12:03:58 GMT",
+          "last-modified": "Thu, 12 Dec 2024 10:44:12 GMT",
+          "strict-transport-security": "max-age=31536000",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "cf-cache-status": "HIT",
+          "age": "27941",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d2af88b61b4-ORD"
+        },
+        "responseBodyHash": "9c90f390bbe85852e6461b11d4145d009c1687fb7505a1911101bcf33fc838d3",
+        "initiators": [
+          "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/plugins/resources/scripts/common.08a61544f369cc43bf02e71b2d10d49f.js"
+        ],
+        "time": 0.027587000047788024
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202412090101/pubads_impl.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 156809,
+        "remoteIPAddress": "[2607:f8b0:4002:c10::9d]",
+        "responseHeaders": {
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "timing-allow-origin": "*",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-content-type-options": "nosniff",
+          "content-disposition": "attachment; filename=\"f.txt\"",
+          "content-encoding": "br",
+          "server": "cafe",
+          "content-length": "156760",
+          "x-xss-protection": "0",
+          "date": "Thu, 12 Dec 2024 17:27:03 GMT",
+          "expires": "Fri, 12 Dec 2025 17:27:03 GMT",
+          "cache-control": "public, immutable, max-age=31536000",
+          "age": "8557",
+          "etag": "5395541545685299795",
+          "content-type": "text/javascript; charset=UTF-8",
+          "vary": "Accept-Encoding",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "04d85fdaa240e9c6964c1b3afe75b8802720a8d9a98e6c35f346f599b1113af4",
+        "initiators": [
+          "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+        ],
+        "time": 0.14098899997770786
+      },
+      {
+        "url": "https://www.googletagmanager.com/td?id=GTM-PDQV3N&v=3&t=t&pid=1579972567&dl=www.stltoday.com%2F&tdp=GTM-PDQV3N;2758733;0;0;0&frm=0&rtg=2758733&slo=20&hlo=3&lst=1&z=0",
+        "method": "GET",
+        "type": "Image",
+        "status": 204,
+        "size": 18,
+        "remoteIPAddress": "[2607:f8b0:4002:c06::61]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:41 GMT",
+          "pragma": "no-cache",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "content-type": "text/plain",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgtc:59:0",
+          "cross-origin-opener-policy-report-only": "same-origin; report-to=coop_reporting",
+          "report-to": "{\"group\":\"coop_reporting\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgtc:59:0\"}],}",
+          "server": "Golfe2",
+          "content-length": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-PDQV3N"
+        ],
+        "time": 0.03550700005143881
+      },
+      {
+        "url": "blob:https://www.stltoday.com/426372ed-92ae-498c-a336-de18a4937126",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "content-length": "390",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6a8dbbb4d2df5781f48a9c71c64645a9ec26ee8b159d0daf0ec14630192a5469",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.7119569999631494
+      },
+      {
+        "url": "blob:https://www.stltoday.com/02f32407-6c19-4171-96e5-18da27bd6381",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "content-length": "390",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6a8dbbb4d2df5781f48a9c71c64645a9ec26ee8b159d0daf0ec14630192a5469",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 1.2279600000474602
+      },
+      {
+        "url": "https://tagan.adlightning.com/leeenterprises/b-bde0e05-a31c1d91.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 27763,
+        "remoteIPAddress": "3.166.96.21",
+        "responseHeaders": {
+          "content-type": "application/javascript",
+          "content-length": "27274",
+          "date": "Thu, 21 Nov 2024 21:04:56 GMT",
+          "last-modified": "Wed, 06 Nov 2024 15:55:09 GMT",
+          "etag": "\"5c6b86c4d2321f349148adf02b0546d4\"",
+          "x-amz-server-side-encryption": "AES256",
+          "cache-control": "max-age=31536000",
+          "x-amz-meta-git_commit": "bde0e05",
+          "content-encoding": "gzip",
+          "x-amz-version-id": "rbp0uFbJnECSpK.o.xqEX.XBrh5lX2ZH",
+          "accept-ranges": "bytes",
+          "server": "AmazonS3",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 0e1d72855f208c44a97e05fedbdd0768.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P3",
+          "x-amz-cf-id": "9-yZ7AGfV0Rqk553rjQbN2TZTzlQeowu8tEHjeFGeSK5sbZbHiGTPw==",
+          "age": "1809887"
+        },
+        "responseBodyHash": "cae430a258ffde47a171258a1656d9c05d184bb95be9a89e331c6e6a50276117",
+        "initiators": [
+          "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "https://tagan.adlightning.com/leeenterprises/op.js"
+        ],
+        "time": 0.015522999921813607
+      },
+      {
+        "url": "https://tagan.adlightning.com/leeenterprises/bl-9d706ea-eebbb221.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 81445,
+        "remoteIPAddress": "3.166.96.21",
+        "responseHeaders": {
+          "content-type": "application/javascript",
+          "content-length": "80905",
+          "date": "Thu, 12 Dec 2024 18:56:56 GMT",
+          "last-modified": "Thu, 12 Dec 2024 18:44:15 GMT",
+          "etag": "\"15e57e970aa380aa2daa29204899f3af\"",
+          "x-amz-server-side-encryption": "AES256",
+          "cache-control": "max-age=31536000",
+          "x-amz-meta-git_commit": "9d706ea",
+          "content-encoding": "gzip",
+          "x-amz-version-id": "uizvAEn8JGtc5Bz0UramSd55b73ThDBB",
+          "accept-ranges": "bytes",
+          "server": "AmazonS3",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 0e1d72855f208c44a97e05fedbdd0768.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P3",
+          "x-amz-cf-id": "KTy5TXhEuXL3rNqw0G4Vkfe2vUoeVJcwnxjLeZP-O2JbDNn5hoONQQ==",
+          "age": "3167"
+        },
+        "responseBodyHash": "f35fd0b255e229e4c95a0ab01225f03cf3756c47701ae1f358681f81fe7ff5d7",
+        "initiators": [
+          "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "https://tagan.adlightning.com/leeenterprises/op.js"
+        ],
+        "time": 0.02729099988937378
+      },
+      {
+        "url": "https://cmp.osano.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "remoteIPAddress": "[2600:9000:2798:e00:3:b7e:8940:93a1]",
+        "responseHeaders": {
+          "content-type": "text/html",
+          "last-modified": "Mon, 19 Aug 2024 22:15:10 GMT",
+          "content-encoding": "gzip",
+          "x-amz-server-side-encryption": "AES256",
+          "x-amz-version-id": "IV.sz0dqhMjQD06H4vRdCjcmpoMDLZ8n",
+          "server": "AmazonS3",
+          "date": "Thu, 12 Dec 2024 09:47:52 GMT",
+          "etag": "W/\"a0cbc82c3c7bce3b368e2118b3cb29d3\"",
+          "vary": "accept-encoding\nOrigin",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 29ace83044096206921fc3d6ac743c68.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P3",
+          "alt-svc": "h3=\":443\"; ma=86400",
+          "x-amz-cf-id": "q2Eh6Vhx-n7R7il7e8OKru-EnJoOUqpUInrz_vcKAU9rAkoXWeVUUg==",
+          "age": "48279",
+          "x-xss-protection": "1; mode=block",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload"
+        },
+        "initiators": [
+          "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "https://tagan.adlightning.com/leeenterprises/op.js"
+        ]
+      },
+      {
+        "url": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/en.json",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "[2600:9000:2798:e00:3:b7e:8940:93a1]",
+        "responseHeaders": {
+          "content-length": "0",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "date": "Thu, 12 Dec 2024 19:49:43 GMT",
+          "access-control-allow-origin": "*",
+          "access-control-allow-methods": "GET",
+          "access-control-allow-headers": "content-type",
+          "access-control-max-age": "86400",
+          "vary": "Origin, Access-Control-Request-Headers, Access-Control-Request-Method",
+          "server": "AmazonS3",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 9f12d4dec1417dbd299404b3b675a6b6.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P3",
+          "alt-svc": "h3=\":443\"; ma=86400",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "x-amz-cf-id": "4fiTpnf4tRvUYsDq7nHciZLG646tr59hXiOTZYEOdftP2nHFZ0eaYQ=="
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/en.json"
+        ],
+        "time": 0.14313700003549457
+      },
+      {
+        "url": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano-ui.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 26528,
+        "remoteIPAddress": "[2600:9000:2798:e00:3:b7e:8940:93a1]",
+        "responseHeaders": {
+          "content-type": "application/javascript",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "last-modified": "Tue, 03 Dec 2024 18:05:12 GMT",
+          "content-encoding": "gzip",
+          "x-amz-server-side-encryption": "AES256",
+          "x-amz-version-id": "ytcAeD8h3EjBFYC76w.1Vh2UGXNXOk40",
+          "server": "AmazonS3",
+          "date": "Thu, 12 Dec 2024 14:05:35 GMT",
+          "cache-control": "max-age=86400, no-transform, public",
+          "etag": "W/\"9e767e1f14dbe8559610a67f76ae4cd2\"",
+          "vary": "accept-encoding\nOrigin",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 677da8877c7bdf46bc7577d17b7b5a00.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P3",
+          "alt-svc": "h3=\":443\"; ma=86400",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "age": "20647",
+          "x-xss-protection": "1; mode=block",
+          "x-amz-cf-id": "6D_BnhJMe_mazTgcS1h9OvsAmyzMDBpV0XDow9tSJJ_2dNFzzwLXGw=="
+        },
+        "responseBodyHash": "48af5d9ed16d117848118b9945ee5383025d8c9d0e1437037267f54a5f8bb5c8",
+        "initiators": [
+          "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "https://tagan.adlightning.com/leeenterprises/op.js"
+        ],
+        "time": 0.0482290000654757
+      },
+      {
+        "url": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/en.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 9595,
+        "remoteIPAddress": "[2600:9000:2798:e00:3:b7e:8940:93a1]",
+        "responseHeaders": {
+          "content-type": "application/json",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "access-control-allow-origin": "*",
+          "access-control-allow-methods": "GET",
+          "access-control-max-age": "86400",
+          "last-modified": "Tue, 03 Dec 2024 18:05:13 GMT",
+          "server": "AmazonS3",
+          "x-amz-server-side-encryption": "AES256",
+          "x-amz-version-id": "T7SU.hkU4qxpDiPg_ENjfIsFFmRx53ky",
+          "content-encoding": "gzip",
+          "date": "Thu, 12 Dec 2024 14:05:35 GMT",
+          "cache-control": "max-age=86400, no-transform, public",
+          "etag": "W/\"5b2a60c69e3c014d5599231c177f1fc6\"",
+          "vary": "accept-encoding",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 9f12d4dec1417dbd299404b3b675a6b6.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P3",
+          "alt-svc": "h3=\":443\"; ma=86400",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "age": "20647",
+          "x-xss-protection": "1; mode=block",
+          "x-amz-cf-id": "3PHtpsvgBFX1BPIhkOJRxMQuOmSdRT6iFS-H7yvnMHLwQrkeD16LUQ=="
+        },
+        "responseBodyHash": "1369ef59aae7853a67dbf96e3700a07762ce35f66fcce5fc946b9e0bc6196e11",
+        "initiators": [
+          "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js"
+        ],
+        "time": 0.15741400001570582
+      },
+      {
+        "url": "https://www.stltoday.com/tncms/csrf/token/",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "remoteIPAddress": "192.104.183.109",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:42 GMT",
+          "content-type": "text/html; charset=UTF-8",
+          "x-loop": "1",
+          "set-cookie": "tncms_csrf_token=9ecebe7344b178023cd26af5a15de931cf381c182934f9955b6d59e66c0db8ab.9832f30fc6fc094e9c4f; path=/; domain=stltoday.com; secure; SameSite=Strict",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "content-security-policy": "upgrade-insecure-requests",
+          "cache-control": "private, no-cache, no-store, max-age=0",
+          "x-robots-tag": "noarchive",
+          "link": "<https://bloximages.newyork1.vip.townnews.com>; rel=preconnect dns-prefetch; crossorigin",
+          "x-tncms": "1.83.3; app9; 0.02s; 4.1M",
+          "x-frame-options": "SAMEORIGIN",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "content-encoding": "gzip",
+          "vary": "X-IPCountry, X-Townnews-Now-API-Version, Accept-Encoding",
+          "age": "0",
+          "accept-ranges": "bytes",
+          "x-vcache": "MISS",
+          "content-length": "20"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.stltoday.com/shared-content/art/tncms/api/csrf.js"
+        ],
+        "time": 1.2423819999676198
+      },
+      {
+        "url": "https://www.stltoday.com/tncms/messaging/service-worker/",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "192.104.183.109",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:45:29 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "x-loop": "1",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "content-security-policy": "upgrade-insecure-requests",
+          "cache-control": "public, max-age=300",
+          "last-modified": "Thu, 12 Dec 2024 19:45:29 GMT",
+          "x-robots-tag": "noarchive",
+          "x-tncms": "1.83.3; app16; 0.01s; 0.6M",
+          "x-frame-options": "SAMEORIGIN",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "etag": "W/305c81f45c408358c990bfe7ea2dec75",
+          "content-encoding": "gzip",
+          "vary": "X-IPCountry, X-Townnews-Now-API-Version, Accept-Encoding",
+          "age": "253",
+          "accept-ranges": "bytes",
+          "x-vcache": "HIT",
+          "content-length": "639"
+        },
+        "responseBodyHash": "ce338283affb01fa3770dc4b721faf326c1a1b0159a478bdcedee87cc3f47180",
+        "initiators": [],
+        "time": 0.034887999994680285
+      },
+      {
+        "url": "https://www.gstatic.com/firebasejs/6.6.2/firebase-app.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "[2607:f8b0:4002:c0f::5e]",
+        "responseHeaders": {
+          "date": "Tue, 10 Dec 2024 17:25:36 GMT",
+          "expires": "Wed, 10 Dec 2025 17:25:36 GMT",
+          "last-modified": "Thu, 19 Sep 2019 21:11:52 GMT",
+          "cache-control": "public, max-age=31536000",
+          "vary": "Accept-Encoding",
+          "age": "181446",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/firebase-js",
+          "cross-origin-resource-policy": "cross-origin",
+          "cross-origin-opener-policy": "same-origin-allow-popups; report-to=\"firebase-js\"",
+          "report-to": "{\"group\":\"firebase-js\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/firebase-js\"}]}",
+          "content-length": "3945",
+          "x-content-type-options": "nosniff",
+          "server": "sffe",
+          "x-xss-protection": "0",
+          "content-type": "text/javascript; charset=UTF-8"
+        },
+        "responseBodyHash": "b10a075758097bb0578287af03c76a9fcd82fa4607587109ae41fe2d24756600",
+        "initiators": [
+          "https://www.stltoday.com/tncms/messaging/service-worker/"
+        ],
+        "time": 0.09344700002111495
+      },
+      {
+        "url": "https://www.gstatic.com/firebasejs/6.6.2/firebase-messaging.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "[2607:f8b0:4002:c0f::5e]",
+        "responseHeaders": {
+          "date": "Tue, 10 Dec 2024 17:18:05 GMT",
+          "expires": "Wed, 10 Dec 2025 17:18:05 GMT",
+          "last-modified": "Thu, 19 Sep 2019 21:11:54 GMT",
+          "cache-control": "public, max-age=31536000",
+          "vary": "Accept-Encoding",
+          "age": "181897",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/firebase-js",
+          "cross-origin-resource-policy": "cross-origin",
+          "cross-origin-opener-policy": "same-origin-allow-popups; report-to=\"firebase-js\"",
+          "report-to": "{\"group\":\"firebase-js\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/firebase-js\"}]}",
+          "content-length": "8653",
+          "x-content-type-options": "nosniff",
+          "server": "sffe",
+          "x-xss-protection": "0",
+          "content-type": "text/javascript; charset=UTF-8"
+        },
+        "responseBodyHash": "f5e55a21dfa3a20ceb298737c8f4c517a83d7960468c7f53b3f33c567bacff3c",
+        "initiators": [
+          "https://www.stltoday.com/tncms/messaging/service-worker/"
+        ],
+        "time": 0.03359100013040006
+      },
+      {
+        "url": "blob:https://www.stltoday.com/0f3686a1-f839-4d5f-a720-604b6609548c",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "content-length": "390",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6a8dbbb4d2df5781f48a9c71c64645a9ec26ee8b159d0daf0ec14630192a5469",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.1596140000037849
+      },
+      {
+        "url": "blob:https://www.stltoday.com/96e4dce2-ac3c-4a66-87a2-6bce7fe14036",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "content-length": "390",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6a8dbbb4d2df5781f48a9c71c64645a9ec26ee8b159d0daf0ec14630192a5469",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.39320999989286065
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/assets/v3/editorial/3/d4/3d4c6d22-b7ed-11ef-ab28-b3064d933138/675abe7b2b550.preview.jpg?crop=1054%2C593%2C0%2C56&resize=400%2C225&order=crop%2Cresize",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 13663,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:43 GMT",
+          "content-type": "image/webp",
+          "cf-bgj": "imgq:85,h2pri",
+          "cf-polished": "qual=85, origFmt=jpeg, origSize=14993",
+          "content-disposition": "inline; filename=\"675abe7b2b550.webp\"",
+          "vary": "Accept",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"2ef9486e35f4f0cb76a6f822928c4b0a\"",
+          "expires": "Fri, 12 Dec 2025 12:07:49 GMT",
+          "last-modified": "Thu, 12 Dec 2024 10:44:12 GMT",
+          "strict-transport-security": "max-age=31536000",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "cf-cache-status": "HIT",
+          "age": "27523",
+          "server": "cloudflare",
+          "cf-ray": "8f103d41dc3d61b4-ORD"
+        },
+        "responseBodyHash": "fe6ae193b233d96eba5a0ee1d9d4903cbb4e202a5b805bed0565db4c433d81a1",
+        "initiators": [
+          "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/plugins/resources/scripts/common.08a61544f369cc43bf02e71b2d10d49f.js"
+        ],
+        "time": 0.02929299999959767
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/assets/v3/editorial/b/bb/bbb7b84e-b831-11ef-9edd-1b318dfb09e6/675a5849d87c0.preview.jpg?crop=1735%2C976%2C0%2C109&resize=400%2C225&order=crop%2Cresize",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12389,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:43 GMT",
+          "content-type": "image/webp",
+          "cf-bgj": "imgq:85,h2pri",
+          "cf-polished": "qual=85, origFmt=jpeg, origSize=16926",
+          "content-disposition": "inline; filename=\"675a5849d87c0.webp\"",
+          "vary": "Accept",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"9aa16ddf369b5eb2c46e29aad0c8843d\"",
+          "expires": "Fri, 12 Dec 2025 03:59:49 GMT",
+          "last-modified": "Thu, 12 Dec 2024 03:28:11 GMT",
+          "strict-transport-security": "max-age=31536000",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "cf-cache-status": "HIT",
+          "age": "56994",
+          "server": "cloudflare",
+          "cf-ray": "8f103d41dc4061b4-ORD"
+        },
+        "responseBodyHash": "b509447a9b09e5d9514e5cee0b3febb141d7e8f63b50ba74c060fcc9bfbf52d4",
+        "initiators": [
+          "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/plugins/resources/scripts/common.08a61544f369cc43bf02e71b2d10d49f.js"
+        ],
+        "time": 0.030334000010043383
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/assets/v3/editorial/2/98/298fed96-b7d3-11ef-9dba-f77ccc5bf910/675a50dcf1158.preview.jpg?crop=611%2C344%2C4%2C16&resize=400%2C225&order=crop%2Cresize",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 17764,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:43 GMT",
+          "content-type": "image/jpeg",
+          "content-length": "17562",
+          "cf-bgj": "imgq:85,h2pri",
+          "cf-polished": "origSize=18464, status=webp_bigger",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"e3c3e01c5ff96b986b84cad1899356eb\"",
+          "expires": "Fri, 12 Dec 2025 03:28:11 GMT",
+          "last-modified": "Thu, 12 Dec 2024 02:56:31 GMT",
+          "strict-transport-security": "max-age=31536000",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "cf-cache-status": "HIT",
+          "age": "58892",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "8f103d41dc4261b4-ORD"
+        },
+        "responseBodyHash": "9f0cba2fc8cfcd4c0b413d8760f439e88145c14916b163694d94b5ce0535abb2",
+        "initiators": [
+          "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/plugins/resources/scripts/common.08a61544f369cc43bf02e71b2d10d49f.js"
+        ],
+        "time": 0.03043100005015731
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5MTD44X&l=dataLayer&gtm=45He4cb0v72758733za200",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 78463,
+        "remoteIPAddress": "[2607:f8b0:4002:c06::61]",
+        "responseHeaders": {
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-origin": "*",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "Cache-Control",
+          "content-encoding": "br",
+          "vary": "Accept-Encoding",
+          "date": "Thu, 12 Dec 2024 19:49:43 GMT",
+          "expires": "Thu, 12 Dec 2024 19:49:43 GMT",
+          "cache-control": "private, max-age=900",
+          "last-modified": "Thu, 12 Dec 2024 18:41:08 GMT",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascgcycc:1080:0",
+          "cross-origin-opener-policy-report-only": "same-origin; report-to=coop_reporting",
+          "report-to": "{\"group\":\"coop_reporting\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascgcycc:1080:0\"}],}",
+          "server": "Google Tag Manager",
+          "content-length": "78420",
+          "x-xss-protection": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "41e07466777c4e109b282afaa89b21d3b85a8d70bd5d6be03dc3ec57f16bcefe",
+        "initiators": [
+          "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-PDQV3N"
+        ],
+        "time": 0.09571500006131828
+      },
+      {
+        "url": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/live/libraries/flex/components/site/resources/scripts/stl.init.js?_dc=1697065764",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2554,
+        "remoteIPAddress": "104.16.132.24",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:43 GMT",
+          "content-type": "application/x-javascript",
+          "content-length": "2294",
+          "last-modified": "Wed, 11 Oct 2023 23:09:24 GMT",
+          "etag": "W/\"65272b24-19da\"",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "expires": "Wed, 26 Nov 2025 10:21:33 GMT",
+          "cache-control": "public, max-age=31536000",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-robots-tag": "noarchive",
+          "x-vcache": "MISS",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "HIT",
+          "age": "1154556",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "8f103d439e5761b4-ORD"
+        },
+        "responseBodyHash": "ce7a2684a9ef201412949c18da44e452d66cc92f72d24471bb5fd2a2dc875243",
+        "initiators": [
+          "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/live/libraries/flex/components/site/resources/scripts/main.js?_dc=1629146859",
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.027839000103995204
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WXMV2VZ&l=dataLayer&gtm=45He4cb0v72758733za200",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 87902,
+        "remoteIPAddress": "[2607:f8b0:4002:c06::61]",
+        "responseHeaders": {
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-origin": "*",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "Cache-Control",
+          "content-encoding": "br",
+          "vary": "Accept-Encoding",
+          "date": "Thu, 12 Dec 2024 19:49:43 GMT",
+          "expires": "Thu, 12 Dec 2024 19:49:43 GMT",
+          "cache-control": "private, max-age=900",
+          "last-modified": "Thu, 12 Dec 2024 18:41:08 GMT",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascgcycc:1080:0",
+          "cross-origin-opener-policy-report-only": "same-origin; report-to=coop_reporting",
+          "report-to": "{\"group\":\"coop_reporting\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascgcycc:1080:0\"}],}",
+          "server": "Google Tag Manager",
+          "content-length": "87854",
+          "x-xss-protection": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "47d9cd24fe7d790ade5f6145d523d38dee4b84e2d986c62149fa8d721015cbfe",
+        "initiators": [
+          "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-PDQV3N"
+        ],
+        "time": 0.08712899987585843
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-LCNYTE04MR&l=dataLayer&cx=c&gtm=45He4cb0v6749731za200",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 133300,
+        "remoteIPAddress": "[2607:f8b0:4002:c06::61]",
+        "responseHeaders": {
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-origin": "*",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "Cache-Control",
+          "content-encoding": "br",
+          "vary": "Accept-Encoding",
+          "date": "Thu, 12 Dec 2024 19:49:43 GMT",
+          "expires": "Thu, 12 Dec 2024 19:49:43 GMT",
+          "cache-control": "private, max-age=900",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascgcycc:838:0",
+          "cross-origin-opener-policy-report-only": "same-origin; report-to=coop_reporting",
+          "report-to": "{\"group\":\"coop_reporting\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascgcycc:838:0\"}],}",
+          "server": "Google Tag Manager",
+          "content-length": "133238",
+          "x-xss-protection": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "e3bb2882c263ed6ae2595e0a967e42c8648f0219b6f1a19cc87dd872e9df340a",
+        "initiators": [
+          "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-TDWDC2",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-PDQV3N"
+        ],
+        "time": 0.21864399989135563
+      },
+      {
+        "url": "https://www.stltoday.com/tncms/tracking/classifieds/featured/?i=7b4e316b-0fb6-5fac-8033-2082dea48da3,",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 147,
+        "remoteIPAddress": "192.104.183.109",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:44 GMT",
+          "content-type": "application/octet-stream",
+          "content-length": "0",
+          "real-hostname": "stltoday.com",
+          "cache-control": "s-maxage=0, private, no-cache",
+          "age": "0",
+          "x-vcache": "MISS"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.stltoday.com/shared-content/art/tncms/tracking.js",
+          "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/jquery/resources/scripts/jquery.min.d6d18fcf88750a16d256e72626e676a6.js",
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.0340060000307858
+      },
+      {
+        "url": "https://www.stltoday.com/tncms/tracking/business/block/?i=5730d596-2438-5b75-8321-2935526223f3,5d9a4220-db7f-56d2-9dbb-38bcb0604fc5,e24fa3db-3362-5eb5-a81f-ef515904b849,",
+        "method": "POST",
+        "type": "Ping",
+        "status": 200,
+        "size": 147,
+        "remoteIPAddress": "192.104.183.109",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:49:44 GMT",
+          "content-type": "application/octet-stream",
+          "content-length": "0",
+          "real-hostname": "stltoday.com",
+          "cache-control": "s-maxage=0, private, no-cache",
+          "age": "0",
+          "x-vcache": "MISS"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.stltoday.com/shared-content/art/tncms/tracking.js",
+          "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/jquery/resources/scripts/jquery.min.d6d18fcf88750a16d256e72626e676a6.js",
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.03316999995149672
+      },
+      {
+        "url": "blob:https://www.stltoday.com/dd6447c8-15e8-4b0b-8668-d9b784bfdfe6",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "content-length": "390",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6a8dbbb4d2df5781f48a9c71c64645a9ec26ee8b159d0daf0ec14630192a5469",
+        "initiators": [
+          "https://www.stltoday.com/"
+        ],
+        "time": 0.004458999959751964
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-4T2EB147B8&l=dataLayer&cx=c&gtm=45He4cb0v861227858za200zb72758733",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 106672,
+        "remoteIPAddress": "[2607:f8b0:4002:c06::61]",
+        "responseHeaders": {
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-origin": "*",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "Cache-Control",
+          "content-encoding": "br",
+          "vary": "Accept-Encoding",
+          "date": "Thu, 12 Dec 2024 19:49:45 GMT",
+          "expires": "Thu, 12 Dec 2024 19:49:45 GMT",
+          "cache-control": "private, max-age=900",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascgcycc:838:0",
+          "cross-origin-opener-policy-report-only": "same-origin; report-to=coop_reporting",
+          "report-to": "{\"group\":\"coop_reporting\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascgcycc:838:0\"}],}",
+          "server": "Google Tag Manager",
+          "content-length": "106620",
+          "x-xss-protection": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "37a541b07166784d37f74827c116d5d93ffa440042a59aa2034e11369dde2297",
+        "initiators": [
+          "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-WXMV2VZ&l=dataLayer&gtm=45He4cb0v72758733za200"
+        ],
+        "time": 0.10609399992972612
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-LCNYTE04MR&gtm=45je4cb0v893884341z86749731za200zb6749731&_p=1734032977302&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&tcfd=1000k&tag_exp=101925629~102067555~102067808~102081485&cid=205945275.1734032987&ecid=212703619&ul=en-us&sr=1728x1117&uaa=&uab=&uamb=0&uam=&uap=&uapv=&uaw=0&frm=0&pscdl=denied&ec_mode=a&_s=1&sid=1734032984&sct=1&seg=0&dl=https%3A%2F%2Fwww.stltoday.com%2F&dt=St.%20Louis%20Post-Dispatch%20%7C%20Breaking%20News%20%7C%20Read%20St.%20Louis%2C%20MO%20and%20Missouri%20breaking%20news.%20Get%20latest%20news%2C%20events%20and%20information%20on%20Missouri%20sports%2C%20weather%2C%20entertainment%20and%20lifestyles.&en=page_view&_fv=1&_nsi=1&_ss=2&ep.domain=stltoday.com&ep.asset_flag_array=false&ep.asset_tag_array=false&ep.page_type=homepage&ep.platform=desktop&ep.application=editorial&ep.byline=Undefined&ep.syndication_domain=null&ep.blox_sections=&ep.url_fragment=&ep.author=Undefined&ep.eedition_view_type=Page%20View&ep.asset_app=editorial&ep.asset_has_paywall=notset&ep.asset_has_video=no&up.user_status=anonymous&up.user_subscription=No&up.user_ppid=&up.user_uuid=false&up.user_subscription_date=false&tfd=11430",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 204,
+        "remoteIPAddress": "[2607:f8b0:4002:c02::8a]",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.stltoday.com",
+          "date": "Thu, 12 Dec 2024 19:49:46 GMT",
+          "pragma": "no-cache",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "access-control-allow-credentials": "true",
+          "content-type": "text/plain",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsggc:86:0",
+          "cross-origin-opener-policy-report-only": "same-origin; report-to=coop_reporting",
+          "report-to": "{\"group\":\"coop_reporting\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsggc:86:0\"}],}",
+          "server": "Golfe2",
+          "content-length": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-LCNYTE04MR&l=dataLayer&cx=c&gtm=45He4cb0v6749731za200",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-PDQV3N",
+          "https://www.googletagmanager.com/gtag/js?id=G-4T2EB147B8&l=dataLayer&cx=c&gtm=45He4cb0v861227858za200zb72758733"
+        ],
+        "time": 0.034610999980941415
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4T2EB147B8&gtm=45je4cb0v887101457z8861227858za200zb861227858&_p=1734032977302&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&tcfd=1000k&tag_exp=101925629~102067555~102067808~102081485&cid=205945275.1734032987&ul=en-us&sr=1728x1117&uaa=&uab=&uamb=0&uam=&uap=&uapv=&uaw=0&frm=0&pscdl=denied&_s=1&dt=stltoday.com%20%7C%20Read%20St.%20Louis%2C%20MO%20and%20Missouri%20breaking%20news.%20Get%20latest%20news%2C%20events%20and%20information%20on%20Missouri%20sports%2C%20weather%2C%20entertainment%20and%20lifestyles.&dl=https%3A%2F%2Fwww.stltoday.com%2F&sid=1734032985&sct=1&seg=0&en=page_view&_fv=1&_ss=1&ep.canonical_url=https%3A%2F%2Fwww.stltoday.com%2F&epn.townnews_crm_group_id=35&ep.generator=BLOX&ep.generator_version=1.83.3&tfd=11457",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 204,
+        "remoteIPAddress": "[2607:f8b0:4002:c02::8a]",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.stltoday.com",
+          "date": "Thu, 12 Dec 2024 19:49:46 GMT",
+          "pragma": "no-cache",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "access-control-allow-credentials": "true",
+          "content-type": "text/plain",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsggc:86:0",
+          "cross-origin-opener-policy-report-only": "same-origin; report-to=coop_reporting",
+          "report-to": "{\"group\":\"coop_reporting\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsggc:86:0\"}],}",
+          "server": "Golfe2",
+          "content-length": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-4T2EB147B8&l=dataLayer&cx=c&gtm=45He4cb0v861227858za200zb72758733",
+          "https://www.googletagmanager.com/gtm.js?id=GTM-PDQV3N"
+        ],
+        "time": 0.04137200000695884
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.stltoday.com/": {
+          "window.innerWidth": 2,
+          "Date.prototype.getTime": 2,
+          "window.localStorage": 6,
+          "window.sessionStorage": 5,
+          "Navigator.prototype.doNotTrack": 1
+        },
+        "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js": {
+          "Date.prototype.getTime": 9,
+          "window.localStorage": 23,
+          "URL.createObjectURL": 6,
+          "Navigator.prototype.doNotTrack": 190,
+          "Document.cookie setter": 26,
+          "Document.cookie getter": 67
+        },
+        "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/plugins/resources/scripts/common.08a61544f369cc43bf02e71b2d10d49f.js": {
+          "Navigator.prototype.userAgent": 3,
+          "window.devicePixelRatio": 1,
+          "Date.prototype.getTime": 1,
+          "window.innerWidth": 10,
+          "window.innerHeight": 10
+        },
+        "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/template/resources/scripts/tnt.ee95c0b6f1daceb31bf5ef84353968c6.js": {
+          "Navigator.prototype.userAgent": 5,
+          "Navigator.prototype.maxTouchPoints": 1,
+          "Navigator.prototype.cookieEnabled": 1
+        },
+        "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/live/libraries/flex/components/ads_dfp/resources/scripts/prebid9.22.0.js?_dc=1733986833": {
+          "NavigatorUAData.prototype.brands": 3,
+          "NavigatorUAData.prototype.platform": 1,
+          "window.sessionStorage": 1
+        },
+        "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/live/libraries/flex/components/lee_ds_v3/resources/scripts/lee.common.js?_dc=1733814034": {
+          "window.sessionStorage": 1
+        },
+        "https://www.stltoday.com/shared-content/art/stats/common/tracker.js": {
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "Screen.prototype.colorDepth": 1,
+          "window.sessionStorage": 23,
+          "window.localStorage": 22,
+          "Date.prototype.getTime": 5,
+          "window.screenX": 3,
+          "window.screenY": 1,
+          "window.innerHeight": 2
+        },
+        "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/live/libraries/flex/components/site/resources/scripts/main.js?_dc=1629146859": {
+          "Navigator.prototype.platform": 1,
+          "Date.prototype.getTime": 12
+        },
+        "https://securepubads.g.doubleclick.net/tag/js/gpt.js": {
+          "Navigator.prototype.userAgent": 12,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1
+        },
+        "https://www.googletagmanager.com/gtm.js?id=GTM-PDQV3N": {
+          "Navigator.prototype.userAgent": 38,
+          "Date.prototype.getTime": 12,
+          "window.name": 2
+        },
+        "https://www.googletagmanager.com/gtm.js?id=GTM-TDWDC2": {
+          "Navigator.prototype.userAgent": 34,
+          "Date.prototype.getTime": 63,
+          "window.localStorage": 2,
+          "window.name": 2,
+          "Navigator.prototype.appVersion": 1,
+          "Navigator.prototype.appName": 1
+        },
+        "https://www.stltoday.com/shared-content/art/tncms/api/access.3e0b8030b6000aa9a609.js": {
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://tagan.adlightning.com/leeenterprises/op.js": {
+          "Navigator.prototype.userAgent": 21
+        },
+        "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/live/libraries/flex/components/ads_dfp/resources/scripts/dfp.lazy.ozone.js?_dc=1733986833": {
+          "window.innerHeight": 6
+        },
+        "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/jquery/resources/scripts/jquery.min.d6d18fcf88750a16d256e72626e676a6.js": {
+          "Element.prototype.getClientRects": 6
+        },
+        "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/plugins/resources/scripts/fontawesome.48f6e778a25162f5c4a6977fb556155b.js": {
+          "Navigator.prototype.userAgent": 4
+        },
+        "https://www.gstatic.com/firebasejs/6.6.2/firebase-messaging.js": {
+          "Navigator.prototype.cookieEnabled": 1
+        },
+        "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/template/resources/scripts/tnt.notify.panel.bacbeac9a1ca6ee75b79b21a0e2e99f2.js": {
+          "window.localStorage": 2
+        },
+        "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202412090101/pubads_impl.js": {
+          "Navigator.prototype.userAgent": 78,
+          "PerformanceTiming.prototype.navigationStart": 3,
+          "Date.prototype.getTime": 10,
+          "Screen.prototype.width": 2,
+          "Screen.prototype.height": 2,
+          "window.innerHeight": 5,
+          "window.innerWidth": 6
+        },
+        "https://bloximages.newyork1.vip.townnews.com/stltoday.com/shared-content/art/tncms/templates/libraries/flex/components/plugins/resources/scripts/owl.carousel.50dc41fa734414148ce4b489fd904c5f.js": {
+          "Date.prototype.getTime": 1
+        },
+        "https://tagan.adlightning.com/leeenterprises/b-bde0e05-a31c1d91.js": {
+          "Navigator.prototype.userAgent": 47
+        },
+        "https://tagan.adlightning.com/leeenterprises/bl-9d706ea-eebbb221.js": {
+          "Navigator.prototype.userAgent": 2
+        },
+        "https://www.googletagmanager.com/gtm.js?id=GTM-5MTD44X&l=dataLayer&gtm=45He4cb0v72758733za200": {
+          "Navigator.prototype.userAgent": 33,
+          "Date.prototype.getTime": 8,
+          "window.name": 2
+        },
+        "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/live/libraries/flex/components/site/resources/scripts/stl.init.js?_dc=1697065764": {
+          "window.localStorage": 4,
+          "Date.prototype.getTime": 6
+        },
+        "https://www.googletagmanager.com/gtm.js?id=GTM-WXMV2VZ&l=dataLayer&gtm=45He4cb0v72758733za200": {
+          "Navigator.prototype.userAgent": 33,
+          "Date.prototype.getTime": 31,
+          "window.name": 2,
+          "window.localStorage": 11,
+          "window.sessionStorage": 14
+        },
+        "https://www.googletagmanager.com/gtag/js?id=G-LCNYTE04MR&l=dataLayer&cx=c&gtm=45He4cb0v6749731za200": {
+          "Navigator.prototype.userAgent": 33,
+          "Date.prototype.getTime": 55,
+          "window.name": 2,
+          "Navigator.prototype.language": 1,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1
+        },
+        "https://www.googletagmanager.com/gtag/js?id=G-4T2EB147B8&l=dataLayer&cx=c&gtm=45He4cb0v861227858za200zb72758733": {
+          "Navigator.prototype.userAgent": 33,
+          "Date.prototype.getTime": 40,
+          "window.name": 2,
+          "Navigator.prototype.language": 2,
+          "Screen.prototype.width": 2,
+          "Screen.prototype.height": 2
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "osano_consentmanager_tattles=;secure; path=/; domain=stltoday.com; max-age=-99999999; samesite=lax; expires=1 Jan 1970 00:00:00 GMT;"
+          ]
+        },
+        {
+          "source": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "osano_consentmanager_tattles=;secure; path=/; domain=stltoday.com; max-age=-99999999; samesite=lax"
+          ]
+        },
+        {
+          "source": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "osano_consentmanager_tattles=;secure; path=/; max-age=-99999999; samesite=lax; expires=1 Jan 1970 00:00:00 GMT;"
+          ]
+        },
+        {
+          "source": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "osano_consentmanager_tattles=;secure; path=/; max-age=-99999999; samesite=lax"
+          ]
+        },
+        {
+          "source": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "osano_consentmanager=;secure; path=/; domain=stltoday.com; max-age=-99999999; samesite=lax; expires=1 Jan 1970 00:00:00 GMT;"
+          ]
+        },
+        {
+          "source": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "osano_consentmanager=;secure; path=/; domain=stltoday.com; max-age=-99999999; samesite=lax"
+          ]
+        },
+        {
+          "source": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "osano_consentmanager=;secure; path=/; max-age=-99999999; samesite=lax; expires=1 Jan 1970 00:00:00 GMT;"
+          ]
+        },
+        {
+          "source": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "osano_consentmanager=;secure; path=/; max-age=-99999999; samesite=lax"
+          ]
+        },
+        {
+          "source": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "osano_consentmanager_expdate=;secure; path=/; domain=stltoday.com; max-age=-99999999; samesite=lax; expires=1 Jan 1970 00:00:00 GMT;"
+          ]
+        },
+        {
+          "source": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "osano_consentmanager_expdate=;secure; path=/; domain=stltoday.com; max-age=-99999999; samesite=lax"
+          ]
+        },
+        {
+          "source": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "osano_consentmanager_expdate=;secure; path=/; max-age=-99999999; samesite=lax; expires=1 Jan 1970 00:00:00 GMT;"
+          ]
+        },
+        {
+          "source": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "osano_consentmanager_expdate=;secure; path=/; max-age=-99999999; samesite=lax"
+          ]
+        },
+        {
+          "source": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "lee-holiday-banner=1; path=/; expires=Fri, 13 Dec 2024 06:00:00 GMT; samesite=lax"
+          ]
+        },
+        {
+          "source": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "lee-holiday-banner=1; path=/; expires=Fri, 13 Dec 2024 06:00:00 GMT; samesite=lax"
+          ]
+        },
+        {
+          "source": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "tncms-services=none; path=/; domain=stltoday.com; expires=Wed, 11 Dec 2024 19:49:44 GMT; samesite=lax"
+          ]
+        },
+        {
+          "source": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "tncms-services=none; path=/; domain=stltoday.com; expires=Wed, 11 Dec 2024 19:49:44 GMT; samesite=lax"
+          ]
+        },
+        {
+          "source": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "tncms-screenname=none; path=/; domain=stltoday.com; expires=Wed, 11 Dec 2024 19:49:44 GMT; samesite=lax"
+          ]
+        },
+        {
+          "source": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "tncms-screenname=none; path=/; domain=stltoday.com; expires=Wed, 11 Dec 2024 19:49:44 GMT; samesite=lax"
+          ]
+        },
+        {
+          "source": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "tncms-authtoken=none; path=/; domain=stltoday.com; expires=Wed, 11 Dec 2024 19:49:44 GMT; samesite=lax"
+          ]
+        },
+        {
+          "source": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "tncms-authtoken=none; path=/; domain=stltoday.com; expires=Wed, 11 Dec 2024 19:49:44 GMT; samesite=lax"
+          ]
+        },
+        {
+          "source": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "tncms-avatarurl=none; path=/; domain=stltoday.com; expires=Wed, 11 Dec 2024 19:49:44 GMT; samesite=lax"
+          ]
+        },
+        {
+          "source": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "tncms-avatarurl=none; path=/; domain=stltoday.com; expires=Wed, 11 Dec 2024 19:49:44 GMT; samesite=lax"
+          ]
+        },
+        {
+          "source": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "tncms-screenname=none; path=/; domain=stltoday.com; expires=Wed, 11 Dec 2024 19:49:44 GMT; samesite=lax"
+          ]
+        },
+        {
+          "source": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "tncms-screenname=none; path=/; domain=stltoday.com; expires=Wed, 11 Dec 2024 19:49:44 GMT; samesite=lax"
+          ]
+        },
+        {
+          "source": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "leefalcon_membership=none; path=/; domain=stltoday.com; expires=Wed, 11 Dec 2024 19:49:44 GMT; samesite=lax"
+          ]
+        },
+        {
+          "source": "https://cmp.osano.com/16CVqQSid6k3038vU/fef0f8b2-698d-45ee-89c5-d8fbf51fbfb7/osano.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "leefalcon_membership=none; path=/; domain=stltoday.com; expires=Wed, 11 Dec 2024 19:49:44 GMT; samesite=lax"
+          ]
+        }
+      ]
+    },
+    "cookies": [
+      {
+        "name": "lee-holiday-banner",
+        "domain": "www.stltoday.com",
+        "path": "/",
+        "expires": 1734069600000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "tncms_csrf_token",
+        "domain": ".stltoday.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "Strict"
+      }
+    ]
+  }
+}

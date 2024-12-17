@@ -1,0 +1,4116 @@
+{
+  "initialUrl": "http://independent.co.uk/",
+  "finalUrl": "https://www.independent.co.uk/us",
+  "timeout": false,
+  "testStarted": 1734033050994,
+  "testFinished": 1734033062150,
+  "data": {
+    "requests": [
+      {
+        "url": "http://independent.co.uk/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "151.101.193.184",
+        "responseHeaders": {
+          "connection": "close",
+          "content-length": "0",
+          "retry-after": "0",
+          "location": "https://independent.co.uk/",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:51 GMT",
+          "via": "1.1 varnish",
+          "x-backend": "flow-uk",
+          "content-security-policy": "default-src https: 'unsafe-inline' data: blob:; frame-src https: data:; script-src https: 'unsafe-inline' 'unsafe-eval' blob: 'unsafe-inline'; media-src https: 'unsafe-inline' data: blob:; img-src https: http: data: blob:; frame-ancestors https:",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "feature-policy": "camera 'none'; microphone 'none'; midi 'none'; geolocation 'none'",
+          "permissions-policy": "camera=(), microphone=(), midi=(), geolocation=(), interest-cohort=()",
+          "set-cookie": "esi-permutive-id=(null); Path=/ ; Secure ;",
+          "x-served-by": "cache-cmh1290098-CMH",
+          "x-cache": "HIT",
+          "x-cache-hits": "0",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://independent.co.uk/",
+        "initiators": [],
+        "time": 0.08446500007994473
+      },
+      {
+        "url": "https://independent.co.uk/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "151.101.193.184",
+        "responseHeaders": {
+          "retry-after": "0",
+          "location": "https://www.independent.co.uk/",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:51 GMT",
+          "via": "1.1 varnish",
+          "x-backend": "flow-uk",
+          "content-security-policy": "default-src https: 'unsafe-inline' data: blob:; frame-src https: data:; script-src https: 'unsafe-inline' 'unsafe-eval' blob: 'unsafe-inline'; media-src https: 'unsafe-inline' data: blob:; img-src https: http: data: blob:; frame-ancestors https:",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "feature-policy": "camera 'none'; microphone 'none'; midi 'none'; geolocation 'none'",
+          "permissions-policy": "camera=(), microphone=(), midi=(), geolocation=(), interest-cohort=()",
+          "set-cookie": "esi-permutive-id=(null); Path=/ ; Secure ;",
+          "access-control-allow-origin": "*",
+          "x-served-by": "cache-cmh1290099-CMH",
+          "x-cache": "HIT",
+          "x-cache-hits": "0",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400",
+          "content-length": "0"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.independent.co.uk/",
+        "redirectedFrom": "http://independent.co.uk/",
+        "initiators": [],
+        "time": 0.25197899993509054
+      },
+      {
+        "url": "https://www.independent.co.uk/",
+        "method": "GET",
+        "type": "Document",
+        "status": 307,
+        "remoteIPAddress": "[2a04:4e42:1b::347]",
+        "responseHeaders": {
+          "retry-after": "0",
+          "location": "/us",
+          "set-cookie": "Locale=US\nLocale=US ; Path=/ ;\nesi-permutive-id=(null); Path=/ ; Secure ;",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:51 GMT",
+          "via": "1.1 varnish",
+          "canary": "1",
+          "x-backend": "flow-us",
+          "content-security-policy": "default-src https: 'unsafe-inline' data: blob:; frame-src https: data:; script-src https: 'unsafe-inline' 'unsafe-eval' blob: 'unsafe-inline'; media-src https: 'unsafe-inline' data: blob:; img-src https: http: data: blob:; frame-ancestors https:",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "feature-policy": "camera 'none'; microphone 'none'; midi 'none'; geolocation 'none'",
+          "permissions-policy": "camera=(), microphone=(), midi=(), geolocation=(), interest-cohort=()",
+          "access-control-allow-origin": "*",
+          "x-served-by": "cache-dfw-ktki8620087-DFW",
+          "x-cache": "HIT",
+          "x-cache-hits": "0",
+          "x-timer": "S1734033052.577498,VS0,VE0",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400",
+          "content-length": "0"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.independent.co.uk/us",
+        "redirectedFrom": "https://independent.co.uk/",
+        "initiators": [],
+        "time": 0.1005629999563098
+      },
+      {
+        "url": "https://www.independent.co.uk/us",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 56113,
+        "remoteIPAddress": "[2a04:4e42:1b::347]",
+        "responseHeaders": {
+          "content-type": "text/html; charset=utf-8",
+          "cache-tag": "independent.co.uk,v8.21.0,us,section_1741",
+          "content-language": "en",
+          "etag": "W/\"544ef-WgJpSXIEoJdbW6YceE1VyUovC04\"",
+          "link": "<https://static.independent.co.uk>; rel=dns-prefetch, <https://static.independent.co.uk>; rel=preconnect, <https://assets.the-independent.com>; rel=dns-prefetch, <https://assets.the-independent.com>; rel=preconnect",
+          "speculation-rules": "/speculationrules.json",
+          "strict-transport-security": "max-age=63072000;  preload",
+          "x-head-hash": "",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "access-control-allow-origin": "*",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:51 GMT",
+          "age": "38",
+          "canary": "1",
+          "x-backend": "flow-us",
+          "content-security-policy": "default-src https: 'unsafe-inline' data: blob:; frame-src https: data:; script-src https: 'unsafe-inline' 'unsafe-eval' blob: 'unsafe-inline'; media-src https: 'unsafe-inline' data: blob:; img-src https: http: data: blob:; frame-ancestors https:",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "feature-policy": "camera 'none'; microphone 'none'; midi 'none'; geolocation 'none'",
+          "permissions-policy": "camera=(), microphone=(), midi=(), geolocation=(), interest-cohort=()",
+          "set-cookie": "gdpr=0 ; Path=/ ;\nsubscriber_origin=us ; Path=/ ;\n_pc_subscriber_origin=us ; Path=/ ;\nfeat__support_now_donate_copy=false ; Path=/ ; Secure ; Expires=Mon, 06 Jan 2025 19:50:51 GMT ;\nfeat__pubx_integration=true ; Path=/ ; Secure ; HttpOnly ; Expires=Mon, 10 Feb 2025 19:50:51 GMT ;\nesi-uuid=551740e8-d173-4b43-b8a1-2cf664766da1 ; Path=/ ; Secure; HttpOnly; Expires=Fri, 12 Dec 2025 19:50:51 GMT ;\nesi-permutive-id=551740e8-d173-4b43-b8a1-2cf664766da1; Path=/ ; Secure ;",
+          "x-served-by": "cache-lga21963-LGA, cache-dfw-ktki8620087-DFW",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "30, 1",
+          "x-timer": "S1734033052.604712,VS0,VE3",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400",
+          "content-length": "55220"
+        },
+        "responseBodyHash": "1d33c3fcee3a785149acc39689e192d55a3b8bfe82bb768ae3cf4fa95751a852",
+        "redirectedFrom": "https://www.independent.co.uk/",
+        "initiators": [],
+        "time": 0.052653999999165535
+      },
+      {
+        "url": "https://assets.the-independent.com/fonts/Independent-Serif-Medium.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 32600,
+        "remoteIPAddress": "[2a04:4e42:26::347]",
+        "responseHeaders": {
+          "x-amz-id-2": "UfOngErluNy6cTjFKgMrXXPexhyMERQtgXXPnexD8i/sMp8GRWMbG46EQL4f4NvYS0h6OgQ/bmY=",
+          "x-amz-request-id": "N45RDSW2WC7BGSB4",
+          "last-modified": "Thu, 23 Mar 2023 13:09:41 GMT",
+          "etag": "\"d43cb04e7a2f4dfb2c0533ba72be4bc3\"",
+          "x-amz-server-side-encryption": "AES256",
+          "server": "AmazonS3",
+          "access-control-allow-origin": "*",
+          "content-type": "font/woff2",
+          "cache-control": "public, max-age=31536000, immutable",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:52 GMT",
+          "age": "4454724",
+          "x-served-by": "cache-lhr7361-LHR, cache-dfw-kdal2120070-DFW",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "32833, 1131",
+          "x-timer": "S1734033052.204141,VS0,VE0",
+          "xbe": "ssl_shield_london_uk",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400",
+          "content-length": "32080"
+        },
+        "responseBodyHash": "8b2d04d0d697772564f978edfad9af3c2b8b0fc76658def7e8d865af3b3a9450",
+        "initiators": [
+          "https://www.independent.co.uk/us"
+        ],
+        "time": 0.5809649999719113
+      },
+      {
+        "url": "https://assets.the-independent.com/fonts/Independent-Serif-Medium-Italic.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 35232,
+        "remoteIPAddress": "[2a04:4e42:26::347]",
+        "responseHeaders": {
+          "x-amz-id-2": "7c76ARqKPofSdLtgyzP8787NcJIZ2xSFfckhDe/QPiGFJsKCwWy6KS5hXTukSNz4/vkNMU4up6UCA7BoPirJwg==",
+          "x-amz-request-id": "YWPTS8C7WAPPNP8S",
+          "last-modified": "Wed, 24 May 2023 09:05:50 GMT",
+          "etag": "\"a839aee3897a6fd39624ea2c7cd748ec\"",
+          "x-amz-server-side-encryption": "AES256",
+          "server": "AmazonS3",
+          "access-control-allow-origin": "*",
+          "content-type": "font/woff2",
+          "cache-control": "public, max-age=31536000, immutable",
+          "via": "1.1 varnish, 1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:52 GMT",
+          "age": "2037256",
+          "x-served-by": "cache-lhr7339-LHR, cache-lhr-egll1980068-LHR, cache-dfw-kdal2120070-DFW",
+          "x-cache": "HIT, HIT, HIT",
+          "x-cache-hits": "33278, 71395, 1059",
+          "x-timer": "S1734033052.204110,VS0,VE0",
+          "xbe": "ssl_shield_london_uk",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400",
+          "content-length": "34884"
+        },
+        "responseBodyHash": "d88833a1bc3e3e85767e94ddf8bf3efe5fdab327350d8bb8a39a84233a78f88a",
+        "initiators": [
+          "https://www.independent.co.uk/us"
+        ],
+        "time": 0.5807630000635982
+      },
+      {
+        "url": "https://assets.the-independent.com/fonts/Independent-Sans-Regular.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 28860,
+        "remoteIPAddress": "[2a04:4e42:26::347]",
+        "responseHeaders": {
+          "x-amz-id-2": "c+kSYHALatwnLSiIUlv8+gsyCidbwXonKczh3hyz1hFScjFqZX2NDYQ0/JRIJTejoFTfzPJ7pIbvzZP7cjwe4w==",
+          "x-amz-request-id": "XKJ2H40GT54V8WZJ",
+          "last-modified": "Thu, 23 Mar 2023 13:09:38 GMT",
+          "etag": "\"cd77ed823183aa656f782ba744f0739d\"",
+          "x-amz-server-side-encryption": "AES256",
+          "server": "AmazonS3",
+          "access-control-allow-origin": "*",
+          "content-type": "font/woff2",
+          "cache-control": "public, max-age=31536000, immutable",
+          "via": "1.1 varnish, 1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:52 GMT",
+          "age": "3232654",
+          "x-served-by": "cache-lhr7332-LHR, cache-lhr-egll1980078-LHR, cache-dfw-kdal2120070-DFW",
+          "x-cache": "HIT, HIT, HIT",
+          "x-cache-hits": "5034, 130568, 1131",
+          "x-timer": "S1734033052.204310,VS0,VE0",
+          "xbe": "ssl_shield_london_uk",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400",
+          "content-length": "28412"
+        },
+        "responseBodyHash": "813aa63d0d8bafe2293ee5bb53d374be2a9a972b77b513b4a0ad5e0e5885f484",
+        "initiators": [
+          "https://www.independent.co.uk/us"
+        ],
+        "time": 0.59039600007236
+      },
+      {
+        "url": "https://assets.the-independent.com/fonts/Independent-Sans-Medium.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 28902,
+        "remoteIPAddress": "[2a04:4e42:26::347]",
+        "responseHeaders": {
+          "x-amz-id-2": "NJLNOixCV71RQ4iGsblGoo8P/UUsPJgsg7i+3xrBdULlMZwXarv5e2ouf3yRbJ10kcSaXHr94vM=",
+          "x-amz-request-id": "RT54E5EGZRCKF6P4",
+          "last-modified": "Thu, 23 Mar 2023 13:09:38 GMT",
+          "etag": "\"f7eef53cecb9ce2f5f40d4f91340cbed\"",
+          "x-amz-server-side-encryption": "AES256",
+          "server": "AmazonS3",
+          "access-control-allow-origin": "*",
+          "content-type": "font/woff2",
+          "cache-control": "public, max-age=31536000, immutable",
+          "via": "1.1 varnish, 1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:52 GMT",
+          "age": "3256528",
+          "x-served-by": "cache-lhr7334-LHR, cache-lhr-egll1980062-LHR, cache-dfw-kdal2120070-DFW",
+          "x-cache": "HIT, HIT, HIT",
+          "x-cache-hits": "67883, 89985, 1136",
+          "x-timer": "S1734033052.204296,VS0,VE0",
+          "xbe": "ssl_shield_london_uk",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400",
+          "content-length": "28620"
+        },
+        "responseBodyHash": "df2f221a5aa1e37a6f2f8e4f999a539fc9784fe1858d0dd3bdfe883617e129b4",
+        "initiators": [
+          "https://www.independent.co.uk/us"
+        ],
+        "time": 0.5934170000255108
+      },
+      {
+        "url": "https://static.independent.co.uk/2024/12/12/00/2024-12-05T162355Z_1167857207_RC24JBAA2OG1_RTRMADP_3_USA-TRUMP-CONGRESS-EFFICIENCY.jpg?quality=75&width=640&auto=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 26339,
+        "remoteIPAddress": "[2a04:4e42:26::347]",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-type": "image/avif",
+          "etag": "\"f/N4dSyUmncz/OVpxFILEiSlQCgDEWK6/zOEFNn2tp0\"",
+          "fastly-io-info": "ifsz=873009 idim=2159x1481 ifmt=jpeg ofsz=25726 odim=640x439 ofmt=avif",
+          "fastly-io-served-by": "vpop-etou8240197",
+          "fastly-stats": "io=1",
+          "server": "AmazonS3",
+          "x-amz-id-2": "KB4cUrY8wMCIzWAvNDhL25gU28PKFc/m8/BgV/C5zrnoPdV2F57KCgQZavzzg7kq0ZoQ0vqHe2HgFtikyRH9Cdovcmsxk2qp",
+          "x-amz-request-id": "5JGG6R6NTJR78W5D",
+          "x-amz-server-side-encryption": "AES256",
+          "via": "1.1 varnish, 1.1 varnish",
+          "cache-control": "max-age=31622400",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:52 GMT",
+          "age": "69407",
+          "x-served-by": "cache-lcy-eglc8600024-LCY, cache-dfw-kdal2120129-DFW",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "17, 1",
+          "x-timer": "S1734033052.203722,VS0,VE1",
+          "vary": "Accept",
+          "xbe": "shield_london_city_uk",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400",
+          "content-length": "25726"
+        },
+        "responseBodyHash": "8082564707bb6dedc95d9700ac829afda940cd28af1d73e7a2a7209f5933944a",
+        "initiators": [
+          "https://www.independent.co.uk/us"
+        ],
+        "time": 0.5568649999331683
+      },
+      {
+        "url": "https://static.independent.co.uk/2024/12/12/18/2024-12-08T205007Z_1952948515_RC27LBAWQDMQ_RTRMADP_3_USA-TRUMP-PARDONS.jpg?quality=75&width=640&auto=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 96335,
+        "remoteIPAddress": "[2a04:4e42:26::347]",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-type": "image/avif",
+          "etag": "\"tE375RgzKsENTUHrm8iVU1+z+Zz1qwLxOxmXLDB9G8Q\"",
+          "fastly-io-info": "ifsz=9415660 idim=6016x4016 ifmt=jpeg ofsz=95973 odim=640x427 ofmt=avif",
+          "fastly-io-served-by": "vpop-etou8240192",
+          "fastly-stats": "io=1",
+          "server": "AmazonS3",
+          "x-amz-id-2": "lb3sDsuTi/whQTKWPklVr2lNgaAj8NQble9kFYu1IEb2PpwdZlipiiuy8K22lyk6EPmBmRXGm+LUVXw9oIlGLg==",
+          "x-amz-request-id": "BWZ255P4JJ9R46Y8",
+          "x-amz-server-side-encryption": "AES256",
+          "via": "1.1 varnish, 1.1 varnish",
+          "cache-control": "max-age=31622400",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:52 GMT",
+          "age": "4039",
+          "x-served-by": "cache-lcy-eglc8600053-LCY, cache-dfw-kdal2120129-DFW",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "20, 1",
+          "x-timer": "S1734033052.203856,VS0,VE2",
+          "vary": "Accept",
+          "xbe": "shield_london_city_uk",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400",
+          "content-length": "95973"
+        },
+        "responseBodyHash": "5576d16ecb5e5ca5e07b1783625c09f3b19c87057c9f5594aef1e20b5c586bfb",
+        "initiators": [
+          "https://www.independent.co.uk/us"
+        ],
+        "time": 0.5939269999507815
+      },
+      {
+        "url": "https://www.independent.co.uk/_build/sourcepoint.6e3e59afb8b0e976f029.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3608,
+        "remoteIPAddress": "[2a04:4e42:1b::347]",
+        "responseHeaders": {
+          "content-length": "2815",
+          "content-type": "application/javascript; charset=UTF-8",
+          "cache-tag": "independent.co.uk,v8.21.0,sourcepoint.6e3e59afb8b0e976f029.js,javascript",
+          "etag": "W/\"1cf9-193ba3761e0\"",
+          "last-modified": "Thu, 12 Dec 2024 09:33:32 GMT",
+          "strict-transport-security": "max-age=63072000;  preload",
+          "cache-control": "public, max-age=2592000",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:51 GMT",
+          "age": "35936",
+          "canary": "1",
+          "x-backend": "flow-us",
+          "content-security-policy": "default-src https: 'unsafe-inline' data: blob:; frame-src https: data:; script-src https: 'unsafe-inline' 'unsafe-eval' blob: 'unsafe-inline'; media-src https: 'unsafe-inline' data: blob:; img-src https: http: data: blob:; frame-ancestors https:",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "feature-policy": "camera 'none'; microphone 'none'; midi 'none'; geolocation 'none'",
+          "permissions-policy": "camera=(), microphone=(), midi=(), geolocation=(), interest-cohort=()",
+          "x-served-by": "cache-lga21968-LGA, cache-dfw-ktki8620061-DFW",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "10, 90",
+          "x-timer": "S1734033052.736322,VS0,VE0",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"
+        },
+        "responseBodyHash": "e6a43c224e35ec9e05c863acd6788110412b6421c3f7e6c47c53ac8b25b25d36",
+        "initiators": [
+          "https://www.independent.co.uk/us"
+        ],
+        "time": 0.02338999998755753
+      },
+      {
+        "url": "https://cmpv2.independent.co.uk/unified/wrapperMessagingWithoutDetection.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 40896,
+        "remoteIPAddress": "108.157.150.39",
+        "responseHeaders": {
+          "content-type": "text/javascript",
+          "last-modified": "Wed, 11 Dec 2024 14:52:04 GMT",
+          "content-encoding": "gzip",
+          "x-amz-server-side-encryption": "AES256",
+          "server": "AmazonS3",
+          "date": "Thu, 12 Dec 2024 19:38:15 GMT",
+          "cache-control": "max-age=3600",
+          "etag": "W/\"e0b4a90400153ecf1ba547eeb74f1546\"",
+          "vary": "accept-encoding",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 a07b09303eaab0fed64ae706529794fa.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P2",
+          "x-amz-cf-id": "UA-V1WWwmxchEAtXzcw5DciOvydvO7jGgmNKvewAVcXIiuXLM6OK1A==",
+          "age": "3359"
+        },
+        "responseBodyHash": "0ecd3d39ec535810f3c25f129bf9acfa1d2038adf02766b461009c348caf2f2a",
+        "initiators": [
+          "https://www.independent.co.uk/us"
+        ],
+        "time": 0.5101119999308139
+      },
+      {
+        "url": "https://www.independent.co.uk/js/comscore.raw.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1303,
+        "remoteIPAddress": "[2a04:4e42:1b::347]",
+        "responseHeaders": {
+          "content-length": "531",
+          "content-type": "application/javascript; charset=UTF-8",
+          "cache-tag": "independent.co.uk,v8.20.0,comscore.raw.js",
+          "etag": "W/\"55c-193961da328\"",
+          "last-modified": "Thu, 05 Dec 2024 09:19:05 GMT",
+          "strict-transport-security": "max-age=63072000;  preload",
+          "cache-control": "public, max-age=2592000",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:51 GMT",
+          "age": "35935",
+          "canary": "1",
+          "x-backend": "flow-us",
+          "content-security-policy": "default-src https: 'unsafe-inline' data: blob:; frame-src https: data:; script-src https: 'unsafe-inline' 'unsafe-eval' blob: 'unsafe-inline'; media-src https: 'unsafe-inline' data: blob:; img-src https: http: data: blob:; frame-ancestors https:",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "feature-policy": "camera 'none'; microphone 'none'; midi 'none'; geolocation 'none'",
+          "permissions-policy": "camera=(), microphone=(), midi=(), geolocation=(), interest-cohort=()",
+          "x-served-by": "cache-lga21983-LGA, cache-dfw-ktki8620061-DFW",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "185, 1270",
+          "x-timer": "S1734033052.738614,VS0,VE1",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"
+        },
+        "responseBodyHash": "a59edb1e608f10c5ee6e69c2798de4f6f8a265f940abb29699f06e874275169e",
+        "initiators": [
+          "https://www.independent.co.uk/us"
+        ],
+        "time": 0.025554999941959977
+      },
+      {
+        "url": "https://sb.scorecardresearch.com/cs/10476312/beacon.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 302,
+        "remoteIPAddress": "3.166.96.11",
+        "responseHeaders": {
+          "content-length": "0",
+          "date": "Thu, 12 Dec 2024 19:50:53 GMT",
+          "location": "/internal-cs/default/beacon.js",
+          "accept-ch": "UA, Platform, Arch, Model, Mobile",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 53a450600a3f9ee62aac66af6fbe27ca.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P3",
+          "x-amz-cf-id": "eoNZGRIJAqLplbJT_f3K5TNvQpJpuBE-fYkJJN1AIvmqylMuGVWxwA=="
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://sb.scorecardresearch.com/internal-cs/default/beacon.js",
+        "initiators": [
+          "https://www.independent.co.uk/js/comscore.raw.js"
+        ],
+        "time": 0.3628449998795986
+      },
+      {
+        "url": "https://www.independent.co.uk/img/icons/liveblog.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1272,
+        "remoteIPAddress": "[2a04:4e42:1b::347]",
+        "responseHeaders": {
+          "content-length": "517",
+          "content-type": "image/svg+xml",
+          "cache-tag": "independent.co.uk,v8.18.1,liveblog.svg",
+          "etag": "W/\"468-1934e0df1c8\"",
+          "last-modified": "Thu, 21 Nov 2024 09:29:17 GMT",
+          "strict-transport-security": "max-age=63072000;  preload",
+          "cache-control": "public, max-age=2592000",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:53 GMT",
+          "age": "1425073",
+          "canary": "1",
+          "x-backend": "flow-us",
+          "content-security-policy": "default-src https: 'unsafe-inline' data: blob:; frame-src https: data:; script-src https: 'unsafe-inline' 'unsafe-eval' blob: 'unsafe-inline'; media-src https: 'unsafe-inline' data: blob:; img-src https: http: data: blob:; frame-ancestors https:",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "feature-policy": "camera 'none'; microphone 'none'; midi 'none'; geolocation 'none'",
+          "permissions-policy": "camera=(), microphone=(), midi=(), geolocation=(), interest-cohort=()",
+          "x-served-by": "cache-lga21937-LGA, cache-dfw-ktki8620061-DFW",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "2997, 54",
+          "x-timer": "S1734033053.171574,VS0,VE2",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"
+        },
+        "responseBodyHash": "f95c28c97a5c007d6b62145ae3a4c3d9eb3696a0d553d09713133a3fe9d11359",
+        "initiators": [
+          "https://www.independent.co.uk/us"
+        ],
+        "time": 0.02630900009535253
+      },
+      {
+        "url": "https://static.independent.co.uk/2024/12/11/15/2024-12-11T064526Z_1547861478_RC2KMBAF8IN3_RTRMADP_3_USA-WILDFIRES.jpg?quality=75&width=640&auto=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 65929,
+        "remoteIPAddress": "[2a04:4e42:26::347]",
+        "responseHeaders": {
+          "content-length": "65355",
+          "access-control-allow-origin": "*",
+          "content-type": "image/avif",
+          "etag": "\"mframoHDQIQ1zMrNUSYqxZfPWlMQinp4MpNonR2VKqg\"",
+          "fastly-io-info": "ifsz=13506083 idim=5172x3448 ifmt=jpeg ofsz=65355 odim=640x427 ofmt=avif",
+          "fastly-io-served-by": "vpop-etou8240197",
+          "fastly-stats": "io=1",
+          "server": "AmazonS3",
+          "x-amz-id-2": "ZUVUSIazUaMaH6jrlRT4TvpkHCXC+lKSvP26DYEwftRBZz5LHsrID/95hT7qNoKOvQYpxAF0V8s=",
+          "x-amz-request-id": "1KEQTG2NVGK73DAN",
+          "x-amz-server-side-encryption": "AES256",
+          "via": "1.1 varnish, 1.1 varnish",
+          "cache-control": "max-age=31622400",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:53 GMT",
+          "age": "102698",
+          "x-served-by": "cache-lcy-eglc8600029-LCY, cache-dfw-kdal2120038-DFW",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "13, 1",
+          "x-timer": "S1734033053.363419,VS0,VE1",
+          "vary": "Accept",
+          "xbe": "shield_london_city_uk",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"
+        },
+        "responseBodyHash": "fa9f50c841785b7a0896880d36f0c04bac855e47cb8e1b32b0136006938807c0",
+        "initiators": [
+          "https://www.independent.co.uk/us"
+        ],
+        "time": 0.11605499987490475
+      },
+      {
+        "url": "https://static.independent.co.uk/2024/12/12/17/Dentist-Indycomp-US-copy.jpg?quality=75&width=640&auto=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 48426,
+        "remoteIPAddress": "[2a04:4e42:26::347]",
+        "responseHeaders": {
+          "content-length": "47832",
+          "access-control-allow-origin": "*",
+          "content-type": "image/avif",
+          "etag": "\"eapXk9s7kQXuLdn9DOiDa00axH0CFOjPPZ7uYdPmELE\"",
+          "fastly-io-info": "ifsz=1982660 idim=2048x1365 ifmt=jpeg ofsz=47832 odim=640x427 ofmt=avif",
+          "fastly-io-served-by": "vpop-etou8240195",
+          "fastly-stats": "io=1",
+          "server": "AmazonS3",
+          "x-amz-id-2": "gHTZanpOybQRseoSX5c6unEZOd1MnDDr8TKp4fFdWmkgIltMfG1G0W2kMQqMIN8BuRlNHU2bVyQ3x2fllRKruvCj7d6SeMTHYqWtflpknTQ=",
+          "x-amz-request-id": "7NX9J5798TA9DMMH",
+          "x-amz-server-side-encryption": "AES256",
+          "via": "1.1 varnish, 1.1 varnish",
+          "cache-control": "max-age=31622400",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:53 GMT",
+          "age": "9483",
+          "x-served-by": "cache-lcy-eglc8600058-LCY, cache-dfw-kdal2120038-DFW",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "20, 1",
+          "x-timer": "S1734033053.363848,VS0,VE2",
+          "vary": "Accept",
+          "xbe": "shield_london_city_uk",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"
+        },
+        "responseBodyHash": "7b29ff60b8f2dce8eff8f0396e76ef742decb3078d8f4132e520cfc56f4c5775",
+        "initiators": [
+          "https://www.independent.co.uk/us"
+        ],
+        "time": 0.12342999991960824
+      },
+      {
+        "url": "https://static.independent.co.uk/2024/12/10/18/AP24345662966017.jpg?quality=75&width=640&auto=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 18955,
+        "remoteIPAddress": "[2a04:4e42:26::347]",
+        "responseHeaders": {
+          "content-length": "18383",
+          "access-control-allow-origin": "*",
+          "content-type": "image/avif",
+          "etag": "\"Xlqtjhi2oQfy0tD9oM16/w6dWRPJOiiDdJ3xgTYVKDE\"",
+          "fastly-io-info": "ifsz=8048349 idim=6742x4495 ifmt=jpeg ofsz=18383 odim=640x427 ofmt=avif",
+          "fastly-io-served-by": "vpop-etou8240194",
+          "fastly-stats": "io=1",
+          "server": "AmazonS3",
+          "x-amz-id-2": "DQvpTbWpUASPDkjkAKtZxDLDUeMrIRaDQz1CDF96nY2azjSiv2r2/z0yJupgtUYRIx0WlMkTGQw=",
+          "x-amz-request-id": "QCR9SJWCQZ6YS3GM",
+          "x-amz-server-side-encryption": "AES256",
+          "via": "1.1 varnish, 1.1 varnish",
+          "cache-control": "max-age=31622400",
+          "accept-ranges": "bytes",
+          "age": "175800",
+          "date": "Thu, 12 Dec 2024 19:50:53 GMT",
+          "x-served-by": "cache-lcy-eglc8600029-LCY, cache-dfw-kdal2120038-DFW",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "31, 0",
+          "x-timer": "S1734033053.363838,VS0,VE1",
+          "vary": "Accept",
+          "xbe": "shield_london_city_uk",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"
+        },
+        "responseBodyHash": "a0227d8f998aa678c16c07298a8534ca93941231f426dd217788c8f6209a93cf",
+        "initiators": [
+          "https://www.independent.co.uk/us"
+        ],
+        "time": 0.11698599997907877
+      },
+      {
+        "url": "https://www.independent.co.uk/_build/react-archipelago.64ce4dd022f2174cd44f.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 77030,
+        "remoteIPAddress": "[2a04:4e42:1b::347]",
+        "responseHeaders": {
+          "content-length": "76230",
+          "content-type": "application/javascript; charset=UTF-8",
+          "cache-tag": "independent.co.uk,v8.21.0,react-archipelago.64ce4dd022f2174cd44f.js,javascript",
+          "etag": "W/\"3f9fb-193ba3761e0\"",
+          "last-modified": "Thu, 12 Dec 2024 09:33:32 GMT",
+          "strict-transport-security": "max-age=63072000;  preload",
+          "cache-control": "public, max-age=2592000",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:53 GMT",
+          "age": "35937",
+          "canary": "1",
+          "x-backend": "flow-us",
+          "content-security-policy": "default-src https: 'unsafe-inline' data: blob:; frame-src https: data:; script-src https: 'unsafe-inline' 'unsafe-eval' blob: 'unsafe-inline'; media-src https: 'unsafe-inline' data: blob:; img-src https: http: data: blob:; frame-ancestors https:",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "feature-policy": "camera 'none'; microphone 'none'; midi 'none'; geolocation 'none'",
+          "permissions-policy": "camera=(), microphone=(), midi=(), geolocation=(), interest-cohort=()",
+          "x-served-by": "cache-lga21977-LGA, cache-dfw-ktki8620061-DFW",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "5, 41",
+          "x-timer": "S1734033053.297630,VS0,VE1",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"
+        },
+        "responseBodyHash": "6f31ff04e9dfb731b2d93d3ec99c9ceefaf8ff7ce7fc8544ef78a037957eef5c",
+        "initiators": [
+          "https://www.independent.co.uk/us"
+        ],
+        "time": 0.05123999994248152
+      },
+      {
+        "url": "https://www.independent.co.uk/_build/react-components-base.ce91a034f77202c136f9.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 96669,
+        "remoteIPAddress": "[2a04:4e42:1b::347]",
+        "responseHeaders": {
+          "content-length": "95868",
+          "content-type": "application/javascript; charset=UTF-8",
+          "cache-tag": "independent.co.uk,v8.21.0,react-components-base.ce91a034f77202c136f9.js,javascript",
+          "etag": "W/\"5afc3-193ba3761e0\"",
+          "last-modified": "Thu, 12 Dec 2024 09:33:32 GMT",
+          "strict-transport-security": "max-age=63072000;  preload",
+          "cache-control": "public, max-age=2592000",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:53 GMT",
+          "age": "35937",
+          "canary": "1",
+          "x-backend": "flow-us",
+          "content-security-policy": "default-src https: 'unsafe-inline' data: blob:; frame-src https: data:; script-src https: 'unsafe-inline' 'unsafe-eval' blob: 'unsafe-inline'; media-src https: 'unsafe-inline' data: blob:; img-src https: http: data: blob:; frame-ancestors https:",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "feature-policy": "camera 'none'; microphone 'none'; midi 'none'; geolocation 'none'",
+          "permissions-policy": "camera=(), microphone=(), midi=(), geolocation=(), interest-cohort=()",
+          "x-served-by": "cache-lga21943-LGA, cache-dfw-ktki8620061-DFW",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "4, 43",
+          "x-timer": "S1734033053.298096,VS0,VE0",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"
+        },
+        "responseBodyHash": "61405ad40753d5155936c570922496bde7c4526186732ea0abbd53011ac3c9f8",
+        "initiators": [
+          "https://www.independent.co.uk/us"
+        ],
+        "time": 0.07262200000695884
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 34597,
+        "remoteIPAddress": "[2607:f8b0:4002:c10::9b]",
+        "responseHeaders": {
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "timing-allow-origin": "*",
+          "cross-origin-resource-policy": "cross-origin",
+          "vary": "Accept-Encoding",
+          "date": "Thu, 12 Dec 2024 19:50:53 GMT",
+          "expires": "Thu, 12 Dec 2024 19:50:53 GMT",
+          "cache-control": "private, max-age=900, stale-while-revalidate=3600",
+          "content-type": "text/javascript; charset=UTF-8",
+          "etag": "224 / 20069 / m202412090101 / config-hash: 11938167693786803437",
+          "access-control-allow-origin": "*",
+          "x-content-type-options": "nosniff",
+          "content-disposition": "attachment; filename=\"f.txt\"",
+          "content-encoding": "br",
+          "server": "cafe",
+          "content-length": "34071",
+          "x-xss-protection": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "b6b46ee582483dd7782c3042e12c1c21898744f564eec64bb1a3e1ca2b314550",
+        "initiators": [
+          "https://www.independent.co.uk/us"
+        ],
+        "time": 0.14402100001461804
+      },
+      {
+        "url": "https://www.independent.co.uk/js/adobe.raw.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 32550,
+        "remoteIPAddress": "[2a04:4e42:1b::347]",
+        "responseHeaders": {
+          "content-length": "31777",
+          "content-type": "application/javascript; charset=UTF-8",
+          "cache-tag": "independent.co.uk,v8.20.0,adobe.raw.js",
+          "etag": "W/\"17daa-193961da328\"",
+          "last-modified": "Thu, 05 Dec 2024 09:19:05 GMT",
+          "strict-transport-security": "max-age=63072000;  preload",
+          "cache-control": "public, max-age=2592000",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:53 GMT",
+          "age": "35937",
+          "canary": "1",
+          "x-backend": "flow-us",
+          "content-security-policy": "default-src https: 'unsafe-inline' data: blob:; frame-src https: data:; script-src https: 'unsafe-inline' 'unsafe-eval' blob: 'unsafe-inline'; media-src https: 'unsafe-inline' data: blob:; img-src https: http: data: blob:; frame-ancestors https:",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "feature-policy": "camera 'none'; microphone 'none'; midi 'none'; geolocation 'none'",
+          "permissions-policy": "camera=(), microphone=(), midi=(), geolocation=(), interest-cohort=()",
+          "x-served-by": "cache-lga21934-LGA, cache-dfw-ktki8620061-DFW",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "92, 1324",
+          "x-timer": "S1734033053.300438,VS0,VE0",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"
+        },
+        "responseBodyHash": "1a2868c690a38ed62844276cc704bce1b844cc9d281f6bfe44e571bb817b4be4",
+        "initiators": [
+          "https://www.independent.co.uk/us"
+        ],
+        "time": 0.07285699993371964
+      },
+      {
+        "url": "https://www.independent.co.uk/_build/main.c3dc99d8a06eb0839ccb.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 55836,
+        "remoteIPAddress": "[2a04:4e42:1b::347]",
+        "responseHeaders": {
+          "content-length": "55045",
+          "content-type": "application/javascript; charset=UTF-8",
+          "cache-tag": "independent.co.uk,v8.21.0,main.c3dc99d8a06eb0839ccb.js,javascript",
+          "etag": "W/\"331fd-193ba3761e0\"",
+          "last-modified": "Thu, 12 Dec 2024 09:33:32 GMT",
+          "strict-transport-security": "max-age=63072000;  preload",
+          "cache-control": "public, max-age=2592000",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:53 GMT",
+          "age": "13713",
+          "canary": "1",
+          "x-backend": "flow-us",
+          "content-security-policy": "default-src https: 'unsafe-inline' data: blob:; frame-src https: data:; script-src https: 'unsafe-inline' 'unsafe-eval' blob: 'unsafe-inline'; media-src https: 'unsafe-inline' data: blob:; img-src https: http: data: blob:; frame-ancestors https:",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "feature-policy": "camera 'none'; microphone 'none'; midi 'none'; geolocation 'none'",
+          "permissions-policy": "camera=(), microphone=(), midi=(), geolocation=(), interest-cohort=()",
+          "x-served-by": "cache-lga21927-LGA, cache-dfw-ktki8620061-DFW",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "5, 22",
+          "x-timer": "S1734033053.300418,VS0,VE0",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"
+        },
+        "responseBodyHash": "fd18fd55bbc6aec8b9a127ddda6abac1bf82f19f85471fb3e63d4f0fc955e8ba",
+        "initiators": [
+          "https://www.independent.co.uk/us"
+        ],
+        "time": 0.07379000005312264
+      },
+      {
+        "url": "https://www.independent.co.uk/_build/init-piano.460e2cd18dfafd1b3589.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4636,
+        "remoteIPAddress": "[2a04:4e42:1b::347]",
+        "responseHeaders": {
+          "content-length": "3845",
+          "content-type": "application/javascript; charset=UTF-8",
+          "cache-tag": "independent.co.uk,v8.21.0,init-piano.460e2cd18dfafd1b3589.js,javascript",
+          "etag": "W/\"2614-193ba3761e0\"",
+          "last-modified": "Thu, 12 Dec 2024 09:33:32 GMT",
+          "strict-transport-security": "max-age=63072000;  preload",
+          "cache-control": "public, max-age=2592000",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:53 GMT",
+          "age": "35937",
+          "canary": "1",
+          "x-backend": "flow-us",
+          "content-security-policy": "default-src https: 'unsafe-inline' data: blob:; frame-src https: data:; script-src https: 'unsafe-inline' 'unsafe-eval' blob: 'unsafe-inline'; media-src https: 'unsafe-inline' data: blob:; img-src https: http: data: blob:; frame-ancestors https:",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "feature-policy": "camera 'none'; microphone 'none'; midi 'none'; geolocation 'none'",
+          "permissions-policy": "camera=(), microphone=(), midi=(), geolocation=(), interest-cohort=()",
+          "x-served-by": "cache-lga21929-LGA, cache-dfw-ktki8620061-DFW",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "5, 43",
+          "x-timer": "S1734033053.300578,VS0,VE0",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"
+        },
+        "responseBodyHash": "7383fa442ffda1eb165cc2a6511f37a44758aa35702212024241606ea599faef",
+        "initiators": [
+          "https://www.independent.co.uk/us"
+        ],
+        "time": 0.07268800004385412
+      },
+      {
+        "url": "https://static.independent.co.uk/2024/12/12/15/newFile.jpg?quality=75&width=640&auto=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 24541,
+        "remoteIPAddress": "[2a04:4e42:26::347]",
+        "responseHeaders": {
+          "content-length": "23954",
+          "access-control-allow-origin": "*",
+          "content-type": "image/avif",
+          "etag": "\"UGV/pyaOU1VC/XYQR5h9a4durJFCOw/veayOcWdvxyQ\"",
+          "fastly-io-info": "ifsz=1808743 idim=1928x1286 ifmt=jpeg ofsz=23954 odim=640x427 ofmt=avif",
+          "fastly-io-served-by": "vpop-etou8240196",
+          "fastly-stats": "io=1",
+          "server": "AmazonS3",
+          "x-amz-id-2": "1OO7+7FRneHj4Art4DNua2gvqJdAanZnndrsZ7PDUYF5PaoxDfCrU78T1O0SaO212pUdoXbSI/JaP+EuWXXcCj1JvzxDkgwk",
+          "x-amz-request-id": "Q2XXC68SGAAV8CTB",
+          "x-amz-server-side-encryption": "AES256",
+          "via": "1.1 varnish, 1.1 varnish",
+          "cache-control": "max-age=31622400",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:53 GMT",
+          "age": "15887",
+          "x-served-by": "cache-lcy-eglc8600028-LCY, cache-dfw-kdal2120038-DFW",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "27, 1",
+          "x-timer": "S1734033053.363792,VS0,VE1",
+          "vary": "Accept",
+          "xbe": "shield_london_city_uk",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"
+        },
+        "responseBodyHash": "ff0339b851454c6342f6817351f7b940b6078c1fa523fc7de45b226a425aaad3",
+        "initiators": [
+          "https://www.independent.co.uk/us"
+        ],
+        "time": 0.08760099997743964
+      },
+      {
+        "url": "https://static.independent.co.uk/2024/12/05/15/41ArueoZ-720.jpg?quality=75&width=640&auto=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1678,
+        "remoteIPAddress": "[2a04:4e42:26::347]",
+        "responseHeaders": {
+          "content-length": "1112",
+          "access-control-allow-origin": "*",
+          "content-type": "image/avif",
+          "etag": "\"11NWVYyUXOqquUtvZTg2jy8SxK8Q3n+PJ/iN4fikkes\"",
+          "fastly-io-info": "ifsz=9114 idim=720x406 ifmt=jpeg ofsz=1112 odim=640x361 ofmt=avif",
+          "fastly-io-served-by": "vpop-etou8240199",
+          "fastly-stats": "io=1",
+          "server": "AmazonS3",
+          "x-amz-id-2": "NVI7GaY6Bg/5KW83+FjJ8G5Gr1yabFhmVMYS/VnzhETh9n6UAQDT+Pi2X7fRvamOmD6CDiPb9Zw=",
+          "x-amz-request-id": "Q92ZJGAFDE59CETB",
+          "x-amz-server-side-encryption": "AES256",
+          "via": "1.1 varnish, 1.1 varnish",
+          "cache-control": "max-age=31622400",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:53 GMT",
+          "age": "620669",
+          "x-served-by": "cache-lcy-eglc8600034-LCY, cache-dfw-kdal2120038-DFW",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "24, 1",
+          "x-timer": "S1734033053.363762,VS0,VE2",
+          "vary": "Accept",
+          "xbe": "shield_london_city_uk",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"
+        },
+        "responseBodyHash": "4613dda8e857e7695222b0f41efe57a7a49d358d935597094d8e1b02ef73d5dc",
+        "initiators": [
+          "https://www.independent.co.uk/us"
+        ],
+        "time": 0.08911600010469556
+      },
+      {
+        "url": "https://static.independent.co.uk/2024/12/11/14/SEI232732782.jpg?quality=75&width=640&auto=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 15357,
+        "remoteIPAddress": "[2a04:4e42:26::347]",
+        "responseHeaders": {
+          "content-length": "14776",
+          "access-control-allow-origin": "*",
+          "content-type": "image/avif",
+          "etag": "\"Piv5xxjIEj8rOJoy2UGisMPbvHLt7oNNiMfqER743HE\"",
+          "fastly-io-info": "ifsz=2154624 idim=2531x1687 ifmt=jpeg ofsz=14776 odim=640x427 ofmt=avif",
+          "fastly-io-served-by": "vpop-etou8240193",
+          "fastly-stats": "io=1",
+          "server": "AmazonS3",
+          "x-amz-id-2": "9QjavAbr1h6wIBpsfO73TUcJ1e3L6yZDmwCYWpxPiILsvl17G9eprJHkrwSz7O1mjaNREe4gwbkeYyIwpq2RBgliyWzIfp16",
+          "x-amz-request-id": "7RT9YE2T80BH6C7Z",
+          "x-amz-server-side-encryption": "AES256",
+          "via": "1.1 varnish, 1.1 varnish",
+          "cache-control": "max-age=31622400",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:53 GMT",
+          "age": "94764",
+          "x-served-by": "cache-lcy-eglc8600043-LCY, cache-dfw-kdal2120038-DFW",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "29, 1",
+          "x-timer": "S1734033053.364302,VS0,VE2",
+          "vary": "Accept",
+          "xbe": "shield_london_city_uk",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"
+        },
+        "responseBodyHash": "598620a24d3b60787dc760d95d2ecf7956d0ef57c0205d3739d04230941b6c5e",
+        "initiators": [
+          "https://www.independent.co.uk/us"
+        ],
+        "time": 0.08971600001677871
+      },
+      {
+        "url": "https://sb.scorecardresearch.com/internal-cs/default/beacon.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5656,
+        "remoteIPAddress": "3.166.96.11",
+        "responseHeaders": {
+          "content-type": "text/javascript",
+          "last-modified": "Mon, 09 Dec 2024 15:15:36 GMT",
+          "content-encoding": "gzip",
+          "x-amz-server-side-encryption": "AES256",
+          "server": "AmazonS3",
+          "date": "Thu, 12 Dec 2024 15:16:32 GMT",
+          "cache-control": "max-age=86400",
+          "etag": "W/\"f938e5cf59280e13f9597c828fb3b891\"",
+          "vary": "accept-encoding",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 53a450600a3f9ee62aac66af6fbe27ca.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P3",
+          "x-amz-cf-id": "Nl6kYgbLHxh0oAOdKpjYWiehdowwx4xLfL9XaWFlSJDOITH_-8EiZQ==",
+          "age": "16461"
+        },
+        "responseBodyHash": "04de103e0254b5ac670faee52a061486bfbcf2f97946776f6917ce261b18f7c3",
+        "redirectedFrom": "https://sb.scorecardresearch.com/cs/10476312/beacon.js",
+        "initiators": [
+          "https://www.independent.co.uk/js/comscore.raw.js"
+        ],
+        "time": 0.016755999997258186
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202412090101/pubads_impl.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 156809,
+        "remoteIPAddress": "[2607:f8b0:4002:c10::9b]",
+        "responseHeaders": {
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "timing-allow-origin": "*",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-content-type-options": "nosniff",
+          "content-disposition": "attachment; filename=\"f.txt\"",
+          "content-encoding": "br",
+          "server": "cafe",
+          "content-length": "156760",
+          "x-xss-protection": "0",
+          "date": "Thu, 12 Dec 2024 17:27:03 GMT",
+          "expires": "Fri, 12 Dec 2025 17:27:03 GMT",
+          "cache-control": "public, immutable, max-age=31536000",
+          "age": "8630",
+          "etag": "5395541545685299795",
+          "content-type": "text/javascript; charset=UTF-8",
+          "vary": "Accept-Encoding",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "04d85fdaa240e9c6964c1b3afe75b8802720a8d9a98e6c35f346f599b1113af4",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+        ],
+        "time": 0.16199299995787442
+      },
+      {
+        "url": "https://sb.scorecardresearch.com/b?c1=2&c2=10476312&cs_fpcu=96d9d34a9e0244fdb39bf00f395be827&cs_it=b9&cv=4.11.0%2B2412060957&ns__t=1734033053892&ns_c=UTF-8&cs_cfg=1101110&cs_ucfr=&cs_ucc=1&cs_cmp_id=0&cs_cmp_rt=0&cs_cmp_av=1.1&gpp_sid=&c7=https%3A%2F%2Fwww.independent.co.uk%2Fus&c8=The%20Independent%20%7C%20Latest%20news%20and%20features%20from%20US%2C%20UK%20and%20worldwide&c9=",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "3.166.96.11",
+        "responseHeaders": {
+          "content-length": "0",
+          "date": "Thu, 12 Dec 2024 19:50:53 GMT",
+          "location": "/b2?c1=2&c2=10476312&cs_fpcu=96d9d34a9e0244fdb39bf00f395be827&cs_it=b9&cv=4.11.0%2B2412060957&ns__t=1734033053892&ns_c=UTF-8&cs_cfg=1101110&cs_ucfr=&cs_ucc=1&cs_cmp_id=0&cs_cmp_rt=0&cs_cmp_av=1.1&gpp_sid=&c7=https%3A%2F%2Fwww.independent.co.uk%2Fus&c8=The%20Independent%20%7C%20Latest%20news%20and%20features%20from%20US%2C%20UK%20and%20worldwide&c9=",
+          "set-cookie": "UID=17Fab386f0d05e427defa8c1734033053; SameSite=None; Secure; domain=.scorecardresearch.com; path=/; max-age=33696000\nXID=17Fab386f0d05e427defa8c1734033053; SameSite=None; Secure; Partitioned; domain=.scorecardresearch.com; path=/; max-age=33696000",
+          "accept-ch": "UA, Platform, Arch, Model, Mobile",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 53a450600a3f9ee62aac66af6fbe27ca.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P3",
+          "x-amz-cf-id": "nRITjWOUx86ufZJuxNuDZsgCdnwcK4KNWJSPwGoewU54IYvxAQl7rg=="
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://sb.scorecardresearch.com/b2?c1=2&c2=10476312&cs_fpcu=96d9d34a9e0244fdb39bf00f395be827&cs_it=b9&cv=4.11.0%2B2412060957&ns__t=1734033053892&ns_c=UTF-8&cs_cfg=1101110&cs_ucfr=&cs_ucc=1&cs_cmp_id=0&cs_cmp_rt=0&cs_cmp_av=1.1&gpp_sid=&c7=https%3A%2F%2Fwww.independent.co.uk%2Fus&c8=The%20Independent%20%7C%20Latest%20news%20and%20features%20from%20US%2C%20UK%20and%20worldwide&c9=",
+        "initiators": [
+          "https://sb.scorecardresearch.com/cs/10476312/beacon.js"
+        ],
+        "time": 0.6804909999482334
+      },
+      {
+        "url": "https://cmpv2.independent.co.uk/unified/4.27.3/gdpr-tcf.00cd3b6a2692e330e4ec.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 25773,
+        "remoteIPAddress": "108.157.150.39",
+        "responseHeaders": {
+          "content-type": "text/javascript",
+          "date": "Wed, 11 Dec 2024 14:54:51 GMT",
+          "last-modified": "Tue, 10 Dec 2024 17:21:00 GMT",
+          "content-encoding": "br",
+          "x-amz-server-side-encryption": "AES256",
+          "cache-control": "max-age=31536000",
+          "server": "AmazonS3",
+          "etag": "W/\"ea06a4a0a473e3527170a161bf999f4d\"",
+          "vary": "accept-encoding",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 a07b09303eaab0fed64ae706529794fa.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P2",
+          "x-amz-cf-id": "npAWcfk8c-w3FcGQiMITV2MKX937pJSHF6nAaSfGDSjYk7dIZvmndA==",
+          "age": "104164"
+        },
+        "responseBodyHash": "a9d71756522e7ae94b93a30c45fb51fa255d23144e4ff6e94834f6611c050291",
+        "initiators": [
+          "https://cmpv2.independent.co.uk/unified/wrapperMessagingWithoutDetection.js"
+        ],
+        "time": 0.01678499998524785
+      },
+      {
+        "url": "https://cmpv2.independent.co.uk/unified/4.27.3/ccpa-gpp.53ed60b33c3bcffa70c7.bundle.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 35271,
+        "remoteIPAddress": "108.157.150.39",
+        "responseHeaders": {
+          "content-type": "text/javascript",
+          "date": "Wed, 11 Dec 2024 14:54:51 GMT",
+          "last-modified": "Tue, 10 Dec 2024 17:21:00 GMT",
+          "content-encoding": "br",
+          "x-amz-server-side-encryption": "AES256",
+          "cache-control": "max-age=31536000",
+          "server": "AmazonS3",
+          "etag": "W/\"592a26a774efaae81ecdcad1231661d4\"",
+          "vary": "accept-encoding",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 a07b09303eaab0fed64ae706529794fa.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P2",
+          "x-amz-cf-id": "IjnN5NC0WojLswJFkJwPMEDASLnm7FqFmjv8iD8A7qbao2oAsHn8Pg==",
+          "age": "104164"
+        },
+        "responseBodyHash": "3eefdfc82cb5caca865fb8552773cd65f4d6bed8cc5d562f970e0cffdcda1426",
+        "initiators": [
+          "https://cmpv2.independent.co.uk/unified/wrapperMessagingWithoutDetection.js"
+        ],
+        "time": 0.01563400006853044
+      },
+      {
+        "url": "https://cmpv2.independent.co.uk/mms/v2/get_site_data?hasCsp=true&href=https%3A%2F%2Fwww.independent.co.uk%2Fus&account_id=1746",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 611,
+        "remoteIPAddress": "108.157.150.39",
+        "responseHeaders": {
+          "content-type": "application/javascript",
+          "date": "Wed, 11 Dec 2024 22:20:45 GMT",
+          "access-control-allow-origin": "*",
+          "access-control-allow-methods": "GET",
+          "access-control-allow-credentials": "true",
+          "x-sp-mms-node": "ip-10-128-16-229",
+          "strict-transport-security": "max-age=15552000; includeSubdomains",
+          "cache-control": "max-age=3600, s-maxage=86400",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 a07b09303eaab0fed64ae706529794fa.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P2",
+          "x-amz-cf-id": "AFeDGlSKnfv-oM_3P9qHYQAPCQcuZ-ZlhmHUUD0AU81XCTdXtLILyQ==",
+          "age": "77409"
+        },
+        "responseBodyHash": "de75d2a69631c941e263d91aaca5708a493344617910a3e1127107f3fc041a3c",
+        "initiators": [
+          "https://cmpv2.independent.co.uk/unified/wrapperMessagingWithoutDetection.js"
+        ],
+        "time": 0.043895999900996685
+      },
+      {
+        "url": "https://dpm.demdex.net/id?d_visid_ver=4.4.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=28280C0F53DB09900A490D45%40AdobeOrg&d_nsid=0&ts=1734033054583",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 919,
+        "remoteIPAddress": "52.37.14.226",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:50:54 GMT",
+          "content-type": "application/json;charset=utf-8",
+          "content-length": "310",
+          "x-tid": "iYcV8Xx0RHM=",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private",
+          "pragma": "no-cache",
+          "expires": "Thu, 01 Jan 1970 00:00:00 UTC",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT\"",
+          "access-control-allow-origin": "https://www.independent.co.uk",
+          "vary": "Origin",
+          "access-control-allow-credentials": "true",
+          "dcs": "dcs-prod-usw2-1-v065-0fbc1da93.edge-usw2.demdex.com 2 ms",
+          "set-cookie": "demdex=16114787620811106861117014303913870313; Max-Age=15552000; Expires=Tue, 10 Jun 2025 19:50:54 GMT; Path=/; Domain=.demdex.net; Secure; SameSite=None",
+          "content-encoding": "gzip"
+        },
+        "responseBodyHash": "c34b0d8bd098930fe6dbe9185daa59f061952f66561ddbc4d1a062503c564a28",
+        "initiators": [
+          "https://www.independent.co.uk/js/adobe.raw.js",
+          "https://www.independent.co.uk/_build/main.c3dc99d8a06eb0839ccb.js"
+        ],
+        "time": 0.2436380002181977
+      },
+      {
+        "url": "https://www.npttech.com/advertising.js",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 3236,
+        "remoteIPAddress": "[2606:4700:3030::6815:4222]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:50:54 GMT",
+          "content-type": "application/javascript",
+          "x-amz-id-2": "rmwVsgwheWaFewcDJILmCr8p5VpcHWMmsfQdDnqG/PXH9DomOKXR2QUyZEMsh9ppA/A43xEVc9I=",
+          "x-amz-request-id": "PW2R5DWPK84Y32WY",
+          "access-control-allow-origin": "*",
+          "access-control-allow-methods": "GET, HEAD",
+          "access-control-max-age": "3000",
+          "vary": "Origin, Access-Control-Request-Headers, Access-Control-Request-Method, Accept-Encoding",
+          "last-modified": "Tue, 18 Oct 2022 13:20:01 GMT",
+          "x-amz-version-id": "AqISHxpKTQvORh8RqBdMoHK.Vq6tURDV",
+          "etag": "W/\"df0e1827cd8f289a645f38d8fecaf6e0\"",
+          "cache-control": "max-age=28800",
+          "cf-cache-status": "HIT",
+          "age": "35",
+          "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=fvY9ueFj5P9PecbDHoaNjfLG7fpDzsvmmf7nSE3LXNV8kqfTPC5bHtRCYHmgHk%2BwldlifQq6j76wR7Hc3GZe9XTZshhwEs1hjcYu%2Bo%2FMdrQ%2BxWgFRw0dVxixFeq81QqATrGyft6b85%2BKtd9xkzM%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+          "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+          "server": "cloudflare",
+          "cf-ray": "8f103f000ff3f090-DFW",
+          "content-encoding": "br",
+          "alt-svc": "h3=\":443\"; ma=86400",
+          "server-timing": "cfL4;desc=\"?proto=TCP&rtt=20495&min_rtt=20488&rtt_var=7697&sent=6&recv=7&lost=0&retrans=0&sent_bytes=2870&recv_bytes=973&delivery_rate=131217&cwnd=198&unsent_bytes=0&cid=b9010fc966435b85&ts=55&x=0\""
+        },
+        "responseBodyHash": "5b33d89b63f0526bc3d87febe6fa085f09521427e58faf605413b50635872ac1",
+        "initiators": [
+          "https://www.independent.co.uk/_build/main.c3dc99d8a06eb0839ccb.js"
+        ],
+        "time": 0.1225320000667125
+      },
+      {
+        "url": "https://cdn.tinypass.com/api/tinypass.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 125097,
+        "remoteIPAddress": "[2606:4700::6812:907e]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:50:54 GMT",
+          "content-type": "application/javascript",
+          "x-amz-id-2": "ARp3IEtgqjFN+LORW70qp5t8tveDJ4EKQuayQN7gy7nTC296FmDns167eyrlq8LuaRkO51Giqx8=",
+          "x-amz-request-id": "AAA9YDTPXPZPTMNB",
+          "x-amz-replication-status": "COMPLETED",
+          "last-modified": "Mon, 18 Nov 2024 08:07:28 GMT",
+          "etag": "W/\"2876b0a984bb759257482d217ff62d0a\"",
+          "x-amz-server-side-encryption": "AES256",
+          "cache-control": "public, max-age=14400",
+          "x-amz-version-id": "fIuKTmQ.ufCrNfOf81WXk84FvTicqDxd",
+          "cf-cache-status": "HIT",
+          "age": "4098",
+          "expires": "Thu, 12 Dec 2024 23:50:54 GMT",
+          "vary": "Accept-Encoding",
+          "strict-transport-security": "max-age=86400; includeSubDomains",
+          "server": "cloudflare",
+          "cf-ray": "8f103f000f80617c-ORD",
+          "content-encoding": "br",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "e0fcca3a5edf35a40436e5e2a5cab30b9f0fd52034b2657c44e7c4c16c20a6ca",
+        "initiators": [
+          "https://www.independent.co.uk/_build/init-piano.460e2cd18dfafd1b3589.js"
+        ],
+        "time": 0.14072200004011393
+      },
+      {
+        "url": "https://sb.scorecardresearch.com/b2?c1=2&c2=10476312&cs_fpcu=96d9d34a9e0244fdb39bf00f395be827&cs_it=b9&cv=4.11.0%2B2412060957&ns__t=1734033053892&ns_c=UTF-8&cs_cfg=1101110&cs_ucfr=&cs_ucc=1&cs_cmp_id=0&cs_cmp_rt=0&cs_cmp_av=1.1&gpp_sid=&c7=https%3A%2F%2Fwww.independent.co.uk%2Fus&c8=The%20Independent%20%7C%20Latest%20news%20and%20features%20from%20US%2C%20UK%20and%20worldwide&c9=",
+        "method": "GET",
+        "type": "Image",
+        "status": 204,
+        "size": 224,
+        "remoteIPAddress": "3.166.96.11",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:50:54 GMT",
+          "accept-ch": "UA, Platform, Arch, Model, Mobile",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 53a450600a3f9ee62aac66af6fbe27ca.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P3",
+          "x-amz-cf-id": "eAWaEkyWZboNVXBis6-w1FDhPqjyAuufE1t1B_KYDZC6bNI0fs9nmA=="
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "redirectedFrom": "https://sb.scorecardresearch.com/b?c1=2&c2=10476312&cs_fpcu=96d9d34a9e0244fdb39bf00f395be827&cs_it=b9&cv=4.11.0%2B2412060957&ns__t=1734033053892&ns_c=UTF-8&cs_cfg=1101110&cs_ucfr=&cs_ucc=1&cs_cmp_id=0&cs_cmp_rt=0&cs_cmp_av=1.1&gpp_sid=&c7=https%3A%2F%2Fwww.independent.co.uk%2Fus&c8=The%20Independent%20%7C%20Latest%20news%20and%20features%20from%20US%2C%20UK%20and%20worldwide&c9=",
+        "initiators": [
+          "https://sb.scorecardresearch.com/cs/10476312/beacon.js"
+        ],
+        "time": 0.0789570000488311
+      },
+      {
+        "url": "https://cmpv2.independent.co.uk/wrapper/v2/meta-data?hasCsp=true&accountId=1746&env=prod&metadata=%7B%22gdpr%22%3A%7B%7D%2C%22ccpa%22%3A%7B%7D%7D&propertyId=17483&scriptVersion=4.27.3&scriptType=unified",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 855,
+        "remoteIPAddress": "108.157.150.39",
+        "responseHeaders": {
+          "content-type": "application/json; charset=utf-8",
+          "content-length": "328",
+          "date": "Thu, 12 Dec 2024 19:11:19 GMT",
+          "x-powered-by": "Express",
+          "access-control-allow-origin": "*",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization, SP_SCRIPT_VERSION",
+          "access-control-allow-methods": "GET, PUT, POST, DELETE",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "strict-transport-security": "max-age=15552000; includeSubDomains",
+          "vary": "Accept-Encoding",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 a07b09303eaab0fed64ae706529794fa.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P2",
+          "x-amz-cf-id": "rJ084NX1o47uVCRus-7AdURwnPkIFPejwZH7aMUWqGhrbZmMYBYe1w==",
+          "age": "2375"
+        },
+        "responseBodyHash": "75c0bc9d35e3bf3d6e033297cf67a2f913eb6203bc92718a54aad0af7a291e13",
+        "initiators": [
+          "https://cmpv2.independent.co.uk/unified/wrapperMessagingWithoutDetection.js"
+        ],
+        "time": 0.015358000062406063
+      },
+      {
+        "url": "https://www.independent.co.uk/sw.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "[2a04:4e42:1b::347]",
+        "responseHeaders": {
+          "content-length": "23501",
+          "content-type": "application/javascript; charset=UTF-8",
+          "cache-tag": "independent.co.uk,v8.20.0,sw.js",
+          "etag": "W/\"1b376-193961fba50\"",
+          "last-modified": "Thu, 05 Dec 2024 09:21:22 GMT",
+          "strict-transport-security": "max-age=63072000;  preload",
+          "cache-control": "public, max-age=2592000",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:54 GMT",
+          "age": "35938",
+          "canary": "1",
+          "x-backend": "flow-us",
+          "content-security-policy": "default-src https: 'unsafe-inline' data: blob:; frame-src https: data:; script-src https: 'unsafe-inline' 'unsafe-eval' blob: 'unsafe-inline'; media-src https: 'unsafe-inline' data: blob:; img-src https: http: data: blob:; frame-ancestors https:",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "feature-policy": "camera 'none'; microphone 'none'; midi 'none'; geolocation 'none'",
+          "permissions-policy": "camera=(), microphone=(), midi=(), geolocation=(), interest-cohort=()",
+          "x-served-by": "cache-lga21941-LGA, cache-dfw-ktki8620061-DFW",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "269, 1692",
+          "x-timer": "S1734033055.669144,VS0,VE1",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"
+        },
+        "responseBodyHash": "ca39e0b1a973de9723c6bbb32f9679a646792e3490fa9d1b1eaa6811ff5c85e3",
+        "initiators": [],
+        "time": 0.029260000213980675
+      },
+      {
+        "url": "https://storage.googleapis.com/workbox-cdn/releases/6.1.5/workbox-sw.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "[2607:f8b0:4002:c10::cf]",
+        "responseHeaders": {
+          "x-goog-generation": "1618258634676658",
+          "x-goog-metageneration": "1",
+          "x-goog-stored-content-encoding": "gzip",
+          "x-goog-stored-content-length": "748",
+          "content-encoding": "gzip",
+          "x-goog-hash": "crc32c=ybJZ3A==\nmd5=ZUrRxXM6u0foFFXi6wwR7A==",
+          "x-goog-storage-class": "MULTI_REGIONAL",
+          "accept-ranges": "bytes",
+          "content-length": "748",
+          "access-control-allow-origin": "*",
+          "x-guploader-uploadid": "AFiumC4DA-qTvB54GERprW7ZDlK5V1MXOkNzyvlPg2f7qCnBL67XKGfTcaFf7lAbBLYkYfYo4pg",
+          "access-control-expose-headers": "Content-Length, Date, Server, Transfer-Encoding, X-GUploader-UploadID, X-Google-Trace",
+          "server": "UploadServer",
+          "date": "Thu, 12 Dec 2024 19:40:56 GMT",
+          "expires": "Fri, 12 Dec 2025 19:40:56 GMT",
+          "cache-control": "public, max-age=31536000",
+          "age": "598",
+          "last-modified": "Mon, 12 Apr 2021 20:17:14 GMT",
+          "etag": "\"654ad1c5733abb47e81455e2eb0c11ec\"",
+          "content-type": "application/javascript",
+          "vary": "Accept-Encoding",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "e1081949e15be121c00e5ed48c24f6665f5662e33b8295d1893e5f4d258e1ef0",
+        "initiators": [
+          "https://www.independent.co.uk/sw.js"
+        ],
+        "time": 0.13077899999916553
+      },
+      {
+        "url": "https://cmpv2.independent.co.uk/wrapper/v2/messages?hasCsp=true&env=prod&body=%7B%22accountId%22%3A1746%2C%22campaignEnv%22%3A%22prod%22%2C%22campaigns%22%3A%7B%22ccpa%22%3A%7B%22alwaysDisplayDNS%22%3Afalse%2C%22hasLocalData%22%3Afalse%2C%22targetingParams%22%3A%7B%22ad_free%22%3Afalse%2C%22registered%22%3Afalse%2C%22premium%22%3Afalse%7D%7D%2C%22gdpr%22%3A%7B%22consentStatus%22%3A%7B%7D%2C%22targetingParams%22%3A%7B%22ad_free%22%3Afalse%2C%22registered%22%3Afalse%2C%22premium%22%3Afalse%7D%7D%7D%2C%22clientMMSOrigin%22%3A%22https%3A%2F%2Fcmpv2.independent.co.uk%22%2C%22hasCSP%22%3Atrue%2C%22includeData%22%3A%7B%22localState%22%3A%7B%22type%22%3A%22string%22%7D%2C%22actions%22%3A%7B%22type%22%3A%22RecordString%22%7D%2C%22cookies%22%3A%7B%22type%22%3A%22RecordString%22%7D%7D%2C%22propertyHref%22%3A%22https%3A%2F%2Fwww.independent.co.uk%2Fus%22%7D&localState=null&metadata=%7B%22ccpa%22%3A%7B%22applies%22%3Afalse%7D%2C%22gdpr%22%3A%7B%22applies%22%3Afalse%7D%7D&nonKeyedLocalState=null&ch=469106092469106092e1f9&scriptVersion=4.27.3&scriptType=unified",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1178,
+        "remoteIPAddress": "108.157.150.39",
+        "responseHeaders": {
+          "content-type": "application/json; charset=utf-8",
+          "date": "Thu, 12 Dec 2024 19:46:46 GMT",
+          "x-powered-by": "Express",
+          "access-control-allow-origin": "*",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization, SP_SCRIPT_VERSION",
+          "access-control-allow-methods": "GET, PUT, POST, DELETE",
+          "cache-control": "max-age=0, s-maxage=1200",
+          "strict-transport-security": "max-age=15552000; includeSubDomains",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 a07b09303eaab0fed64ae706529794fa.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P2",
+          "x-amz-cf-id": "yhqyACYgYX64pBjg8HIwWpvccSSzdEN7ujTk1cnQgalKje1TuXj_bw==",
+          "age": "248"
+        },
+        "responseBodyHash": "411c2bfed4cb493aaa8d294ee7978e1649506ce640e93d292509a2f452ac7b80",
+        "initiators": [
+          "https://cmpv2.independent.co.uk/unified/wrapperMessagingWithoutDetection.js"
+        ],
+        "time": 0.016072999918833375
+      },
+      {
+        "url": "https://cmpv2.independent.co.uk/wrapper/v2/pv-data?hasCsp=true&env=prod&ch=469106092469106092e1f9&scriptVersion=4.27.3&scriptType=unified",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 732,
+        "remoteIPAddress": "108.157.150.39",
+        "responseHeaders": {
+          "content-type": "application/json; charset=utf-8",
+          "content-length": "190",
+          "date": "Thu, 12 Dec 2024 19:50:54 GMT",
+          "vary": "Accept-Encoding",
+          "x-powered-by": "Express",
+          "access-control-allow-origin": "https://www.independent.co.uk",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization, SP_SCRIPT_VERSION",
+          "access-control-allow-methods": "GET, PUT, POST, DELETE",
+          "cache-control": "no-cache, no-store",
+          "strict-transport-security": "max-age=15552000; includeSubDomains",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 a07b09303eaab0fed64ae706529794fa.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P2",
+          "x-amz-cf-id": "1IfU0Z0Ybm_6EfZstYhHi7ijPNgyroGiv0cE_RB5Fr6BaVmmKzQX8w=="
+        },
+        "responseBodyHash": "77d6628d962117715f6745f31429416afc315865f75a67c20b6e8c7962340b55",
+        "initiators": [
+          "https://cmpv2.independent.co.uk/unified/wrapperMessagingWithoutDetection.js",
+          "https://cmpv2.independent.co.uk/unified/4.27.3/gdpr-tcf.00cd3b6a2692e330e4ec.bundle.js",
+          "https://cmpv2.independent.co.uk/unified/4.27.3/ccpa-gpp.53ed60b33c3bcffa70c7.bundle.js"
+        ],
+        "time": 0.15875299996696413
+      },
+      {
+        "url": "https://cmpv2.independent.co.uk/wrapper/v2/pv-data?hasCsp=true&env=prod&ch=469106092469106092e1f9&scriptVersion=4.27.3&scriptType=unified",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "108.157.150.39",
+        "responseHeaders": {
+          "content-type": "text/html; charset=utf-8",
+          "content-length": "4",
+          "date": "Thu, 12 Dec 2024 19:50:54 GMT",
+          "x-powered-by": "Express",
+          "access-control-allow-origin": "https://www.independent.co.uk",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "Origin,X-Requested-With,Content-Type,Accept,Authorization,SP_SCRIPT_VERSION",
+          "access-control-allow-methods": "GET, PUT, POST, DELETE",
+          "cache-control": "no-cache, no-store",
+          "strict-transport-security": "max-age=15552000; includeSubDomains",
+          "allow": "POST",
+          "vary": "Accept-Encoding",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 a07b09303eaab0fed64ae706529794fa.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P2",
+          "x-amz-cf-id": "BTxe5W6CwhnBXF8m_9O3gvYszmKIFZcqqaLQB-OtlUqUELRsJ4GqFA=="
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://cmpv2.independent.co.uk/wrapper/v2/pv-data?hasCsp=true&env=prod&ch=469106092469106092e1f9&scriptVersion=4.27.3&scriptType=unified"
+        ],
+        "time": 0.04403600003570318
+      },
+      {
+        "url": "https://js.appboycdn.com/web-sdk/4.8/service-worker.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "[2606:4700::6810:7809]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:50:54 GMT",
+          "content-type": "application/javascript; charset=utf-8",
+          "x-amz-id-2": "BQay88nvaRoZoQdtPlo94SURJ8iLYz+9fjsIgOZLRT74PBsm3KnFCu2roIEeHmlXQE/jm3U42Xc=",
+          "x-amz-request-id": "G4C8WQ6DRWFSJAJJ",
+          "last-modified": "Tue, 11 Jul 2023 17:02:23 GMT",
+          "etag": "W/\"83e5048d6434dc74e91a440ed7a21134\"",
+          "x-amz-server-side-encryption": "AES256",
+          "cf-cache-status": "HIT",
+          "age": "4090",
+          "expires": "Thu, 12 Dec 2024 23:50:54 GMT",
+          "cache-control": "public, max-age=14400",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "8f103f011db961cd-ORD",
+          "content-encoding": "gzip"
+        },
+        "responseBodyHash": "d650615cfad2c695efe09cd4359e7b5079c09930240ababf27d903e3b24407ad",
+        "initiators": [
+          "https://www.independent.co.uk/sw.js"
+        ],
+        "time": 0.11820099991746247
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5XT7NPD",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 106220,
+        "remoteIPAddress": "[2607:f8b0:4002:c06::61]",
+        "responseHeaders": {
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-origin": "*",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "Cache-Control",
+          "content-encoding": "br",
+          "vary": "Accept-Encoding",
+          "date": "Thu, 12 Dec 2024 19:50:54 GMT",
+          "expires": "Thu, 12 Dec 2024 19:50:54 GMT",
+          "cache-control": "private, max-age=900",
+          "last-modified": "Thu, 12 Dec 2024 19:04:44 GMT",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascgcycc:1080:0",
+          "cross-origin-opener-policy-report-only": "same-origin; report-to=coop_reporting",
+          "report-to": "{\"group\":\"coop_reporting\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascgcycc:1080:0\"}],}",
+          "server": "Google Tag Manager",
+          "content-length": "105495",
+          "x-xss-protection": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "eab4e003008a54488069897c7f3b8de865623c5d524b1098553fbcde036090ae",
+        "initiators": [
+          "https://www.independent.co.uk/_build/main.c3dc99d8a06eb0839ccb.js"
+        ],
+        "time": 0.19032299984246492
+      },
+      {
+        "url": "https://static.chartbeat.com/js/chartbeat_video.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 24909,
+        "remoteIPAddress": "[2600:9000:24f9:4200:18:1fcd:354:4b41]",
+        "responseHeaders": {
+          "content-type": "application/x-javascript",
+          "date": "Thu, 12 Dec 2024 18:07:50 GMT",
+          "server": "nginx",
+          "last-modified": "Wed, 05 Jun 2024 00:07:44 GMT",
+          "cross-origin-resource-policy": "cross-origin",
+          "expires": "Fri, 13 Dec 2024 18:07:50 GMT",
+          "cache-control": "max-age=86400",
+          "content-encoding": "gzip",
+          "etag": "W/\"665fac50-11d74\"",
+          "vary": "Accept-Encoding",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 cabb72a15b7245bc705e8a8014876486.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P2",
+          "x-amz-cf-id": "cdnJRPeGK5I1gnjH3X7_y4ALjiQ2EHnCH0LtNK9jih0gvL3tH_nZIA==",
+          "age": "6184"
+        },
+        "responseBodyHash": "88c21e8752f97350e83ffe0610ab69e7d9aeb87b2507db99cc9ecb8419ee6ddf",
+        "initiators": [
+          "https://www.independent.co.uk/_build/main.c3dc99d8a06eb0839ccb.js"
+        ],
+        "time": 0.07255100016482174
+      },
+      {
+        "url": "https://static.chartbeat.com/js/chartbeat_mab.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10307,
+        "remoteIPAddress": "[2600:9000:24f9:4200:18:1fcd:354:4b41]",
+        "responseHeaders": {
+          "content-type": "application/x-javascript",
+          "date": "Thu, 12 Dec 2024 16:28:25 GMT",
+          "server": "nginx",
+          "last-modified": "Thu, 21 Dec 2023 01:18:23 GMT",
+          "cross-origin-resource-policy": "cross-origin",
+          "expires": "Fri, 13 Dec 2024 16:28:25 GMT",
+          "cache-control": "max-age=86400",
+          "content-encoding": "gzip",
+          "etag": "W/\"6583925f-5f13\"",
+          "vary": "Accept-Encoding",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 cabb72a15b7245bc705e8a8014876486.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P2",
+          "x-amz-cf-id": "NOcK_GfZ_pS8DW4Jwd9aJq_PS2rvCAmsoYkBYsRuTahg_-0AFO4EfQ==",
+          "age": "12149"
+        },
+        "responseBodyHash": "28b614cc061632a0d8cb17953fc9342ce119ef471b3ff02c2379881a031a185b",
+        "initiators": [
+          "https://www.independent.co.uk/_build/main.c3dc99d8a06eb0839ccb.js"
+        ],
+        "time": 0.07633799989707768
+      },
+      {
+        "url": "https://5d79bce7-5d2b-427e-a6c4-b89b6c7bf048.edge.permutive.app/4cff3edf-5ca9-48ce-a414-44c408710d4f-web.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 216112,
+        "remoteIPAddress": "[2606:4700:4400::6812:230d]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:50:54 GMT",
+          "content-type": "application/javascript",
+          "content-length": "215328",
+          "x-guploader-uploadid": "AFiumC4FbVs0KR-PbsYRufszY6liTL9Um3DCFwO16ECpJ6d44LddVPG5GAFPpFHKpcI9saUf",
+          "cache-control": "public, max-age=900",
+          "expires": "Thu, 12 Dec 2024 20:05:54 GMT",
+          "last-modified": "Tue, 10 Dec 2024 10:10:44 GMT",
+          "etag": "\"6057d2c5afc26982f7b6d1fa8f9c38db\"",
+          "x-goog-generation": "1733825444123986",
+          "x-goog-metageneration": "1",
+          "x-goog-stored-content-encoding": "br",
+          "x-goog-stored-content-length": "215328",
+          "x-goog-meta-oid": "5d79bce7-5d2b-427e-a6c4-b89b6c7bf048",
+          "content-encoding": "br",
+          "x-goog-hash": "crc32c=CpxF5A==\nmd5=YFfSxa/CaYL3ttH6j5w42w==",
+          "x-goog-storage-class": "REGIONAL",
+          "cf-cache-status": "HIT",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "timing-allow-origin": "*",
+          "age": "0",
+          "server": "cloudflare",
+          "cf-ray": "8f103f013b7b6a20-STL"
+        },
+        "responseBodyHash": "a2cd568c413e27f04ccaa25d6767f336d4a7989dc7e85aea4d677005e1d59ff5",
+        "initiators": [
+          "https://www.independent.co.uk/_build/main.c3dc99d8a06eb0839ccb.js"
+        ],
+        "time": 0.23519599996507168
+      },
+      {
+        "url": "https://www.independent.co.uk/_build/prebid_non_uk.2761fa78d9d80d53c352.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 149910,
+        "remoteIPAddress": "[2a04:4e42:1b::347]",
+        "responseHeaders": {
+          "content-length": "149111",
+          "content-type": "application/javascript; charset=UTF-8",
+          "cache-tag": "independent.co.uk,v8.21.0,prebid_non_uk.2761fa78d9d80d53c352.js,javascript",
+          "etag": "W/\"7b334-193ba3761e0\"",
+          "last-modified": "Thu, 12 Dec 2024 09:33:32 GMT",
+          "strict-transport-security": "max-age=63072000;  preload",
+          "cache-control": "public, max-age=2592000",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "access-control-allow-origin": "*",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:54 GMT",
+          "age": "35939",
+          "canary": "1",
+          "x-backend": "flow-us",
+          "content-security-policy": "default-src https: 'unsafe-inline' data: blob:; frame-src https: data:; script-src https: 'unsafe-inline' 'unsafe-eval' blob: 'unsafe-inline'; media-src https: 'unsafe-inline' data: blob:; img-src https: http: data: blob:; frame-ancestors https:",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "referrer-policy": "no-referrer-when-downgrade",
+          "feature-policy": "camera 'none'; microphone 'none'; midi 'none'; geolocation 'none'",
+          "permissions-policy": "camera=(), microphone=(), midi=(), geolocation=(), interest-cohort=()",
+          "x-served-by": "cache-lga21984-LGA, cache-dfw-ktki8620061-DFW",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "46, 14",
+          "x-timer": "S1734033055.896179,VS0,VE1",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"
+        },
+        "responseBodyHash": "e2ccb05c9676677cf0eacf77987858203361d67809c440c6c6fbb4d5e78112da",
+        "initiators": [
+          "https://www.independent.co.uk/_build/main.c3dc99d8a06eb0839ccb.js"
+        ],
+        "time": 0.03255399991758168
+      },
+      {
+        "url": "https://static.independent.co.uk/iframe/native-cookiesync-frames.html",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 848,
+        "remoteIPAddress": "[2a04:4e42:26::347]",
+        "responseHeaders": {
+          "content-length": "409",
+          "x-amz-id-2": "JMEtKDoXtP+gXKXUlt1bAdjvwufBX7Dg5lvml/njKHsTS6z8iIbQeLtt+cpc5jsdEAFZwQv2oUc=",
+          "x-amz-request-id": "CFAK4M54CCCX9TKM",
+          "last-modified": "Tue, 12 Jul 2022 11:57:43 GMT",
+          "etag": "\"d5970717f7599173d973ed0923320f4e\"",
+          "content-type": "text/html",
+          "server": "AmazonS3",
+          "access-control-allow-origin": "*",
+          "content-encoding": "gzip",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:54 GMT",
+          "age": "6077",
+          "x-served-by": "cache-lcy-eglc8600048-LCY, cache-dfw-kdal2120038-DFW",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "117053, 4",
+          "x-timer": "S1734033055.900195,VS0,VE0",
+          "vary": "Accept-Encoding",
+          "xbe": "shield_london_city_uk",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400"
+        },
+        "responseBodyHash": "7bae6e62dbffa344174f68cbfa4c08947d90b08e5f9366640ded950ca3a06a3e",
+        "initiators": [
+          "https://www.independent.co.uk/_build/main.c3dc99d8a06eb0839ccb.js"
+        ],
+        "time": 0.025021999841555953
+      },
+      {
+        "url": "https://static.anonymised.io/light/loader.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 851,
+        "remoteIPAddress": "34.107.217.107",
+        "responseHeaders": {
+          "x-goog-generation": "1734011435248852",
+          "x-goog-metageneration": "3",
+          "x-goog-stored-content-encoding": "gzip",
+          "x-goog-stored-content-length": "323",
+          "content-encoding": "gzip",
+          "x-goog-hash": "crc32c=0mmIWQ==\nmd5=EAkPEs75+JhoaPTXaObyDg==",
+          "x-goog-storage-class": "STANDARD",
+          "accept-ranges": "bytes",
+          "content-length": "323",
+          "access-control-allow-origin": "*",
+          "access-control-expose-headers": "Content-Type",
+          "x-guploader-uploadid": "AFiumC4jxgLUnTeErSaP7qcCXiPPl-VCmIZcZGMYHz8Sc07pUXhwQRKi8K7aiRdbR8-vf2jSMKpcGmwO4g",
+          "server": "UploadServer",
+          "date": "Thu, 12 Dec 2024 19:49:15 GMT",
+          "expires": "Thu, 12 Dec 2024 20:49:15 GMT",
+          "cache-control": "public,max-age=3600",
+          "age": "100",
+          "last-modified": "Thu, 12 Dec 2024 13:50:35 GMT",
+          "etag": "\"10090f12cef9f8986868f4d768e6f20e\"",
+          "content-type": "text/javascript",
+          "vary": "Accept-Encoding",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "b600cdba3d367cb31983ceaf6bf984dea5b1a028894bb93b1b85f302110e8c32",
+        "initiators": [
+          "https://www.independent.co.uk/_build/main.c3dc99d8a06eb0839ccb.js"
+        ],
+        "time": 0.09641600004397333
+      },
+      {
+        "url": "https://cdn.pbxai.com/b5a8c20e-7642-44b9-82a5-8c896cbfc109.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10308,
+        "remoteIPAddress": "212.102.40.114",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:50:55 GMT",
+          "content-type": "application/javascript",
+          "server": "BunnyCDN-TX1-881",
+          "cdn-pullzone": "2227704",
+          "cdn-uid": "4a85839a-607a-4d8b-a11a-d8c0c2f0f828",
+          "cdn-requestcountrycode": "US",
+          "vary": "Accept-Encoding",
+          "age": "19158",
+          "cache-control": "max-age=3600",
+          "content-encoding": "br",
+          "etag": "W/\"86a9502de59eacadf1b016a9aee14712\"",
+          "last-modified": "Tue, 26 Nov 2024 00:00:13 GMT",
+          "via": "1.1 73e04d645babcbb9ee8f20cc865b009c.cloudfront.net (CloudFront)",
+          "x-amz-server-side-encryption": "AES256",
+          "x-amz-version-id": "bOqApGEkbdzlv7EygDZREW0kVYNZ_3y0",
+          "x-cache": "Hit from cloudfront",
+          "x-amz-cf-pop": "DFW57-P1",
+          "x-amz-cf-id": "1eWHNk1IfiKCDarz96Ca0-_XsSoRLa1w3XdNSGjqM4cd9KZpM7g0fw==",
+          "cdn-proxyver": "1.06",
+          "cdn-requestpullsuccess": "True",
+          "cdn-requestpullcode": "200",
+          "cdn-cachedat": "12/12/2024 17:09:21",
+          "cdn-edgestorageid": "881",
+          "cdn-status": "200",
+          "cdn-requesttime": "0",
+          "cdn-requestid": "af65ba34a8cef4a0075fff741455fb09",
+          "cdn-cache": "HIT"
+        },
+        "responseBodyHash": "97b82de79636700c50b20e34600555ab8275e35672631a940d3c4028b243ec09",
+        "initiators": [
+          "https://www.independent.co.uk/_build/main.c3dc99d8a06eb0839ccb.js"
+        ],
+        "time": 0.09970399993471801
+      },
+      {
+        "url": "https://storage.googleapis.com/workbox-cdn/releases/6.1.5/workbox-routing.prod.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "[2607:f8b0:4002:c10::cf]",
+        "responseHeaders": {
+          "x-goog-generation": "1618258632761149",
+          "x-goog-metageneration": "1",
+          "x-goog-stored-content-encoding": "gzip",
+          "x-goog-stored-content-length": "1466",
+          "content-encoding": "gzip",
+          "x-goog-hash": "crc32c=VS8Xqw==\nmd5=rpxb+9hygnRJHiYXeRcnhQ==",
+          "x-goog-storage-class": "MULTI_REGIONAL",
+          "accept-ranges": "bytes",
+          "content-length": "1466",
+          "access-control-allow-origin": "*",
+          "x-guploader-uploadid": "AFiumC4KW3PuRNVWMBPLkkXGmA8_wO3Crr9x1d9aqoCaguCh6yAmy0ZIO25O0xGzcL2rBbR7nbQ",
+          "server": "UploadServer",
+          "access-control-expose-headers": "Content-Length, Date, Server, Transfer-Encoding, X-GUploader-UploadID, X-Google-Trace",
+          "date": "Thu, 12 Dec 2024 19:15:18 GMT",
+          "expires": "Fri, 12 Dec 2025 19:15:18 GMT",
+          "cache-control": "public, max-age=31536000",
+          "age": "2137",
+          "last-modified": "Mon, 12 Apr 2021 20:17:12 GMT",
+          "etag": "\"ae9c5bfbd8728274491e261779172785\"",
+          "content-type": "application/javascript",
+          "vary": "Accept-Encoding",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "a8890021097430538256c8804920f1a7400e93ca8cd59fb5aa90f1f7cbd4ebfa",
+        "initiators": [
+          "https://storage.googleapis.com/workbox-cdn/releases/6.1.5/workbox-sw.js",
+          "https://www.independent.co.uk/sw.js"
+        ],
+        "time": 0.09615100012160838
+      },
+      {
+        "url": "https://independent.demdex.net/dest5.html?d_nsid=0",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "remoteIPAddress": "34.218.190.4",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:50:55 GMT",
+          "content-type": "text/html;charset=UTF-8",
+          "x-tid": "mvTjhw81RwU=",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private",
+          "pragma": "no-cache",
+          "expires": "Thu, 01 Jan 1970 00:00:00 UTC",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT\"",
+          "accept-ranges": "bytes",
+          "last-modified": "Mon, 11 Nov 2024 10:06:37 GMT",
+          "vary": "accept-encoding",
+          "dcs": "dcs-prod-usw2-1-v065-0a78a2679.edge-usw2.demdex.com 0 ms",
+          "content-encoding": "gzip"
+        },
+        "initiators": [
+          "https://www.independent.co.uk/js/adobe.raw.js",
+          "https://www.independent.co.uk/_build/main.c3dc99d8a06eb0839ccb.js"
+        ]
+      },
+      {
+        "url": "https://ssc.independent.co.uk/id?d_visid_ver=4.4.0&d_fieldgroup=A&mcorgid=28280C0F53DB09900A490D45%40AdobeOrg&mid=16091513960372124371119614383125721186&ts=1734033054982",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 526,
+        "remoteIPAddress": "[2a04:4e42:26::347]",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.independent.co.uk",
+          "access-control-allow-credentials": "true",
+          "p3p": "CP=\"This is not a P3P policy\"",
+          "server": "jag",
+          "set-cookie": "s_ecid=MCMID%7C16091513960372124371119614383125721186; Path=/; Domain=independent.co.uk; Max-Age=63072000; Expires=Sat, 12 Dec 2026 19:50:50 GMT; SameSite=Lax;",
+          "content-type": "application/x-javascript;charset=utf-8",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cache-control": "no-cache, no-store, max-age=0, no-transform, private",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:55 GMT",
+          "via": "1.1 varnish",
+          "x-served-by": "cache-dfw-kdal2120129-DFW",
+          "x-cache": "MISS",
+          "x-cache-hits": "0",
+          "x-timer": "S1734033055.026307,VS0,VE228",
+          "vary": "Origin",
+          "content-length": "48"
+        },
+        "responseBodyHash": "322831dda2deb46fd8c145ca7041a97a42b97cf31c022cc7d295c0494d2f6306",
+        "initiators": [
+          "https://www.independent.co.uk/js/adobe.raw.js",
+          "https://www.independent.co.uk/_build/main.c3dc99d8a06eb0839ccb.js"
+        ],
+        "time": 0.27877099998295307
+      },
+      {
+        "url": "https://cm.everesttech.net/cm/dd?d_uuid=16114787620811106861117014303913870313",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "35.167.4.131",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:50:55 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "set-cookie": "everest_g_v2=g_surferid~Z1s_nwAAAJ5EYAOA;path=/;Max-Age=31536000;domain=.everesttech.net;Secure;SameSite=None\neverest_session_v2=Z1s@nwAAAJ5EYQOA;path=/;Max-Age=-1;domain=.everesttech.net;Secure;SameSite=None",
+          "p3p": "CP=\"NOI NID DEVa PSAa PSDa OUR IND PUR COM NAV INT DEM\"",
+          "cache-control": "no-cache",
+          "location": "https://dpm.demdex.net/ibs:dpid=411&dpuuid=Z1s_nwAAAJ5EYAOA",
+          "server": "AMO-cookiemap/1.1"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://dpm.demdex.net/ibs:dpid=411&dpuuid=Z1s_nwAAAJ5EYAOA",
+        "initiators": [
+          "https://www.independent.co.uk/js/adobe.raw.js",
+          "https://www.independent.co.uk/_build/main.c3dc99d8a06eb0839ccb.js"
+        ],
+        "time": 1.0229289999697357
+      },
+      {
+        "url": "https://storage.googleapis.com/workbox-cdn/releases/6.1.5/workbox-core.prod.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "[2607:f8b0:4002:c10::cf]",
+        "responseHeaders": {
+          "x-goog-generation": "1618258627408543",
+          "x-goog-metageneration": "1",
+          "x-goog-stored-content-encoding": "gzip",
+          "x-goog-stored-content-length": "2368",
+          "content-encoding": "gzip",
+          "x-goog-hash": "crc32c=SwZDtQ==\nmd5=0wkfW8ZWnx3Wz53OIFFwCA==",
+          "x-goog-storage-class": "MULTI_REGIONAL",
+          "accept-ranges": "bytes",
+          "content-length": "2368",
+          "access-control-allow-origin": "*",
+          "x-guploader-uploadid": "AFiumC5SulNThZclY5SsykAWn-ZvXnnNELrgfEtgjsl7HuyuoaQhYRUMr_0e-J2wzLOLYI-q38M",
+          "server": "UploadServer",
+          "access-control-expose-headers": "Content-Length, Date, Server, Transfer-Encoding, X-GUploader-UploadID, X-Google-Trace",
+          "date": "Thu, 12 Dec 2024 19:35:11 GMT",
+          "expires": "Fri, 12 Dec 2025 19:35:11 GMT",
+          "cache-control": "public, max-age=31536000",
+          "age": "944",
+          "last-modified": "Mon, 12 Apr 2021 20:17:07 GMT",
+          "etag": "\"d3091f5bc6569f1dd6cf9dce20517008\"",
+          "content-type": "application/javascript",
+          "vary": "Accept-Encoding",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "cad5f9798c73f8db5611d6f89cb1eb6e50de7e301474434652a23159b11fa93c",
+        "initiators": [
+          "https://storage.googleapis.com/workbox-cdn/releases/6.1.5/workbox-sw.js",
+          "https://storage.googleapis.com/workbox-cdn/releases/6.1.5/workbox-routing.prod.js",
+          "https://www.independent.co.uk/sw.js"
+        ],
+        "time": 0.04119600006379187
+      },
+      {
+        "url": "https://storage.googleapis.com/workbox-cdn/releases/6.1.5/workbox-strategies.prod.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "[2607:f8b0:4002:c10::cf]",
+        "responseHeaders": {
+          "x-goog-generation": "1618258633594452",
+          "x-goog-metageneration": "1",
+          "x-goog-stored-content-encoding": "gzip",
+          "x-goog-stored-content-length": "2341",
+          "content-encoding": "gzip",
+          "x-goog-hash": "crc32c=ukp1XQ==\nmd5=D0mxwumNqBdw04eMlnqAtQ==",
+          "x-goog-storage-class": "MULTI_REGIONAL",
+          "accept-ranges": "bytes",
+          "content-length": "2341",
+          "access-control-allow-origin": "*",
+          "x-guploader-uploadid": "AFiumC652HYKqy53qKqIcOEmT6yJKVYFEHB7KnwYYaISN1Vi2YPT4Cqp4qv975Jo0oBNRwb79Io",
+          "access-control-expose-headers": "Content-Length, Date, Server, Transfer-Encoding, X-GUploader-UploadID, X-Google-Trace",
+          "server": "UploadServer",
+          "date": "Thu, 12 Dec 2024 19:07:10 GMT",
+          "expires": "Fri, 12 Dec 2025 19:07:10 GMT",
+          "cache-control": "public, max-age=31536000",
+          "age": "2625",
+          "last-modified": "Mon, 12 Apr 2021 20:17:13 GMT",
+          "etag": "\"0f49b1c2e98da81770d3878c967a80b5\"",
+          "content-type": "application/javascript",
+          "vary": "Accept-Encoding",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "c6c8e71402b5a2253352f9b14368edda1c3725432d00f9f35656f854b153fb9b",
+        "initiators": [
+          "https://storage.googleapis.com/workbox-cdn/releases/6.1.5/workbox-sw.js",
+          "https://www.independent.co.uk/sw.js"
+        ],
+        "time": 0.04169699992053211
+      },
+      {
+        "url": "https://ssc.independent.co.uk/b/ss/indepdev/1/JS-2.20.0/s85552507458025?AQB=1&ndh=1&pf=1&t=12%2F11%2F2024%2013%3A50%3A55%204%20360&mid=16091513960372124371119614383125721186&aamlh=9&ce=UTF-8&cdp=3&pageName=us%2Fhome&g=https%3A%2F%2Fwww.independent.co.uk%2Fus&c.&cm.&ssf=1&.cm&.c&cc=GBP&ch=us&server=www.independent.co.uk&aamb=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&c1=D%3Dv1&v1=us&h1=us&c2=D%3Dv2&v2=us&c3=independent.co.uk&v3=independent.co.uk&c8=Channel%20frontpage&v8=Channel%20frontpage&v12=us&v16=%2Fus&c19=News&c24=D%3Dv24&v24=A2&c31=D%3Dv31&c36=D%3Dv36&v36=Native&c39=D%3Dv39&c40=D%3Dg&c64=D%3Dv64&v64=main.c3dc99d8a06eb0839ccb.js&c69=D%3Dv69&v69=not%20logged%20in&c70=D%3Dv70&c71=D%3Dv71&c75=D%3Dv75&v75=anonymous&s=1728x1117&c=30&j=1.6&v=N&k=Y&bw=1440&bh=812&mcorgid=28280C0F53DB09900A490D45%40AdobeOrg&AQE=1",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 358,
+        "remoteIPAddress": "[2a04:4e42:26::347]",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "expires": "Wed, 11 Dec 2024 19:50:56 GMT",
+          "last-modified": "Fri, 13 Dec 2024 19:50:56 GMT",
+          "pragma": "no-cache",
+          "p3p": "CP=\"This is not a P3P policy\"",
+          "server": "jag",
+          "set-cookie": "s_ecid=MCMID%7C16091513960372124371119614383125721186; Path=/; Domain=independent.co.uk; Max-Age=63072000; Expires=Sat, 12 Dec 2026 19:50:50 GMT;",
+          "etag": "3723807634416238592-4618263449363053575",
+          "content-type": "image/gif;charset=utf-8",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cache-control": "no-cache, no-store, max-age=0, no-transform, private",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:56 GMT",
+          "via": "1.1 varnish",
+          "x-served-by": "cache-dfw-kdal2120129-DFW",
+          "x-cache": "MISS",
+          "x-cache-hits": "0",
+          "x-timer": "S1734033056.834555,VS0,VE221",
+          "vary": "*",
+          "content-length": "43"
+        },
+        "responseBodyHash": "55c9d2f019f9d7ddfd69b2ad0351c5617338a222362aebb02b3b98a4dbc18486",
+        "initiators": [
+          "https://www.independent.co.uk/js/adobe.raw.js",
+          "https://www.independent.co.uk/_build/main.c3dc99d8a06eb0839ccb.js"
+        ],
+        "time": 0.24601099989376962
+      },
+      {
+        "url": "https://static.anonymised.io/light/bundle.js?v=0.3.20",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 37162,
+        "remoteIPAddress": "34.107.217.107",
+        "responseHeaders": {
+          "x-goog-generation": "1734011434652461",
+          "x-goog-metageneration": "2",
+          "x-goog-stored-content-encoding": "gzip",
+          "x-goog-stored-content-length": "37126",
+          "content-encoding": "gzip",
+          "x-goog-hash": "crc32c=g33uug==\nmd5=rbAZGuTlX2BMjeZWIXZ4mA==",
+          "x-goog-storage-class": "STANDARD",
+          "accept-ranges": "bytes",
+          "content-length": "37126",
+          "access-control-allow-origin": "*",
+          "access-control-expose-headers": "Content-Type",
+          "x-guploader-uploadid": "AFiumC4veZo9EUFMTR1zT4-6AfxjwPSiSDJoPx0kGatbaOX9GIvx66G7t3OTqPInTGf7S8S5qLYimlagsA",
+          "server": "UploadServer",
+          "date": "Thu, 12 Dec 2024 19:19:47 GMT",
+          "expires": "Sat, 11 Jan 2025 19:19:47 GMT",
+          "cache-control": "public,max-age=2592000",
+          "age": "1868",
+          "last-modified": "Thu, 12 Dec 2024 13:50:34 GMT",
+          "etag": "\"adb0191ae4e55f604c8de65621767898\"",
+          "content-type": "text/javascript",
+          "vary": "Accept-Encoding",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "7c99f2e97f01511d1eeca8fd96abadc0c95c74aab04ee566d08cbec7cab94d37",
+        "initiators": [
+          "https://static.anonymised.io/light/loader.js"
+        ],
+        "time": 0.08182500000111759
+      },
+      {
+        "url": "https://dpm.demdex.net/ibs:dpid=411&dpuuid=Z1s_nwAAAJ5EYAOA",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 716,
+        "remoteIPAddress": "52.37.14.226",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:50:56 GMT",
+          "content-type": "image/gif",
+          "content-length": "59",
+          "x-tid": "CZkQYcvfQvg=",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cache-control": "no-cache,no-store,must-revalidate,max-age=0,proxy-revalidate,no-transform,private",
+          "pragma": "no-cache",
+          "expires": "Thu, 01 Jan 1970 00:00:00 UTC",
+          "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI NID CURa ADMa DEVa PSAa PSDa OUR SAMa BUS PUR COM NAV INT\"",
+          "x-content-type-options": "nosniff",
+          "dcs": "dcs-prod-usw2-2-v065-06678b2dd.edge-usw2.demdex.com 2 ms",
+          "set-cookie": "dpm=16114787620811106861117014303913870313; Max-Age=15552000; Expires=Tue, 10 Jun 2025 19:50:56 GMT; Path=/; Domain=.dpm.demdex.net; Secure; SameSite=None\ndemdex=16114787620811106861117014303913870313; Max-Age=15552000; Expires=Tue, 10 Jun 2025 19:50:56 GMT; Path=/; Domain=.demdex.net; Secure; SameSite=None",
+          "content-encoding": "gzip"
+        },
+        "responseBodyHash": "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002",
+        "redirectedFrom": "https://cm.everesttech.net/cm/dd?d_uuid=16114787620811106861117014303913870313",
+        "initiators": [
+          "https://www.independent.co.uk/js/adobe.raw.js",
+          "https://www.independent.co.uk/_build/main.c3dc99d8a06eb0839ccb.js"
+        ],
+        "time": 0.0898269999306649
+      },
+      {
+        "url": "https://ping.chartbeat.net/ping?h=independent.co.uk&p=%2Fus&u=VF3_2BfZRfED59HCI&d=independent.co.uk&g=62356&g0=us&g1=No%20Author&n=1&f=00001&c=0&x=0&m=0&y=18085&o=1440&w=812&j=45&R=1&W=0&I=0&E=0&e=0&r=&PA=https%3A%2F%2Fwww.independent.co.uk%2Fus&b=5080&_s=%7B%22l%22%3Anull%2C%22hashed_email%22%3Anull%7D&t=DRuTI4CMIBGKBJCBe4CsqCnEUcp7k&V=147&i=The%20Independent%20%7C%20Latest%20news%20and%20features%20from%20US%2C%20UK%20and%20worldwide&tz=360&_acct=anon&sn=1&sv=CvK7ntCNRkzwDNEL75CTs_MHDkGx8B&sr=external&sd=1&im=067b0fff&_",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 201,
+        "remoteIPAddress": "54.91.193.210",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:50:56 GMT",
+          "content-type": "image/gif",
+          "content-length": "43",
+          "cross-origin-resource-policy": "cross-origin",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "pragma": "no-cache",
+          "expires": "0"
+        },
+        "responseBodyHash": "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44",
+        "initiators": [
+          "https://static.chartbeat.com/js/chartbeat_video.js"
+        ],
+        "time": 0.09796599997207522
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json?date=20241212",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1596,
+        "remoteIPAddress": "[2606:4700::6812:ba1f]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:50:56 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "content-length": "824",
+          "access-control-allow-origin": "*",
+          "access-control-expose-headers": "*",
+          "timing-allow-origin": "*",
+          "cache-control": "public, max-age=604800, s-maxage=43200",
+          "cross-origin-resource-policy": "cross-origin",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "x-jsd-version": "1.0.2268",
+          "x-jsd-version-type": "version",
+          "etag": "W/\"639-mDBp8sQCw3eFURhTnqJX6T+4ZiE\"",
+          "content-encoding": "br",
+          "x-served-by": "cache-fra-eddf8230103-FRA, cache-lga21963-LGA",
+          "x-cache": "HIT, HIT",
+          "vary": "Accept-Encoding",
+          "alt-svc": "h3=\":443\"; ma=86400",
+          "cf-cache-status": "HIT",
+          "age": "13798",
+          "accept-ranges": "bytes",
+          "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=3Vgdw1pB2IuICg9gKWxjV7uAgxn1RPmuBxzQKOX4JquFVxOGc1hr7fwM48z%2BEQRCJvgeIizvGHbJxqzvsKJccT7ksjneUjqlKq7csDNGMwjrxW%2Bywpu6jaFU4G2qlOE2ZWyNQsrv%2Fn3wuP4ANi0%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+          "nel": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+          "server": "cloudflare",
+          "cf-ray": "8f103f0adf7261cc-ORD"
+        },
+        "responseBodyHash": "80d6f0f0bb6de64b443ca5d395b1536ce7599d0aea1c6d6d073db9d0a1a17245",
+        "initiators": [
+          "https://www.independent.co.uk/_build/prebid_non_uk.2761fa78d9d80d53c352.js",
+          "https://www.independent.co.uk/_build/main.c3dc99d8a06eb0839ccb.js"
+        ],
+        "time": 0.07911600009538233
+      },
+      {
+        "url": "https://mab.chartbeat.com/mab_strategy/headline_testing/get_strategy/?host=independent.co.uk&domain=independent.co.uk&path=%2Fus",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 518,
+        "remoteIPAddress": "[2a04:4e42:26::714]",
+        "responseHeaders": {
+          "content-type": "application/json",
+          "expires": "Tue, 10 Dec 2024 19:07:44 GMT",
+          "cache-control": "no-store, no-cache, must-revalidate, max-age=0, s-maxage=0",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "content-encoding": "gzip",
+          "via": "1.1 varnish (Varnish/6.0), 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 19:50:57 GMT",
+          "age": "2593",
+          "x-served-by": "cache-dfw-kdal2120123-DFW",
+          "x-cache": "HIT",
+          "x-cache-hits": "1",
+          "x-timer": "S1734033057.011286,VS0,VE1",
+          "vary": "Origin, Access-Control-Request-Headers, Access-Control-Request-Method, Accept-Encoding, Accept-Encoding",
+          "content-length": "148"
+        },
+        "responseBodyHash": "3f39ae81d358244af243a2f940b9e85f987de5f3e92abdf0bd41b7ae387cc51b",
+        "initiators": [
+          "https://static.chartbeat.com/js/chartbeat_mab.js"
+        ],
+        "time": 0.13510499987751245
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-S88XNXPY0X&l=dataLayer&cx=c&gtm=45He4cb0v830666029za200",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 139533,
+        "remoteIPAddress": "[2607:f8b0:4002:c06::61]",
+        "responseHeaders": {
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-origin": "*",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "Cache-Control",
+          "content-encoding": "br",
+          "vary": "Accept-Encoding",
+          "date": "Thu, 12 Dec 2024 19:50:57 GMT",
+          "expires": "Thu, 12 Dec 2024 19:50:57 GMT",
+          "cache-control": "private, max-age=900",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascgcycc:838:0",
+          "cross-origin-opener-policy-report-only": "same-origin; report-to=coop_reporting",
+          "report-to": "{\"group\":\"coop_reporting\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascgcycc:838:0\"}],}",
+          "server": "Google Tag Manager",
+          "content-length": "139471",
+          "x-xss-protection": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "24ad65164666bb74d92cac4586d88097b215a03232cfc3cab785fb0d6f56718f",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-5XT7NPD"
+        ],
+        "time": 0.2598909998778254
+      },
+      {
+        "url": "https://pub.doubleverify.com/dvtag/34448457/DV1395182/pub.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 15480,
+        "remoteIPAddress": "[2606:4700::6812:a7e0]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:50:57 GMT",
+          "content-type": "text/javascript;charset=UTF-8",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=900, stale-while-revalidate=3600",
+          "access-control-allow-credentials": "true",
+          "access-control-expose-headers": "Server-Timing, Cf-Ray",
+          "timing-allow-origin": "*",
+          "vary": "Accept-Encoding",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "content-security-policy": "frame-ancestors 'self'",
+          "x-frame-options": "SAMEORIGIN",
+          "server": "cloudflare",
+          "cf-ray": "8f103f0f395761fb-ORD",
+          "content-encoding": "br",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "c7eb7bc317492fa7479a77d4dff1a4f6af7de1e62fe5130b07db86e02ca9c98e",
+        "initiators": [
+          "https://www.googletagmanager.com/gtm.js?id=GTM-5XT7NPD"
+        ],
+        "time": 0.13288900000043213
+      },
+      {
+        "url": "blob:https://www.independent.co.uk/fe20cb18-f6ff-482a-9782-5697314ae4c2",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "content-length": "507852"
+        },
+        "responseBodyHash": "849a428ac92ba9f4c6ac73f2ee2dd95a9d9f3ec0191712e234ec62acf18f37d6",
+        "initiators": [
+          "https://www.independent.co.uk/us"
+        ],
+        "time": 0.013466000091284513
+      },
+      {
+        "url": "https://material.anonymised.io/v3/tag/configs",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "34.117.250.57",
+        "responseHeaders": {
+          "access-control-allow-headers": "anon-app-version,content-type",
+          "access-control-allow-methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
+          "access-control-allow-origin": "*",
+          "allow": "OPTIONS, GET",
+          "vary": "Accept-Encoding,Origin,Access-Control-Request-Method,Access-Control-Request-Headers",
+          "x-request-id": "wDclLCzfoGcbYRzwaCYLBgKWbQSUWVYn",
+          "date": "Thu, 12 Dec 2024 19:50:57 GMT",
+          "via": "1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://material.anonymised.io/v3/tag/configs"
+        ],
+        "time": 0.17778699984773993
+      },
+      {
+        "url": "https://material.anonymised.io/v3/tag/configs",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 64,
+        "remoteIPAddress": "34.117.250.57",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-encoding": "gzip",
+          "content-type": "application/json",
+          "vary": "Accept-Encoding,Origin",
+          "x-request-id": "xGSTLLWVFqXSswabyJSbXJYdhCjuNojb",
+          "date": "Thu, 12 Dec 2024 19:50:57 GMT",
+          "content-length": "48",
+          "via": "1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "afd499b959c227fadd0d814dbf5bc805ffb0d4ed8edda85d6b75ceeeb479b648",
+        "initiators": [
+          "https://static.anonymised.io/light/bundle.js?v=0.3.20"
+        ],
+        "time": 0.3523550000973046
+      },
+      {
+        "url": "https://aegis.anonymised.io/health",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 204,
+        "size": 0,
+        "remoteIPAddress": "34.107.217.107",
+        "responseHeaders": {
+          "access-control-allow-headers": "anon-app-version,content-type",
+          "access-control-allow-methods": "OPTIONS, GET",
+          "access-control-allow-origin": "https://www.independent.co.uk",
+          "allow": "OPTIONS, GET",
+          "vary": "Origin,Access-Control-Request-Method,Access-Control-Request-Headers",
+          "x-request-id": "IQJcUacTZfvxoaeJgprgGCWNZLgqwPvb",
+          "x-cloud-trace-context": "f5b6398adea5e2edc8eac006d623d7a1",
+          "date": "Thu, 12 Dec 2024 19:50:57 GMT",
+          "content-type": "text/html",
+          "server": "Google Frontend",
+          "content-length": "0",
+          "via": "1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://aegis.anonymised.io/health"
+        ],
+        "time": 0.18735600006766617
+      },
+      {
+        "url": "https://aegis.anonymised.io/health",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 19,
+        "remoteIPAddress": "34.107.217.107",
+        "responseHeaders": {
+          "access-control-allow-origin": "https://www.independent.co.uk",
+          "content-type": "text/plain; charset=UTF-8",
+          "vary": "Origin",
+          "x-request-id": "GRQwuYznuEKuJAIBHeWiXPZkBtJwAgak",
+          "x-cloud-trace-context": "16b89d5dd29a28105e5d6fd64c2a98de",
+          "date": "Thu, 12 Dec 2024 19:50:57 GMT",
+          "server": "Google Frontend",
+          "content-length": "2",
+          "via": "1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+        "initiators": [
+          "https://static.anonymised.io/light/bundle.js?v=0.3.20"
+        ],
+        "time": 0.35670200013555586
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600&display=swap",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2150,
+        "remoteIPAddress": "[2607:f8b0:4002:c09::5f]",
+        "responseHeaders": {
+          "content-type": "text/css; charset=utf-8",
+          "vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "link": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin",
+          "strict-transport-security": "max-age=31536000",
+          "expires": "Thu, 12 Dec 2024 19:50:57 GMT",
+          "date": "Thu, 12 Dec 2024 19:50:57 GMT",
+          "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+          "last-modified": "Thu, 12 Dec 2024 19:50:57 GMT",
+          "cross-origin-opener-policy": "same-origin-allow-popups",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-encoding": "gzip",
+          "server": "ESF",
+          "x-xss-protection": "0",
+          "x-frame-options": "SAMEORIGIN",
+          "x-content-type-options": "nosniff",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "d96c1c7fc4c45d627a8816b8d2ed39448918c41375cd2a5407fe20423d72e51b",
+        "initiators": [
+          "about:client"
+        ],
+        "time": 0.10650200000964105
+      },
+      {
+        "url": "https://5d79bce7-5d2b-427e-a6c4-b89b6c7bf048.prmutv.co/v2.0/pxid?k=5076bf62-433c-4f8f-b54a-2826adec00d7",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 390,
+        "remoteIPAddress": "35.241.9.51",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:50:57 GMT",
+          "content-type": "application/json",
+          "set-cookie": "pxid=b745fa47-c1ae-44e8-9c5a-12c0d79fd001; Expires=Wed, 12 Mar 2025 19:50:57 GMT; Domain=5d79bce7-5d2b-427e-a6c4-b89b6c7bf048.prmutv.co; Path=/; SameSite=None; Secure; HttpOnly",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "https://www.independent.co.uk",
+          "access-control-allow-credentials": "true",
+          "vary": "Origin",
+          "server": "Permutive",
+          "content-length": "66",
+          "via": "1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "32d7130e8b400a921e4808c2fea174bcf922b1bb40bdf2753b03817735927703",
+        "initiators": [
+          "https://5d79bce7-5d2b-427e-a6c4-b89b6c7bf048.edge.permutive.app/4cff3edf-5ca9-48ce-a414-44c408710d4f-web.js"
+        ],
+        "time": 0.2759269999805838
+      },
+      {
+        "url": "https://ib.adnxs.com/getuidj",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 706,
+        "remoteIPAddress": "104.254.151.69",
+        "responseHeaders": {
+          "server": "nginx/1.23.4",
+          "date": "Thu, 12 Dec 2024 19:50:57 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "content-length": "11",
+          "cache-control": "no-store, no-cache, private",
+          "pragma": "no-cache",
+          "expires": "Sat, 15 Nov 2008 16:00:00 GMT",
+          "p3p": "policyref=\"http://cdn.adnxs-simple.com/w3c/policy/p3p.xml\", CP=\"NOI DSP COR ADM PSAo PSDo OURo SAMo UNRo OTRo BUS COM NAV DEM STA PRE\"",
+          "x-xss-protection": "0",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "https://www.independent.co.uk",
+          "accept-ch": "Sec-CH-UA-Full-Version-List,Sec-CH-UA-Arch,Sec-CH-UA-Model,Sec-CH-UA-Platform-Version,Sec-CH-UA-Bitness",
+          "an-x-request-uuid": "1bf11e59-c9fa-47ff-bf28-474f44edc5b3",
+          "set-cookie": "receive-cookie-deprecation=1; SameSite=None; Path=/; Max-Age=314496000; Expires=Thu, 30-Nov-2034 19:50:57 GMT; Domain=.adnxs.com; Secure; HttpOnly; Partitioned",
+          "x-proxy-origin": "108.209.95.121; 108.209.95.121; 900.bm-nginx-loadbalancer.mgmt.lax1.adnexus.net; adnxs.com"
+        },
+        "responseBodyHash": "31b45c462302ac175bfa43f9e5591491db780ca094f6ecdd2907f25ad578448d",
+        "initiators": [
+          "https://5d79bce7-5d2b-427e-a6c4-b89b6c7bf048.edge.permutive.app/4cff3edf-5ca9-48ce-a414-44c408710d4f-web.js"
+        ],
+        "time": 0.2455929999705404
+      },
+      {
+        "url": "https://m.independent.co.uk/g/collect?v=2&tid=G-S88XNXPY0X&gtm=45je4cb0v884986262z8830666029za200zb830666029&_p=1734033054849&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10648&tag_exp=101925629~102067555~102067808~102081485~102198178&gdid=dMjkzMm&cid=371901969.1734033058&ecid=511473807&ul=en-us&sr=1728x1117&_fplc=0&ur=US-MO&uaa=&uab=&uamb=0&uam=&uap=&uapv=&uaw=0&frm=0&pscdl=noapi&sst.rnd=803720002.1734033058&sst.us_privacy=1---&sst.gdpr=0&sst.gdpr_consent=tcempty&sst.tft=1734033054849&sst.ude=0&_s=1&sid=1734033057&sct=1&seg=0&dl=https%3A%2F%2Fwww.independent.co.uk%2Fus&dt=The%20Independent%20%7C%20Latest%20news%20and%20features%20from%20US%2C%20UK%20and%20worldwide&en=page_view&_fv=1&_nsi=1&_ss=1&ep.cmp_string=no_consent_triggered&tfd=6885&richsstsse",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 869,
+        "remoteIPAddress": "[2001:4860:4802:36::15]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:50:58 GMT",
+          "content-type": "text/plain",
+          "vary": "Accept-Encoding",
+          "set-cookie": "FPID=FPID2.3.WzihQaLPKd7AsCP3pnba%2B1Pkx60Bv4LUAXkzUKJ8dRw%3D.1734033058; Max-Age=63072000; Domain=independent.co.uk; Path=/; SameSite=strict; Secure; HttpOnly\nFPLC=bX6LYYSuBtzYpWHAL5b6dka7V2wr62x%2B%2F8GlrPdn8C7tz2m6oTBLkYs3RcBKIJK%2BO3NB3RslkBJDCz6Oyuv2wi1KrDIFL957GFyxS0moDdpGfRxlsItNEbdJ6tdugw%3D%3D; Max-Age=72000; Domain=independent.co.uk; Path=/; Secure\nFPGSID=1.1734033058.1734033058.G-S88XNXPY0X.tYeLOB6Wry_0Zki_UZmfng; Max-Age=1800; Domain=independent.co.uk; Path=/; SameSite=strict; Secure",
+          "cache-control": "no-cache",
+          "x-content-type-options": "nosniff",
+          "access-control-allow-origin": "https://www.independent.co.uk",
+          "access-control-allow-credentials": "true",
+          "content-encoding": "gzip",
+          "via": "1.1 google"
+        },
+        "responseBodyHash": "f19c5ccc785d49c06a12fd0fc86388038a9f604a968df57aac3145ab8d1a9241",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-S88XNXPY0X&l=dataLayer&cx=c&gtm=45He4cb0v830666029za200"
+        ],
+        "time": 0.3136650000233203
+      },
+      {
+        "url": "https://m.independent.co.uk/g/collect?v=2&tid=G-Z97VTK5BT9&gtm=45je4cb0v884986262z8830666029za200zb830666029&_p=1734033054849&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&tcfd=10648&tag_exp=101925629~102067555~102067808~102081485~102198178&gdid=dMjkzMm&cid=371901969.1734033058&ecid=2100542554&ul=en-us&sr=1728x1117&_fplc=0&ur=US-MO&uaa=&uab=&uamb=0&uam=&uap=&uapv=&uaw=0&frm=0&pscdl=noapi&sst.rnd=803720002.1734033058&sst.us_privacy=1---&sst.gdpr=0&sst.gdpr_consent=tcempty&sst.tft=1734033054849&sst.ude=0&_s=1&sid=1734033058&sct=1&seg=0&dl=https%3A%2F%2Fwww.independent.co.uk%2Fus&dt=The%20Independent%20%7C%20Latest%20news%20and%20features%20from%20US%2C%20UK%20and%20worldwide&en=page_view&_fv=1&_ss=1&ep.cmp_string=no_consent_triggered&tfd=6959&richsstsse",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 549,
+        "remoteIPAddress": "[2001:4860:4802:36::15]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:50:58 GMT",
+          "content-type": "text/plain",
+          "vary": "Accept-Encoding",
+          "access-control-allow-origin": "https://www.independent.co.uk",
+          "set-cookie": "FPID=FPID2.3.WzihQaLPKd7AsCP3pnba%2B1Pkx60Bv4LUAXkzUKJ8dRw%3D.1734033058; Max-Age=63072000; Domain=independent.co.uk; Path=/; SameSite=strict; Secure; HttpOnly\nFPLC=3206ieKQhAuw4BlYhloLBkzpNT%2BC1nTwZLbYxWMtQcAjH34lcqg0KTt3v7srfGpdDEgPv1uyg%2Fe46d4eHYz%2FFPfLJZrngrlf4oTpVChzfbAnVpV9An7ykxpiTjjG9Q%3D%3D; Max-Age=72000; Domain=independent.co.uk; Path=/; Secure",
+          "cache-control": "no-cache",
+          "x-content-type-options": "nosniff",
+          "access-control-allow-credentials": "true",
+          "content-encoding": "gzip",
+          "via": "1.1 google"
+        },
+        "responseBodyHash": "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c",
+        "initiators": [
+          "https://www.googletagmanager.com/gtag/js?id=G-S88XNXPY0X&l=dataLayer&cx=c&gtm=45He4cb0v830666029za200"
+        ],
+        "time": 0.18021799996495247
+      },
+      {
+        "url": "https://pub.doubleverify.com/dvtag/signals/ids/pub.json?ctx=34448457&cmp=DV1395182&url=https%3A%2F%2Findependent.co.uk&ids=1&token=iNDwNGN5rZYaIURNdFfwUXEX7AahgnyAIb41KWqsUEmbfeAmvSzSY5v9nubXw8UaGid6uZa9Q9IJZgoapsITZyHePtf6q67xlFfvJ9i%2B9Kob2lhMZ0oKAeREdfiK9gOH4xCTCoQCGSuK4soEITt0D0rNHNrDFOQ%3D",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 346,
+        "remoteIPAddress": "[2606:4700::6812:a7e0]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:50:58 GMT",
+          "content-type": "application/json",
+          "content-length": "13",
+          "access-control-allow-origin": "https://www.independent.co.uk",
+          "cache-control": "private, max-age=800",
+          "vary": "origin, x-forwarded-for, user-agent, Accept-Encoding",
+          "access-control-allow-credentials": "true",
+          "access-control-expose-headers": "Server-Timing, Cf-Ray",
+          "timing-allow-origin": "*",
+          "priority": "u=1,i=?0",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "content-security-policy": "frame-ancestors 'self'",
+          "x-frame-options": "SAMEORIGIN",
+          "server": "cloudflare",
+          "cf-ray": "8f103f159b3e61c1-ORD",
+          "alt-svc": "h3=\":443\"; ma=86400",
+          "server-timing": "cfExtPri"
+        },
+        "responseBodyHash": "44d6d1f2648e7469518e4c7c2434917f72f734dfb30716ea66a139ff4b6eb53b",
+        "initiators": [
+          "https://pub.doubleverify.com/dvtag/34448457/DV1395182/pub.js"
+        ],
+        "time": 0.07864299998618662
+      },
+      {
+        "url": "https://pub.doubleverify.com/dvtag/signals/bsc/pub.json?ctx=34448457&cmp=DV1395182&url=https%3A%2F%2Findependent.co.uk%2Fus&bsc=1&abs=1&token=iNDwNGN5rZYaIURNdFfwUXEX7AahgnyAIb41KWqsUEmbfeAmvSzSY5v9nubXw8UaGid6uZa9Q9IJZgoapsITZyHePtf6q67xlFfvJ9i%2B9Kob2lhMZ0oKAeREdfiK9gOH4xCTCoQCGSuK4soEITt0D0rNHNrDFOQ%3D",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 406,
+        "remoteIPAddress": "[2606:4700::6812:a7e0]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:50:58 GMT",
+          "content-type": "application/json",
+          "access-control-allow-origin": "https://www.independent.co.uk",
+          "cache-control": "public, max-age=3413",
+          "vary": "origin, Accept-Encoding",
+          "access-control-allow-credentials": "true",
+          "access-control-expose-headers": "Server-Timing, Cf-Ray",
+          "timing-allow-origin": "*",
+          "priority": "u=1,i=?0",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "content-security-policy": "frame-ancestors 'self'",
+          "x-frame-options": "SAMEORIGIN",
+          "server": "cloudflare",
+          "cf-ray": "8f103f159b4061c1-ORD",
+          "content-encoding": "br",
+          "alt-svc": "h3=\":443\"; ma=86400",
+          "server-timing": "cfExtPri"
+        },
+        "responseBodyHash": "5ba258f03000b91dab19d3e38a547a72ef8a1f11e44a0595d5b10985abe58a6f",
+        "initiators": [
+          "https://pub.doubleverify.com/dvtag/34448457/DV1395182/pub.js"
+        ],
+        "time": 0.07942399987950921
+      },
+      {
+        "url": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=dbegppc&ttd_tpi=1&ttd_puid=5076bf62-433c-4f8f-b54a-2826adec00d7,551740e8-d173-4b43-b8a1-2cf664766da1&gdpr=1&gdpr_consent=undefined",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 149,
+        "remoteIPAddress": "15.197.193.217",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:50:58 GMT",
+          "content-type": "image/gif",
+          "content-length": "70",
+          "server": "Kestrel"
+        },
+        "responseBodyHash": "d9e59641a8f690d854acb9ef992583e66381ce366a15c647043024a105852f96",
+        "initiators": [
+          "https://5d79bce7-5d2b-427e-a6c4-b89b6c7bf048.edge.permutive.app/4cff3edf-5ca9-48ce-a414-44c408710d4f-web.js"
+        ],
+        "time": 0.12628800002858043
+      },
+      {
+        "url": "https://api.permutive.com/v2.0/watson?k=5076bf62-433c-4f8f-b54a-2826adec00d7",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 398,
+        "remoteIPAddress": "34.107.254.252",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:50:58 GMT",
+          "content-type": "application/json",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "https://www.independent.co.uk",
+          "access-control-allow-credentials": "true",
+          "vary": "Origin",
+          "server": "Permutive",
+          "content-length": "208",
+          "via": "1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "d3c2c2d3468badf30862a34c7cac84bc24a7837f1861a06c1d923399b42bc954",
+        "initiators": [
+          "blob:https://www.independent.co.uk/fe20cb18-f6ff-482a-9782-5697314ae4c2"
+        ],
+        "time": 0.18516999995335937
+      },
+      {
+        "url": "https://api.permutive.com/v2.0/identify?k=5076bf62-433c-4f8f-b54a-2826adec00d7",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 260,
+        "remoteIPAddress": "34.107.254.252",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:50:58 GMT",
+          "content-type": "application/json",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "https://www.independent.co.uk",
+          "access-control-allow-credentials": "true",
+          "vary": "Origin",
+          "server": "Permutive",
+          "content-length": "70",
+          "via": "1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "d989cb737da386e47b7d81e1fa65da83c491de2bf64dca61ab818e0896869af4",
+        "initiators": [
+          "https://5d79bce7-5d2b-427e-a6c4-b89b6c7bf048.edge.permutive.app/4cff3edf-5ca9-48ce-a414-44c408710d4f-web.js"
+        ],
+        "time": 0.15468199993483722
+      },
+      {
+        "url": "https://analytics.google.com/g/s/collect?dma=0&npa=0&gcs=G1--&gcd=13l3l3l3l5l1&gtm=45j91e4c50v884986262z8830666029z9898873467za200zb830666029&tag_exp=101925629~102067555~102067808~102081485~102198178&_gsid=S88XNXPY0XtYeLOB6Wry_0Zki_UZmfng",
+        "method": "GET",
+        "type": "Image",
+        "status": 204,
+        "size": 501,
+        "remoteIPAddress": "[2001:4860:4802:36::181]",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "date": "Thu, 12 Dec 2024 19:50:58 GMT",
+          "pragma": "no-cache",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "content-type": "text/plain",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsggc:194:0",
+          "cross-origin-opener-policy-report-only": "same-origin; report-to=coop_reporting",
+          "report-to": "{\"group\":\"coop_reporting\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsggc:194:0\"}],}",
+          "server": "Golfe2",
+          "content-length": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.independent.co.uk/us"
+        ],
+        "time": 0.0847509999293834
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&dma=0&npa=0&gcs=G1--&gcd=13l3l3l3l5l1&tid=G-S88XNXPY0X&cid=371901969.1734033058&gtm=45j91e4c50v884986262z8830666029z9898873467za200zb830666029&tag_exp=101925629~102067555~102067808~102081485~102198178&aip=1",
+        "method": "GET",
+        "type": "Image",
+        "status": 204,
+        "size": 510,
+        "remoteIPAddress": "[2607:f8b0:4002:c02::9b]",
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "date": "Thu, 12 Dec 2024 19:50:58 GMT",
+          "pragma": "no-cache",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "cache-control": "no-cache, no-store, must-revalidate",
+          "content-type": "text/plain",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsggc:111:0",
+          "cross-origin-opener-policy-report-only": "same-origin; report-to=coop_reporting",
+          "report-to": "{\"group\":\"coop_reporting\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsggc:111:0\"}],}",
+          "server": "Golfe2",
+          "content-length": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.independent.co.uk/us"
+        ],
+        "time": 0.10008500004187226
+      },
+      {
+        "url": "https://api.permutive.com/v2.0/geoip?include=geo&include=isp&include=ip_hash&k=5076bf62-433c-4f8f-b54a-2826adec00d7",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 253,
+        "remoteIPAddress": "34.107.254.252",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:50:58 GMT",
+          "content-type": "application/json",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "https://www.independent.co.uk",
+          "access-control-allow-credentials": "true",
+          "vary": "Origin",
+          "server": "Permutive",
+          "content-length": "196",
+          "via": "1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "8b63060c7f5bcee8b6dcd7024391a53762b489d7c9c0016072c466a0cfc5565e",
+        "initiators": [
+          "blob:https://www.independent.co.uk/fe20cb18-f6ff-482a-9782-5697314ae4c2"
+        ],
+        "time": 0.1184360000770539
+      },
+      {
+        "url": "https://cdn.permutive.com/models/v2/4cff3edf-5ca9-48ce-a414-44c408710d4f-models.bin",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 219877,
+        "remoteIPAddress": "[2606:4700::6811:6d13]",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:50:58 GMT",
+          "content-type": "application/x-binary",
+          "content-length": "218990",
+          "cache-control": "public, max-age=900, no-transform",
+          "expires": "Thu, 12 Dec 2024 19:23:28 GMT",
+          "last-modified": "Mon, 09 Dec 2024 16:51:34 GMT",
+          "etag": "\"3efc51ef5c3bb760ba0fac46dde142c3\"",
+          "x-goog-generation": "1733763094480246",
+          "x-goog-metageneration": "1",
+          "x-goog-stored-content-encoding": "gzip",
+          "x-goog-stored-content-length": "218990",
+          "x-goog-meta-oid": "5d79bce7-5d2b-427e-a6c4-b89b6c7bf048",
+          "content-encoding": "gzip",
+          "x-goog-hash": "crc32c=btF7qQ==\nmd5=PvxR71w7t2C6D6xG3eFCww==",
+          "x-goog-storage-class": "REGIONAL",
+          "access-control-allow-origin": "*",
+          "x-guploader-uploadid": "AFiumC5u1ch2Bc_Jf68GQJnYwTYxbcmjiTC2NUsu2ieOOP8_hYfVVmv9gMGjvCBBT-jNVoMnPVo",
+          "access-control-expose-headers": "Content-Length, Date, Server, Transfer-Encoding, X-GUploader-UploadID, X-Google-Trace",
+          "cf-cache-status": "HIT",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "timing-allow-origin": "*",
+          "age": "0",
+          "server": "cloudflare",
+          "cf-ray": "8f103f194e3b61d8-ORD"
+        },
+        "responseBodyHash": "ec4d6f13a280391eb5d43fa3608baf069a9ca0b8c2318018d1391635bba684bc",
+        "initiators": [
+          "blob:https://www.independent.co.uk/fe20cb18-f6ff-482a-9782-5697314ae4c2"
+        ],
+        "time": 0.12052799994125962
+      },
+      {
+        "url": "https://api.permutive.com/v1.0/state?fetch_unseen=true&k=5076bf62-433c-4f8f-b54a-2826adec00d7",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 34,
+        "remoteIPAddress": "34.107.254.252",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:50:58 GMT",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "server": "Permutive",
+          "content-length": "20",
+          "via": "1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "blob:https://www.independent.co.uk/fe20cb18-f6ff-482a-9782-5697314ae4c2"
+        ],
+        "time": 0.3868800001218915
+      },
+      {
+        "url": "https://api.permutive.com/adv/v4/segment?k=5076bf62-433c-4f8f-b54a-2826adec00d7",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 139,
+        "remoteIPAddress": "34.107.254.252",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:50:59 GMT",
+          "content-type": "application/json",
+          "access-control-allow-origin": "*",
+          "server": "Permutive",
+          "content-length": "124",
+          "via": "1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "4814ce4154cee73e38f9951611a7acc8e760e80578bee6ba0efc42950904e0c2",
+        "initiators": [
+          "blob:https://www.independent.co.uk/fe20cb18-f6ff-482a-9782-5697314ae4c2"
+        ],
+        "time": 0.120632000034675
+      },
+      {
+        "url": "https://api.permutive.com/clm/v1/segment?k=5076bf62-433c-4f8f-b54a-2826adec00d7",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 50,
+        "remoteIPAddress": "34.107.254.252",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:50:59 GMT",
+          "content-type": "application/json",
+          "access-control-allow-origin": "*",
+          "content-length": "37",
+          "via": "1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "7ad17c28602d20f73e266aaf3b6c0040b819f1a5b6140f67990e1e321e8936ae",
+        "initiators": [
+          "blob:https://www.independent.co.uk/fe20cb18-f6ff-482a-9782-5697314ae4c2"
+        ],
+        "time": 0.1143410000950098
+      },
+      {
+        "url": "https://api.permutive.com/v1.0/state?fetch_unseen=false&k=5076bf62-433c-4f8f-b54a-2826adec00d7",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 34,
+        "remoteIPAddress": "34.107.254.252",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:50:59 GMT",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "server": "Permutive",
+          "content-length": "20",
+          "via": "1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "blob:https://www.independent.co.uk/fe20cb18-f6ff-482a-9782-5697314ae4c2"
+        ],
+        "time": 0.11938400007784367
+      },
+      {
+        "url": "https://loadus.exelator.com/load/?p=709&g=40&j=d&10000013=1&10000062=1&10000790=1&136077=1&148363=1&164452=1&3448=1",
+        "method": "GET",
+        "type": "Script",
+        "status": 302,
+        "remoteIPAddress": "52.0.156.250",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Thu, 12 Dec 2024 19:51:00 GMT",
+          "content-type": "image/gif",
+          "content-length": "0",
+          "cache-control": "no-cache",
+          "x-powered-by": "Undertow/1",
+          "set-cookie": "EE=\"0ae8334b0eedcb1a8226070239b8f2dc\"; Domain=.exelator.com; Path=/; Max-Age=10368000; Expires=Fri, 11-Apr-2025 07:51:00 GMT; SameSite=None; Secure;\nud=\"eJxrXxzq6XKLQcEgMdXC2NgkySA1NSU5yTDRwsjIzMDcwMjYMskizSgleXFZatGCpaXFqSlJh5ZU5JTkNK0uiw91jHdz9PX0iVywAswJcw1asCS%252FKDN9UWjw4qKUNMZFJcWngk%252FeMwMAVPYnsg%253D%253D\"; Domain=.exelator.com; Path=/; Max-Age=10368000; Expires=Fri, 11-Apr-2025 07:51:00 GMT; SameSite=None; Secure;",
+          "p3p": "policyref=/w3c/p3p.xml, CP=NOI DSP COR NID CURa ADMa DEVa PSAa PSDa OUR BUS COM INT OTC PUR STA\npolicyref=/w3c/p3p.xml, CP=NOI DSP COR NID CURa ADMa DEVa PSAa PSDa OUR BUS COM INT OTC PUR STA",
+          "location": "https://loadus.exelator.com/load/?p=709&g=40&j=d&10000013=1&10000062=1&10000790=1&136077=1&148363=1&164452=1&3448=1&xl8blockcheck=1",
+          "access-control-allow-credentials": "true"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://loadus.exelator.com/load/?p=709&g=40&j=d&10000013=1&10000062=1&10000790=1&136077=1&148363=1&164452=1&3448=1&xl8blockcheck=1",
+        "initiators": [
+          "https://5d79bce7-5d2b-427e-a6c4-b89b6c7bf048.edge.permutive.app/4cff3edf-5ca9-48ce-a414-44c408710d4f-web.js"
+        ],
+        "time": 0.16726900008507073
+      },
+      {
+        "url": "https://loadus.exelator.com/load/?p=709&g=40&j=d&10000013=1&10000062=1&10000790=1&136077=1&148363=1&164452=1&3448=1&xl8blockcheck=1",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1227,
+        "remoteIPAddress": "52.0.156.250",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Thu, 12 Dec 2024 19:51:00 GMT",
+          "content-type": "application/x-javascript;charset=UTF-8",
+          "cache-control": "no-cache",
+          "x-powered-by": "Undertow/1",
+          "set-cookie": "EE=\"0ae8334b0eedcb1a8226070239b8f2dc\"; Domain=.exelator.com; Path=/; Max-Age=10368000; Expires=Fri, 11-Apr-2025 07:51:00 GMT; SameSite=None; Secure;\nud=\"eJxrXxzq6XKLQcEgMdXC2NgkySA1NSU5yTDRwsjIzMDcwMjYMskizSgleXFZatGCpaXFqSlJh5ZU5JTkNK0uiw91jHdz9PX0iVzmnFGUn5u6AiwU5hq0yNJ4SX5RZvqi0ODFRSlpDItKik8Fn7xnBgCLLyqD\"; Domain=.exelator.com; Path=/; Max-Age=10368000; Expires=Fri, 11-Apr-2025 07:51:00 GMT; SameSite=None; Secure;",
+          "p3p": "policyref=/w3c/p3p.xml, CP=NOI DSP COR NID CURa ADMa DEVa PSAa PSDa OUR BUS COM INT OTC PUR STA\npolicyref=/w3c/p3p.xml, CP=NOI DSP COR NID CURa ADMa DEVa PSAa PSDa OUR BUS COM INT OTC PUR STA",
+          "access-control-allow-credentials": "true"
+        },
+        "responseBodyHash": "b6f87ed74c1d9e620db35fc1faf91a5d9bcdefc66f934b4154574d25dc2813a6",
+        "redirectedFrom": "https://loadus.exelator.com/load/?p=709&g=40&j=d&10000013=1&10000062=1&10000790=1&136077=1&148363=1&164452=1&3448=1",
+        "initiators": [
+          "https://5d79bce7-5d2b-427e-a6c4-b89b6c7bf048.edge.permutive.app/4cff3edf-5ca9-48ce-a414-44c408710d4f-web.js"
+        ],
+        "time": 0.04197799996472895
+      },
+      {
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=exelate&;google_hm=MGFlODMzNGIwZWVkY2IxYTgyMjYwNzAyMzliOGYyZGM&;&;google_redir=https://load.exelator.com/load/?p=204&;g=109",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "172.253.124.157",
+        "responseHeaders": {
+          "location": "https://loadm.exelator.com/load/?p=204&g=001&bi=&j=0&;google_hm=MGFlODMzNGIwZWVkY2IxYTgyMjYwNzAyMzliOGYyZGM&;=&;google_redir=https://load.exelator.com/load/?p=204&;g=109&google_error=2",
+          "date": "Thu, 12 Dec 2024 19:51:00 GMT",
+          "pragma": "no-cache",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "cache-control": "no-cache, must-revalidate",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-type": "text/html; charset=UTF-8",
+          "server": "HTTP server (unknown)",
+          "content-length": "413",
+          "x-xss-protection": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://loadm.exelator.com/load/?p=204&g=001&bi=&j=0&;google_hm=MGFlODMzNGIwZWVkY2IxYTgyMjYwNzAyMzliOGYyZGM&;=&;google_redir=https://load.exelator.com/load/?p=204&;g=109&google_error=2",
+        "initiators": [
+          "https://loadus.exelator.com/load/?p=709&g=40&j=d&10000013=1&10000062=1&10000790=1&136077=1&148363=1&164452=1&3448=1"
+        ],
+        "time": 0.10669400007463992
+      },
+      {
+        "url": "https://loadm.exelator.com/load/?p=204&g=001&bi=&j=0&;google_hm=MGFlODMzNGIwZWVkY2IxYTgyMjYwNzAyMzliOGYyZGM&;=&;google_redir=https://load.exelator.com/load/?p=204&;g=109&google_error=2",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "52.0.156.250",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Thu, 12 Dec 2024 19:51:00 GMT",
+          "content-type": "image/gif",
+          "content-length": "0",
+          "cache-control": "no-cache",
+          "x-powered-by": "Undertow/1",
+          "set-cookie": "EE=\"0ae8334b0eedcb1a8226070239b8f2dc\"; Domain=.exelator.com; Path=/; Max-Age=10368000; Expires=Fri, 11-Apr-2025 07:51:00 GMT; SameSite=None; Secure;\nud=\"eJxrXxzq6XKLQcEgMdXC2NgkySA1NSU5yTDRwsjIzMDcwMjYMskizSgleXFZatGCpaXFqSlJh5ZU5JTkNK0uiw91jHdz9PX0iVzmnFGUn5u6AiwU5hq0yNJ4SX5RZvqi0ODFRSlpDItKik8Fn7xnBgCLLyqD\"; Domain=.exelator.com; Path=/; Max-Age=10368000; Expires=Fri, 11-Apr-2025 07:51:00 GMT; SameSite=None; Secure;",
+          "p3p": "policyref=/w3c/p3p.xml, CP=NOI DSP COR NID CURa ADMa DEVa PSAa PSDa OUR BUS COM INT OTC PUR STA\npolicyref=/w3c/p3p.xml, CP=NOI DSP COR NID CURa ADMa DEVa PSAa PSDa OUR BUS COM INT OTC PUR STA",
+          "location": "https://cm.g.doubleclick.net/pixel?google_nid=exelate&google_hm=MGFlODMzNGIwZWVkY2IxYTgyMjYwNzAyMzliOGYyZGM&",
+          "access-control-allow-credentials": "true"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://cm.g.doubleclick.net/pixel?google_nid=exelate&google_hm=MGFlODMzNGIwZWVkY2IxYTgyMjYwNzAyMzliOGYyZGM&",
+        "redirectedFrom": "https://cm.g.doubleclick.net/pixel?google_nid=exelate&;google_hm=MGFlODMzNGIwZWVkY2IxYTgyMjYwNzAyMzliOGYyZGM&;&;google_redir=https://load.exelator.com/load/?p=204&;g=109",
+        "initiators": [
+          "https://loadus.exelator.com/load/?p=709&g=40&j=d&10000013=1&10000062=1&10000790=1&136077=1&148363=1&164452=1&3448=1"
+        ],
+        "time": 0.04621799988672137
+      },
+      {
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=exelate&google_hm=MGFlODMzNGIwZWVkY2IxYTgyMjYwNzAyMzliOGYyZGM&",
+        "method": "GET",
+        "type": "Image",
+        "status": 302,
+        "remoteIPAddress": "172.253.124.157",
+        "responseHeaders": {
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "location": "https://cm.g.doubleclick.net/pixel?google_nid=exelate&google_hm=MGFlODMzNGIwZWVkY2IxYTgyMjYwNzAyMzliOGYyZGM&google_tc=",
+          "date": "Thu, 12 Dec 2024 19:51:00 GMT",
+          "pragma": "no-cache",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "cache-control": "no-cache, must-revalidate",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-type": "text/html; charset=UTF-8",
+          "server": "HTTP server (unknown)",
+          "content-length": "323",
+          "x-xss-protection": "0",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Thu, 12-Dec-2024 20:06:00 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://cm.g.doubleclick.net/pixel?google_nid=exelate&google_hm=MGFlODMzNGIwZWVkY2IxYTgyMjYwNzAyMzliOGYyZGM&google_tc=",
+        "redirectedFrom": "https://loadm.exelator.com/load/?p=204&g=001&bi=&j=0&;google_hm=MGFlODMzNGIwZWVkY2IxYTgyMjYwNzAyMzliOGYyZGM&;=&;google_redir=https://load.exelator.com/load/?p=204&;g=109&google_error=2",
+        "initiators": [
+          "https://loadus.exelator.com/load/?p=709&g=40&j=d&10000013=1&10000062=1&10000790=1&136077=1&148363=1&164452=1&3448=1"
+        ],
+        "time": 0.12517100013792515
+      },
+      {
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=exelate&google_hm=MGFlODMzNGIwZWVkY2IxYTgyMjYwNzAyMzliOGYyZGM&google_tc=",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 188,
+        "remoteIPAddress": "172.253.124.157",
+        "responseHeaders": {
+          "content-type": "image/png",
+          "date": "Thu, 12 Dec 2024 19:51:00 GMT",
+          "pragma": "no-cache",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "cache-control": "no-cache, must-revalidate",
+          "cross-origin-resource-policy": "cross-origin",
+          "server": "HTTP server (unknown)",
+          "content-length": "170",
+          "x-xss-protection": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "071d0a5d172af491aedca9041f20e830d25fd4d339a1006bca3bed949069aa30",
+        "redirectedFrom": "https://cm.g.doubleclick.net/pixel?google_nid=exelate&google_hm=MGFlODMzNGIwZWVkY2IxYTgyMjYwNzAyMzliOGYyZGM&",
+        "initiators": [
+          "https://loadus.exelator.com/load/?p=709&g=40&j=d&10000013=1&10000062=1&10000790=1&136077=1&148363=1&164452=1&3448=1"
+        ],
+        "time": 0.04239299986511469
+      },
+      {
+        "url": "https://api.permutive.com/v2.0/batch/events?enrich=false&sdkp=true&k=5076bf62-433c-4f8f-b54a-2826adec00d7",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 158,
+        "remoteIPAddress": "34.107.254.252",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 19:51:00 GMT",
+          "content-type": "application/json",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "https://www.independent.co.uk",
+          "access-control-allow-credentials": "true",
+          "vary": "Origin",
+          "server": "Permutive",
+          "content-length": "140",
+          "via": "1.1 google",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "4c795c3ec2ce6bccc341189f5d2f1aa69ea3f96670281db2189625d11cd4bee8",
+        "initiators": [
+          "https://5d79bce7-5d2b-427e-a6c4-b89b6c7bf048.edge.permutive.app/4cff3edf-5ca9-48ce-a414-44c408710d4f-web.js"
+        ],
+        "time": 0.1192619998473674
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.independent.co.uk/_build/sourcepoint.6e3e59afb8b0e976f029.js": {
+          "Document.cookie getter": 5
+        },
+        "https://securepubads.g.doubleclick.net/tag/js/gpt.js": {
+          "Navigator.prototype.userAgent": 12,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1
+        },
+        "https://sb.scorecardresearch.com/cs/10476312/beacon.js": {
+          "Document.cookie getter": 1,
+          "Date.prototype.getTime": 2,
+          "Document.cookie setter": 2
+        },
+        "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202412090101/pubads_impl.js": {
+          "Navigator.prototype.userAgent": 78,
+          "PerformanceTiming.prototype.navigationStart": 3,
+          "Screen.prototype.width": 2,
+          "Screen.prototype.height": 2,
+          "window.innerHeight": 5,
+          "window.innerWidth": 6
+        },
+        "https://www.independent.co.uk/js/adobe.raw.js": {
+          "Date.prototype.getTime": 21,
+          "Navigator.prototype.userAgent": 3,
+          "Navigator.prototype.appName": 2,
+          "Document.cookie setter": 20,
+          "Document.cookie getter": 104,
+          "Date.prototype.getTimezoneOffset": 1,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.height": 1,
+          "Navigator.prototype.javaEnabled": 1,
+          "Screen.prototype.pixelDepth": 2,
+          "window.innerWidth": 2,
+          "window.innerHeight": 2
+        },
+        "https://cmpv2.independent.co.uk/unified/wrapperMessagingWithoutDetection.js": {
+          "Navigator.prototype.userAgent": 1,
+          "Document.cookie getter": 12,
+          "window.localStorage": 21,
+          "Date.prototype.getTime": 5,
+          "Document.cookie setter": 5
+        },
+        "https://www.independent.co.uk/_build/main.c3dc99d8a06eb0839ccb.js": {
+          "Document.cookie getter": 85,
+          "window.localStorage": 898,
+          "window.innerWidth": 4,
+          "window.innerHeight": 1,
+          "Date.prototype.getTimezoneOffset": 1,
+          "window.sessionStorage": 6,
+          "NavigatorUAData.prototype.platform": 1,
+          "Navigator.prototype.platform": 1
+        },
+        "https://www.independent.co.uk/_build/init-piano.460e2cd18dfafd1b3589.js": {
+          "Document.cookie getter": 2
+        },
+        "https://cdn.tinypass.com/api/tinypass.min.js": {
+          "window.localStorage": 23,
+          "Date.prototype.getTime": 9,
+          "Document.cookie setter": 26,
+          "Document.cookie getter": 38,
+          "window.name": 1,
+          "Navigator.prototype.userAgent": 5,
+          "Navigator.prototype.language": 1,
+          "Date.prototype.getTimezoneOffset": 1,
+          "Navigator.prototype.plugins": 4,
+          "Screen.prototype.height": 1,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.colorDepth": 1,
+          "window.sessionStorage": 1,
+          "Navigator.prototype.platform": 1,
+          "window.innerWidth": 23,
+          "window.innerHeight": 23
+        },
+        "https://static.chartbeat.com/js/chartbeat_mab.js": {
+          "Document.cookie getter": 8,
+          "Document.cookie setter": 6,
+          "Date.prototype.getTime": 3,
+          "window.localStorage": 1
+        },
+        "https://5d79bce7-5d2b-427e-a6c4-b89b6c7bf048.edge.permutive.app/4cff3edf-5ca9-48ce-a414-44c408710d4f-web.js": {
+          "Date.prototype.getTime": 12,
+          "window.sessionStorage": 2,
+          "URL.createObjectURL": 1,
+          "window.localStorage": 44,
+          "Document.cookie getter": 2,
+          "Document.cookie setter": 3,
+          "Navigator.prototype.userAgent": 25,
+          "Performance.prototype.memory": 4
+        },
+        "https://cdn.pbxai.com/b5a8c20e-7642-44b9-82a5-8c896cbfc109.js": {
+          "window.localStorage": 1,
+          "window.sessionStorage": 1
+        },
+        "https://www.googletagmanager.com/gtm.js?id=GTM-5XT7NPD": {
+          "Navigator.prototype.userAgent": 33,
+          "Document.cookie getter": 4,
+          "Date.prototype.getTime": 227,
+          "window.localStorage": 1,
+          "window.name": 2
+        },
+        "https://static.chartbeat.com/js/chartbeat_video.js": {
+          "Document.cookie getter": 28,
+          "Document.cookie setter": 17,
+          "Date.prototype.getTime": 38,
+          "window.localStorage": 1,
+          "Navigator.prototype.userAgent": 5,
+          "Navigator.prototype.platform": 4,
+          "Date.prototype.getTimezoneOffset": 5,
+          "Screen.prototype.width": 4,
+          "Screen.prototype.height": 4,
+          "Screen.prototype.colorDepth": 4,
+          "Navigator.prototype.plugins": 4,
+          "PerformanceTiming.prototype.navigationStart": 4,
+          "window.innerHeight": 2
+        },
+        "https://www.independent.co.uk/_build/prebid_non_uk.2761fa78d9d80d53c352.js": {
+          "NavigatorUAData.prototype.brands": 3,
+          "NavigatorUAData.prototype.platform": 1,
+          "window.sessionStorage": 1,
+          "Navigator.prototype.userAgent": 1,
+          "Date.prototype.getTime": 7,
+          "window.localStorage": 12,
+          "Navigator.prototype.cookieEnabled": 3,
+          "Document.cookie getter": 5
+        },
+        "https://static.anonymised.io/light/bundle.js?v=0.3.20": {
+          "Navigator.prototype.userAgent": 2,
+          "window.localStorage": 5,
+          "Document.cookie getter": 1,
+          "window.sessionStorage": 1
+        },
+        "https://www.googletagmanager.com/gtag/js?id=G-S88XNXPY0X&l=dataLayer&cx=c&gtm=45He4cb0v830666029za200": {
+          "Navigator.prototype.userAgent": 37,
+          "Document.cookie getter": 29,
+          "Date.prototype.getTime": 97,
+          "Navigator.prototype.language": 2,
+          "Screen.prototype.width": 2,
+          "Screen.prototype.height": 2,
+          "Document.cookie setter": 6,
+          "window.name": 2
+        },
+        "https://pub.doubleverify.com/dvtag/34448457/DV1395182/pub.js": {
+          "window.sessionStorage": 1
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://sb.scorecardresearch.com/cs/10476312/beacon.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_scor_uid=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; SameSite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://sb.scorecardresearch.com/cs/10476312/beacon.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_scor_uid=96d9d34a9e0244fdb39bf00f395be827; domain=independent.co.uk; expires=Tue, 06 Jan 2026 19:50:53 GMT; path=/; SameSite=None; Secure"
+          ]
+        },
+        {
+          "source": "https://www.independent.co.uk/js/adobe.raw.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "test=cookie; path=/; domain=co.uk;"
+          ]
+        },
+        {
+          "source": "https://www.independent.co.uk/js/adobe.raw.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "test=cookie; path=/; domain=independent.co.uk;"
+          ]
+        },
+        {
+          "source": "https://www.independent.co.uk/js/adobe.raw.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "test=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=independent.co.uk;"
+          ]
+        },
+        {
+          "source": "https://www.independent.co.uk/js/adobe.raw.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "test=cookie; path=/; domain=co.uk;"
+          ]
+        },
+        {
+          "source": "https://www.independent.co.uk/js/adobe.raw.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "test=cookie; path=/; domain=independent.co.uk;"
+          ]
+        },
+        {
+          "source": "https://www.independent.co.uk/js/adobe.raw.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "test=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=independent.co.uk;"
+          ]
+        },
+        {
+          "source": "https://www.independent.co.uk/js/adobe.raw.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "test=cookie; path=/; domain=co.uk;"
+          ]
+        },
+        {
+          "source": "https://www.independent.co.uk/js/adobe.raw.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "test=cookie; path=/; domain=independent.co.uk;"
+          ]
+        },
+        {
+          "source": "https://www.independent.co.uk/js/adobe.raw.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "test=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=independent.co.uk;"
+          ]
+        },
+        {
+          "source": "https://www.independent.co.uk/js/adobe.raw.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCV_28280C0F53DB09900A490D45%40AdobeOrg=1585540135%7CMCIDTS%7C20070%7CvVersion%7C4.4.0; path=/; expires=Sat, 12 Dec 2026 19:50:54 GMT; domain=independent.co.uk;"
+          ]
+        },
+        {
+          "source": "https://cmpv2.independent.co.uk/unified/wrapperMessagingWithoutDetection.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "dnsDisplayed=undefined; Path=/; Secure=true; SameSite=None; Max-Age=31536000; expires=Fri, 12 Dec 2025 19:50:54 GMT; Domain=independent.co.uk;"
+          ]
+        },
+        {
+          "source": "https://cmpv2.independent.co.uk/unified/wrapperMessagingWithoutDetection.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ccpaApplies=false; Path=/; Secure=true; SameSite=None; Max-Age=31536000; expires=Fri, 12 Dec 2025 19:50:54 GMT; Domain=independent.co.uk;"
+          ]
+        },
+        {
+          "source": "https://cmpv2.independent.co.uk/unified/wrapperMessagingWithoutDetection.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "signedLspa=undefined; Path=/; Secure=true; SameSite=None; Max-Age=31536000; expires=Fri, 12 Dec 2025 19:50:54 GMT; Domain=independent.co.uk;"
+          ]
+        },
+        {
+          "source": "https://cmpv2.independent.co.uk/unified/wrapperMessagingWithoutDetection.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_sp_su=false; Path=/; Secure=true; SameSite=None; Max-Age=31536000; expires=Fri, 12 Dec 2025 19:50:54 GMT; Domain=independent.co.uk;"
+          ]
+        },
+        {
+          "source": "https://www.independent.co.uk/js/adobe.raw.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCV_28280C0F53DB09900A490D45%40AdobeOrg=1585540135%7CMCIDTS%7C20070%7CMCMID%7C16091513960372124371119614383125721186%7CvVersion%7C4.4.0; path=/; expires=Sat, 12 Dec 2026 19:50:54 GMT; domain=independent.co.uk;"
+          ]
+        },
+        {
+          "source": "https://www.independent.co.uk/js/adobe.raw.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCV_28280C0F53DB09900A490D45%40AdobeOrg=1585540135%7CMCIDTS%7C20070%7CMCMID%7C16091513960372124371119614383125721186%7CMCAAMLH-1734637854%7C9%7CvVersion%7C4.4.0; path=/; expires=Sat, 12 Dec 2026 19:50:54 GMT; domain=independent.co.uk;"
+          ]
+        },
+        {
+          "source": "https://www.independent.co.uk/js/adobe.raw.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCV_28280C0F53DB09900A490D45%40AdobeOrg=1585540135%7CMCIDTS%7C20070%7CMCMID%7C16091513960372124371119614383125721186%7CMCAAMLH-1734637854%7C9%7CMCAAMB-1734637854%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CvVersion%7C4.4.0; path=/; expires=Sat, 12 Dec 2026 19:50:54 GMT; domain=independent.co.uk;"
+          ]
+        },
+        {
+          "source": "https://www.independent.co.uk/js/adobe.raw.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCVS_28280C0F53DB09900A490D45%40AdobeOrg=1; path=/; domain=independent.co.uk;"
+          ]
+        },
+        {
+          "source": "https://www.independent.co.uk/js/adobe.raw.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCV_28280C0F53DB09900A490D45%40AdobeOrg=1585540135%7CMCIDTS%7C20070%7CMCMID%7C16091513960372124371119614383125721186%7CMCAAMLH-1734637854%7C9%7CMCAAMB-1734637854%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1734040254s%7CNONE%7CvVersion%7C4.4.0; path=/; expires=Sat, 12 Dec 2026 19:50:54 GMT; domain=independent.co.uk;"
+          ]
+        },
+        {
+          "source": "https://www.independent.co.uk/js/adobe.raw.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCV_28280C0F53DB09900A490D45%40AdobeOrg=1585540135%7CMCIDTS%7C20070%7CMCMID%7C16091513960372124371119614383125721186%7CMCAAMLH-1734637854%7C9%7CMCAAMB-1734637854%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1734040255s%7CNONE%7CvVersion%7C4.4.0; path=/; expires=Sat, 12 Dec 2026 19:50:55 GMT; domain=independent.co.uk;"
+          ]
+        },
+        {
+          "source": "https://cmpv2.independent.co.uk/unified/wrapperMessagingWithoutDetection.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ccpaUUID=534ff2c9-399f-4ed9-a947-06e077843d47; Path=/; Secure=true; SameSite=None; Max-Age=31536000; expires=Fri, 12 Dec 2025 19:50:55 GMT; Domain=independent.co.uk;"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=m4lqicjei3k5rx; expires=Thu, 12 Dec 2024 19:51:25 GMT; path=/; domain=uk; secure"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=; expires=Wed, 11 Dec 2024 19:50:55 GMT; path=/; domain=uk"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=m4lqicjei3k5rx; expires=Thu, 12 Dec 2024 19:51:25 GMT; path=/; domain=co.uk; secure"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=; expires=Wed, 11 Dec 2024 19:50:55 GMT; path=/; domain=co.uk"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=m4lqicjei3k5rx; expires=Thu, 12 Dec 2024 19:51:25 GMT; path=/; domain=independent.co.uk; secure"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=; expires=Wed, 11 Dec 2024 19:50:55 GMT; path=/; domain=independent.co.uk"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=m4lqickyngc05l; expires=Thu, 12 Dec 2024 19:51:25 GMT; path=/; domain=uk; secure"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=; expires=Wed, 11 Dec 2024 19:50:55 GMT; path=/; domain=uk"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=m4lqickyngc05l; expires=Thu, 12 Dec 2024 19:51:25 GMT; path=/; domain=co.uk; secure"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=; expires=Wed, 11 Dec 2024 19:50:55 GMT; path=/; domain=co.uk"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=m4lqickyngc05l; expires=Thu, 12 Dec 2024 19:51:25 GMT; path=/; domain=independent.co.uk; secure"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=; expires=Wed, 11 Dec 2024 19:50:55 GMT; path=/; domain=independent.co.uk"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=m4lqicle76eqfs; expires=Thu, 12 Dec 2024 19:51:25 GMT; path=/; domain=uk; secure"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=; expires=Wed, 11 Dec 2024 19:50:55 GMT; path=/; domain=uk"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=m4lqicle76eqfs; expires=Thu, 12 Dec 2024 19:51:25 GMT; path=/; domain=co.uk; secure"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=; expires=Wed, 11 Dec 2024 19:50:55 GMT; path=/; domain=co.uk"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=m4lqicle76eqfs; expires=Thu, 12 Dec 2024 19:51:25 GMT; path=/; domain=independent.co.uk; secure"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=; expires=Wed, 11 Dec 2024 19:50:55 GMT; path=/; domain=independent.co.uk"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_pctx=%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXQF8g; expires=Sun, 11 Jan 2026 19:50:55 GMT; path=/; domain=independent.co.uk; secure; sameSite=lax"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_pctx=%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAEzIEYOBmAFgAYAHACZBg-gDYArAE4A7NMmCQAXyA; expires=Sun, 11 Jan 2026 19:50:55 GMT; path=/; domain=independent.co.uk; secure; sameSite=lax"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=m4lqicomo3eghh; expires=Thu, 12 Dec 2024 19:51:25 GMT; path=/; domain=uk; secure"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=; expires=Wed, 11 Dec 2024 19:50:55 GMT; path=/; domain=uk"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=m4lqicomo3eghh; expires=Thu, 12 Dec 2024 19:51:25 GMT; path=/; domain=co.uk; secure"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=; expires=Wed, 11 Dec 2024 19:50:55 GMT; path=/; domain=co.uk"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=m4lqicomo3eghh; expires=Thu, 12 Dec 2024 19:51:25 GMT; path=/; domain=independent.co.uk; secure"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=; expires=Wed, 11 Dec 2024 19:50:55 GMT; path=/; domain=independent.co.uk"
+          ]
+        },
+        {
+          "source": "https://www.independent.co.uk/js/adobe.raw.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCV_28280C0F53DB09900A490D45%40AdobeOrg=1585540135%7CMCIDTS%7C20070%7CMCMID%7C16091513960372124371119614383125721186%7CMCAAMLH-1734637854%7C9%7CMCAAMB-1734637854%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1734040255s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C4.4.0; path=/; expires=Sat, 12 Dec 2026 19:50:55 GMT; domain=independent.co.uk;"
+          ]
+        },
+        {
+          "source": "https://www.independent.co.uk/js/adobe.raw.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "s_cc=true; path=/; domain=.independent.co.uk;"
+          ]
+        },
+        {
+          "source": "https://www.independent.co.uk/js/adobe.raw.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCV_28280C0F53DB09900A490D45%40AdobeOrg=1585540135%7CMCIDTS%7C20070%7CMCMID%7C16091513960372124371119614383125721186%7CMCAAMLH-1734637854%7C9%7CMCAAMB-1734637854%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1734040255s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C4.4.0; path=/; expires=Sat, 12 Dec 2026 19:50:55 GMT; domain=independent.co.uk;"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_mab.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=_cbt; domain=co.uk; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_mab.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=_cbt; domain=independent.co.uk; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_mab.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=; expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=independent.co.uk; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_mab.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=_cbt; domain=co.uk; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_mab.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=_cbt; domain=independent.co.uk; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_mab.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=; expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=independent.co.uk; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_video.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=_cbt; domain=co.uk; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_video.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=_cbt; domain=independent.co.uk; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_video.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=; expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=independent.co.uk; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_video.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=_cbt; domain=co.uk; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_video.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=_cbt; domain=independent.co.uk; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_video.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=; expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=independent.co.uk; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_video.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cb=VF3_2BfZRfED59HCI; expires=Sun, 11 Jan 2026 19:50:56 GMT; path=/; Secure; domain=independent.co.uk"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_video.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_chartbeat2=.1734033056139.1734033056139.1.CvK7ntCNRkzwDNEL75CTs_MHDkGx8B.1; expires=Sun, 11 Jan 2026 19:50:56 GMT; path=/; Secure; domain=independent.co.uk"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_video.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cb_svref=external; expires=Thu, 12 Dec 2024 20:20:56 GMT; path=/; Secure; domain=independent.co.uk"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_video.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cb_svref=; expires=Wed, 11 Dec 2024 19:50:56 GMT; path=/; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_video.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cb_svref=external; expires=Thu, 12 Dec 2024 20:20:56 GMT; path=/; Secure; domain=independent.co.uk"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_video.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=_cbt; domain=co.uk; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_video.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=_cbt; domain=independent.co.uk; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_video.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=; expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=independent.co.uk; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_video.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cb_svref=; expires=Wed, 11 Dec 2024 19:50:56 GMT; path=/; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_video.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cb_svref=; expires=Wed, 11 Dec 2024 19:50:56 GMT; path=/; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_video.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cb_svref=external; expires=Thu, 12 Dec 2024 20:20:56 GMT; path=/; Secure; domain=independent.co.uk"
+          ]
+        },
+        {
+          "source": "https://5d79bce7-5d2b-427e-a6c4-b89b6c7bf048.edge.permutive.app/4cff3edf-5ca9-48ce-a414-44c408710d4f-web.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "permutive-id=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=.independent.co.uk; path=/; samesite=none; secure"
+          ]
+        },
+        {
+          "source": "https://5d79bce7-5d2b-427e-a6c4-b89b6c7bf048.edge.permutive.app/4cff3edf-5ca9-48ce-a414-44c408710d4f-web.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "permutive-session=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=.independent.co.uk; path=/; samesite=none; secure"
+          ]
+        },
+        {
+          "source": "https://5d79bce7-5d2b-427e-a6c4-b89b6c7bf048.edge.permutive.app/4cff3edf-5ca9-48ce-a414-44c408710d4f-web.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "permutive-id=551740e8-d173-4b43-b8a1-2cf664766da1; expires=Thu, 12 Jun 2025 18:50:56 GMT; domain=.independent.co.uk; path=/; samesite=none; secure"
+          ]
+        },
+        {
+          "source": "https://www.independent.co.uk/js/adobe.raw.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "AMCV_28280C0F53DB09900A490D45%40AdobeOrg=1585540135%7CMCIDTS%7C20070%7CMCMID%7C16091513960372124371119614383125721186%7CMCAAMLH-1734637854%7C9%7CMCAAMB-1734637854%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1734040255s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-20077%7CvVersion%7C4.4.0; path=/; expires=Sat, 12 Dec 2026 19:50:57 GMT; domain=independent.co.uk;"
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-S88XNXPY0X&l=dataLayer&cx=c&gtm=45He4cb0v830666029za200",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_S88XNXPY0X=deleted; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; expires=Sat, 12 Dec 2026 19:50:57 GMT; domain=www.independent.co.uk; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-S88XNXPY0X&l=dataLayer&cx=c&gtm=45He4cb0v830666029za200",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_S88XNXPY0X=GS1.4.1734033057.1.0.1734033057.0.0.511473807; path=/; expires=Sat, 12 Dec 2026 19:50:57 GMT; domain=www.independent.co.uk; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-S88XNXPY0X&l=dataLayer&cx=c&gtm=45He4cb0v830666029za200",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga=GA1.4.371901969.1734033058; path=/; expires=Sat, 12 Dec 2026 19:50:58 GMT; domain=www.independent.co.uk; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-S88XNXPY0X&l=dataLayer&cx=c&gtm=45He4cb0v830666029za200",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_Z97VTK5BT9=deleted; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; expires=Sat, 12 Dec 2026 19:50:58 GMT; domain=www.independent.co.uk; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-S88XNXPY0X&l=dataLayer&cx=c&gtm=45He4cb0v830666029za200",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga_Z97VTK5BT9=GS1.4.1734033058.1.0.1734033058.0.0.2100542554; path=/; expires=Sat, 12 Dec 2026 19:50:58 GMT; domain=www.independent.co.uk; "
+          ]
+        },
+        {
+          "source": "https://www.googletagmanager.com/gtag/js?id=G-S88XNXPY0X&l=dataLayer&cx=c&gtm=45He4cb0v830666029za200",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ga=GA1.4.371901969.1734033058; path=/; expires=Sat, 12 Dec 2026 19:50:58 GMT; domain=www.independent.co.uk; "
+          ]
+        }
+      ]
+    },
+    "cookies": [
+      {
+        "name": "esi-permutive-id",
+        "domain": "independent.co.uk",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "Locale",
+        "domain": "www.independent.co.uk",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "gdpr",
+        "domain": "www.independent.co.uk",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "subscriber_origin",
+        "domain": "www.independent.co.uk",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "_pc_subscriber_origin",
+        "domain": "www.independent.co.uk",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "feat__support_now_donate_copy",
+        "domain": "www.independent.co.uk",
+        "path": "/",
+        "expires": 1736193051614,
+        "session": false
+      },
+      {
+        "name": "feat__pubx_integration",
+        "domain": "www.independent.co.uk",
+        "path": "/",
+        "expires": 1739217051614,
+        "session": false
+      },
+      {
+        "name": "esi-uuid",
+        "domain": "www.independent.co.uk",
+        "path": "/",
+        "expires": 1765569051614,
+        "session": false
+      },
+      {
+        "name": "esi-permutive-id",
+        "domain": "www.independent.co.uk",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "_scor_uid",
+        "domain": ".independent.co.uk",
+        "path": "/",
+        "expires": 1767729053000,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "UID",
+        "domain": ".scorecardresearch.com",
+        "path": "/",
+        "expires": 1767729054031,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "XID",
+        "domain": ".scorecardresearch.com",
+        "path": "/",
+        "expires": 1767729054031,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "dnsDisplayed",
+        "domain": ".independent.co.uk",
+        "path": "/",
+        "expires": 1765569054793,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "ccpaApplies",
+        "domain": ".independent.co.uk",
+        "path": "/",
+        "expires": 1765569054795,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "signedLspa",
+        "domain": ".independent.co.uk",
+        "path": "/",
+        "expires": 1765569054796,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_sp_su",
+        "domain": ".independent.co.uk",
+        "path": "/",
+        "expires": 1765569054801,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "demdex",
+        "domain": ".demdex.net",
+        "path": "/",
+        "expires": 1749585056129,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "AMCVS_28280C0F53DB09900A490D45%40AdobeOrg",
+        "domain": ".independent.co.uk",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "ccpaUUID",
+        "domain": ".independent.co.uk",
+        "path": "/",
+        "expires": 1765569055090,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "s_ecid",
+        "domain": ".independent.co.uk",
+        "path": "/",
+        "expires": 1797105056061,
+        "session": false
+      },
+      {
+        "name": "_pctx",
+        "domain": ".independent.co.uk",
+        "path": "/",
+        "expires": 1768161055000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "everest_g_v2",
+        "domain": ".everesttech.net",
+        "path": "/",
+        "expires": 1765569055569,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "s_cc",
+        "domain": ".independent.co.uk",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "dpm",
+        "domain": ".dpm.demdex.net",
+        "path": "/",
+        "expires": 1749585056129,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_cb",
+        "domain": ".independent.co.uk",
+        "path": "/",
+        "expires": 1768161056000,
+        "session": false
+      },
+      {
+        "name": "_chartbeat2",
+        "domain": ".independent.co.uk",
+        "path": "/",
+        "expires": 1768161056000,
+        "session": false
+      },
+      {
+        "name": "_cb_svref",
+        "domain": ".independent.co.uk",
+        "path": "/",
+        "expires": 1734034856000,
+        "session": false
+      },
+      {
+        "name": "permutive-id",
+        "domain": ".independent.co.uk",
+        "path": "/",
+        "expires": 1749754256000,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "AMCV_28280C0F53DB09900A490D45%40AdobeOrg",
+        "domain": ".independent.co.uk",
+        "path": "/",
+        "expires": 1797105057000,
+        "session": false
+      },
+      {
+        "name": "receive-cookie-deprecation",
+        "domain": ".adnxs.com",
+        "path": "/",
+        "expires": 2048529057728,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "pxid",
+        "domain": ".5d79bce7-5d2b-427e-a6c4-b89b6c7bf048.prmutv.co",
+        "path": "/",
+        "expires": 1741809057730,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_ga_S88XNXPY0X",
+        "domain": ".www.independent.co.uk",
+        "path": "/",
+        "expires": 1797105057000,
+        "session": false
+      },
+      {
+        "name": "_ga",
+        "domain": ".www.independent.co.uk",
+        "path": "/",
+        "expires": 1797105058000,
+        "session": false
+      },
+      {
+        "name": "_ga_Z97VTK5BT9",
+        "domain": ".www.independent.co.uk",
+        "path": "/",
+        "expires": 1797105058000,
+        "session": false
+      },
+      {
+        "name": "FPID",
+        "domain": ".independent.co.uk",
+        "path": "/",
+        "expires": 1797105058302,
+        "session": false,
+        "sameSite": "Strict"
+      },
+      {
+        "name": "FPLC",
+        "domain": ".independent.co.uk",
+        "path": "/",
+        "expires": 1734105058302,
+        "session": false
+      },
+      {
+        "name": "FPGSID",
+        "domain": ".independent.co.uk",
+        "path": "/",
+        "expires": 1734034858303,
+        "session": false,
+        "sameSite": "Strict"
+      },
+      {
+        "name": "EE",
+        "domain": ".exelator.com",
+        "path": "/",
+        "expires": 1744401060545,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "ud",
+        "domain": ".exelator.com",
+        "path": "/",
+        "expires": 1744401060545,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "test_cookie",
+        "domain": ".doubleclick.net",
+        "path": "/",
+        "expires": 1734033960656,
+        "session": false,
+        "sameSite": "None"
+      }
+    ]
+  }
+}

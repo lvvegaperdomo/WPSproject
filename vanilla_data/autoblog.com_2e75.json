@@ -1,0 +1,109 @@
+{
+  "initialUrl": "http://autoblog.com/",
+  "finalUrl": "http://autoblog.com/",
+  "timeout": false,
+  "testStarted": 1734033720237,
+  "testFinished": 1734033724795,
+  "data": {
+    "requests": [
+      {
+        "url": "http://autoblog.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 403,
+        "size": 1965,
+        "remoteIPAddress": "151.101.130.98",
+        "responseHeaders": {
+          "connection": "keep-alive",
+          "content-length": "732",
+          "content-type": "text/html;charset=utf-8",
+          "server": "DataDome",
+          "x-datadome": "protected",
+          "accept-ch": "Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory",
+          "x-datadome-devicecheckpassed": "NA",
+          "x-datadome-traffic-rule-response": "block",
+          "charset": "utf-8",
+          "cache-control": "max-age=0, private, no-cache, no-store, must-revalidate",
+          "pragma": "no-cache",
+          "access-control-allow-credentials": "true",
+          "access-control-expose-headers": "x-dd-b, x-set-cookie",
+          "access-control-allow-origin": "*",
+          "x-datadome-cid": "AHrlqAAAAAMAsKifg00XwXoAbNFfeQ==",
+          "x-dd-b": "1",
+          "set-cookie": "datadome=Hzso9e~L0zOl~cK_wu2kmAituXZL_hqAFI3PR3RcLJ33ei7t76syHLQbRPR7NpxVCmvpPF4SNEhR_eR7Wt~5CtfSc8WpnE03zBYYKxslLkZqyMT_st2Hws6HGf34Gtne; Max-Age=31536000; Domain=.autoblog.com; Path=/; Secure; SameSite=Lax",
+          "x-saycdn-ttl": "0.000",
+          "accept-ranges": "bytes",
+          "date": "Thu, 12 Dec 2024 20:02:00 GMT",
+          "via": "1.1 varnish",
+          "x-served-by": "cache-cmh1290080-CMH",
+          "x-cache": "MISS",
+          "x-cache-hits": "0",
+          "x-timer": "S1734033720.426877,VS0,VE5",
+          "strict-transport-security": "max-age=31557600",
+          "server-timing": "time-start-msec;dur=1734033720427,time-elapsed;dur=5,fastly-pop;desc=CMH,hit-state;desc=PASS"
+        },
+        "responseBodyHash": "8fa2b3b254b988769a726587920466a70a9096863878eb75513e672bf657b33b",
+        "initiators": [],
+        "time": 0.08188399998471141
+      },
+      {
+        "url": "https://ct.captcha-delivery.com/c.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 11652,
+        "remoteIPAddress": "108.157.142.60",
+        "responseHeaders": {
+          "content-type": "text/javascript",
+          "content-length": "11273",
+          "date": "Thu, 12 Dec 2024 14:53:03 GMT",
+          "last-modified": "Thu, 12 Dec 2024 14:52:45 GMT",
+          "etag": "\"14c9d8874f75e12878693ab443f21f5c\"",
+          "x-amz-server-side-encryption": "AES256",
+          "x-amz-version-id": "null",
+          "accept-ranges": "bytes",
+          "server": "AmazonS3",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 a204176092d05bded77f4d517d5968aa.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P1",
+          "x-amz-cf-id": "ndz13NdB7LoqrQ4eHs1QNFB5YWVzThdgAx9_2ko3t1MFxDK5Ej5yNQ==",
+          "age": "18538"
+        },
+        "responseBodyHash": "fe12fedf5df7e9c9a24865ebda31e65b49b23d6048c5c7178b38eedc3c117429",
+        "initiators": [
+          "http://autoblog.com/"
+        ],
+        "time": 0.5265500000678003
+      },
+      {
+        "url": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAsKifg00XwXoAbNFfeQ%3D%3D&hash=2AC20A4365547ED96AE26618B66966&cid=Hzso9e~L0zOl~cK_wu2kmAituXZL_hqAFI3PR3RcLJ33ei7t76syHLQbRPR7NpxVCmvpPF4SNEhR_eR7Wt~5CtfSc8WpnE03zBYYKxslLkZqyMT_st2Hws6HGf34Gtne&t=fe&referer=http%3A%2F%2Fautoblog.com%2F&s=41010&e=c13ccfc80d8a0c09343911b5bf5acde0f4946dafa0735b3a86cc1d5431a8e955&dm=cd",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "remoteIPAddress": "34.160.237.118",
+        "responseHeaders": {
+          "date": "Thu, 12 Dec 2024 20:01:59 GMT",
+          "content-type": "text/html;charset=utf-8",
+          "transfer-encoding": "chunked",
+          "connection": "keep-alive",
+          "access-control-allow-origin": "*",
+          "content-encoding": "gzip"
+        },
+        "initiators": [
+          "https://ct.captcha-delivery.com/c.js"
+        ]
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://ct.captcha-delivery.com/c.js": {
+          "window.sessionStorage": 1,
+          "Navigator.prototype.userAgent": 3,
+          "Document.cookie getter": 1
+        }
+      },
+      "savedCalls": []
+    },
+    "cookies": []
+  }
+}
