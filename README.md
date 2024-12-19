@@ -30,7 +30,7 @@ pip install matplotlib
 
 For each task there is a corresponding script to extract the necessary data and plot the relevant values.
 
-Please refer to WPSproject\documents\CSE413A-project.pdf to understand what each task is. 
+Please refer to WPSproject\documents\project_description.pdf to understand what each task is. 
 
 - Task 2:
 ```bash
@@ -52,5 +52,5 @@ python .\apis.py
 python .\headers.py
 ```
 
-
-## Contributions
+## Documents
+The report pdf is under WPSproject\documents\project_report.pdf

@@ -74,5 +74,5 @@ def analyze_third_party_requests(vanilla_folder, adblock_folder):
     # Plot distribution of third-party requests
     plot_distribution(vanilla_counts, adblock_counts, "Number of Third-Party Requests")
 
-# Call the function with paths to vanilla and adblock data folders
+# Call the function for task 2
 analyze_third_party_requests('vanilla_data', 'adblock_data')

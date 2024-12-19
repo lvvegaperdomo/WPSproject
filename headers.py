@@ -56,7 +56,7 @@ def analyze_http_headers(vanilla_folder, adblock_folder):
         print(f"{header}: {count}")
 
     # Plot distribution of non-standard HTTP headers
-    plot_distribution(vanilla_header_counts, adblock_header_counts, "Number of Non-Standard HTTP Headers")
+    plot_distribution(vanilla_header_counts, adblock_header_counts, "Non-Standard HTTP Headers")
 
 # Call the function for Task 5
 analyze_http_headers('vanilla_data', 'adblock_data')

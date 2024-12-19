@@ -4,7 +4,7 @@ from collections import Counter
 import matplotlib.pyplot as plt
 
 def plot_distribution(vanilla_data, adblock_data, title):
-    # Convert dict_values to lists of values (frequencies)
+    # Convert dicts to lists
     vanilla_values = list(vanilla_data.values())
     adblock_values = list(adblock_data.values())
     
@@ -30,7 +30,7 @@ def extract_cookies(data):
         if 'savedCalls' in data['data']:
             for call in data['data']['savedCalls']:
                 if 'cookies' in call:
-                    cookies.extend(call['cookies'])  # Cookies set by JavaScript
+                    cookies.extend(call['cookies'])  
                     for cookie in call['cookies']:
                         domain = cookie.get('domain', '')
                         if domain:
@@ -69,25 +69,20 @@ def analyze_cookies(vanilla_folder, adblock_folder):
                 except json.JSONDecodeError:
                     print(f"Error decoding JSON in {filename}")
 
-    # Count cookie occurrences (for distribution plot)
+    # Count cookies
     vanilla_cookie_counts = Counter(vanilla_cookies)
     adblock_cookie_counts = Counter(adblock_cookies)
 
-    # Count domain occurrences (for top-10 domains)
+    # Count domains
     vanilla_domain_counts = Counter(vanilla_domains)
 
-    # Print out the counts of the most common cookies
-    print("Top-10 Vanilla Mode Third-Party Cookies:")
-    for cookie, count in vanilla_cookie_counts.most_common(10):
-        print(f"{cookie}: {count}")
-
-    # Print out the most common domains (top-10)
+    # Print out the most common domains
     print("\nTop-10 Domains Setting Third-Party Cookies in Vanilla Mode:")
     for domain, count in vanilla_domain_counts.most_common(10):
         print(f"{domain}: {count}")
 
     # Plot distribution of third-party cookies
-    plot_distribution(vanilla_cookie_counts, adblock_cookie_counts, "Number of Third-Party Cookies in Vanilla and Adblock Modes")
+    plot_distribution(vanilla_cookie_counts, adblock_cookie_counts, "Number of Third-Party Cookies")
 
 # Call the function for Task 3
 analyze_cookies('vanilla_data', 'adblock_data')
