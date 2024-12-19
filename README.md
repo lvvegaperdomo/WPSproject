@@ -1,23 +1,20 @@
 # WPSproject
 
-Third Party = task 2
-cookies = task 3
-apis = task 4
-headers = task 5
+## Description
 
 ## Setup
 
 This tool needs the latest version of python: <https://www.python.org/downloads/>
 
-Clone the repository locally 
+Unzip the package with the code submitted through canvas
+
+Or clone the repository locally 
 
 ```bash
-git clone 
+git clone https://github.com/lvvegaperdomo/WPSproject.git
 ```
 
-Or unzip the package with the code
-
-Navigate to the necessary folder
+Then, navigate to the necessary folder
 
 ```bash
 cd WPSproject
