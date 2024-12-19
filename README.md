@@ -2,6 +2,8 @@
 
 ## Description
 
+A simple series of scripts to analyze data from crawling 100 randomnized websites to check for tacker information 
+
 ## Setup
 
 This tool needs the latest version of python: <https://www.python.org/downloads/>
